@@ -165,13 +165,22 @@ color: #ffffff;
     height: 15vh;
     line-height:1.5;
    }
+
    .align-center{
 text-align: center;
    }
-.site-logo{
-  max-width: 520px;
-margin-top: 70px;
-}
+   .site-logo{
+    max-width: 520px;
+  margin-top: 70px;
+  }
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .imagine-banner h2 {
+height: 20vh;
+  }
+  .site-logo{
+    max-width: 320px;
+  }
+ }
 .top-section{
   padding-top: 70px;
 padding-bottom: 30px;
@@ -190,6 +199,14 @@ align-items: center;
   background-color: var(--main-color);
   padding: 20px;
   margin:10px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .main-buttons{
+text-align: center;
+  }
+  .main-buttons a{
+    padding: 15px;
+      }
 }
 .main-buttons.accent-color a{
   background-color: var(--accent-color);
@@ -251,12 +268,17 @@ align-items: center;
   font-weight: 300;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .dark-section .row{
+    text-align: left;
+  }
   .dark-section p{
     max-width: 90%;
-
   }
   .dark-section.more-info .row p{
     max-width: 90%;
+  }
+  .dark-section.more-info .row{
+    padding: 1rem 1rem;
   }
   .light-section .row{
     padding: 1rem 1rem;
@@ -343,13 +365,14 @@ background-position: center top;
   flex-flow: column wrap;
   }
   .topic-column{
+
     -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
   }
   .topic-wrap{
-    padding: 80px 60px;
+    padding: 80px 40px;
   }
 }
 a.more-info{
@@ -374,6 +397,7 @@ right: 30px;
 bottom: 15px;
 
 }
+
 .topic_date h6{
   margin: 15px 0 10px 0;
 line-height: 1;
@@ -389,7 +413,15 @@ font-size: 1.4rem;
 margin-bottom:0;
 color: var(--accent-color);
 }
-
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .topic_date{
+flex-direction: column;
+right: auto;
+left:auto;
+bottom: 15px;
+text-align: left;
+  }
+}
 .divider{
   background-color: var(--theme-color);
   display: flex;
@@ -405,6 +437,11 @@ margin-top:0px;
   color:white;
   font-size: 2.2rem;
 
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+  .divider{
+height:15vh;
+  }
 }
 footer{
   background-color: var(--grey8);
