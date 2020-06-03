@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Crowdsourcing Inteligente: zika</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="homepage">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <div class="menu-bars">
+      <div class="bar-wrap">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <a class="top_logo" href="#home"><img src="images/coronavirus-full-v-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div class='lang-select'>
+      <p class="active">ES&nbsp</p>
+      <p>&nbsp|&nbsp</p>
+      <p>&nbspEN</p>
+    </div>
+  </div>
+  <div id="myLinks">
+    <div class="menu-items">
+      <div class="menu-sub"><a href="/index.html">Inicio</a></div>
+      <div class="menu-sub"><a href="/about.html">Acerca de</a></div>
+      <div class="menu-sub"> <a href="/topics.html">Temas</a></div>
+      <div class="menu-sub"><a href="/people.html">Equipo</a></div>
+      <div class="menu-sub"><a href="/recommendations.html">Recomendaciones</a></div>
+      <div class="menu-sub"><a href="/map.html">Explora el Mapa</a></div>
+      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div>
+    </div>
+  </div>
+  <div class="row top-section">
+    <div class="column large-12 site-logo__wrapper">
+      <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
+          alt="Smarter Crowdsourcing | Zika Logo"></a>
+    </div>
+  </div>
+  <div class="row align-center">
+    <section class="imagine-banner">
+      <h2>Imagina si esos individuos creativos pudieran hablar directamente con las instituciones que tienen el
+        poder y la responsabilidad de implementar nuevas políticas y servicios.</h2>
+      <h2>Imagina si las personas más inteligentes e innovadoras pudieran reunirse para combatir el zika de manera
+        rápida y fácil.</h2>
+      <h2>Imagina si el epidemiólogo, el especialista en computación, el planificador urbano y aquellas personas
+        con diversidad de conocimientos pudieran hablar entre sí para idear soluciones aplicables a las causas que
+        originan las enfermedades trasmitidas por mosquitos.</h2>
+    </section>
+
+  </div>
+  <div class="main-buttons">
+    <a href="#" class="button" target="_blank">Descarga el Reporte Final en Español</a>
+  </div>
+  <div id="home-page">
+
+    <section class="dark-section">
+      <br> <br>
+      <div class="row">
+
+        <p>{{indexTextData[0].translations[1].body}}</p>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="main-buttons accent-color index-page-button">
+        <a href="/call-for-participants.html" class="button ">Participa</a>
+        <a href="/topics.html" class="button">Temas</a>
+      </div>
+    </section>
+
+
+
+    <section style="margin-top: -50px; z-index:-10">
+      <div class="topic-row">
+
+        <div v-for="topic in indexData" class="topic-column"
+          :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
+          <div class="topic-wrap">
+            <h1>{{topic.translations[1].topic_title}}</h1>
+            <p>{{topic.translations[1].short_description}}</p>
+            <!-- <p>{{topic}}</p> -->
+            <p><a href="evaluar-la-conciencia-publica.html" class="button more-info">Mas Información</a></p>
+
+            <div class="topic_date">
+              <!-- <h6>Conference on</h6> -->
+              <h6>ESTA CONFERENCIA SE REALIZÓ EL &nbsp&nbsp</h6>
+
+              <p class="topic_month">{{topic.conference_dates}}</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <div class="divider">
+      <!-- <h1>More Information</h1> -->
+      <h1>Mas Información</h1>
+    </div>
+
+    <section class="light-section">
+      <div class="row align-center">
+
+        <p>{{indexTextData[1].translations[1].body}}</p>
+
+        <!-- <div class="text-centered"><a href="/call-for-participants.html" class='button button--accent-color'>Solicita una Invitación</a></div> -->
+        <div class="main-buttons accent-color"><a href="#" class='button'>Solicita una Invitación</a></div>
+      </div>
+    </section>
+    <section class="dark-section more-info">
+      <div class="row align-center">
+
+          <p>{{indexTextData[2].translations[1].body}}</p>
+
+          <div class="main-buttons accent-color"><a href='#' class='button'>Ver el Manual</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <footer class='footer-alt'>
+    <div class="row align-center">
+      <div class="medium-6 medium-centered columns">
+        <!-- <h4>In collaboration with</h4> -->
+        <!-- <h4>EN COLABORACIÓN CON</h4> -->
+        <h4>EN COLABORACIÓN CON</h4>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="column">
+          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+              src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+      </div>
+      <div class="column">
+          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+              src="images/govlab-logo-white.png" alt="The GovLab"></a>
+        </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    <div class="row">
+      <div class="column">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img class="copyright_cc-badge"
+            alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+        <p>&nbspEste trabajo está autorizado por la</p>&nbsp<a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Internacional Creative Commons
+          Attribution-ShareAlike 4.0</a>.
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<script src="js/fadein.js"></script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+<script src="js/zika.js"></script>
+
+</html>
