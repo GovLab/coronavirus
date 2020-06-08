@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="homepage">
+<body class="homepage"  onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
@@ -185,6 +185,17 @@
     } else {
       x.style.display = "block";
     }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function scroll_dismiss() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } 
+  }
   }
 </script>
 <script src="../js/fadein.js"></script>

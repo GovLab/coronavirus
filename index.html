@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="homepage">
+<body class="homepage"  onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
@@ -44,12 +44,12 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="/index.html">Inicio</a></div>
-      <div class="menu-sub"><a href="/about.html">Acerca de</a></div>
-      <div class="menu-sub"> <a href="/topics.html">Temas</a></div>
-      <div class="menu-sub"><a href="/people.html">Equipo</a></div>
-      <div class="menu-sub"><a href="/recommendations.html">Recomendaciones</a></div>
-      <div class="menu-sub"><a href="/map.html">Explora el Mapa</a></div>
+      <div class="menu-sub"><a href="/index.html">Home</a></div>
+      <div class="menu-sub"><a href="/about.html">About</a></div>
+      <div class="menu-sub"> <a href="/topics.html">Topic</a></div>
+      <div class="menu-sub"><a href="/people.html">Team</a></div>
+      <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
+      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div>
     </div>
   </div>
@@ -180,6 +180,17 @@
     } else {
       x.style.display = "block";
     }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function scroll_dismiss() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } 
+  }
   }
 </script>
 <script src="js/fadein.js"></script>
