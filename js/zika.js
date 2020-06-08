@@ -36,7 +36,6 @@ new Vue({
   },
 
   created: function created() {
-    memberslug=window.location.pathname.split('/')[1];
     this.fetchIndex();
     this.fetchIndexText();
   },
@@ -58,13 +57,6 @@ new Vue({
 ).then(data => {
   console.log(data)
   self.indexData = data.data;
-  // if (memberslug == 'en')
-  // topic['page_en'] = true;
-  // else
-  // topic['page_en'] = false;
-  console.log(memberslug);
-  console.log(page_en);
-  
 })
 .catch(error => console.error(error));
     },
@@ -87,7 +79,14 @@ new Vue({
   
 })
 .catch(error => console.error(error));
-    }
+    },
+ detectlang(lang_var){
+    if (lang_var == 'en')
+    self.indexData['page_en'] = true;
+    else
+    self.indexData ['page_en'] = false;
+    console.log(page_en);
+  }
 }
 });
 

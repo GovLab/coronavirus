@@ -92,10 +92,11 @@ justify-content: center;
         width:10%;
       }
 }
-.lang-select p{
+.lang-select a{
   color: #ffffff;
+  text-decoration: none;
 }
-.lang-select p.active{
+.lang-select a.active{
   color: var(--accent-color);
 }
 
@@ -200,6 +201,10 @@ align-items: center;
   padding: 20px;
   margin:10px;
 }
+.home-btn:hover{
+  background-color: var(--theme-color);
+  transition: all .6s ease;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .main-buttons{
 text-align: center;
@@ -215,6 +220,7 @@ text-align: center;
 .index-page-button{
   margin-top: -30px;
 }
+
 .dark-section{
   background-color:var(--grey30);
   margin-top:-30px;
@@ -427,7 +433,7 @@ text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
-  height:10vh;
+  height:15vh;
 }
 
 .divider h1{
