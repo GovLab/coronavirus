@@ -201,6 +201,8 @@ align-items: center;
   color: #ffffff;
   background-color: var(--main-color);
   padding: 20px;
+  max-width: 300px;
+  text-align: center;
   margin:10px;
 }
 .home-btn:hover{
