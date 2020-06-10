@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Smarter Crowdsourcing: Coronavirus</title>
+  <title>Crowdsourcing Inteligente: coronavirus</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -34,45 +34,47 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="#home"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <a class="top_logo" href="#home"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <!-- <a style="padding: 15px 5px" href="es/index.html">ES</a>
-      <p>|</p> -->
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <!-- <p>|</p>
-      <a  style="padding: 15px 5px" href="pt/index.html">PT</a> -->
+      <a   style="padding: 15px 5px"  href="../es/index.html">ES</a>
+      <p>|</p>
+      <a  style="padding: 15px 5px" href="../index.html">EN</a>
+      <p>|</p>
+      <a  style="padding: 15px 5px" class="active"href="#">PT</a>
     </div>
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="/index.html">Home</a></div>
-      <!-- <div class="menu-sub"><a href="/about.html">About</a></div>
-      <div class="menu-sub"> <a href="/topics.html">Topic</a></div>
-      <div class="menu-sub"><a href="/people.html">Team</a></div>
-      <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
+      <div class="menu-sub"><a href="index.html">Inicio</a></div>
+      <!-- <div class="menu-sub"><a href="about.html">Acerca de</a></div>
+      <div class="menu-sub"> <a href="topics.html">Temas</a></div>
+      <div class="menu-sub"><a href="people.html">Equipo</a></div>
+      <div class="menu-sub"><a href="recommendations.html">Recomendaciones</a></div>
+      <div class="menu-sub"><a href="map.html">Explora el Mapa</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
   <div class="row top-section">
     <div class="column large-12 site-logo__wrapper">
-      <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
+      <a href="index.html"><img class="site-logo" src="../images/coronavirus-logo.png"
           alt="Smarter Crowdsourcing | Zika Logo"></a>
     </div>
   </div>
   <div class="row align-center">
     <section class="imagine-banner">
-      <h2>Imagine if those creative individuals could speak directly to the institutions with the power and responsibility for delivering new policies and services.</h2>
-      <h2>Imagine if the smartest and most innovative people could come together to fight Zika quickly and easily.</h2>
-      <h2>Imagine if the epidemiologist, the computer scientist, the urban planner and those with diverse know how could talk to one another to design actionable solutions to the root causes of mosquito borne illness.</h2>
+      <h2>Imagina si esos individuos creativos pudieran hablar directamente con las instituciones que tienen el
+        poder y la responsabilidad de implementar nuevas políticas y servicios.</h2>
+      <h2>Imagina si las personas más inteligentes e innovadoras pudieran reunirse para combatir el zika de manera
+        rápida y fácil.</h2>
+      <h2>Imagina si el epidemiólogo, el especialista en computación, el planificador urbano y aquellas personas
+        con diversidad de conocimientos pudieran hablar entre sí para idear soluciones aplicables a las causas que
+        originan las enfermedades trasmitidas por mosquitos.</h2>
     </section>
 
   </div>
   <div class="main-buttons">
-    <a href="#" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (ENGLISH)</a>
-    <a href="#" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (SPANISH)</a>
-    <a href="#" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (PORTUGUESE)</a>
+    <a href="#" class="button home-btn" target="_blank">Descarga el Problem Catalogue</a>
   </div>
   <div id="home-page">
 
@@ -80,15 +82,15 @@
       <br> <br>
       <div class="row">
 
-        <p>{{indexTextData[0].translations[0].body}}</p>
+        <p>{{indexTextData[0].translations[2].body}}</p>
 
       </div>
     </section>
 
     <section>
       <div class="main-buttons accent-color index-page-button">
-        <a href="/call-for-participants.html" class="button ">Participate</a>
-        <a href="/topics.html" class="button">Topics</a>
+        <a href="call-for-participants.html" class="button ">Participa</a>
+        <a href="topics.html" class="button">Temas</a>
       </div>
     </section>
 
@@ -100,14 +102,14 @@
         <div v-for="topic in indexData" class="topic-column"
           :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
           <div class="topic-wrap">
-            <h1>{{topic.translations[0].topic_title}}</h1>
-            <p>{{topic.translations[0].short_description}}</p>
+            <h1>{{topic.translations[2].topic_title}}</h1>
+            <p>{{topic.translations[2].short_description}}</p>
             <!-- <p>{{topic}}</p> -->
-            <!-- <p><a href="evaluar-la-conciencia-publica.html" class="button more-info">More Information</a></p> -->
+            <!-- <p><a href="evaluar-la-conciencia-publica.html" class="button more-info">Mas Información</a></p> -->
 
             <div class="topic_date">
               <!-- <h6>Conference on</h6> -->
-              <h6>CONFERENCE ON &nbsp&nbsp</h6>
+              <h6>ESTA CONFERENCIA SE REALIZÓ EL &nbsp&nbsp</h6>
 
               <p class="topic_month">{{topic.conference_dates}}</p>
             </div>
@@ -120,58 +122,46 @@
 
     <div class="divider">
       <!-- <h1>More Information</h1> -->
-      <h1>More Information</h1>
+      <h1>Mas Información</h1>
     </div>
 
     <section class="light-section">
       <div class="row align-center">
 
-        <p>{{indexTextData[1].translations[0].body}}</p>
+        <p>{{indexTextData[1].translations[2].body}}</p>
 
         <!-- <div class="text-centered"><a href="/call-for-participants.html" class='button button--accent-color'>Solicita una Invitación</a></div> -->
-        <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div>
+        <div class="main-buttons accent-color"><a href="#" class='button'>Solicita una Invitación</a></div>
       </div>
     </section>
     <section class="dark-section more-info">
       <div class="row align-center">
 
-          <p>{{indexTextData[2].translations[0].body}}</p>
+          <p>{{indexTextData[2].translations[2].body}}</p>
 
-          <div class="main-buttons accent-color"><a href='#' class='button'>View the Playbook</a>
+          <div class="main-buttons accent-color"><a href='#' class='button'>Ver el Manual</a>
         </div>
       </div>
     </section>
-    <!-- <div class="divider">
 
-      <h1>About The Project</h1>
-    </div>
-    <section class="light-section">
-      <div class="row align-center">
-
-        <p>{{indexTextData[3].translations[0].body}}</p>
-
-    
-        <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div>
-      </div>
-    </section> -->
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
+        <h4>EN COLABORACIÓN CON</h4>
       </div>
 
     </div>
     <div class="row">
       <div class="column">
           <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+              src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
       <div class="column">
           <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="images/govlab-logo-white.png" alt="The GovLab"></a>
+              src="../images/govlab-logo-white.png" alt="The GovLab"></a>
         </div>
     </div>
   </footer>
@@ -181,8 +171,9 @@
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge"
             alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
+        <p>&nbspEste trabajo está autorizado por la</p>&nbsp<a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Internacional Creative Commons
+          Attribution-ShareAlike 4.0</a>.
       </div>
     </div>
   </div>
@@ -209,9 +200,9 @@
   }
   }
 </script>
-<script src="js/fadein.js"></script>
+<script src="../js/fadein.js"></script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="js/zika.js"></script>
+<script src="../js/zika.js"></script>
 
 </html>
