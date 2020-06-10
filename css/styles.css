@@ -541,7 +541,7 @@ footer .row{
   align-content: center;
 }
 
-.copyright a,p{
+.copyright a,.copyright p{
   color: rgba(255,255,255,0.7);
   font-size: 12px;
 }
