@@ -210,9 +210,11 @@ align-items: center;
 @media screen and (min-width: 320px) and (max-width: 768px){
   .main-buttons{
 text-align: center;
+flex-direction: column;
   }
   .main-buttons a{
     padding: 15px;
+    max-width: 300px;
       }
 }
 .main-buttons.accent-color a{
@@ -226,7 +228,7 @@ text-align: center;
 .dark-section{
   background-color:var(--grey30);
   margin-top:-30px;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 .dark-section .row{
   text-align:center;
@@ -245,6 +247,15 @@ text-align: center;
   margin-top:-30px;
   padding-bottom: 2rem;
 }
+.light-section.more-info{
+  margin-top:0;
+}
+.dark-section.more-info{
+  margin-top:0;
+}
+.dark-section.more-info.team{
+  margin-top:0;
+}
 .dark-section.more-info .row{
   text-align:center;
   display:flex;
@@ -252,6 +263,7 @@ text-align: center;
   align-content: center;
   text-align: left;
   padding: 1rem 3rem;
+  
 }
 .dark-section.more-info .row p{
   max-width: 60%;
@@ -259,6 +271,7 @@ text-align: center;
   line-height: 1.8;
   font-size:1.3rem;
   font-weight: 300;
+  margin-top:0;
 }
 .light-section .row{
   text-align:center;
@@ -435,20 +448,56 @@ text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
-  height:15vh;
+  height:12vh;
 }
 
 .divider h1{
-margin-top:0px;
+margin:0px;
   text-transform: uppercase;
   font-weight: 100;
   color:white;
   font-size: 2.2rem;
 
 }
+.team-member{
+  width:100%;
+  padding: 1rem 0;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-column{
+  -webkit-flex: 0 0 50%;
+-ms-flex: 0 0 50%;
+flex: 0 0 50%;
+max-width: 50%;
+color: white;
+position: relative;
+background-blend-mode: multiply;
+background-color: var(--white);
+background-size: cover;
+background-position: center top;
+}
+.team-member p.name{
+  font-size:16px;
+  color: black;
+  font-weight:600;
+  margin:0;
+}
+.team-member p.title{
+  font-size:16px;
+  color: grey;
+  margin:0;
+  font-weight:300;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .divider{
 height:15vh;
+  }
+  .team-column{
+    max-width: 100%;;
   }
 }
 footer{

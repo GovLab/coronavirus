@@ -126,7 +126,7 @@
       <h1>More Information</h1>
     </div>
 
-    <section class="light-section">
+    <section class="light-section more-info">
       <div class="row align-center">
 
         <p>{{indexTextData[1].translations[0].body}}</p>
@@ -135,28 +135,42 @@
         <!-- <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div> -->
       </div>
     </section>
-    <section class="dark-section more-info">
+    <!-- <section class="dark-section more-info">
       <div class="row align-center">
 
           <p>{{indexTextData[2].translations[0].body}}</p>
 
-          <!-- <div class="main-buttons accent-color"><a href='#' class='button'>View the Playbook</a>
-        </div> -->
+          <div class="main-buttons accent-color"><a href='#' class='button'>View the Playbook</a>
+        </div>
       </div>
-    </section>
-    <!-- <div class="divider">
+    </section> -->
+    <div class="divider">
 
       <h1>About The Project</h1>
     </div>
-    <section class="light-section">
+    <section class="dark-section more-info">
       <div class="row align-center">
 
         <p>{{indexTextData[3].translations[0].body}}</p>
-
-    
-        <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div>
       </div>
-    </section> -->
+
+    </section>
+
+    <div class="divider">
+
+      <h1>TEAM</h1>
+    </div>
+    <section class="light-section more-info team">
+      <div  class="topic-row team align-center">
+      
+        <div v-for="teammember in TeamData" class="team-member team-column">
+            <p class="name">{{teammember.name}}</p>
+            <p class="title">{{teammember.title}}</p>
+            <p class="title">{{teammember.organization}}</p>
+        </div>
+        
+      </div>
+    </section>
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">
