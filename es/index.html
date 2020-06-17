@@ -40,8 +40,8 @@
       <a   style="padding: 15px 5px"  class="active" href="#">ES</a>
       <p>|</p>
       <a  style="padding: 15px 5px" href="../index.html">EN</a>
-      <p>|</p>
-      <a  style="padding: 15px 5px" href="../pt/index.html">PT</a>
+      <!-- <p>|</p>
+      <a  style="padding: 15px 5px" href="../pt/index.html">PT</a> -->
     </div>
   </div>
   <div id="myLinks">
@@ -73,8 +73,11 @@
     </section>
 
   </div>
+
   <div class="main-buttons">
-    <a href="#" class="button home-btn" target="_blank">Descarga el Problem Catalogue</a>
+    <a href="files/sc_problem_catalogue_en.pdf" class="button home-btn" target="_blank">Descarga el Problem Catalogue</a>
+    <a href="files/sc_problem_catalogue_es.pdf" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (SPANISH)</a>
+    <a href="files/sc_problem_catalogue_pt.pdf" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (PORTUGUESE)</a>
   </div>
   <div id="home-page">
 
@@ -120,30 +123,34 @@
       </div>
     </section>
 
+
     <div class="divider">
-      <!-- <h1>More Information</h1> -->
-      <h1>Mas Información</h1>
+
+      <h1>About The Project</h1>
     </div>
-
-    <section class="light-section">
-      <div class="row align-center">
-
-        <p>{{indexTextData[1].translations[1].body}}</p>
-
-        <!-- <div class="text-centered"><a href="/call-for-participants.html" class='button button--accent-color'>Solicita una Invitación</a></div> -->
-        <div class="main-buttons accent-color"><a href="#" class='button'>Solicita una Invitación</a></div>
-      </div>
-    </section>
     <section class="dark-section more-info">
       <div class="row align-center">
 
-          <p>{{indexTextData[2].translations[1].body}}</p>
-
-          <div class="main-buttons accent-color"><a href='#' class='button'>Ver el Manual</a>
-        </div>
+        <p>{{indexTextData[3].translations[0].body}}</p>
       </div>
+
     </section>
 
+    <div id="team" class="divider">
+
+      <h1>TEAM</h1>
+    </div>
+    <section class="light-section more-info team">
+      <div  class="topic-row team align-center">
+      
+        <div v-for="teammember in TeamData" class="team-member team-column">
+            <p class="name">{{teammember.name}}</p>
+            <p class="title">{{teammember.title}}</p>
+            <p class="title">{{teammember.organization}}</p>
+        </div>
+        
+      </div>
+    </section>
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">

@@ -34,7 +34,7 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="#home"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
       <a style="padding: 15px 5px" href="es/index.html">ES</a>
@@ -58,118 +58,33 @@
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
-  <div class="row top-section">
-    <div class="column large-12 site-logo__wrapper">
-      <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
-          alt="Smarter Crowdsourcing | Zika Logo"></a>
-    </div>
+  <div id="home-page">
+  <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[1].image.data.full_url+ ')' }">
+    
+    <h1>{{indexData[1].translations[0].topic_title}}</h1>
+    <p>{{indexData[1].translations[0].short_description}}</p>
   </div>
   <div class="row align-center">
-    <section class="imagine-banner">
-      <h2>Imagine if those creative individuals could speak directly to the institutions with the power and responsibility for delivering new policies and services.</h2>
-      <h2>Imagine if the smartest and most innovative people could come together to fight Zika quickly and easily.</h2>
-      <h2>Imagine if the epidemiologist, the computer scientist, the urban planner and those with diverse know how could talk to one another to design actionable solutions to the root causes of mosquito borne illness.</h2>
-    </section>
+
 
   </div>
-  <div class="main-buttons">
-    <a href="files/sc_problem_catalogue_en.pdf" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (ENGLISH)</a>
-    <a href="files/sc_problem_catalogue_es.pdf" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (SPANISH)</a>
-    <a href="files/sc_problem_catalogue_pt.pdf" class="button home-btn" target="_blank">DOWNLOAD THE PROBLEM CATALOGUE (PORTUGUESE)</a>
-  </div>
-  <div id="home-page">
-
-    <section class="dark-section">
-      <br> <br>
-      <div class="row">
-
-        <p>{{indexTextData[0].translations[0].body}}</p>
-
-      </div>
-    </section>
-
+  
+ 
     <section>
       <div class="main-buttons accent-color index-page-button">
         <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
-        <a href="/topics.html" class="button">Topics</a>
+        <a href="/paricipate.html" class="button">PARTICIPATE</a>
       </div>
     </section>
+    <section class="light-section topic_desc">
+      <h1>DESCRIPTION</h1>
+        <p>{{indexData[1].translations[0].long_description}}</p>
 
-
-
-    <section style="margin-top: -50px; z-index:-10" id="topics">
-      <div class="topic-row">
-
-        <div v-for="topic in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
-          <div class="topic-wrap">
-            <h1>{{topic.translations[0].topic_title}}</h1>
-            <p>{{topic.translations[0].short_description}}</p>
-            <!-- <p>{{topic}}</p> -->
-            <p><a :href="topic.translations[0].slug" class="button more-info">More Information</a></p>
-
-            <div class="topic_date">
-              <!-- <h6>Conference on</h6> -->
-              <h6>CONFERENCE ON &nbsp&nbsp</h6>
-
-              <p class="topic_month">{{topic.conference_dates}}</p>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
     </section>
-  <!-- <div class="text-centered"><a href="/call-for-participants.html" class='button button--accent-color'>Solicita una Invitación</a></div> -->
-        <!-- <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div> -->
-    <!-- <div class="divider" id="about">
-      <h1>More Information</h1>
+    <div class="main-buttons accent-color topic-page-button">
+      <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
+      <a href="/paricipate.html" class="button">READ THE PROBLEM DESCRIPTION</a>
     </div>
-
-    <section class="light-section more-info">
-      <div class="row align-center">
-
-        <p>{{indexTextData[1].translations[0].body}}</p>
-
-      
-      </div>
-    </section>
-    <section class="dark-section more-info">
-      <div class="row align-center">
-
-          <p>{{indexTextData[2].translations[0].body}}</p>
-
-          <div class="main-buttons accent-color"><a href='#' class='button'>View the Playbook</a>
-        </div>
-      </div>
-    </section> -->
-    <div class="divider" id="about">
-
-      <h1>About The Project</h1>
-    </div>
-    <section class="dark-section more-info">
-      <div class="row align-center">
-
-        <p>{{indexTextData[3].translations[0].body}}</p>
-      </div>
-
-    </section>
-
-    <div id="team" class="divider">
-
-      <h1>TEAM</h1>
-    </div>
-    <section class="light-section more-info team">
-      <div  class="topic-row team align-center">
-      
-        <div v-for="teammember in TeamData" class="team-member team-column">
-            <p class="name">{{teammember.name}}</p>
-            <p class="title">{{teammember.title}}</p>
-            <p class="title">{{teammember.organization}}</p>
-        </div>
-        
-      </div>
-    </section>
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">
