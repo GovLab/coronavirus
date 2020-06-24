@@ -93,7 +93,7 @@ new Vue({
       client.getItems(
   'team',
   {
-    fields: ['*.*']
+    fields: ['*.*'],
   }
 ).then(data => {
   console.log(data)
@@ -101,14 +101,7 @@ new Vue({
   
 })
 .catch(error => console.error(error));
-    },
- detectlang(lang_var){
-    if (lang_var == 'en')
-    self.indexData['page_en'] = true;
-    else
-    self.indexData ['page_en'] = false;
-    console.log(page_en);
-  }
+    }
 }
 });
 
