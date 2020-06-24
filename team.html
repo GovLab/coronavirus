@@ -50,7 +50,7 @@
       <div class="menu-sub"><a href="#">Home</a></div>
       <div class="menu-sub"><a href="#about">About</a></div>
       <div class="menu-sub"> <a href="#topics">Topic</a></div>
-      <div class="menu-sub"><a href="#team">Team</a></div>
+      <div class="menu-sub"><a href="#">Team</a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
@@ -66,13 +66,13 @@
 
   <body>
     <div id="home-page">
-      <section v-for="teammember in TeamData" v-if="teammember.organization=='IADB'" class="team-container">
+      <section class="team-container">
         <div class="org-col">
           <h4>Inter-American Development Bank</h4>
         </div>
         <div class="team-col">
         
-          <div class="team-member">
+          <div v-for="teammember in TeamData" v-if="teammember.organization=='IADB'" class="team-member">
               <p class="name">{{teammember.name}}</p>
               <p class="title">{{teammember.title}}</p>
               <p class="title">{{teammember.organization}}</p>
