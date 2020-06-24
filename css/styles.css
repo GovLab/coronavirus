@@ -498,6 +498,9 @@ font-size: 1.4rem;
 margin-bottom:0;
 color: var(--accent-color);
 }
+.topic-wrap h1{
+  text-transform: uppercase;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .topic_date{
 flex-direction: column;

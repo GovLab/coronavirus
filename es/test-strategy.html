@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crowdsourcing Inteligente: coronavirus</title>
+
+  <title>Smarter Crowdsourcing: Coronavirus</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
   <link rel="stylesheet" href="../css/styles.css">
@@ -33,22 +34,22 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="#home"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <a class="top_logo" href="index.html"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="../es/index.html">ES</a>
+      <a style="padding: 15px 5px" href="../es/contact-tracing.html">ES</a>
       <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="../index.html">EN</a>
+      <a style="padding: 15px 5px" href="../contact-tracing.html">EN</a>
       <p style="color:#ffffff" >|</p>
       <a  style="padding: 15px 5px" href="#" class="active">PT</a>
     </div>
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="#">Inicio</a></div>
-      <div class="menu-sub"><a href="#about">Sobre o projecto</a></div>
-      <div class="menu-sub"> <a href="#topics">Temas</a></div>
-      <div class="menu-sub"><a href="#team">Equipe</a></div>
+      <div class="menu-sub"><a href="index.html">Inicio</a></div>
+      <div class="menu-sub"><a href="index.html#about">Sobre o projecto</a></div>
+      <div class="menu-sub"> <a href="index.html#topics">Temas</a></div>
+      <div class="menu-sub"><a href="index.html#team">Equipe</a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
@@ -57,108 +58,39 @@
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
-  <div class="row top-section">
-    <div class="column large-12 site-logo__wrapper">
-      <a href="/index.html"><img class="site-logo" src="../images/coronavirus-logo.png"
-          alt="Smarter Crowdsourcing | Zika Logo"></a>
-    </div>
+  <div id="home-page">
+  <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[0].image.data.full_url+ ')' }">
+    
+    <h1>{{indexData[0].translations[1].topic_title}}</h1>
+    <p>{{indexData[0].translations[1].short_description}}</p>
   </div>
   <div class="row align-center">
-    <section class="imagine-banner">
-      <h2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse know-how could talk to one another to design actionable solutions to fight Coronavirus</h2>
-      <h2>Imagine if the smartest and most innovative people could come together to build the Coronavirus strategic preparedness and response quickly and easily</h2>
-      <h2>Imagine if those creative individuals could directly speak to the institutions with the power and responsibility for delivering new policies and services</h2>
-    </section>
+
 
   </div>
-  <div class="main-buttons">
-    <a href="../files/sc_problem_catalogue_pt.pdf" class="button home-btn" target="_blank">BAIXAR O CATÁLOGO DE PROBLEMAS</a>
-  </div>
-  <div id="home-page">
-
-    <section class="dark-section">
-      <br> <br>
-      <div class="row">
-
-        <p>{{indexTextData[0].translations[2].body}}</p>
-
-      </div>
-    </section>
-
+  
+ 
     <section>
       <div class="main-buttons accent-color index-page-button">
-        <a href="participate.html" class="button ">PARTICIPE</a>
-        <a href="topics.html" class="button">Temas</a>
+        <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
+        <a href="participate.html" class="button">PARTICIPATE</a>
       </div>
     </section>
+    <section class="light-section topic_desc">
+      <h1>DESCRIPTION</h1>
+        <p>{{indexData[0].translations[1].long_description}}</p>
 
-
-
-
-    <section style="margin-top: -50px; z-index:-10" id="topics">
-      <div class="topic-row">
-
-        <div v-for="topic in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
-          <div class="topic-wrap">
-            <h1>{{topic.translations[2].topic_title}}</h1>
-            <p>{{topic.translations[2].short_description}}</p>
-            <!-- <p>{{topic}}</p> -->
-            <p><a :href="topic.translations[2].slug" class="button more-info">MAIS INFORMAÇÕES</a></p>
-
-            <div class="topic_date">
-              <!-- <h6>Conference on</h6> -->
-              <h6>ESTA CONFERÊNCIA SE REALIZARÁ EM &nbsp&nbsp</h6>
-
-              <p class="topic_month">{{topic.conference_dates}}</p>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
     </section>
-
-    <div class="divider" id="about">
-
-      <h1>SOBRE O PROJETO</h1>
+    <div class="main-buttons accent-color topic-page-button">
+      <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
+      <a href="/paricipate.html" class="button">READ THE PROBLEM DESCRIPTION</a>
     </div>
-    <section class="dark-section more-info">
-      <div class="row align-center">
-
-        <p>{{indexTextData[3].translations[2].body}}</p>
-        <div class="main-buttons accent-color"><a href='#' class='button'>CONFIRA A CARTILHA</a>
-      </div>
-
-    </section>
-    <section class="light-section more-info">
-      <div class="row align-center">
-  
-        <p>{{indexTextData[1].translations[2].body}}</p>
-  
-        <div class="main-buttons accent-color"><a href='participate.html' class='button'>Participe</a>
-      </div>
-    </div>
-    </section>
-    <div id="team" class="divider">
-
-      <h1>EQUIPE</h1>
-    </div>
-    <section class="light-section more-info team">
-      <div  class="topic-row team align-center">
-      
-        <div v-for="teammember in TeamData" class="team-member team-column">
-            <p class="name">{{teammember.name}}</p>
-            <p class="title">{{teammember.title}}</p>
-            <p class="title">{{teammember.organization}}</p>
-        </div>
-        
-      </div>
-    </section>
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
+        <!-- <h4>In collaboration with</h4> -->
+        <!-- <h4>EN COLABORACIÓN CON</h4> -->
         <h4>EM COLABORAÇÃO COM</h4>
       </div>
 
@@ -180,9 +112,8 @@
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge"
             alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            <p>&nbspEste trabajo está autorizado por la</p>&nbsp<a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Internacional Creative Commons
-            Attribution-ShareAlike 4.0</a>.
+        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
       </div>
     </div>
   </div>
