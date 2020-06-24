@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="homepage"  onwheel="scroll_dismiss()">
+<body class="homepage" onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
@@ -34,12 +34,13 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="index.html"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <a class="top_logo" href="index.html"><img src="../images/coronavirus-full-h-white.png"
+        alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="../es/contact-tracing.html">ES</a>
+      <a style="padding: 15px 5px" href="../es/team.html">ES</a>
       <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="../contact-tracing.html">EN</a>
+      <a style="padding: 15px 5px" href="../team.html">EN</a>
       <p style="color:#ffffff" >|</p>
       <a  style="padding: 15px 5px" href="#" class="active">PT</a>
     </div>
@@ -58,62 +59,74 @@
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
-  <div id="home-page">
-  <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[1].image.data.full_url+ ')' }">
-    
-    <h1>{{indexData[1].translations[1].topic_title}}</h1>
-    <p>{{indexData[1].translations[1].short_description}}</p>
+  <div class="row top-section topic team">
+
+    <h1>EQUIPE</h1>
   </div>
-  <div class="row align-center">
 
+  <body>
+    <div id="home-page">
+      <section class="team-container">
+        <div class="org-col">
+          <h4>Inter-American Development Bank</h4>
+        </div>
+        <div class="team-col">
+        
+          <div v-for="teammember in TeamData" v-if="teammember.organization=='IADB'" class="team-member">
+              <p class="name">{{teammember.name}}</p>
+              <p class="title">{{teammember.title}}</p>
+              <p class="title">{{teammember.organization}}</p>
+          </div>
+          
+        </div>
+      </section>
+      <section class="team-container">
+        <div class="org-col">
+          <h4>The GovLab</h4>
+        </div>
+        <div class="team-col">
+        
+          <div v-for="teammember in TeamData" v-if="teammember.organization=='The GovLab'" class="team-member">
+              <p class="name">{{teammember.name}}</p>
+              <p class="title">{{teammember.title}}</p>
+              <p class="title">{{teammember.organization}}</p>
+          </div>
+          
+        </div>
+      </section>
 
-  </div>
-  
- 
-    <section>
-      <div class="main-buttons accent-color index-page-button">
-        <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
-        <a href="participate.html" class="button">PARTICIPE</a>
-      </div>
-    </section>
-    <section class="light-section topic_desc">
-      <h1>DESCRIPTION</h1>
-        <p>{{indexData[1].translations[1].long_description}}</p>
-
-    </section>
-    <div class="main-buttons accent-color topic-page-button">
-      <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
-      <a href="participate.html" class="button">READ THE PROBLEM DESCRIPTION</a>
     </div>
-  </div>
+
+  </body>
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>EM COLABORAÇÃO COM</h4>
+        <h4>IN COLLABORATION WITH</h4>
       </div>
 
     </div>
     <div class="row">
       <div class="column">
-          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+        <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+            src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
       <div class="column">
-          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="../images/govlab-logo-white.png" alt="The GovLab"></a>
-        </div>
+        <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+            src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+      </div>
     </div>
   </footer>
   <div class="copyright">
     <div class="row">
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img class="copyright_cc-badge"
-            alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+          <img class="copyright_cc-badge" alt="Creative Commons License"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+          International License.</a>.
       </div>
     </div>
   </div>
@@ -133,14 +146,14 @@
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
   function scroll_dismiss() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } 
-  }
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      }
+    }
   }
 </script>
-<script src="../js/fadein.js"></script>
+
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="../js/zika.js"></script>
