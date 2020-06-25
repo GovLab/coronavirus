@@ -344,6 +344,13 @@ align-items: flex-start;
 }
 .light-section.topic_desc p{
   max-width: 100%;
+  font-size: 1.2em;
+}
+.light-section.topic_desc h1{
+  font-weight: 100;
+  color: var(--grey5);
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .light-section.topic_desc{

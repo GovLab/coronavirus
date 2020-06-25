@@ -38,9 +38,9 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="../es/team.html">ES</a>
+      <a style="padding: 15px 5px" href="../es/about.html">ES</a>
       <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="../team.html">EN</a>
+      <a style="padding: 15px 5px" href="../about.html">EN</a>
       <p style="color:#ffffff" >|</p>
       <a  style="padding: 15px 5px" href="#" class="active">PT</a>
     </div>
@@ -48,7 +48,7 @@
   <div id="myLinks">
     <div class="menu-items">
       <div class="menu-sub"><a href="index.html">Inicio</a></div>
-      <div class="menu-sub"><a href="about.html">Sobre</a></div>
+      <div class="menu-sub"><a href="#">Sobre</a></div>
       <div class="menu-sub"> <a href="index.html#topics">Temas</a></div>
       <div class="menu-sub"><a href="team.html">Equipe</a></div>
       <div class="menu-sub"><a href=""></a></div>
@@ -61,38 +61,18 @@
   </div>
   <div class="row top-section topic team">
 
-    <h1>EQUIPE</h1>
+    <h1>Sobre</h1>
   </div>
 
   <body>
     <div id="home-page">
-      <section class="team-container">
-        <div class="org-col">
-          <h4>Inter-American Development Bank</h4>
-        </div>
-        <div class="team-col">
-        
-          <div v-for="teammember in TeamData" v-if="teammember.organization=='IADB'" class="team-member">
-              <p class="name">{{teammember.name}}</p>
-              <p class="title">{{teammember.title}}</p>
-              <p class="title">{{teammember.organization}}</p>
-          </div>
-          
-        </div>
-      </section>
-      <section class="team-container">
-        <div class="org-col">
-          <h4>The GovLab</h4>
-        </div>
-        <div class="team-col">
-        
-          <div v-for="teammember in TeamData" v-if="teammember.organization=='The GovLab'" class="team-member">
-              <p class="name">{{teammember.name}}</p>
-              <p class="title">{{teammember.title}}</p>
-              <p class="title">{{teammember.organization}}</p>
-          </div>
-          
-        </div>
+      <section class="light-section topic_desc">
+        <h1>Sobre o projecto</h1>
+          <p>{{indexTextData[1].translations[2].long_desc}}</p>
+          <h1>Sobre o  GOVLAB</h1>
+          <p>{{indexTextData[1].translations[2].govlab_about}}</p>
+          <h1>Sobre o  INTER-AMERICAN DEVELOPMENT BANK</h1>
+          <p>{{indexTextData[1].translations[2].idb_about}}</p>
       </section>
 
     </div>
