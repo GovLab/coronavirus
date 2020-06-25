@@ -346,11 +346,19 @@ align-items: flex-start;
   max-width: 100%;
   font-size: 1.2em;
 }
+.light-section.topic_desc a{
+  text-decoration: none;
+  color: var(--main-color);
+}
 .light-section.topic_desc h1{
   font-weight: 100;
   color: var(--grey5);
   font-size: 1.8rem;
   text-transform: uppercase;
+  margin-bottom:10px;
+}
+#underline{
+  border-bottom: 2px solid var(--theme-color);
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .light-section.topic_desc{
