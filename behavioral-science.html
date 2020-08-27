@@ -9,7 +9,7 @@
   <title>Smarter Crowdsourcing: Coronavirus</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -34,22 +34,22 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="index.html"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+    <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="#" class="active">ES</a>
-      <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="../behavioural-science.html">EN</a>
-      <p style="color:#ffffff" >|</p>
-      <a  style="padding: 15px 5px" href="../pt/behavioural-science.html">PT</a>
+      <a style="padding: 15px 5px" href="es/behavioral-science.html">ES</a>
+      <p style="color:#ffffff">|</p>
+      <a style="padding: 15px 5px" href="#" class="active">EN</a>
+      <p style="color:#ffffff">|</p>
+      <a style="padding: 15px 5px" href="pt/behavioral-science.html">PT</a>
     </div>
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="index.html">Inicio</a></div>
-      <div class="menu-sub"><a href="about.html">Acerca de</a></div>
-      <div class="menu-sub"> <a href="index.html#topics">Temas</a></div>
-      <div class="menu-sub"><a href="team.html">Equipo</a></div>
+      <div class="menu-sub"><a href="index.html">Home</a></div>
+      <div class="menu-sub"><a href="about.html">About</a></div>
+      <div class="menu-sub"> <a href="index.html#topics">Topic</a></div>
+      <div class="menu-sub"><a href="team.html">Team</a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
       <div class="menu-sub"><a href=""></a></div>
@@ -61,8 +61,8 @@
   <div id="home-page">
   <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[2].image.data.full_url+ ')' }">
     
-    <h1>{{indexData[2].translations[1].topic_title}}</h1>
-    <p>{{indexData[2].translations[1].short_description}}</p>
+    <h1>{{indexData[2].translations[0].topic_title}}</h1>
+    <p>{{indexData[2].translations[0].short_description}}</p>
   </div>
   <div class="row align-center">
 
@@ -72,40 +72,41 @@
  
     <section>
       <div class="main-buttons accent-color index-page-button">
-        <!-- <a href="/call-for-participants.html" class="button ">Participate</a> -->
-        <a href="https://drive.google.com/file/d/19F7jR_b3lxTKgMFmLVx7ZPhYLSvXroKm/view?usp=sharing" target="_blank" class="button">descargue la DESCRIPCIÓN DEL PROBLEMA</a>
 
+        <a href="https://docs.google.com/document/d/1tWevzRVhcJjbidPHktAvXNWnZFXnCpB2O-2_2EK1apE/edit?usp=sharing" target="_blank" class="button">READ THE PROBLEM DESCRIPTION</a>
       </div>
     </section>
     <section class="light-section topic_desc">
-      <h1>DESCRIPCIÓN</h1>
-        <p>{{indexData[2].translations[1].long_description}}</p>
+      <h1>DESCRIPTION</h1>
+        <p>{{indexData[2].translations[0].long_description}}</p>
 
     </section>
     <!-- <div class="main-buttons accent-color topic-page-button">
-
-      <a href="https://docs.google.com/document/d/1KI30Ko09VTxI4P-h9Hq_92a-vtEfh7MI9_OrJrMDEh0/edit?usp=sharing" target="_blank" class="button">Lea el informe regional</a>
-      <a href="https://docs.google.com/document/d/1uLngyl0ybrFoqpj-8WUniRKXqCMAwXXJRduqH48zlDY/edit?usp=sharing" target="_blank" class="button">Agenda y logística</a>
-      <a href="https://docs.google.com/document/d/1HIP2LFb4qnBORsBwrNdxX9MwBGtmqwczl3Ew0SXAIIc/edit?usp=sharing" target="_blank" class="button">Expertos y Participantes</a>
+ 
+      <a href="https://docs.google.com/document/d/1LHALQiytFTbzU77l7WWmS2saUiLY2k-SjXKlOk0sL1Y/edit?usp=sharing" target="_blank" class="button">READ THE PROBLEM DESCRIPTION</a>
+      <a href="https://docs.google.com/document/d/1hgJ9YTMq9RZLl6LM6lC2z5qDJ5gFAAE7ZtmQkY5Ajb4/edit?usp=sharing" target="_blank" class="button">READ THE REGIONAL REPORT</a>
+      <a href="https://docs.google.com/document/d/1N91jviwqdxFPsgvKnES3u8UMZLtU2NorJ8KA5dZ7zsA/edit?usp=sharing" target="_blank" class="button">Agenda and Logistics</a>
+      <a href="https://docs.google.com/document/d/1ZFLCdLyl4nI6a6ZVOkJvGFJ5hnTpOU4F3_rlBsSDQMI/edit?usp=sharing" target="_blank" class="button">EXPERTS AND PARTICIPANTS</a>
     </div> -->
+
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>EN COLABORACIÓN CON</h4>
+        <h4>IN COLLABORATION WITH</h4>
       </div>
-  
+
     </div>
     <div class="row">
       <div class="column">
           <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+              src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
       <div class="column">
           <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+              src="images/govlab-logo-white.png" alt="The GovLab"></a>
         </div>
     </div>
   </footer>
@@ -115,9 +116,8 @@
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge"
             alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-            <p>&nbspEste trabajo está autorizado por la</p>&nbsp<a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Internacional Creative Commons
-            Attribution-ShareAlike 4.0</a>.
+        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
       </div>
     </div>
   </div>
@@ -144,9 +144,9 @@
   }
   }
 </script>
-<script src="../js/fadein.js"></script>
+<script src="js/fadein.js"></script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="../js/zika.js"></script>
+<script src="js/zika.js"></script>
 
 </html>
