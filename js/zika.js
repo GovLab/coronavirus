@@ -32,6 +32,7 @@ new Vue({
       indexData: [],
       indexTextData: [],
       TeamData: [],
+      ReccoData: [],
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
     }
   },
@@ -40,6 +41,7 @@ new Vue({
     this.fetchIndex();
     this.fetchIndexText();
     this.fetchTeamData();
+    this.fetchRecommendations();
   },
   methods: {
 
@@ -99,6 +101,25 @@ new Vue({
   console.log(data)
   self.TeamData = data.data;
   
+})
+.catch(error => console.error(error));
+    },
+    fetchRecommendations() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "smarter-crowdsourcing",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'recommendation',
+  {
+    fields: ['*.*','strategies.strategies_id.*','topic.topics_id.translations.*','strategies.strategies_id.actions.actions_id.*','strategies.strategies_id.examples.examples_id.*'],
+  }
+).then(data => {
+  console.log(data)
+  self.ReccoData = data.data;
 })
 .catch(error => console.error(error));
     }

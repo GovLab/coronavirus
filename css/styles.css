@@ -9,6 +9,7 @@
   --grey9: rgba(0, 0, 0, 0.9);
   --grey2: rgba(0, 0, 0, 0.2);
   --grey05: rgba(0, 0, 0, 0.05);
+  --grey1: rgba(0, 0, 0, 0.1);
   font-size: 16px;
 }
 body {
@@ -360,7 +361,100 @@ align-items: flex-start;
 #underline{
   border-bottom: 2px solid var(--theme-color);
 }
+
+.recco-page{
+  padding: 2rem;
+  display: flex;
+  flex-direction: row ;
+  max-width: none;
+margin-left: auto;
+margin-right: auto;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-flow: row wrap;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+}
+
+.recco-col{
+  -webkit-flex: 0 0 33.3%;
+-ms-flex: 0 0 33.3%;
+flex: 0 0 33.3%;
+max-width: 33.3%;
+
+}
+.recco-item{
+  padding: 1rem 2rem;
+}
+.recco-title{
+  background-color: var(--theme-color);
+  color: white;
+  padding: 1rem 1rem;
+  text-transform: uppercase;
+}
+
+.recco-description{
+  background-color: var(--grey05);
+  padding: 1rem 1rem;
+  font-weight: 400;
+  color: var(--grey8);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.recco-tag{
+  background-color: var(--grey1);
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.recco-tag-title p{
+  margin: 0.1rem 0;
+}
+.recco-tag-body{
+  padding: 0.5rem 0;
+}
+.recco-tag-body a{
+  font-size:0.8rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.recco-tag-body a:hover .tag-item{
+background-color: var(--main-color);
+color: white;
+padding: 0.2rem;
+transition: all .6s ease;
+}
+.recco-tag-body .tag-item{
+background-color: var(--accent-color);
+color: white;
+padding: 0.2rem;
+
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .recco-page{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column ;
+    max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  }
+  
+  .recco-col{
+    -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  
+  }
   .light-section.topic_desc{
 
     padding: 2rem 1rem;
