@@ -547,8 +547,13 @@ max-width: 33.3%;
 .recco-item{
   padding: 1rem 2rem;
 }
+
 a.recco-link{
   text-decoration: none;
+}
+a.recco-link:hover .recco-title{
+  background-color: var(--accent-color);
+  transition: all .6s ease;
 }
 .recco-title{
   background-color: var(--theme-color);
