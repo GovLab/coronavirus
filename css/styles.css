@@ -9,7 +9,11 @@
   --grey9: rgba(0, 0, 0, 0.9);
   --grey2: rgba(0, 0, 0, 0.2);
   --grey05: rgba(0, 0, 0, 0.05);
+  --grey15: rgba(0, 0, 0, 0.15);
   --grey1: rgba(0, 0, 0, 0.1);
+  --black05: #33333305;
+  --black15: #33333315;
+  --black1: #3333330a;
   font-size: 16px;
 }
 body {
@@ -178,6 +182,8 @@ padding: 0 10rem;
   font-size: 1.5rem;
   font-weight: 100;
  }
+
+
  @media screen and (min-width: 320px) and (max-width: 768px){
   .row.top-section.topic{
   padding: 0 1rem;
@@ -361,7 +367,161 @@ align-items: flex-start;
 #underline{
   border-bottom: 2px solid var(--theme-color);
 }
+.clock-icons{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  margin: 10px 0;
+}
+.clock-icons img{
+  height: 20px;
+}
 
+.strategy-item{
+  margin: 0 0 1rem 0;
+  background-color: var(--grey05);
+
+}
+.action-item{
+  padding: 0.5rem 0;
+}
+.action-text{
+  color: var(--grey8);
+  line-height: 1.5;
+}
+.action-text a{
+  color: var(--main-color);
+  font-weight: 500;
+  font-style: italic;
+  text-decoration-color: var(--theme-color);
+}
+.action-item .strategy-number{
+  padding: 0;
+}
+.strategy-number{
+  padding: 2rem 4rem 0 4rem;
+}
+.strategy-number h4{
+  margin:0;
+  font-size: 0.8rem;
+  text-decoration-color: var(--theme-color);
+  text-decoration: underline;
+}
+
+.strategy-description{
+  padding: 0.5rem 4rem 2rem 4rem;
+}
+.strategy-description div{
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.strategy-tags{  
+  padding: 0.5rem 4rem;
+  background-color: var(--black1);
+  display:flex;
+  flex-direction: row;
+}
+
+.timeline p{
+  margin:0;
+  font-size: 0.9rem;
+}
+.strategy-tags > div
+{
+  margin: 0.5rem 1rem;  /* and that, will result in a 10px gap */
+}
+.strategy-tags .recco-tag-title p{
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+.actions-accordion{
+  margin-top: 0.2rem;
+
+}
+.examples-accordion{
+  margin-top: 0.2rem;
+
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding: 1rem 4rem;
+  background-color: white
+}
+.panel ol{
+ font-size: 1rem;
+ line-height: 1.8;
+ color:var(--dark-grey);
+}
+.panel li span{
+ font-weight: 300 !important;
+}
+.panel p{
+ font-size: 1.1rem;
+ line-height: 1.5;
+ color:var(--dark-grey);
+}
+
+.accordion{
+  background-color: var(--black15);
+  padding: 1.5rem 4rem;
+  cursor: pointer;
+  width:100%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  order: 3;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion h2{
+  color: var(--dark-grey);
+  margin:0;
+  font-family: 'proxima-nova';
+  font-weight: 400;
+  font-size: 1rem;
+}
+.active{
+  font-size: 1rem;
+}
+
+.accordion .material-icons:before {
+  font-weight: 200;
+  content: 'keyboard_arrow_down';
+  position: relative;
+
+}
+.active .material-icons:before { 
+  font-weight: 200;
+  content: 'keyboard_arrow_up';
+}
+.material-icons {
+  direction: ltr;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
 .recco-page{
   padding: 2rem;
   display: flex;
@@ -415,6 +575,10 @@ max-width: 33.3%;
 .recco-tag-body{
   padding: 0.5rem 0;
 }
+.recco-tag-body.audience-body{
+  display:flex;
+  flex-direction: row;
+}
 .recco-tag-body a{
   font-size:0.8rem;
   font-weight: 400;
@@ -432,7 +596,56 @@ color: white;
 padding: 0.2rem;
 
 }
+.recco-tag-body a:hover .tag-item.audience{
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.2rem;
+  transition: all .6s ease;
+  }
+  .recco-tag-body .tag-item.audience{
+  background-color: var(--main-color);
+  margin: 0.2rem;
+  color: white;
+  padding: 0.2rem;
+  }
+  .recco-tag-body a:hover .tag-item.type{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.2rem;
+    transition: all .6s ease;
+    }
+    .recco-tag-body .tag-item.type{
+    background-color: var(--theme-color);
+    margin: 0.2rem;
+    color: white;
+    padding: 0.2rem;
+    }
+    .strategy-tags{
+      display: flex;
+      flex-direction: row;
+    }
 @media screen and (min-width: 320px) and (max-width: 768px){
+
+  .strategy-number{
+    padding: 2rem 1rem 0 1rem;
+  }
+  .strategy-description{
+    padding: 0.5rem 1rem 2rem 1rem;
+  }
+  .accordion{
+    background-color: var(--black15);
+    padding: 1.5rem 1rem;
+  }
+  .strategy-tags{  
+    padding: 0.5rem 1rem;
+    background-color: var(--black1);
+    display:flex;
+    flex-direction: column;
+  }
+  .panel {
+    padding: 1rem 1rem;
+
+  }
   .recco-page{
     padding: 2rem;
     display: flex;
