@@ -547,6 +547,9 @@ max-width: 33.3%;
 .recco-item{
   padding: 1rem 2rem;
 }
+a.recco-link{
+  text-decoration: none;
+}
 .recco-title{
   background-color: var(--theme-color);
   color: white;
@@ -570,6 +573,7 @@ max-width: 33.3%;
   color: var(--main-color);
 }
 .recco-tag-title p{
+  color: var(--main-color);
   margin: 0.1rem 0;
 }
 .recco-tag-body{

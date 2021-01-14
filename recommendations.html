@@ -70,6 +70,7 @@
       <div class="recco-page">
         <div class="recco-col" v-for="recco in ReccoData">
           <div class="recco-item">
+            <a class="recco-link" :href="'recommendations/'+recco.slug">
             <div class="recco-title" v-html="recco.title_en">
               
             </div>
@@ -86,6 +87,7 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
         </div>
       </div>
