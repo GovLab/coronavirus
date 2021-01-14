@@ -188,6 +188,12 @@ padding: 0 10rem;
   .row.top-section.topic{
   padding: 0 1rem;
   }
+
+.row.top-section.topic h1{
+  color: #ffffff;
+  font-size: 2rem;
+
+ }
  }
 .imagine-banner {
   padding: 24px; 
@@ -656,7 +662,7 @@ padding: 0.2rem;
 
   }
   .recco-page{
-    padding: 2rem;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column ;
     max-width: none;
@@ -669,7 +675,9 @@ padding: 0.2rem;
   -ms-flex-flow: column wrap;
   flex-flow: column wrap;
   }
-  
+  .recco-item{
+    padding: 1rem;
+  }
   .recco-col{
     -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
