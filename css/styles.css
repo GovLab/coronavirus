@@ -440,6 +440,7 @@ align-items: flex-start;
   font-size: 0.8rem;
   font-weight: 700;
   color: var(--main-color);
+  text-transform: uppercase;
 }
 .actions-accordion{
   margin-top: 0.2rem;

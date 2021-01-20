@@ -84,7 +84,7 @@
           <div class="strategy-tags">
             <div class="timeline">
               <div class="recco-tag-title">
-                <p>TIMEFRAME</p>
+                <p>tiempo</p>
               </div>
             <div class="clock-icons">
               <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"  src="../../images/clock_00.png">
@@ -97,7 +97,7 @@
           </div>
           <div class="audience">
             <div class="recco-tag-title">
-              <p>AUDIENCE</p>
+              <p>audiencia</p>
             </div>
             <div class="recco-tag-body audience-body">
               <div v-for="audience in strategy.strategies_id.audience">
@@ -115,7 +115,7 @@
           </div>
           <div class="type">
             <div class="recco-tag-title">
-              <p>TYPE</p>
+              <p>tipo</p>
             </div>
             <div class="recco-tag-body audience-body">
               <div v-for="area in strategy.strategies_id.area">
@@ -133,7 +133,7 @@
           </div>
           <div class="type">
             <div class="recco-tag-title">
-              <p>TOPIC</p>
+              <p>tema</p>
             </div>
             <div class="recco-tag-body audience-body">
               <div v-for="tag in ReccoData[0].topic">
