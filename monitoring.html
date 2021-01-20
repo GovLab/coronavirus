@@ -79,6 +79,9 @@
          <a href="https://docs.google.com/document/d/17rubdNedrR8U2XzzvqUwLXwWTeWenmmevGOqcSZ4J_w/edit?usp=sharing" target="_blank" class="button">CONFERENCE TAKEAWAYS</a>
       </div>
     </section>
+
+
+
     <section class="light-section topic_desc">
       <h1>DESCRIPTION</h1>
         <p>{{indexData[4].translations[0].long_description}}</p>
@@ -91,7 +94,42 @@
       <a href="https://docs.google.com/document/d/1rEsMoTa3IO0TAN969Hz8K-m6aAII8eHPz6fiKqTU41w/edit?usp=sharing" target="_blank" class="button">Agenda and Logistics</a>
       <a href="https://docs.google.com/document/d/1_UCvSUBPG8UjbzRVI5dGDGr9gJnRQGnKbxtLtAjYWGg/edit?usp=sharing" target="_blank" class="button">EXPERTS AND PARTICIPANTS</a>
     </div>
+    <div class="divider recco">
 
+      <h1>RECOMMENDATIONS</h1>
+    </div>
+    <div class="recco-page">
+      <div class="recco-col" v-for="recco in ReccoData">
+        <template v-for="tag_template in recco.topic" v-if="tag_template.topics_id.translations[0].topic_title == indexData[4].translations[0].topic_title">
+        <div class="recco-item">
+          <a class="recco-link" :href="'recommendations/'+recco.slug">
+          <div class="recco-title" v-html="recco.title_en">
+            
+          </div>
+          <div class="recco-description" v-html="recco.description_en">
+            
+          </div>
+          <div class="recco-tag">
+            <div class="recco-tag-title">
+              <p>TOPIC</p>
+            </div>
+            <div class="recco-tag-body">
+              <div v-for="tag in recco.topic">
+                <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+      </template>
+      </div>
+
+    </div>
+    <section>
+      <div class="main-buttons accent-color index-page-button">
+        <a href="recommendations.html" target="_blank" class="button">READ ALL RECOMMENDATIONS</a>
+      </div>
+    </section>
   </div>
   <footer class='footer-alt'>
     <div class="row align-center">

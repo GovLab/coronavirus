@@ -906,7 +906,10 @@ text-align: left;
   justify-content: center;
   height:9vh;
 }
+.divider.recco{
+  background-color: var(--main-color);
 
+}
 .divider h1{
 margin:0px;
   text-transform: uppercase;
