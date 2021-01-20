@@ -412,6 +412,7 @@ align-items: flex-start;
   font-size: 0.8rem;
   text-decoration-color: var(--theme-color);
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .strategy-description{
