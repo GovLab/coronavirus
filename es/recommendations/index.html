@@ -9,7 +9,7 @@
   <title>Smarter Crowdsourcing: Coronavirus</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../../css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -33,7 +33,7 @@
           </a>
         </div>
       </div>
-      <a class="top_logo" href="../index.html"><img src="../images/coronavirus-full-h-white.png"
+      <a class="top_logo" href="../index.html"><img src="../../images/coronavirus-full-h-white.png"
           alt="Smarter Crowdsourcing | Zika"></a>
       <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
@@ -87,8 +87,8 @@
                 <p>TIMEFRAME</p>
               </div>
             <div class="clock-icons">
-              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"  src="../images/clock_00.png">
-              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)" src="../images/clock_dd.png">
+              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"  src="../../images/clock_00.png">
+              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)" src="../../images/clock_dd.png">
             </div>
             <div v-if="strategy.strategies_id.timeline == 'timeline_1'"><p>1-3 meses (inmediato)</p></div>
             <div v-if="strategy.strategies_id.timeline == 'timeline_2'"><p>3-6 meses (medio)</p></div>
@@ -205,11 +205,11 @@
     <div class="row">
       <div class="column">
         <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-            src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+            src="../../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
       <div class="column">
         <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-            src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+            src="../../images/govlab-logo-white.png" alt="The GovLab"></a>
       </div>
     </div>
   </footer>
@@ -251,6 +251,6 @@
 <script src="js/fadein.js"></script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="../js/coronavirus.js"></script>
+<script src="../../js/coronavirus.js"></script>
 
 </html>
