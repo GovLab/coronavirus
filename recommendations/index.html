@@ -72,124 +72,152 @@
       </div>
     </section>
 
-      <div class="recco-specific-page">
-        <div class="strategy-item" v-for="(strategy,index) in ReccoData[0].strategies">
-          <div class="strategy-number">
-         <h4>STRATEGY {{index+1}}</h4>
+    <div class="recco-specific-page">
+      <div class="strategy-item" v-for="(strategy,index) in ReccoData[0].strategies">
+        <div class="strat-row">
+          <div class="strat-left">
+            <div class="strategy-number">
+              <h4>STRATEGY {{index+1}}</h4>
+            </div>
+            <div class="strategy-description" v-html="strategy.strategies_id.description_en">
+
+            </div>
+          </div>
+          <div class="strat-right">
+
+            <div class="strategy-tags">
+              <div class="tag-first-row">
+                <div class="timeline">
+                  <div class="recco-tag-title">
+                    <p>TIMEFRAME</p>
+                  </div>
+                  <div class="clock-icons">
+                    <img v-for="n in 4"
+                      v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"
+                      src="../images/clock_00.png">
+                    <img v-for="n in 4"
+                      v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)"
+                      src="../images/clock_dd.png">
+                  </div>
+                  <div v-if="strategy.strategies_id.timeline == 'timeline_1'">
+                    <p>1-3 Months (immediate)</p>
+                  </div>
+                  <div v-if="strategy.strategies_id.timeline == 'timeline_2'">
+                    <p>3-6 Months (medium)</p>
+                  </div>
+                  <div v-if="strategy.strategies_id.timeline == 'timeline_3'">
+                    <p>6-12 Months (long)</p>
+                  </div>
+                  <div v-if="strategy.strategies_id.timeline == 'timeline_4'">
+                    <p>1+ years (structural change)</p>
+                  </div>
+                </div>
+                <div class="audience">
+                  <div class="recco-tag-title">
+                    <p>AUDIENCE</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="audience in strategy.strategies_id.audience">
+                      <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
+                      <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
+                      <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>
+                      <a v-if="audience == 'audience_4' "><span class="tag-item audience">Vulnerable
+                          Populations</span></a>
+                      <a v-if="audience == 'audience_5' "><span class="tag-item audience">Healthcare
+                          Providers</span></a>
+                      <a v-if="audience == 'audience_6' "><span class="tag-item audience">Essential Workers</span></a>
+                      <a v-if="audience == 'audience_7' "><span class="tag-item audience">Government Workers</span></a>
+                      <a v-if="audience == 'audience_8' "><span class="tag-item audience">Organized Civil
+                          Society</span></a>
+                      <a v-if="audience == 'audience_9' "><span class="tag-item audience">Nonprofits</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tag-second-row">
+                <div class="type">
+                  <div class="recco-tag-title">
+                    <p>TYPE</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="area in strategy.strategies_id.area">
+                      <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
+                      <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
+                      <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
+                      <a v-if="area == 'area_4' "><span class="tag-item type">Technology/Innovation</span></a>
+                      <a v-if="area == 'area_5' "><span class="tag-item type">Communications</span></a>
+                      <a v-if="area == 'area_6' "><span class="tag-item type">Partnerships</span></a>
+                      <a v-if="area == 'area_7' "><span class="tag-item type">Capacity Building</span></a>
+                      <a v-if="area == 'area_8' "><span class="tag-item type">Vulnerable Populations</span></a>
+                      <a v-if="area == 'area_9' "><span class="tag-item type">Procurement/Logistics</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="type">
+                  <div class="recco-tag-title">
+                    <p>TOPIC</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="tag in ReccoData[0].topic">
+                      <a :href="'../'+tag.topics_id.translations[0].slug"><span
+                          class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-          <div class="strategy-description" v-html="strategy.strategies_id.description_en">
 
-          </div>
+        <div class="actions-accordion">
+          <div class="faq-section">
 
-          <div class="strategy-tags">
-            <div class="timeline">
-              <div class="recco-tag-title">
-                <p>TIMEFRAME</p>
-              </div>
-            <div class="clock-icons">
-              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"  src="../images/clock_00.png">
-              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)" src="../images/clock_dd.png">
-            </div>
-            <div v-if="strategy.strategies_id.timeline == 'timeline_1'"><p>1-3 Months (immediate)</p></div>
-            <div v-if="strategy.strategies_id.timeline == 'timeline_2'"><p>3-6 Months (medium)</p></div>
-            <div v-if="strategy.strategies_id.timeline == 'timeline_3'"><p>6-12 Months (long)</p></div>
-            <div v-if="strategy.strategies_id.timeline == 'timeline_4'"><p>1+ years (structural change)</p></div>
-          </div>
-          <div class="audience">
-            <div class="recco-tag-title">
-              <p>AUDIENCE</p>
-            </div>
-            <div class="recco-tag-body audience-body">
-              <div v-for="audience in strategy.strategies_id.audience">
-                <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
-                <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
-                <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>
-                <a v-if="audience == 'audience_4' "><span class="tag-item audience">Vulnerable Populations</span></a>
-                <a v-if="audience == 'audience_5' "><span class="tag-item audience">Healthcare Providers</span></a>
-                <a v-if="audience == 'audience_6' "><span class="tag-item audience">Essential Workers</span></a>
-                <a v-if="audience == 'audience_7' "><span class="tag-item audience">Government Workers</span></a>
-                <a v-if="audience == 'audience_8' "><span class="tag-item audience">Organized Civil Society</span></a>
-                <a v-if="audience == 'audience_9' "><span class="tag-item audience">Nonprofits</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="type">
-            <div class="recco-tag-title">
-              <p>TYPE</p>
-            </div>
-            <div class="recco-tag-body audience-body">
-              <div v-for="area in strategy.strategies_id.area">
-                <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
-                <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
-                <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
-                <a v-if="area == 'area_4' "><span class="tag-item type">Technology/Innovation</span></a>
-                <a v-if="area == 'area_5' "><span class="tag-item type">Communications</span></a>
-                <a v-if="area == 'area_6' "><span class="tag-item type">Partnerships</span></a>
-                <a v-if="area == 'area_7' "><span class="tag-item type">Capacity Building</span></a>
-                <a v-if="area == 'area_8' "><span class="tag-item type">Vulnerable Populations</span></a>
-                <a v-if="area == 'area_9' "><span class="tag-item type">Procurement/Logistics</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="type">
-            <div class="recco-tag-title">
-              <p>TOPIC</p>
-            </div>
-            <div class="recco-tag-body audience-body">
-              <div v-for="tag in ReccoData[0].topic">
-                <a :href="'../'+tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
-              </div>
-            </div>
-          </div>
+            <div class="faq-item">
 
-          </div>
-          <div class="actions-accordion">
-            <div class="faq-section">
+              <button v-on:click="toggleMessage(index,0)" class="accordion">
+                <h2>ACTIONS GOVERNMENTS SHOULD TAKE ({{strategy.strategies_id.actions.length}} actions)</h2><i
+                  class="material-icons down"></i>
+              </button>
+              <div v-if="showAction && index_active == index" class="panel">
+                <div class="action-item" v-for="(action,action_index) in strategy.strategies_id.actions">
+                  <div class="strategy-number">
+                    <h4>ACTION {{action_index + 1}}</h4>
+                  </div>
+                  <div class="action-text" v-html="action.actions_id.description_en">
 
-              <div class="faq-item">
-
-                <button v-on:click="toggleMessage(index,0)" class="accordion">
-                  <h2>ACTIONS GOVERNMENTS SHOULD TAKE ({{strategy.strategies_id.actions.length}} actions)</h2><i class="material-icons down"></i>
-                </button>
-                <div v-if="showAction && index_active == index" class="panel">
-                  <div class="action-item" v-for="(action,action_index) in strategy.strategies_id.actions">
-                    <div class="strategy-number">
-                      <h4>ACTION {{action_index + 1}}</h4>
-                    </div>
-                    <div class="action-text" v-html="action.actions_id.description_en">
-
-                    </div>
                   </div>
                 </div>
               </div>
-
             </div>
+
           </div>
-          <div v-if="strategy.strategies_id.examples.length > 0" class="examples-accordion">
-            <div class="faq-section">
+        </div>
+        <div v-if="strategy.strategies_id.examples.length > 0" class="examples-accordion">
+          <div class="faq-section">
 
-              <div class="faq-item">
+            <div class="faq-item">
 
-                <button @click="toggleMessage(index,1)" class="accordion">
-                  <h2>EXAMPLES FROM AROUND THE WORLD ({{strategy.strategies_id.examples.length}} example)</h2><i class="material-icons down"></i>
-                </button>
-                <div v-if="showExample && index_active == index" class="panel">
-                  <div class="action-item" v-for="(example,example_index) in strategy.strategies_id.examples">
-                    <div class="strategy-number">
-                      <h4>EXAMPLE {{example_index + 1}}</h4>
-                    </div>
-                    <div class="action-text" v-html="example.examples_id.description_en">
+              <button @click="toggleMessage(index,1)" class="accordion">
+                <h2>EXAMPLES FROM AROUND THE WORLD ({{strategy.strategies_id.examples.length}} example)</h2><i
+                  class="material-icons down"></i>
+              </button>
+              <div v-if="showExample && index_active == index" class="panel">
+                <div class="action-item" v-for="(example,example_index) in strategy.strategies_id.examples">
+                  <div class="strategy-number">
+                    <h4>EXAMPLE {{example_index + 1}}</h4>
+                  </div>
+                  <div class="action-text" v-html="example.examples_id.description_en">
 
-                    </div>
                   </div>
                 </div>
               </div>
-
             </div>
 
           </div>
+
         </div>
       </div>
+    </div>
   </div>
 
 </body>

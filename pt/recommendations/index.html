@@ -74,14 +74,19 @@
 
       <div class="recco-specific-page">
         <div class="strategy-item" v-for="(strategy,index) in ReccoData[0].strategies">
+          <div class="strat-row">
+            <div class="strat-left">
           <div class="strategy-number">
          <h4>estratégia {{index+1}}</h4>
         </div>
           <div class="strategy-description" v-html="strategy.strategies_id.description_pt">
 
           </div>
+        </div>
+          <div class="strat-right">
 
-          <div class="strategy-tags">
+            <div class="strategy-tags">
+              <div class="tag-first-row">
             <div class="timeline">
               <div class="recco-tag-title">
                 <p>tempo</p>
@@ -112,7 +117,9 @@
                 <a v-if="audience == 'audience_9' "><span class="tag-item audience">Organizações sem fins lucrativos/ONGs</span></a>
               </div>
             </div>
+            </div>
           </div>
+          <div class="tag-second-row">
           <div class="type">
             <div class="recco-tag-title">
               <p>tipo</p>
@@ -141,8 +148,10 @@
               </div>
             </div>
           </div>
-
-          </div>
+        </div>
+      </div>
+    </div>
+  </div>
           <div class="actions-accordion">
             <div class="faq-section">
 

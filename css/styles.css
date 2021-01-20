@@ -404,6 +404,20 @@ align-items: flex-start;
 .action-item .strategy-number{
   padding: 0;
 }
+.strat-row{
+  display:flex;
+  flex-direction: row;
+}
+.strat-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.strat-right{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
 .strategy-number{
   padding: 2rem 4rem 0 4rem;
 }
@@ -427,16 +441,29 @@ align-items: flex-start;
   background-color: var(--black1);
   display:flex;
   flex-direction: row;
+  width:100%;
 }
-
+.tag-first-row{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+}
+.tag-first-row > div{
+  margin: 0.5rem 1rem;  /* and that, will result in a 10px gap */
+}
+.tag-second-row > div{
+  margin: 0.5rem 1rem;  /* and that, will result in a 10px gap */
+}
+.tag-second-row{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+}
 .timeline p{
   margin:0;
   font-size: 0.9rem;
 }
-.strategy-tags > div
-{
-  margin: 0.5rem 1rem;  /* and that, will result in a 10px gap */
-}
+
 .strategy-tags .recco-tag-title p{
   font-size: 0.8rem;
   font-weight: 700;
@@ -642,7 +669,23 @@ padding: 0.2rem;
       flex-direction: row;
     }
 @media screen and (min-width: 320px) and (max-width: 768px){
-
+  .strat-row{
+    display:flex;
+    flex-direction: column;
+  }
+  .strat-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .strat-right{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .strategy-tags{  
+    flex-direction: column;
+  }
   .strategy-number{
     padding: 2rem 1rem 0 1rem;
   }
