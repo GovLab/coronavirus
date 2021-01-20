@@ -93,7 +93,7 @@
               </div>
             <div class="clock-icons">
               <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n<2) ||(strategy.strategies_id.timeline=='timeline_2' && n<3) || (strategy.strategies_id.timeline=='timeline_3' && n<4) || (strategy.strategies_id.timeline=='timeline_4' && n<5)"  src="../../images/clock_00.png">
-              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)" src="../../images/clock_dd.png">
+              <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' && n>1) ||(strategy.strategies_id.timeline=='timeline_2' && n>2) || (strategy.strategies_id.timeline=='timeline_3' && n>3) || (strategy.strategies_id.timeline=='timeline_4' && n>4)" src="../../images/clock_light.png">
             </div>
             <div v-if="strategy.strategies_id.timeline == 'timeline_1'"><p>1-3 meses (imediato)</p></div>
             <div v-if="strategy.strategies_id.timeline == 'timeline_2'"><p>3-6 meses (médio)</p></div>
