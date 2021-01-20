@@ -384,9 +384,9 @@ align-items: flex-start;
 }
 
 .strategy-item{
-  margin: 0 0 1rem 0;
+  margin: 2rem;
   background-color: var(--grey05);
-
+  border-bottom: 2px solid var(--theme-color);
 }
 .action-item{
   padding: 0.5rem 0;
