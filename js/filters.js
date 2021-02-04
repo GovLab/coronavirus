@@ -136,8 +136,7 @@ new Vue({
       else {
         console.log(self.indexData);
         let filtered_by_audience = self.indexData.filter(function (e) {
-     
-          return e.audience == self.selectedAudience;
+          return e.audience.some(aud_element => aud_element == self.selectedAudience);
         });
         self.filtered_audience = filtered_by_audience;
       }
