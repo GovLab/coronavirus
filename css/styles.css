@@ -14,6 +14,8 @@
   --black05: #33333305;
   --black15: #33333315;
   --black1: #3333330a;
+  --black4: #33333336;
+  --white40: #ffffff1f;
   font-size: 16px;
 }
 body {
@@ -621,7 +623,7 @@ a.recco-link:hover .recco-title{
 }
 .recco-tag-body.audience-body{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .recco-tag-body a{
   font-size:0.8rem;
@@ -1158,8 +1160,70 @@ label{
 font-weight: 100;
 color: #ffffff;
 }
-
+.table-row{
+  display:flex;
+  flex-direction: row;
+  height: 130px;
+  padding: 0rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.table-header{
+  display:flex;
+  flex-direction: row;
+  height: 50px;
+  padding: 0rem 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+.table-header h2{
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.table-row:nth-of-type(odd){
+  background-color: var(--grey05);
+}
+.table-row:nth-of-type(even){
+  background-color: white;
+}
+.table-row:hover{
+  background-color: var(--grey1);
+  cursor: pointer;
+}
+.row-description-content{
+  width: 60%;
+  padding: 1rem;
+}
+.row-topic-content{
+  width: 15%;
+  padding: 1rem;
+}
+.row-reccomendation-content{
+  width: 25%;
+  padding: 1rem;
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .table-row{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0rem 2rem;
+  }
+  .row-description-content{
+    width: 100%;
+    padding: 1rem;
+  }
+  .row-topic-content{
+    width: 100%;
+    padding: 1rem;
+  }
+  .row-reccomendation-content{
+    width: 100%;
+    padding: 1rem;
+  }
   .team-container{
     display:flex;
     flex-direction: column;
@@ -1173,4 +1237,135 @@ color: #ffffff;
   .team-col{
     width: 100%;
   }
+}
+.filters{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  padding: 1rem 6rem;
+  background-color: var(--main-color);
+}
+.form-control{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 25%;
+width:25%;
+position: relative;
+overflow: hidden;
+padding: 10pt;
+overflow: hidden;
+/* border-radius: 5px;
+border: 1px solid var(--white40); */
+}
+
+.form-control .material-icons:hover{
+cursor: pointer;
+}/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  flex: 1;
+  padding: 0 .5em;
+  cursor: pointer;
+ 
+}
+select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.form-control::after {
+  position: absolute;
+  right:0;
+  margin-right:1rem;
+  font-family: "Material Icons";
+  content: "\e313";
+  font-size: 28px;
+  padding: 0 0;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+  color: var(--accent-color);
+ 
+}
+/* Transition */
+.form-control:hover::after {
+  color: var(--theme-color);
+}
+.filters select{
+  flex: 1;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+  font-weight: 300;
+  font-size: 11pt;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: var(--grey2);
+}
+.filters option[selected] {
+  font-size: 12pt;
+}
+
+.search{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--main-color);
+}
+input[type=text] {
+  height: 30px;
+  width: 20%;
+  background-color: var(--white40);
+}
+input[type=text]::placeholder{
+  color: #f6f6f6be;
+font-family: 'proxima-nova', sans-serif;
+font-weight: 400;
+font-size: 0.9rem;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: var(--grey2);
+  border: none;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin: 0px 2px;
+  cursor: pointer;
+  color: #f6f6f6;
+  text-transform: uppercase;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: var(--grey5);
+  transition: all .6s ease;
+}
+.counters{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.count-entries{
+  text-align: center;
+  margin: 1rem;
+}
+.count-entries p{
+  text-transform: uppercase;
+  color: var(--grey8);
+}
+.count-entries p span{
+  background-color: var(--grey2);
+  padding: 0.5rem 1rem;
 }

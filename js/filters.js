@@ -30,78 +30,71 @@ new Vue({
     return {
       indexData: [],
       filterData: [],
-      js_scope: [
+      js_audience: [
         { code: '', name: 'All' },
-        { code: '0', name: 'Local' },
-        { code: '1', name: 'Regional' },
-        { code: '2', name: 'National' },
-        { code: '3', name: 'Multilateral' },
-        { code: '4', name: 'Undefined' },
+        { code: 'audience_1', name: 'Private Sector' },
+        { code: 'audience_2', name: 'Academia' },
+        { code: 'audience_3', name: 'Civil Society' },
+        { code: 'audience_4', name: 'Vulnerable Populations' },
+        { code: 'audience_5', name: 'Healthcare Providers' },
+        { code: 'audience_6', name: 'Essential Workers' },
+        { code: 'audience_7', name: 'Government Workers' },
+        { code: 'audience_8', name: 'Organized Civil Society' },
+        { code: 'audience_9', name: 'Nonprofits' },
       ],
-      js_phase: [
+      js_type: [
         { code: '', name: 'All' },
-        { code: 'phase_0', name: 'Readiness' },
-        { code: 'phase_1', name: 'Response' },
-        { code: 'phase_2', name: 'Recovery' },
-        { code: 'phase_3', name: 'Reform' },
+        { code: 'area_1', name: 'Research' },
+        { code: 'area_2', name: 'Policy/Legislative/Regulatory' },
+        { code: 'area_3', name: 'Data' },
+        { code: 'area_4', name: 'Technology/Innovation' },
+        { code: 'area_5', name: 'Communications' },
+        { code: 'area_6', name: 'Partnerships' },
+        { code: 'area_7', name: 'Capacity Building' },
+        { code: 'area_8', name: 'Vulnerable Populations' },
+        { code: 'area_9', name: 'Procurement/Logistics' },
       ],
-      js_regions: [
+      js_timeline: [
         { code: '', name: 'All' },
-        { code: 'eap', name: 'East Asia and Pacific' },
-        { code: 'eca', name: 'Europe and Central Asia' },
-        { code: 'lac', name: 'Latin America and the Caribbean' },
-        { code: 'mena', name: 'Middle East and North Africa' },
-        { code: 'na', name: 'North America' },
-        { code: 'ssa', name: 'Sub-Saharan Africa' },
-        { code: 'sasia', name: 'South Asia' },
-        { code: 'global', name: 'Global' },
+        { code: 'timeline_1', name: '1-3 Months (immediate)' },
+        { code: 'timeline_2', name: '3-6 Months (medium)' },
+        { code: 'timeline_3', name: '6-12 Months (long)' },
+        { code: 'timeline_4', name: '1+ years (structural change)' },
       ],
       js_topic: [
         { code: '', name: 'All' },
-        { code: 'topic_0', name: 'Tracking the Pandemic’s Evolution' },
-        { code: 'topic_1', name: 'Developing Disease Treatment' },
-        { code: 'topic_2', name: 'Identifying Availability and Demand for Supplies' },
-        { code: 'topic_3', name: 'Monitoring Adherence to Health Protocols and Practices' },
-        { code: 'topic_4', name: 'Understanding Public Perceptions, Well-being and Behavior' },
-        { code: 'topic_5', name: 'Protecting Democracy, Human Rights and Promoting Government Accountability' },
-        { code: 'topic_6', name: 'Addressing Misinformation' },
-        { code: 'topic_7', name: 'Supporting Post-Pandemic Re-openings and Recovery' },
-        { code: 'topic_8', name: 'Alleviating the Burden on Migrants' },
-        { code: 'topic_9', name: 'Alleviating Pandemic-related Unemployment and Poverty' },
-        { code: 'topic_10', name: 'Guaranteeing Protections for Workers' },
-        { code: 'topic_11', name: 'Supporting Education and Upskilling' },
-        { code: 'topic_12', name: 'Fostering Business and Government Solvency' },
-        { code: 'topic_13', name: 'Assessing Environmental Impact' },
-        { code: 'topic_14', name: 'Understanding the Economic Impact' },
-
+        { code: 'topic_1', name: 'Testing Strategy' },
+        { code: 'topic_2', name: 'Contact Tracing' },
+        { code: 'topic_3', name: 'Behavioral Science and COVID' },
+        { code: 'topic_4', name: 'Supporting Marginalized and Vulnerable Populations' },
+        { code: 'topic_5', name: 'Epidemiological monitoring and surveillance' },
+        { code: 'topic_6', name: 'Mental health and emotional wellbeing' },
       ],
       sortBy: 'name',
     sortDirection: 'ASC',
       selectedProjectType: null,
-      apiURL: 'https://directus.thegovlab.com/data4covid',
+      apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
     }
   },
 
   created: function created() {
-    this.memberslug = window.location.pathname.split('/');
-    this.fetchIndex();
-
+    this.fetchStrategies();
   },
   methods: {
 
-    fetchIndex() {
+    fetchStrategies() {
 
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
-        project: "data4covid",
+        project: "smarter-crowdsourcing",
         storage: window.localStorage
       });
 
       client.getItems(
-        'projects',
+        'strategies',
         {
-          fields: ['*.*']
+          fields: ['*.*','strat_rec.recommendation_id.*','strat_topic.topics_id.translations.*']
         }
       ).then(data => {
 
@@ -114,13 +107,10 @@ new Vue({
       })
         .catch(error => console.error(error));
     },
-    dateShow(date) {
-      return moment(date).format("MMMM YYYY");
-    },
     searchItems() {
 
       squery = document.getElementById('search-text').value;
-      let searchData = self.indexData.filter(items => (items.long_description.toLowerCase().includes(squery.toLowerCase()) || items.title.toLowerCase().includes(squery.toLowerCase())));
+      let searchData = self.indexData.filter(items => (items.description_en.toLowerCase().includes(squery.toLowerCase()) || items.description_pt.toLowerCase().includes(squery.toLowerCase()) ||items.description_es.toLowerCase().includes(squery.toLowerCase())));
       self.filterData = searchData;
     },
     ResetItems() {
@@ -135,50 +125,50 @@ new Vue({
 
       document.getElementById("filter-count").style.display = "block";
       var element = document.body.querySelectorAll("select");
-      this.selectedScope = element[0].value;
-      this.selectedRegion = element[1].value;
-      this.selectedArea = element[2].value;
-      this.selectedPhase = element[3].value;
-      console.log(this.selectedPhase);
+      this.selectedAudience = element[0].value;
+      this.selectedType = element[1].value;
+      this.selectedTopic = element[2].value;
+      this.selectedTimeline = element[3].value;
+      console.log(this.selectedTimeline);
       //Scope Filter
-      if (this.selectedScope == '')
-        self.filtered_scope = self.indexData;
+      if (this.selectedAudience == '')
+        self.filtered_audience = self.indexData;
       else {
         console.log(self.indexData);
-        let filtered_by_scope = self.indexData.filter(function (e) {
+        let filtered_by_audience = self.indexData.filter(function (e) {
      
-          return e.scope == self.selectedScope;
+          return e.audience == self.selectedAudience;
         });
-        self.filtered_scope = filtered_by_scope;
+        self.filtered_audience = filtered_by_audience;
       }
       //Region Filter
-      if (this.selectedRegion == '')
-        self.filtered_region = self.filtered_scope;
+      if (this.selectedType == '')
+        self.filtered_type = self.filtered_audience;
       else {
-        let filtered_by_region = self.filtered_scope.filter(function (e) {
-          return e.region.some(reg_element => reg_element == self.selectedRegion);
+        let filtered_by_type = self.filtered_audience.filter(function (e) {
+          return e.area.some(reg_element => reg_element == self.selectedType);
         });
-        self.filtered_region = filtered_by_region;
+        self.filtered_type = filtered_by_type;
       }
       //Topic Area Filter
-      if (this.selectedArea == '')
-        self.filtered_area = self.filtered_region;
+      if (this.selectedTopic == '')
+        self.filtered_topic = self.filtered_type;
       else {
-        let filtered_by_area = self.filtered_region.filter(function (e) {
-          return e.topic_areas.some(are_element => are_element == self.selectedArea);
+        let filtered_by_topic = self.filtered_type.filter(function (e) {
+          return e.topic.some(are_element => are_element == self.selectedTopic);
         });
-        self.filtered_area = filtered_by_area;
+        self.filtered_topic = filtered_by_topic;
       }
       //Pandemic Filter
-      if (this.selectedPhase == '')
-        self.filtered_phase = self.filtered_area;
+      if (this.selectedTimeline == '')
+        self.filtered_timeline = self.filtered_topic;
       else {
-        let filtered_by_phase = self.filtered_area.filter(function (e) {
-          return e.pandemic_phase.some(ph_element => ph_element == self.selectedPhase);
+        let filtered_by_timeline = self.filtered_topic.filter(function (e) {
+          return e.timeline == self.selectedTimeline;
         });
-        self.filtered_phase = filtered_by_phase;
+        self.filtered_timeline = filtered_by_timeline;
       }
-      self.filterData = self.filtered_phase;
+      self.filterData = self.filtered_timeline;
     }
 
 
