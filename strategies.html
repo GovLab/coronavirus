@@ -59,7 +59,7 @@
           <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
-  <div class="row top-section topic team">
+  <div class="row top-section topic  strategies">
 
     <h1>Strategies</h1>
   </div>
@@ -75,7 +75,7 @@
             </option>
           </select>
         </div>
-        <p>&nbsp&nbsp&nbsp</p>
+
         <div class="form-control">
           <select id="form-2" @change="changeFilter($event)">
             <option value="" selected disabled>Type</option>
@@ -84,7 +84,6 @@
           </select>
 
         </div>
-        <p>&nbsp&nbsp&nbsp</p>
         <div class="form-control">
           <select id="form-3" @change="changeFilter($event)">
             <option value="" selected disabled>Topic</option>
@@ -92,7 +91,7 @@
           </select>
 
         </div>
-        <p>&nbsp&nbsp&nbsp</p>
+
         <div class="form-control">
           <select id="form-4" @change="changeFilter($event)">
             <option value="" selected disabled>Timeline</option>
@@ -137,8 +136,8 @@
           </div>
    
           <div class="row-topic-content">
-            <div  class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
-              {{s_topic.topics_id.translations[0].topic_title}}
+            <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
+              <span class="tag-item">{{s_topic.topics_id.translations[0].topic_title}}</span>
              </div>
           </div>
           <div class="row-reccomendation-content">
