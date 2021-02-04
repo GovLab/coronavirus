@@ -1174,6 +1174,10 @@ color: #ffffff;
   justify-content: center;
   align-items: center;
 }
+a.table-row{
+  text-decoration: none;
+  color: var(--dark-grey);
+}
 .table-header{
   display:flex;
   flex-direction: row;

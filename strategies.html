@@ -130,7 +130,7 @@
               <h2>Recommendation</h2>
             </div>
           </div>
-         <a v-for="strategy in filterData" class="table-row">
+         <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
           <div class="row-description-content" v-html="strategy.description_en">
 
           </div>
