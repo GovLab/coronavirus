@@ -33,13 +33,14 @@
           </a>
         </div>
       </div>
+
       <a class="top_logo" href="../index.html"><img src="../../images/coronavirus-full-h-white.png"
           alt="Smarter Crowdsourcing | Zika"></a>
       <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
-        <a style="padding: 15px 5px" :href="'../../es/strategies/' + ReccoData[0].slug">ES</a>
+        <a style="padding: 15px 5px" :href="'../../es/strategies/' +  stratData[0].slug">ES</a>
         <p style="color:#ffffff">|</p>
-        <a style="padding: 15px 5px"  :href="'../../strategies/' + ReccoData[0].slug">EN</a>
+        <a style="padding: 15px 5px"  :href="'../../strategies/' +  stratData[0].slug">EN</a>
         <p style="color:#ffffff">|</p>
         <a style="padding: 15px 5px" class="active" href="#">PT</a>
       </div>
@@ -79,7 +80,7 @@
             <div class="strategy-number">
               <h4>STRATEGY</h4>
             </div>
-            <div class="strategy-description" v-html="stratData[0].description_en">
+            <div class="strategy-description" v-html="stratData[0].description_pt">
 
             </div>
           </div>
@@ -100,17 +101,18 @@
                       src="../images/clock_light.png">
                   </div>
                   <div v-if="stratData[0].timeline == 'timeline_1'">
-                    <p>1-3 Months (immediate)</p>
+                    <p>1-3 meses (imediato)</p>
                   </div>
                   <div v-if="stratData[0].timeline == 'timeline_2'">
-                    <p>3-6 Months (medium)</p>
+                    <p>3-6 meses (médio)</p>
                   </div>
                   <div v-if="stratData[0].timeline == 'timeline_3'">
-                    <p>6-12 Months (long)</p>
+                    <p>6-12 meses (longo)</p>
                   </div>
                   <div v-if="stratData[0].timeline == 'timeline_4'">
-                    <p>1+ years (structural change)</p>
+                    <p>1+ anos (mudança estrutural)</p>
                   </div>
+                  
                 </div>
                 <div class="audience">
                   <div class="recco-tag-title">
@@ -118,22 +120,20 @@
                   </div>
                   <div class="recco-tag-body audience-body">
                     <div v-for="audience in stratData[0].audience">
-                      <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
+                      <a v-if="audience == 'audience_1' "><span class="tag-item audience">Setor privado</span></a>
                       <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
-                      <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>
-                      <a v-if="audience == 'audience_4' "><span class="tag-item audience">Vulnerable
-                          Populations</span></a>
-                      <a v-if="audience == 'audience_5' "><span class="tag-item audience">Healthcare
-                          Providers</span></a>
-                      <a v-if="audience == 'audience_6' "><span class="tag-item audience">Essential Workers</span></a>
-                      <a v-if="audience == 'audience_7' "><span class="tag-item audience">Government Workers</span></a>
-                      <a v-if="audience == 'audience_8' "><span class="tag-item audience">Organized Civil
-                          Society</span></a>
-                      <a v-if="audience == 'audience_9' "><span class="tag-item audience">Nonprofits</span></a>
+                      <a v-if="audience == 'audience_3' "><span class="tag-item audience">Público geral</span></a>
+                      <a v-if="audience == 'audience_4' "><span class="tag-item audience">Populações vulneráveis</span></a>
+                      <a v-if="audience == 'audience_5' "><span class="tag-item audience">Profissionais médicos</span></a>
+                      <a v-if="audience == 'audience_6' "><span class="tag-item audience">Trabalhadores essenciais</span></a>
+                      <a v-if="audience == 'audience_7' "><span class="tag-item audience">Trabalhadores governamentais</span></a>
+                      <a v-if="audience == 'audience_8' "><span class="tag-item audience">Sociedade civil organizada</span></a>
+                      <a v-if="audience == 'audience_9' "><span class="tag-item audience">Organizações sem fins lucrativos</span></a>
                     </div>
                   </div>
                 </div>
               </div>
+              
               <div class="tag-second-row">
                 <div class="type">
                   <div class="recco-tag-title">
@@ -141,18 +141,20 @@
                   </div>
                   <div class="recco-tag-body audience-body">
                     <div v-for="area in stratData[0].area">
-                      <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
-                      <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
-                      <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
-                      <a v-if="area == 'area_4' "><span class="tag-item type">Technology/Innovation</span></a>
-                      <a v-if="area == 'area_5' "><span class="tag-item type">Communications</span></a>
-                      <a v-if="area == 'area_6' "><span class="tag-item type">Partnerships</span></a>
-                      <a v-if="area == 'area_7' "><span class="tag-item type">Capacity Building</span></a>
-                      <a v-if="area == 'area_8' "><span class="tag-item type">Vulnerable Populations</span></a>
-                      <a v-if="area == 'area_9' "><span class="tag-item type">Procurement/Logistics</span></a>
+                      <a v-if="area == 'area_1' "><span class="tag-item type">Pesquisa</span></a>
+                      <a v-if="area == 'area_2' "><span class="tag-item type">Políticas/Regulamentação/Legislação</span></a>
+                      <a v-if="area == 'area_3' "><span class="tag-item type">Dados</span></a>
+                      <a v-if="area == 'area_4' "><span class="tag-item type">Tecnologia/Inovação</span></a>
+                      <a v-if="area == 'area_5' "><span class="tag-item type">Comunicações</span></a>
+                      <a v-if="area == 'area_6' "><span class="tag-item type">Parcerias</span></a>
+                      <a v-if="area == 'area_7' "><span class="tag-item type">Criação de capacidade</span></a>
+                      <a v-if="area == 'area_8' "><span class="tag-item type">Populações Vulneráveis</span></a>
+                      <a v-if="area == 'area_9' "><span class="tag-item type">Contratação/Logísticas</span></a>
                     </div>
                   </div>
                 </div>
+                
+
                 <div class="type">
                   <div class="recco-tag-title">
                     <p>TOPIC</p>
