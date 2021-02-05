@@ -190,7 +190,7 @@ padding: 0 10rem;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center top;
-height: 20vh;
+height: 30vh;
 padding: 0 10rem;
 }
 .row.top-section.topic.recommmendations{
@@ -201,6 +201,11 @@ background-position: center top;
 height: 20vh;
 padding: 0 10rem;
 }
+.row.top-section.topic.strategies p{
+  color: #ffffff98;
+  font-size: 1.2rem;
+  font-weight: 100;
+ }
  @media screen and (min-width: 320px) and (max-width: 768px){
   .row.top-section.topic{
   padding: 0 1rem;
