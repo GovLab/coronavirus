@@ -193,6 +193,14 @@ background-position: center top;
 height: 20vh;
 padding: 0 10rem;
 }
+.row.top-section.topic.recommmendations{
+  background-blend-mode: multiply;
+background-color: var(--main-color);
+background-size: cover;
+background-position: center top;
+height: 20vh;
+padding: 0 10rem;
+}
  @media screen and (min-width: 320px) and (max-width: 768px){
   .row.top-section.topic{
   padding: 0 1rem;
@@ -203,6 +211,24 @@ padding: 0 10rem;
   font-size: 2rem;
 
  }
+ .row.top-section.topic.recommendations p{
+  color: #ffffff98;
+  font-size: 1.1rem;
+  font-weight: 100;
+ }
+ .row.top-section.topic.strategies{
+  background-blend-mode: multiply;
+background-color: var(--main-color);
+background-size: cover;
+background-position: center top;
+height: 40vh;
+padding: 0 1rem;
+}
+.row.top-section.topic.strategies p{
+ color: #ffffff98;
+ font-size: 1.1rem;
+ font-weight: 100;
+}
  }
 .imagine-banner {
   padding: 24px; 
@@ -1401,6 +1427,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 .count-entries p span{
   background-color: var(--grey2);
   padding: 0.5rem 1rem;
+  line-height: 1.5;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .filters{
