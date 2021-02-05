@@ -192,7 +192,7 @@ padding: 0 10rem;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center top;
-height: 30vh;
+height: 45vh;
 padding: 0 10rem;
 }
 .row.top-section.topic.recommmendations{
@@ -200,7 +200,7 @@ padding: 0 10rem;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center top;
-height: 20vh;
+height: 45vh;
 padding: 0 10rem;
 }
 .row.top-section.topic.strategies p{
