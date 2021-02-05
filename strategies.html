@@ -62,12 +62,31 @@
   <div class="row top-section topic strategies">
 
     <h1>Strategies</h1>
-    <p>This searchable database lists all 73 strategies developed throughout the Smarter Crowdsourcing in the Age of Coronavirus Project. Each strategy is replete with actions to implement the strategy and examples of how that strategy is being implemented elsewhere. Clicking on an individual strategy will allow you to explore the contents of that individual strategy as well as other related strategies.</p>
+
   </div>
 
   <body>
     <div id="home-page">
+      <section class="dark-section">
+        <br> <br>
+        <div class="row">
 
+          <p>The outcomes of this project are a set of <a href="recommendations.html" class="link_pink">18 recommendations</a> developed with the support of global experts.
+            These recommendations are designed for government officials to aid them as they address the COVID-19
+            pandemic. Each recommendation is supported by <a href="strategies.html" class="link_pink">a set of strategies</a>to achieve that recommendation. Strategies
+            in turn detail actions and global examples that guide governments of the specific steps needed for
+            implementing the strategy. Each strategy is a means to achieve a specific recommendation. You can explore
+            individual strategies by searching by keywords, audience, type of strategy, and timeline. </p>
+          <div class="main-buttons accent-color">
+            <a href="recommendations.html" target="_blank" class="button">Explore all recommendations</a>
+            <a href="strategies.html#strat" class="button">Explore all strategies</a>
+          </div>
+        </div>
+
+      </section>
+      <div class="divider recco" id="strat">
+        <h1>Strategies</h1>
+      </div>
       <div class="filters">
         <div class="form-control">
           <select id="form-1" @change="changeFilter($event)">
@@ -102,18 +121,18 @@
       </div>
 
       <div class="search">
-        <input name="search-bar" type="text" id="search-text" placeholder="Filter by text"/>
+        <input name="search-bar" type="text" id="search-text" placeholder="Filter by text" />
         <input name="buttonExecute" @click="searchItems()" type="button" value="Search" />
         <input name="buttonExecute" @click="ResetItems()" type="button" value="Reset" />
       </div>
       <div class="counters">
-      <div class="count-entries">
-        <p><span>Total number of strategies in the repository: <b>{{indexData.length}}</b></span></p>
+        <div class="count-entries">
+          <p><span>Total number of strategies in the repository: <b>{{indexData.length}}</b></span></p>
+        </div>
+        <div id="filter-count" class="count-entries">
+          <p><span>Filtered strategies: <b>{{filterData.length}}</b></span></p>
+        </div>
       </div>
-      <div id="filter-count" class="count-entries">
-        <p><span>Filtered strategies: <b>{{filterData.length}}</b></span></p>
-      </div>
-    </div>
       <div class="project-list">
         <div class="no-project" v-if="!filterData.length">
           Sorry no projects found for the filter criteria you selected!
@@ -123,7 +142,7 @@
             <div class="row-description-content header-row">
               <h2>Strategy</h2>
             </div>
-     
+
             <div class="row-topic-content">
               <h2>Topic</h2>
             </div>
@@ -131,24 +150,24 @@
               <h2>Recommendation</h2>
             </div>
           </div>
-         <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
-          <div class="row-description-content" v-html="strategy.description_en">
+          <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
+            <div class="row-description-content" v-html="strategy.description_en">
 
-          </div>
-   
-          <div class="row-topic-content">
-            <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
-              <span class="tag-item">{{s_topic.topics_id.translations[0].topic_title}}</span>
-             </div>
-          </div>
-          <div class="row-reccomendation-content">
-           <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
-             {{recco.recommendation_id.title_en}}
- 
+            </div>
 
-           </div>
-          </div>
-        </a>
+            <div class="row-topic-content">
+              <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
+                <span class="tag-item">{{s_topic.topics_id.translations[0].topic_title}}</span>
+              </div>
+            </div>
+            <div class="row-reccomendation-content">
+              <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
+                {{recco.recommendation_id.title_en}}
+
+
+              </div>
+            </div>
+          </a>
         </div>
       </div>
 

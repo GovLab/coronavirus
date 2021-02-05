@@ -59,14 +59,22 @@
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
-  <div class="row top-section topic recommendations">
+  <div class="row top-section topic">
 
-    <h1>Recommendations</h1>
-   
+    <h1>Outcomes</h1>
+
   </div>
+  <section>
+    <div class="main-buttons accent-color index-page-button">
+      <a href="files/SmarterCrowdsourcingCovid_Report.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
+      <a href="files/ExecutiveMemos.zip" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+    </div>
+  </section>
 
   <body>
+    
     <div id="home-page">
+
       <section class="dark-section">
         <br> <br>
         <div class="row">
@@ -78,39 +86,13 @@
             actions and global examples that guide governments of the specific steps needed for implementing the
             strategy.</p>
             <div class="main-buttons accent-color">
-              <a href="recommendations.html#recco" class="button">Explore all recommendations</a>
+ 
+              <a href="recommendations.html" target="_blank" class="button">Explore all recommendations</a>
               <a href="strategies.html" target="_blank" class="button">Explore all strategies</a>
             </div>
         </div>
 
       </section>
-      <div class="divider recco" id="recco">
-        <h1>Recommendations</h1>
-      </div>
-      <div class="recco-page">
-        <div class="recco-col" v-for="recco in ReccoData">
-          <div class="recco-item">
-            <a class="recco-link" :href="'recommendations/'+recco.slug">
-            <div class="recco-title" v-html="recco.title_en">
-              
-            </div>
-            <div class="recco-description" v-html="recco.description_en">
-              
-            </div>
-            <div class="recco-tag">
-              <div class="recco-tag-title">
-                <p>TOPIC</p>
-              </div>
-              <div class="recco-tag-body">
-                <div v-for="tag in recco.topic">
-                  <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
-                </div>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-      </div>
     </div>
 
   </body>

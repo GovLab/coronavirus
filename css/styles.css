@@ -121,7 +121,9 @@ justify-content: center;
   position: absolute;
   top:50;
 }
-
+a.link_pink{
+  color:var(--theme-color);
+}
 .menu-items{
   display:flex;
   flex-direction: column;
