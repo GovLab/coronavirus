@@ -44,20 +44,22 @@
       <a  style="padding: 15px 5px" href="pt/index.html">PT</a>
     </div>
   </div>
+
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="#">Home</a></div>
-      <div class="menu-sub"><a href="about.html">About</a></div>
-      <div class="menu-sub"> <a href="#topics">Topic</a></div>
-      <div class="menu-sub"><a href="team.html">Team</a></div>
-      <div class="menu-sub"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub"><a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub"><a href="resources.html">See all resources</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#">Home</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="#topics">Topic</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="resources.html">See all resources</a></div>
       <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
       <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
+  <div onclick="dismiss_menu()">
   <div class="row top-section home">
     <div class="column large-12 site-logo__wrapper">
       <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
@@ -76,25 +78,25 @@
   <div class="products">
 
     <div class="product-col">
-      <img style="height:250px" src="images/sc-covid-book.png">
+      <img src="images/sc-covid-book.png">
       <div class="main-buttons">
         <a href="files/SmarterCrowdsourcingCovid_Report.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
     </div>
     </div>
     <div class="product-col">
-      <img style="height:250px" src="images/recco_covid.gif">
+      <img src="images/recco_covid.gif">
       <div class="main-buttons">
         <a href="recommendations.html" class="button home-btn" target="_blank">explore the recommendations</a>
     </div>
     </div>
     <div class="product-col">
-      <img style="height:250px" src="images/strat.gif">
+      <img src="images/strat.gif">
       <div class="main-buttons">
         <a href="strategies.html" class="button home-btn" target="_blank">explore the strategies</a>
     </div>
     </div>
     <div class="product-col">
-      <img style="height:250px" src="images/exec_memo.png">
+      <img src="images/exec_memo.png">
       <div class="main-buttons">
         <a href="files/ExecutiveMemos.zip" class="button home-btn" target="_blank">download the executive memos</a>
     </div>
@@ -111,12 +113,12 @@
       </div>
     </section>
 
-    <section>
+    <!-- <section>
       <div class="main-buttons accent-color index-page-button">
         <a href="participate.html" class="button ">Participate</a>
-        <!-- <a href="topics.html" class="button">Topics</a> -->
+    
       </div>
-    </section>
+    </section> -->
 
 
 
@@ -144,29 +146,7 @@
 
       </div>
     </section>
-  <!-- <div class="text-centered"><a href="/call-for-participants.html" class='button button--accent-color'>Solicita una Invitación</a></div> -->
-        <!-- <div class="main-buttons accent-color"><a href="#" class='button'>Request an Invitation</a></div> -->
-    <!-- <div class="divider" id="about">
-      <h1>More Information</h1>
-    </div>
 
-    <section class="light-section more-info">
-      <div class="row align-center">
-
-        <p>{{indexTextData[1].translations[0].body}}</p>
-
-      
-      </div>
-    </section>
-    <section class="dark-section more-info">
-      <div class="row align-center">
-
-          <p>{{indexTextData[2].translations[0].body}}</p>
-
-          <div class="main-buttons accent-color"><a href='#' class='button'>View the Playbook</a>
-        </div>
-      </div>
-    </section> -->
     <div class="divider" id="about">
 
       <h1>About The Project</h1>
@@ -184,8 +164,8 @@
 
       <p>{{indexTextData[2].translations[0].body}}</p>
 
-      <div class="main-buttons accent-color"><a href='participate.html' class='button'>Participate</a>
-    </div>
+      <!-- <div class="main-buttons accent-color"><a href='participate.html' class='button'>Participate</a>
+    </div> -->
   </div>
   </section>
 
@@ -221,6 +201,7 @@
       </div>
     </div>
   </div>
+</div>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -235,13 +216,9 @@
 </script>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-  function scroll_dismiss() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+  function dismiss_menu() {
     var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } 
-  }
+    x.style.display = "none";
   }
 </script>
 <script src="js/fadein.js"></script>

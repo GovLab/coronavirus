@@ -115,15 +115,13 @@ justify-content: center;
 #myLinks{
   display:none;
   width: 300px;
-  height: calc(100vh - 50px);
+  height: 100vh;
   z-index:100;
   text-align: right;
   position: absolute;
-  top:50;
+  top:0;
 }
-a.link_pink{
-  color:var(--theme-color);
-}
+
 .menu-items{
   display:flex;
   flex-direction: column;
@@ -213,9 +211,19 @@ padding: 0 10rem;
   font-weight: 100;
  }
 
+
  .products{
    display: flex;
-   flex-direction: row;
+   flex-direction: row ;
+   max-width: none;
+ margin-left: auto;
+ margin-right: auto;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-flex-flow: row wrap;
+ -ms-flex-flow: row wrap;
+ flex-flow: row wrap;
    width:100%;
    height: 400px;
  }
@@ -224,13 +232,74 @@ padding: 0 10rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:25%;
+  -webkit-flex: 0 0 25%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.memos{
+  display: flex;
+  flex-direction: row ;
+  max-width: none;
+margin-left: auto;
+margin-right: auto;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-flow: row wrap;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+  width:100%;
+  height: 100%;
+  background-color: #fafafa;
+}
+.product-col-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-flex: 0 0 28%;
+  -ms-flex: 0 0 28%;
+  flex: 0 0 28%;
+  max-width: 28%;
+  margin: 2rem 2rem 2em 2rem;
+  padding-bottom: 2rem;
+  background-color: #f2f2f2;
+
+}
+.product-col-3 img{
+  height: 500px;
 }
 .product-col img{
-  height: 300px;
+  height: 200px;
 }
 .product-col > div{
   height:200px;
+}
+@media screen and (min-width: 769px) and (max-width: 1100px){
+  .product-col img{
+    height: 200px;
+  }
+  .product-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .product-col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex: 0 0 43%;
+    -ms-flex: 0 0 43%;
+    flex: 0 0 43%;
+    max-width: 43%;
+  }
 }
  @media screen and (min-width: 320px) and (max-width: 768px){
   .row.top-section.topic{
@@ -243,8 +312,29 @@ padding: 0 10rem;
     height: 100%;
   }
   .product-col{
-width:100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 
+  }
+  .memos{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%; 
+
+  }
+  .product-col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  margin:0 0 4rem 0;
   }
 .row.top-section.topic h1{
   color: #ffffff;

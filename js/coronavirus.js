@@ -56,7 +56,7 @@ new Vue({
       client.getItems(
   'topics',
   {
-    fields: ['*.*']
+    fields: ['*.*','translations.*','translations.memo_image.*','translations.executive_memo.*']
   }
 ).then(data => {
   console.log(data)
