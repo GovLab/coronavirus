@@ -1346,6 +1346,18 @@ align-items: center;
 text-transform: uppercase;
 font-weight: 600;
 }
+.table-body.title .final-product{
+font-size: 0.7rem;
+background-color: var(--accent-color);
+padding: 0.25rem 0.5rem;
+color: #ffffff;
+}
+.table-body.title .final-product.final{
+  font-size: 0.7rem;
+  background-color: var(--theme-color);
+  padding: 0.25rem 0.5rem;
+  color: #ffffff;
+  }
 a.table-body{
   line-height: 1.5;
 
@@ -1353,6 +1365,7 @@ a.table-body{
 .table-body > div{
   padding: 1rem;
 }
+
 .product-table-contents:nth-of-type(odd){
   background-color: var(--theme-color-light);
     color: #3d3d3d;
@@ -1376,7 +1389,7 @@ a.table-body{
 }
 .table-body{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width:40%;
   justify-content: flex-start;
   align-items: center;
@@ -1385,6 +1398,7 @@ a.table-body{
 width:20%;
 justify-content: center;
 align-items: center;
+text-align: center;
 }
 .table-row{
   display:flex;

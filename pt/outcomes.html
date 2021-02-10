@@ -73,8 +73,8 @@
   </div>
   <section>
     <div class="main-buttons accent-color index-page-button">
-      <a href="files/SmarterCrowdsourcingCovid_Report.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      <a href="files/ExecutiveMemos.zip" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+      <a :href="reportData.final_report_pt.data.full_url" class="button home-btn" target="_blank">BAIXAR O RELATÓRIO FINAL</a>
+      <a :href="reportData.exec_memos_pt.data.full_url" class="button home-btn" target="_blank">BAIXAR OS MEMORANDOS EXECUTIVOS</a>
     </div>
   </section>
 
@@ -118,7 +118,12 @@
         <a class="product-table-contents" v-for="item in productData" :href="item.translation[2].link" target="_blank">
           
           <div class="table-body title">
-            <p>{{item.translation[2].title}}</p>
+            <div>
+              <p v-if="item.final_product" style="margin:0"><span class="final-product final">Produto final</span></p>
+              <p v-if="!item.final_product" style="margin:0"><span class="final-product">Materials da conferência</span></p>
+              <p>{{item.translation[2].title}}</p>
+              </div>
+            </div>
           </div>
           <div class="table-body">
             <div  v-html="item.translation[2].description"></div>

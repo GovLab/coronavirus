@@ -56,18 +56,19 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="index.html">Home</a></div>
-      <div class="menu-sub"><a href="about.html">About</a></div>
-      <div class="menu-sub"> <a href="index.html#topics">Topic</a></div>
-      <div class="menu-sub"><a href="team.html">Team</a></div>
-      <div class="menu-sub"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub"><a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub"><a href="resources.html">See all resources</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
       <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
       <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
+  <div onclick="dismiss_menu()">
   <div class="row top-section topic">
 
     <h1>Outcomes</h1>
@@ -75,8 +76,8 @@
   </div>
   <section>
     <div class="main-buttons accent-color index-page-button">
-      <a href="files/SmarterCrowdsourcingCovid_Report.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      <a href="files/ExecutiveMemos.zip" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+      <a :href="reportData.final_report_en.data.full_url" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
+      <a :href="reportData.exec_memos_en.data.full_url" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
     </div>
   </section>
 
@@ -120,7 +121,11 @@
         <a class="product-table-contents" v-for="item in productData" :href="item.translation[0].link" target="_blank">
           
           <div class="table-body title">
+            <div>
+            <p v-if="item.final_product" style="margin:0"><span class="final-product final">Final product</span></p>
+            <p v-if="!item.final_product" style="margin:0"><span class="final-product">Conference Materials</span></p>
             <p>{{item.translation[0].title}}</p>
+            </div>
           </div>
           <div class="table-body">
             <div  v-html="item.translation[0].description"></div>
@@ -166,6 +171,7 @@
       </div>
     </div>
   </div>
+  </div>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -187,6 +193,13 @@
         x.style.display = "none";
       }
     }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
   }
 </script>
 <script src="js/fadein.js"></script>
