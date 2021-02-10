@@ -3,6 +3,8 @@
   --accent-color: #FFAA00;
   --accent-color-hover: #cc8a06;
   --theme-color: #CB1866;
+  --theme-color-light: #cb18660c;
+  --theme-color-hover: #cb186633;
   --grey30: rgba(0, 0, 0, 0.03);
   --grey8: rgba(0, 0, 0, 0.8);
   --grey5: rgba(0, 0, 0, 0.5);
@@ -1322,6 +1324,68 @@ label{
 font-weight: 100;
 color: #ffffff;
 }
+.product-table-header{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--theme-color);
+  width: 100%;
+}
+.table-title{
+  display: flex;
+flex-direction: row;
+width:33.33%;
+justify-content: center;
+align-items: center;
+}
+.product-table-contents{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.table-body.title p{
+text-transform: uppercase;
+font-weight: 600;
+}
+a.table-body{
+  line-height: 1.5;
+
+}
+.table-body > div{
+  padding: 1rem;
+}
+.product-table-contents:nth-of-type(odd){
+  background-color: var(--theme-color-light);
+    color: #3d3d3d;
+    text-decoration: none;
+}
+.product-table-contents:nth-of-type(even){
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.product-table-contents:hover{
+  background-color: var(--theme-color-hover);
+  color: var(--theme-color);
+  transition: 0.6s ease-in-out;
+}
+.table-title h2{
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.table-body{
+  display: flex;
+  flex-direction: row;
+  width:40%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.table-body.title{
+width:20%;
+justify-content: center;
+align-items: center;
+}
 .table-row{
   display:flex;
   flex-direction: row;
@@ -1391,6 +1455,26 @@ a.table-row{
   padding: 0.2rem;
   }
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .product-table-header{
+    display: none;
+  }
+  .product-table-contents{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .table-body{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+justify-content: flex-start;
+align-items: center;
+  }
+  .table-body.title{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    }
   .table-row{
     display:flex;
     flex-direction: column;

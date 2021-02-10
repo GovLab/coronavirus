@@ -30,6 +30,7 @@ new Vue({
   
     return {
       indexData: [],
+      productData: [],
       indexTextData: [],
       TeamData: [],
       ReccoData: [],
@@ -39,6 +40,7 @@ new Vue({
 
   created: function created() {
     this.fetchIndex();
+    this.fetchProducts();
     this.fetchIndexText();
     this.fetchTeamData();
     this.fetchRecommendations();
@@ -61,6 +63,26 @@ new Vue({
 ).then(data => {
   console.log(data)
   self.indexData = data.data;
+})
+.catch(error => console.error(error));
+    },
+
+    fetchProducts() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "smarter-crowdsourcing",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'products',
+  {
+    fields: ['*.*','translation.*']
+  }
+).then(data => {
+  console.log(data)
+  self.productData = data.data;
 })
 .catch(error => console.error(error));
     },
