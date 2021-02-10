@@ -1360,7 +1360,13 @@ color: #ffffff;
   }
 a.table-body{
   line-height: 1.5;
-
+}
+.legend{
+  padding: 0 20rem;
+  text-align: center;
+}
+.legend a{
+  color: var(--theme-color);
 }
 .table-body > div{
   padding: 1rem;
@@ -1469,6 +1475,10 @@ a.table-row{
   padding: 0.2rem;
   }
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .legend{
+    padding: 0 1rem;
+    text-align: center;
+  }
   .product-table-header{
     display: none;
   }
