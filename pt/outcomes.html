@@ -100,6 +100,35 @@
         </div>
 
       </section>
+      <div class="divider recco">
+        <h1>About the products</h1>
+      </div>
+      <div class="table-section">
+        <div class="product-table-header">
+          <div class="table-title">
+            <h2>TITLE</h2>
+          </div>
+          <div class="table-title">
+            <h2>Description</h2>
+          </div>
+          <div class="table-title">
+            <h2>Use</h2>
+          </div>
+        </div>
+        <a class="product-table-contents" v-for="item in productData" :href="item.translation[2].link" target="_blank">
+          
+          <div class="table-body title">
+            <p>{{item.translation[2].title}}</p>
+          </div>
+          <div class="table-body">
+            <div  v-html="item.translation[2].description"></div>
+          </div>
+          <div class="table-body">
+            <div v-html="item.translation[2].use"></div>
+          </div>
+        </a>
+
+      </div>
     </div>
 
   </body>
