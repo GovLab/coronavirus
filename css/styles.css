@@ -227,6 +227,7 @@ padding: 0 10rem;
  -ms-flex-flow: row wrap;
  flex-flow: row wrap;
    width:100%;
+   padding: 2rem 0;
    height: 400px;
  }
 .product-col{
@@ -466,8 +467,8 @@ align-items: flex-start;
   max-width: 60%;
   color: var(--grey8);
   line-height: 1.8;
-  padding-bottom:2rem;
-  font-size: 1.2rem;
+
+  font-size: 1rem;
 }
 .light-section{
   background-color: white;
