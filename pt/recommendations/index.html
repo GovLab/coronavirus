@@ -52,21 +52,18 @@
         <p style="color:#ffffff">|</p>
         <a style="padding: 15px 5px" class="active" href="#">PT</a>
       </div>
-    </div>
-    <div id="myLinks">
-      <div class="menu-items">
-        <div class="menu-sub"><a href="index.html">Home</a></div>
-        <div class="menu-sub"><a href="about.html">About</a></div>
-        <div class="menu-sub"> <a href="index.html#topics">Topic</a></div>
-        <div class="menu-sub"><a href="team.html">Team</a></div>
-        <div class="menu-sub"><a href=""></a></div>
-        <div class="menu-sub"><a href=""></a></div>
-        <div class="menu-sub"><a href=""></a></div>
-        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+      <div id="myLinks">
+        <div class="menu-items">
+          <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html">Início</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a href="../about.html">Sobre</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"> <a href="../topics.html">Sobre</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a href="../team.html">Equipe</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a href="../recommendations.html">EXPLORE AS RECOMENDAÇÕES</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"> <a href="../strategies.html">EXPLORE AS ESTRATÉGIAS</a></div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a href="../outcomes.html">VER TODOS OS RECURSOS</a></div>
+        </div>
       </div>
-    </div>
+      <div onclick="dismiss_menu()">
     <div class="row top-section topic specific-recco">
 
       <h1>{{ReccoData[0].title_pt}}</h1>
@@ -209,7 +206,7 @@
         </div>
       </div>
   </div>
-
+</div>
   </body>
   <footer class='footer-alt'>
     <div class="row align-center">
@@ -273,7 +270,7 @@
     x.style.display = "none";
   }
 </script>
-<script src="js/fadein.js"></script>
+
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="../../js/recco.js"></script>

@@ -56,18 +56,19 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="index.html">Home</a></div>
-      <div class="menu-sub"><a href="about.html">About</a></div>
-      <div class="menu-sub"> <a href="index.html#topics">Topic</a></div>
-      <div class="menu-sub"><a href="team.html">Team</a></div>
-      <div class="menu-sub"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub"><a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub"><a href="resources.html">See all resources</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Inicio</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">sobre nosotros</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Temas</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Equipo</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">explorar las recomendaciones</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="strategies.html">explorar las estrategias</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="resources.html">ver todos los recursos</a></div>
       <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
       <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
     </div>
   </div>
+  <div onclick="dismiss_menu()">
   <div class="row top-section topic strategies">
 
     <h1>Strategies</h1>
@@ -100,7 +101,7 @@
       <div class="filters">
         <div class="form-control">
           <select id="form-1" @change="changeFilter($event)">
-            <option class="material-icons" value="" selected disabled>Audience</option>
+            <option class="material-icons" value="" selected disabled>audiencia</option>
             <option v-for="audience in js_audience" :value="audience.code" :key="audience.code">{{ audience.name }}
             </option>
           </select>
@@ -108,7 +109,7 @@
 
         <div class="form-control">
           <select id="form-2" @change="changeFilter($event)">
-            <option value="" selected disabled>Type</option>
+            <option value="" selected disabled>tipo</option>
             <option v-for="type in js_type" :value="type.code" :key="type.code">{{ type.name }}
             </option>
           </select>
@@ -116,7 +117,7 @@
         </div>
         <div class="form-control">
           <select id="form-3" @change="changeFilter($event)">
-            <option value="" selected disabled>Topic</option>
+            <option value="" selected disabled>tema</option>
             <option v-for="topic in js_topic" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
           </select>
 
@@ -124,7 +125,7 @@
 
         <div class="form-control">
           <select id="form-4" @change="changeFilter($event)">
-            <option value="" selected disabled>Timeline</option>
+            <option value="" selected disabled>línea de tiempo</option>
             <option v-for="time in js_timeline" :value="time.code" :key="time.code">{{ time.name }}</option>
           </select>
         </div>
@@ -215,6 +216,7 @@
             International License.</a>.
         </div>
       </div>
+    </div>
     </div>
   </body>
   <footer class='footer-alt'>
