@@ -164,12 +164,12 @@
               <div class="faq-item">
 
                 <button v-on:click="toggleMessage(index,0)" class="accordion">
-                  <h2>ACTIONS GOVERNMENTS SHOULD TAKE ({{strategy.strategies_id.actions.length}} actions)</h2><i class="material-icons down"></i>
+                  <h2>ÇÕES QUE GOVERNOS DEVEM TOMAR ({{strategy.strategies_id.actions.length}} ações)</h2><i class="material-icons down"></i>
                 </button>
                 <div v-if="showAction && index_active == index" class="panel">
                   <div class="action-item" v-for="(action,action_index) in strategy.strategies_id.actions">
                     <div class="strategy-number">
-                      <h4>ACTION {{action_index + 1}}</h4>
+                      <h4>ações {{action_index + 1}}</h4>
                     </div>
                     <div class="action-text" v-html="action.actions_id.description_pt">
 
@@ -186,12 +186,12 @@
               <div class="faq-item">
 
                 <button @click="toggleMessage(index,1)" class="accordion">
-                  <h2>EXAMPLES FROM AROUND THE WORLD ({{strategy.strategies_id.examples.length}} example)</h2><i class="material-icons down"></i>
+                  <h2>EXEMPLOS DE TODO O MUNDO  ({{strategy.strategies_id.examples.length}} exemplo)</h2><i class="material-icons down"></i>
                 </button>
                 <div v-if="showExample && index_active == index" class="panel">
                   <div class="action-item" v-for="(example,example_index) in strategy.strategies_id.examples">
                     <div class="strategy-number">
-                      <h4>EXAMPLE {{example_index + 1}}</h4>
+                      <h4>EXEMPLOS {{example_index + 1}}</h4>
                     </div>
                     <div class="action-text" v-html="example.examples_id.description_pt">
 

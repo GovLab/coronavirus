@@ -89,8 +89,8 @@
             estrategia es un medio para lograr una recomendación específica. Puede explorar estrategias individuales
             mediante la búsqueda de palabras clave, audiencia, tipo de estrategia y cronograma. </p>
           <div class="main-buttons accent-color">
-            <a href="recommendations.html" target="_blank" class="button">Explore all recommendations</a>
-            <a href="strategies.html#strat" class="button">Explore all strategies</a>
+            <a href="recommendations.html" target="_blank" class="button">explorar las recomendaciones</a>
+            <a href="strategies.html#strat" class="button">explorar las estrategias</a>
           </div>
         </div>
 
@@ -101,7 +101,7 @@
       <div class="filters">
         <div class="form-control">
           <select id="form-1" @change="changeFilter($event)">
-            <option class="material-icons" value="" selected disabled>audiencia</option>
+            <option class="material-icons" value="" selected disabled>Audiencia</option>
             <option v-for="audience in js_audience" :value="audience.code" :key="audience.code">{{ audience.name }}
             </option>
           </select>
@@ -109,7 +109,7 @@
 
         <div class="form-control">
           <select id="form-2" @change="changeFilter($event)">
-            <option value="" selected disabled>tipo</option>
+            <option value="" selected disabled>Tipo</option>
             <option v-for="type in js_type" :value="type.code" :key="type.code">{{ type.name }}
             </option>
           </select>
@@ -117,7 +117,7 @@
         </div>
         <div class="form-control">
           <select id="form-3" @change="changeFilter($event)">
-            <option value="" selected disabled>tema</option>
+            <option value="" selected disabled>Tema</option>
             <option v-for="topic in js_topic" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
           </select>
 
@@ -125,7 +125,7 @@
 
         <div class="form-control">
           <select id="form-4" @change="changeFilter($event)">
-            <option value="" selected disabled>línea de tiempo</option>
+            <option value="" selected disabled>Línea de tiempo</option>
             <option v-for="time in js_timeline" :value="time.code" :key="time.code">{{ time.name }}</option>
           </select>
         </div>
@@ -151,14 +151,14 @@
         <div class="table">
           <div class="table-header">
             <div class="row-description-content header-row">
-              <h2>Strategy</h2>
+              <h2>Estrategia</h2>
             </div>
 
             <div class="row-topic-content">
-              <h2>Topic</h2>
+              <h2>Tema</h2>
             </div>
             <div class="row-reccomendation-content">
-              <h2>Recommendation</h2>
+              <h2>recomendación</h2>
             </div>
           </div>
           <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">

@@ -69,7 +69,7 @@
     <div class="row top-section topic strategies">
 
       <h1>Estratégias</h1>
-      <p>Strategies for implementing recommendations proposed by experts through Smarter Crowdsourcing conferences</p>
+      <p>Estratégias para implementação de recomendações propostas por especialistas nas conferências de colaboração coletiva mais inteligente</p>
     </div>
 
     <body>
@@ -98,7 +98,7 @@
         <div class="filters">
           <div class="form-control">
             <select id="form-1" @change="changeFilter($event)">
-              <option class="material-icons" value="" selected disabled>audiência</option>
+              <option class="material-icons" value="" selected disabled>Audiência</option>
               <option v-for="audience in js_audience_pt" :value="audience.code" :key="audience.code">{{ audience.name }}
               </option>
             </select>
@@ -114,7 +114,7 @@
           </div>
           <div class="form-control">
             <select id="form-3" @change="changeFilter($event)">
-              <option value="" selected disabled>tópico</option>
+              <option value="" selected disabled>Tópico</option>
               <option v-for="topic in js_topic_pt" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
             </select>
 
@@ -122,16 +122,16 @@
 
           <div class="form-control">
             <select id="form-4" @change="changeFilter($event)">
-              <option value="" selected disabled>prazo</option>
+              <option value="" selected disabled>Prazo</option>
               <option v-for="time in js_timeline_pt" :value="time.code" :key="time.code">{{ time.name }}</option>
             </select>
           </div>
         </div>
 
         <div class="search">
-          <input name="search-bar" type="text" id="search-text" placeholder="Filter by text" />
-          <input name="buttonExecute" @click="searchItems()" type="button" value="Search" />
-          <input name="buttonExecute" @click="ResetItems()" type="button" value="Reset" />
+          <input name="search-bar" type="text" id="search-text" placeholder="Pesquisar por texto" />
+          <input name="buttonExecute" @click="searchItems()" type="button" value="PESQUISAR" />
+          <input name="buttonExecute" @click="ResetItems()" type="button" value="LIMPAR" />
         </div>
         <div class="counters">
           <div class="count-entries">
@@ -152,7 +152,7 @@
               </div>
 
               <div class="row-topic-content">
-                <h2>Topic</h2>
+                <h2>TÓPICO</h2>
               </div>
               <div class="row-reccomendation-content">
                 <h2>RECOMENDAÇÕES</h2>
