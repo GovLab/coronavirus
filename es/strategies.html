@@ -71,7 +71,7 @@
   <div onclick="dismiss_menu()">
   <div class="row top-section topic strategies">
 
-    <h1>Strategies</h1>
+    <h1>Estrategias</h1>
     <p>Estrategias para implementar  las recomendaciones propuestas por expertos durante las conferencias de Smarter Crowdsourcing</p>
   </div>
 
@@ -132,16 +132,16 @@
       </div>
 
       <div class="search">
-        <input name="search-bar" type="text" id="search-text" placeholder="Filter by text" />
-        <input name="buttonExecute" @click="searchItems()" type="button" value="Search" />
-        <input name="buttonExecute" @click="ResetItems()" type="button" value="Reset" />
+        <input name="search-bar" type="text" id="search-text" placeholder="Filtrado por texto" />
+        <input name="buttonExecute" @click="searchItems()" type="button" value="Buscar" />
+        <input name="buttonExecute" @click="ResetItems()" type="button" value="Reiniciar" />
       </div>
       <div class="counters">
         <div class="count-entries">
-          <p><span>Total number of strategies in the repository: <b>{{indexData.length}}</b></span></p>
+          <p><span>Total Número de estrategias en el repositorio: <b>{{indexData.length}}</b></span></p>
         </div>
         <div id="filter-count" class="count-entries">
-          <p><span>Filtered strategies: <b>{{filterData.length}}</b></span></p>
+          <p><span>ESTRATEGIAS FILTRADAS: <b>{{filterData.length}}</b></span></p>
         </div>
       </div>
       <div class="project-list">
@@ -158,7 +158,7 @@
               <h2>Tema</h2>
             </div>
             <div class="row-reccomendation-content">
-              <h2>recomendación</h2>
+              <h2>Recomendación</h2>
             </div>
           </div>
           <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
