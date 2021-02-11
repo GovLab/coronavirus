@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DV8KTW4TBH');
-</script>
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,9 +49,9 @@
     <div class='lang-select'>
       <a style="padding: 15px 5px" href="../es/strategies.html">ES</a>
       <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="../strategies.html" >EN</a>
+      <a style="padding: 15px 5px" href="../strategies.html">EN</a>
       <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" class="active"href="#">PT</a>
+      <a style="padding: 15px 5px" class="active" href="#">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -66,187 +66,188 @@
     </div>
   </div>
   <div onclick="dismiss_menu()">
-  <div class="row top-section topic strategies">
+    <div class="row top-section topic strategies">
 
-    <h1>Estratégias</h1>
-<p>Strategies for implementing recommendations proposed by experts through Smarter Crowdsourcing conferences</p>
-  </div>
+      <h1>Estratégias</h1>
+      <p>Strategies for implementing recommendations proposed by experts through Smarter Crowdsourcing conferences</p>
+    </div>
 
-  <body>
-    <div id="home-page">
-      <section class="dark-section">
-        <br> <br>
+    <body>
+      <div id="home-page">
+        <section class="dark-section">
+          <br> <br>
+          <div class="row">
+            <p>O resultado desse projeto é um conjunto de  <a href="recommendations.html" class="link_pink">18 recomendações</a> desenvolvidas com o apoio de
+              especialistas globais. Essas recomendações são projetadas para auxiliar autoridades governamentais no
+              combate à pandemia da COVID-19. Cada recomendação é apoiada por um <a href="strategies.html" class="link_pink">conjunto de estratégias</a> para
+              atingir essa recomendação. Estratégias, por sua vez, detalham ações e exemplos globais que guiam governos
+              sobre os passos específicos necessários para a implementação da estratégia. Cada estratégia é um meio de
+              atingir uma recomendação específica. Você pode explorar estratégias individuais pesquisando por
+              palavra-chave, audiência, tipo de estratégia e tempo de implementação.</p>
+
+            <div class="main-buttons accent-color">
+              <a href="recommendations.html" target="_blank" class="button">LER TODAS AS RECOMENDAÇÕES</a>
+              <a href="strategies.html#strat" class="button">EXPLORAR TODAS AS ESTRATÉGIAS</a>
+            </div>
+          </div>
+
+        </section>
+        <div class="divider recco" id="strat">
+          <h1>Estratégias</h1>
+        </div>
+        <div class="filters">
+          <div class="form-control">
+            <select id="form-1" @change="changeFilter($event)">
+              <option class="material-icons" value="" selected disabled>audiência</option>
+              <option v-for="audience in js_audience_pt" :value="audience.code" :key="audience.code">{{ audience.name }}
+              </option>
+            </select>
+          </div>
+
+          <div class="form-control">
+            <select id="form-2" @change="changeFilter($event)">
+              <option value="" selected disabled>Tipo</option>
+              <option v-for="type in js_type_pt" :value="type.code" :key="type.code">{{ type.name }}
+              </option>
+            </select>
+
+          </div>
+          <div class="form-control">
+            <select id="form-3" @change="changeFilter($event)">
+              <option value="" selected disabled>tópico</option>
+              <option v-for="topic in js_topic_pt" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
+            </select>
+
+          </div>
+
+          <div class="form-control">
+            <select id="form-4" @change="changeFilter($event)">
+              <option value="" selected disabled>prazo</option>
+              <option v-for="time in js_timeline_pt" :value="time.code" :key="time.code">{{ time.name }}</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="search">
+          <input name="search-bar" type="text" id="search-text" placeholder="Filter by text" />
+          <input name="buttonExecute" @click="searchItems()" type="button" value="Search" />
+          <input name="buttonExecute" @click="ResetItems()" type="button" value="Reset" />
+        </div>
+        <div class="counters">
+          <div class="count-entries">
+            <p><span>NÚMERO TOTAL DE ESTRATÉGIAS NO REPOSITÓRIO: <b>{{indexData.length}}</b></span></p>
+          </div>
+          <div id="filter-count" class="count-entries">
+            <p><span>ESTRATÉGIAS FILTRADAS <b>{{filterData.length}}</b></span></p>
+          </div>
+        </div>
+        <div class="project-list">
+          <div class="no-project" v-if="!filterData.length">
+            Sorry no projects found for the filter criteria you selected!
+          </div>
+          <div class="table">
+            <div class="table-header">
+              <div class="row-description-content header-row">
+                <h2>ESTRATÉGIA</h2>
+              </div>
+
+              <div class="row-topic-content">
+                <h2>Topic</h2>
+              </div>
+              <div class="row-reccomendation-content">
+                <h2>RECOMENDAÇÕES</h2>
+              </div>
+            </div>
+            <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
+              <div class="row-description-content" v-html="strategy.description_pt">
+
+              </div>
+
+              <div class="row-topic-content">
+                <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
+                  <span class="tag-item">{{s_topic.topics_id.translations[2].topic_title}}</span>
+                </div>
+              </div>
+              <div class="row-reccomendation-content">
+                <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
+                  {{recco.recommendation_id.title_pt}}
+
+
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <footer class='footer-alt'>
+        <div class="row align-center">
+          <div class="medium-6 medium-centered columns">
+            <!-- <h4>In collaboration with</h4> -->
+            <!-- <h4>EN COLABORACIÓN CON</h4> -->
+            <h4>IN COLLABORATION WITH</h4>
+          </div>
+
+        </div>
         <div class="row">
-
-          <p>The outcomes of this project are a set of <a href="recommendations.html" class="link_pink">18 recommendations</a> developed with the support of global experts.
-            These recommendations are designed for government officials to aid them as they address the COVID-19
-            pandemic. Each recommendation is supported by <a href="strategies.html" class="link_pink">a set of strategies</a>to achieve that recommendation. Strategies
-            in turn detail actions and global examples that guide governments of the specific steps needed for
-            implementing the strategy. Each strategy is a means to achieve a specific recommendation. You can explore
-            individual strategies by searching by keywords, audience, type of strategy, and timeline. </p>
-          <div class="main-buttons accent-color">
-            <a href="recommendations.html" target="_blank" class="button">LER TODAS AS RECOMENDAÇÕES</a>
-            <a href="strategies.html#strat" class="button">EXPLORAR TODAS AS ESTRATÉGIAS</a>
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+          </div>
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                src="../images/govlab-logo-white.png" alt="The GovLab"></a>
           </div>
         </div>
-
-      </section>
-      <div class="divider recco" id="strat">
-        <h1>Estratégias</h1>
-      </div>
-      <div class="filters">
-        <div class="form-control">
-          <select id="form-1" @change="changeFilter($event)">
-            <option class="material-icons" value="" selected disabled>audiência</option>
-            <option v-for="audience in js_audience_pt" :value="audience.code" :key="audience.code">{{ audience.name }}
-            </option>
-          </select>
-        </div>
-
-        <div class="form-control">
-          <select id="form-2" @change="changeFilter($event)">
-            <option value="" selected disabled>Tipo</option>
-            <option v-for="type in js_type_pt" :value="type.code" :key="type.code">{{ type.name }}
-            </option>
-          </select>
-
-        </div>
-        <div class="form-control">
-          <select id="form-3" @change="changeFilter($event)">
-            <option value="" selected disabled>tópico</option>
-            <option v-for="topic in js_topic_pt" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
-          </select>
-
-        </div>
-
-        <div class="form-control">
-          <select id="form-4" @change="changeFilter($event)">
-            <option value="" selected disabled>prazo</option>
-            <option v-for="time in js_timeline_pt" :value="time.code" :key="time.code">{{ time.name }}</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="search">
-        <input name="search-bar" type="text" id="search-text" placeholder="Filter by text" />
-        <input name="buttonExecute" @click="searchItems()" type="button" value="Search" />
-        <input name="buttonExecute" @click="ResetItems()" type="button" value="Reset" />
-      </div>
-      <div class="counters">
-        <div class="count-entries">
-          <p><span>NÚMERO TOTAL DE ESTRATÉGIAS NO REPOSITÓRIO: <b>{{indexData.length}}</b></span></p>
-        </div>
-        <div id="filter-count" class="count-entries">
-          <p><span>ESTRATÉGIAS FILTRADAS <b>{{filterData.length}}</b></span></p>
-        </div>
-      </div>
-      <div class="project-list">
-        <div class="no-project" v-if="!filterData.length">
-          Sorry no projects found for the filter criteria you selected!
-        </div>
-        <div class="table">
-          <div class="table-header">
-            <div class="row-description-content header-row">
-              <h2>ESTRATÉGIA</h2>
-            </div>
-
-            <div class="row-topic-content">
-              <h2>Topic</h2>
-            </div>
-            <div class="row-reccomendation-content">
-              <h2>RECOMENDAÇÕES</h2>
-            </div>
+      </footer>
+      <div class="copyright">
+        <div class="row">
+          <div class="column">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img class="copyright_cc-badge" alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+              International License.</a>.
           </div>
-          <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
-            <div class="row-description-content" v-html="strategy.description_pt">
-
-            </div>
-
-            <div class="row-topic-content">
-              <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
-                <span class="tag-item">{{s_topic.topics_id.translations[2].topic_title}}</span>
-              </div>
-            </div>
-            <div class="row-reccomendation-content">
-              <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
-                {{recco.recommendation_id.title_pt}}
-
-
-              </div>
-            </div>
-          </a>
         </div>
       </div>
-
+  </div>
+</body>
+<footer class='footer-alt'>
+  <div class="row align-center">
+    <div class="medium-6 medium-centered columns">
+      <!-- <h4>In collaboration with</h4> -->
+      <!-- <h4>EN COLABORACIÓN CON</h4> -->
+      <h4>IN COLLABORATION WITH</h4>
     </div>
 
-
-    <footer class='footer-alt'>
-      <div class="row align-center">
-        <div class="medium-6 medium-centered columns">
-          <!-- <h4>In collaboration with</h4> -->
-          <!-- <h4>EN COLABORACIÓN CON</h4> -->
-          <h4>IN COLLABORATION WITH</h4>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="column">
-          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
-        </div>
-        <div class="column">
-          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="../images/govlab-logo-white.png" alt="The GovLab"></a>
-        </div>
-      </div>
-    </footer>
-    <div class="copyright">
-      <div class="row">
-        <div class="column">
-          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-            <img class="copyright_cc-badge" alt="Creative Commons License"
-              src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-          <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-            International License.</a>.
-        </div>
-      </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+          src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
     </div>
-    </div>
-  </body>
-  <footer class='footer-alt'>
-    <div class="row align-center">
-      <div class="medium-6 medium-centered columns">
-        <!-- <h4>In collaboration with</h4> -->
-        <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="column">
-        <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-            src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
-      </div>
-      <div class="column">
-        <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-            src="../images/govlab-logo-white.png" alt="The GovLab"></a>
-      </div>
-    </div>
-  </footer>
-  <div class="copyright">
-    <div class="row">
-      <div class="column">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-          International License.</a>.
-      </div>
+    <div class="column">
+      <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+          src="../images/govlab-logo-white.png" alt="The GovLab"></a>
     </div>
   </div>
+</footer>
+<div class="copyright">
+  <div class="row">
+    <div class="column">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img class="copyright_cc-badge" alt="Creative Commons License"
+          src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+      <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+        href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+        International License.</a>.
+    </div>
+  </div>
+</div>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */

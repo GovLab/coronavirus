@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DV8KTW4TBH');
-</script>
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,9 +49,9 @@
     <div class='lang-select'>
       <a style="padding: 15px 5px" href="../es/recommendations.html">ES</a>
       <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="../recommendations.html" >EN</a>
+      <a style="padding: 15px 5px" href="../recommendations.html">EN</a>
       <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" class="active"href="#">PT</a>
+      <a style="padding: 15px 5px" class="active" href="#">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -66,93 +66,95 @@
     </div>
   </div>
   <div onclick="dismiss_menu()">
-  <div class="row top-section topic strategies">
+    <div class="row top-section topic strategies">
 
-    <h1>Recommendations</h1>
-    <p>Recommendations for governments to strengthen government capacity for COVID testing strategies, contact tracing programs, public health communications, vulnerable population supports, monitoring systems, and mental health interventions</p>
-  </div>
+      <h1>Recommendations</h1>
+      <p>Recommendations for governments to strengthen government capacity for COVID testing strategies, contact tracing
+        programs, public health communications, vulnerable population supports, monitoring systems, and mental health
+        interventions</p>
+    </div>
 
-  <body>
-    <div id="home-page">
-      <section class="dark-section">
-        <br> <br>
-        <div class="row">
+    <body>
+      <div id="home-page">
+        <section class="dark-section">
+          <br> <br>
+          <div class="row">
+            <p>O resultado desse projeto é um conjunto de <a class="link_pink" href="recommendations.html">18 recomendações</a> desenvolvidas com o apoio de
+              especialistas globais. Essas recomendações são projetadas para auxiliar autoridades governamentais no
+              combate à pandemia da COVID-19. Cada recomendação é apoiada por um <a class="link_pink" href="strategies.html">conjunto de estratégias</a> para
+              atingir essa recomendação. Estratégias, por sua vez, detalham ações e exemplos globais que guiam governos
+              sobre os passos específicos necessários para a implementação da estratégia.</p>
 
-          <p>The outcomes of this project are a set of <a class="link_pink" href="recommendations.html">18
-              recommendations</a> developed with the support of global experts. These recommendations are designed for
-            government officials to aid them as they address the COVID-19 pandemic. Each recommendation is supported by
-            <a class="link_pink"  href="strategies.html">a set of strategies</a> to achieve that recommendation. Strategies in turn detail
-            actions and global examples that guide governments of the specific steps needed for implementing the
-            strategy.</p>
             <div class="main-buttons accent-color">
               <a href="recommendations.html#recco" class="button">Explore all recommendations</a>
               <a href="strategies.html" target="_blank" class="button">Explore all strategies</a>
             </div>
-        </div>
+          </div>
 
-      </section>
-      <div class="divider recco" id="recco">
-        <h1>Recommendations</h1>
-      </div>
-      <div class="recco-page">
-        <div class="recco-col" v-for="recco in ReccoData">
-          <div class="recco-item">
-            <a class="recco-link" :href="'recommendations/'+recco.slug">
-            <div class="recco-title" v-html="recco.title_pt">
-              
-            </div>
-            <div class="recco-description" v-html="recco.description_pt">
-              
-            </div>
-            <div class="recco-tag">
-              <div class="recco-tag-title">
-                <p>TOPIC</p>
-              </div>
-              <div class="recco-tag-body">
-                <div v-for="tag in recco.topic">
-                  <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[2].topic_title}}</span></a>
+        </section>
+        <div class="divider recco" id="recco">
+          <h1>Recommendations</h1>
+        </div>
+        <div class="recco-page">
+          <div class="recco-col" v-for="recco in ReccoData">
+            <div class="recco-item">
+              <a class="recco-link" :href="'recommendations/'+recco.slug">
+                <div class="recco-title" v-html="recco.title_pt">
+
                 </div>
-              </div>
+                <div class="recco-description" v-html="recco.description_pt">
+
+                </div>
+                <div class="recco-tag">
+                  <div class="recco-tag-title">
+                    <p>TOPIC</p>
+                  </div>
+                  <div class="recco-tag-body">
+                    <div v-for="tag in recco.topic">
+                      <a :href="tag.topics_id.translations[0].slug"><span
+                          class="tag-item">{{tag.topics_id.translations[2].topic_title}}</span></a>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
-          </a>
           </div>
         </div>
       </div>
-    </div>
 
-  </body>
-  <footer class='footer-alt'>
-    <div class="row align-center">
-      <div class="medium-6 medium-centered columns">
-        <!-- <h4>In collaboration with</h4> -->
-        <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
-      </div>
+    </body>
+    <footer class='footer-alt'>
+      <div class="row align-center">
+        <div class="medium-6 medium-centered columns">
+          <!-- <h4>In collaboration with</h4> -->
+          <!-- <h4>EN COLABORACIÓN CON</h4> -->
+          <h4>IN COLLABORATION WITH</h4>
+        </div>
 
-    </div>
-    <div class="row">
-      <div class="column">
-        <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-            src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
-      <div class="column">
-        <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-            src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+      <div class="row">
+        <div class="column">
+          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+              src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+        </div>
+        <div class="column">
+          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+              src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <div class="row">
+        <div class="column">
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img class="copyright_cc-badge" alt="Creative Commons License"
+              src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+          <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+            International License.</a>.
+        </div>
       </div>
     </div>
-  </footer>
-  <div class="copyright">
-    <div class="row">
-      <div class="column">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-          International License.</a>.
-      </div>
-    </div>
-  </div>
   </div>
 </body>
 <script>
