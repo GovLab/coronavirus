@@ -96,13 +96,13 @@
 
       </section>
       <div class="divider recco" id="strat">
-        <h1>Strategies</h1>
+        <h1>Estrategias</h1>
       </div>
       <div class="filters">
         <div class="form-control">
           <select id="form-1" @change="changeFilter($event)">
             <option class="material-icons" value="" selected disabled>Audiencia</option>
-            <option v-for="audience in js_audience" :value="audience.code" :key="audience.code">{{ audience.name }}
+            <option v-for="audience in js_audience_es" :value="audience.code" :key="audience.code">{{ audience.name }}
             </option>
           </select>
         </div>
@@ -110,7 +110,7 @@
         <div class="form-control">
           <select id="form-2" @change="changeFilter($event)">
             <option value="" selected disabled>Tipo</option>
-            <option v-for="type in js_type" :value="type.code" :key="type.code">{{ type.name }}
+            <option v-for="type in js_type_es" :value="type.code" :key="type.code">{{ type.name }}
             </option>
           </select>
 
@@ -118,7 +118,7 @@
         <div class="form-control">
           <select id="form-3" @change="changeFilter($event)">
             <option value="" selected disabled>Tema</option>
-            <option v-for="topic in js_topic" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
+            <option v-for="topic in js_topic_es" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
           </select>
 
         </div>
@@ -126,7 +126,7 @@
         <div class="form-control">
           <select id="form-4" @change="changeFilter($event)">
             <option value="" selected disabled>Línea de tiempo</option>
-            <option v-for="time in js_timeline" :value="time.code" :key="time.code">{{ time.name }}</option>
+            <option v-for="time in js_timeline_es" :value="time.code" :key="time.code">{{ time.name }}</option>
           </select>
         </div>
       </div>
