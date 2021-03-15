@@ -227,8 +227,8 @@ padding: 0 10rem;
  -ms-flex-flow: row wrap;
  flex-flow: row wrap;
    width:100%;
-   padding: 2rem 0;
-   height: 400px;
+   padding: 2rem 0 0 0;
+   height: 300px;
  }
 .product-col{
   display: flex;
@@ -277,7 +277,7 @@ flex-flow: row wrap;
   height: 200px;
 }
 .product-col > div{
-  height:200px;
+  height:100px;
 }
 @media screen and (min-width: 769px) and (max-width: 1100px){
   .product-col img{
