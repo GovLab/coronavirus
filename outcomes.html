@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +30,8 @@
 </head>
 
 <body class="homepage" onwheel="scroll_dismiss()">
-
+    
+    <div id="home-page">
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
 
@@ -82,8 +83,6 @@
   </section>
 
 
-    
-    <div id="home-page">
 
       <section class="dark-section">
         <br> <br>
@@ -109,6 +108,7 @@
       <div class="legend">
         <p>To view these resources you can either (1) download the master report <a href="files/SmarterCrowdsourcing_Report_EN.pdf">(here)</a>  which has all of the materials compiled into a single resource or (2) visit the advisory session page <a href="topics.html">(here)</a> where you can view resources grouped by the respective session topic.</p>
       </div>
+     
       <div class="table-section">
         <div class="product-table-header">
           <div class="table-title">
@@ -121,7 +121,6 @@
             <h2>Use</h2>
           </div>
         </div>
-
         <a class="product-table-contents" v-for="item in productData" :href="item.translation[0].link" target="_blank">
           
           <div class="table-body title">
