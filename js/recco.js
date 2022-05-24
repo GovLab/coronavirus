@@ -44,7 +44,7 @@ new Vue({
     this.memberslug=window.location.href.split('/');
     this.memberslug = this.memberslug[this.memberslug.length - 1];
     
-    this.memberslug = 'interjurisdictional-coordination'; // test
+    // this.memberslug = 'interjurisdictional-coordination'; // test
     this.fetchRecommendations();
   },
   methods: {

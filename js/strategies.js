@@ -43,7 +43,7 @@ new Vue({
   created: function created() {
     this.memberslug=window.location.href.split('/');
     this.memberslug = this.memberslug[this.memberslug.length - 1];    
-    this.memberslug = "Partner-with-academic-institutions,researchers-and";
+    // this.memberslug = "Partner-with-academic-institutions,researchers-and";
     
     console.log(this.memberslug);
 
