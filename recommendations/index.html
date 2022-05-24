@@ -128,7 +128,7 @@
                     <p>AUDIENCE</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="audience in strategy.strategies_id.audience">
+                    <div v-for="audience in JSON.parse(strategy.strategies_id.audience)">
                       <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
                       <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
                       <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>

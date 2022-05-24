@@ -113,7 +113,7 @@ new Vue({
       // })
 
     axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*").then(data => {
-        console.log(data)
+        console.log("data: ",data)
         self.indexData = data.data.data;
       })
         .catch(error => console.error(error));
