@@ -34,40 +34,50 @@ new Vue({
       showExample: false,
       showAction: false,
       index_active:0,
+      langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
+      apiURLd9: 'https://d9.sc.thegovlab.com/',
     }
   },
 
   created: function created() {
     this.memberslug=window.location.href.split('/');
     this.memberslug = this.memberslug[this.memberslug.length - 1];
-    console.log(this.memberslug);
+    
+    this.memberslug = 'interjurisdictional-coordination'; // test
     this.fetchRecommendations();
   },
   methods: {
 
     fetchRecommendations() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
+      axios.get(this.apiURLd9+"items/recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+        console.log(data.data)
+        
+        self.ReccoData = data.data.data;
 
-      client.getItems(
-  'recommendation',
-  {
-    filter: {
-      slug: self.memberslug
-    },
+      }).catch(error => console.error(error));
+
+//       const client = new DirectusSDK({
+//         url: "https://directus.thegovlab.com/",
+//         project: "smarter-crowdsourcing",
+//         storage: window.localStorage
+//       });
+
+//       client.getItems(
+//   'recommendation',
+//   {
+//     filter: {
+//       slug: self.memberslug
+//     },
   
-    fields: ['*.*','strategies.strategies_id.*','topic.topics_id.translations.*','strategies.strategies_id.actions.actions_id.*','strategies.strategies_id.examples.examples_id.*'],
-  }
-).then(data => {
+//     fields: ['*.*','strategies.strategies_id.*','topic.topics_id.translations.*','strategies.strategies_id.actions.actions_id.*','strategies.strategies_id.examples.examples_id.*'],
+//   }
+// ).then(data => {
  
-  self.ReccoData = data.data;
-})
-.catch(error => console.error(error));
+//   self.ReccoData = data.data;
+// })
+// .catch(error => console.error(error));
     },
     toggleMessage (index,type) {
       

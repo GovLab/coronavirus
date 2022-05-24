@@ -34,14 +34,19 @@ new Vue({
       showExample: false,
       showAction: false,
       index_active:0,
+      langsel:'en',
+      apiURLd9: 'https://d9.sc.thegovlab.com/',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
     }
   },
 
   created: function created() {
     this.memberslug=window.location.href.split('/');
-    this.memberslug = this.memberslug[this.memberslug.length - 1];
+    this.memberslug = this.memberslug[this.memberslug.length - 1];    
+    this.memberslug = "Partner-with-academic-institutions,researchers-and";
+    
     console.log(this.memberslug);
+
     this.fetchStrategies();
   },
   methods: {
@@ -49,25 +54,31 @@ new Vue({
     fetchStrategies() {
 
       self = this;
+      axios.get(this.apiURLd9+"items/strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*,actions.actions_id.*,examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+        console.log(data.data)
+        
+        self.stratData = data.data.data;
+
+      }).catch(error => console.error(error));
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
         project: "smarter-crowdsourcing",
         storage: window.localStorage
       });
 
-      client.getItems(
-        'strategies',
-        {
-          filter: {
-            slug: self.memberslug
-          },
-          fields: ['*.*','strat_rec.recommendation_id.*','strat_topic.topics_id.translations.*','actions.actions_id.*','examples.examples_id.*']
-        }
-      ).then(data => {
-
-        self.stratData = data.data;
-      })
-        .catch(error => console.error(error));
+      // client.getItems(
+      //   'strategies',
+      //   {
+      //     filter: {
+      //       slug: self.memberslug
+      //     },
+      //     fields: ['*.*','strat_rec.recommendation_id.*','strat_topic.topics_id.translations.*','actions.actions_id.*','examples.examples_id.*']
+      //   }
+      // ).then(data => {
+      //   console.log(data)
+      //   self.stratData = data.data;
+      // })
+      //   .catch(error => console.error(error));
     },
     toggleMessage (index,type) {
       
@@ -81,7 +92,11 @@ new Vue({
       this.showAction = !this.showAction;
     }
     console.log(this.index_active);
-    }
+    },
+    langid(tr){
+      const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel  })
+      return trIndex;
+    },
 }
 });
 

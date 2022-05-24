@@ -38,10 +38,7 @@ new Vue({
       reportData: [],
       TeamData: [],
       ReccoData: [],
-      langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://d9.sc.thegovlab.com/',
-      miStr: { 'en':'More Information', 'es':'Más información', 'pt':'Mais Informações'}
     }
   },
 
@@ -59,23 +56,19 @@ new Vue({
   methods: {
     fetchMapExperts(){
       self = this;
-
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
         project: "smarter-crowdsourcing",
         storage: window.localStorage
       });
 
-      // axios.get(
-      //   'experts',
-      //   {
-      //     fields: ['*.*','topic.topics_id.*']
-      //   }
-      // ).
-      
-      axios.get('https://directus.thegovlab.com/smarter-crowdsourcing/items/experts').then(data => {
-        console.log(data.data.data)
-        data = data.data;
+      client.getItems(
+        'experts',
+        {
+          fields: ['*.*','topic.topics_id.*']
+        }
+      ).then(data => {
+        console.log(data)
         self.expertData = data.data;
         self.euData = self.expertData.filter(items => items.region == "eu");
         self.eu_count = self.euData.length;
@@ -102,19 +95,14 @@ new Vue({
         storage: window.localStorage
       });
 
-      // client.getItems(
-      //   'topics',
-      //   {
-      //     fields: ['*.*', 'translations.*', 'translations.memo_image.*', 'translations.executive_memo.*']
-      //   }
-      // ).then(data => {
-      //   console.log(data)
-      //   self.indexData = data.data;
-      // })
-
-    axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*").then(data => {
+      client.getItems(
+        'topics',
+        {
+          fields: ['*.*', 'translations.*', 'translations.memo_image.*', 'translations.executive_memo.*']
+        }
+      ).then(data => {
         console.log(data)
-        self.indexData = data.data.data;
+        self.indexData = data.data;
       })
         .catch(error => console.error(error));
     },
@@ -132,6 +120,7 @@ new Vue({
           fields: ['*.*']
         }
       ).then(data => {
+        console.log(data)
         self.reportData = data.data;
       })
         .catch(error => console.error(error));
@@ -150,7 +139,7 @@ new Vue({
           fields: ['*.*', 'translation.*']
         }
       ).then(data => {
-        console.log('productData',data.data)
+        console.log(data)
         self.productData = data.data;
       })
         .catch(error => console.error(error));
@@ -197,28 +186,22 @@ new Vue({
     },
     fetchRecommendations() {
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "smarter-crowdsourcing",
-      //   storage: window.localStorage
-      // });
-      axios.get(this.apiURLd9+"items/recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*").then(data => {
-        console.log(data.data)
-        
-        self.ReccoData = data.data.data;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "smarter-crowdsourcing",
+        storage: window.localStorage
+      });
 
-      }).catch(error => console.error(error));
-
-      // client.getItems(
-      //   'recommendation',
-      //   {
-      //     fields: ['*.*', 'strategies.strategies_id.*', 'topic.topics_id.translations.*', 'strategies.strategies_id.actions.actions_id.*', 'strategies.strategies_id.examples.examples_id.*'],
-      //   }
-      // ).then(data => {
-      //   console.log(data)
-      //   self.ReccoData = data.data;
-      // })
-    
+      client.getItems(
+        'recommendation',
+        {
+          fields: ['*.*', 'strategies.strategies_id.*', 'topic.topics_id.translations.*', 'strategies.strategies_id.actions.actions_id.*', 'strategies.strategies_id.examples.examples_id.*'],
+        }
+      ).then(data => {
+        console.log(data)
+        self.ReccoData = data.data;
+      })
+        .catch(error => console.error(error));
     },
     fetchMap(eu_count,sa_count,na_count,af_count,as_count,oca_count) {
       self = this;
@@ -367,12 +350,6 @@ new Vue({
         "length": 80
       }];
     },
-    langid(tr){
-      const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel  })
-      console.log(trIndex);
-      return trIndex;
-    },
   }
 });
-
 

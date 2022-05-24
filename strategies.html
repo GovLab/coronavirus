@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
 <body class="homepage" onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-
+<div id="home-page">
 
   <!-- Top Navigation Menu -->
   <div class="topnav">
@@ -46,12 +46,13 @@
     <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png"
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
+
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/strategies.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/strategies.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -76,7 +77,7 @@
   </div>
 
   <body>
-    <div id="home-page">
+    <div>
       <section class="dark-section">
         <br> <br>
         <div class="row">
@@ -101,7 +102,7 @@
         <div class="form-control">
           <select id="form-1" @change="changeFilter($event)">
             <option class="material-icons" value="" selected disabled>Audience</option>
-            <option v-for="audience in js_audience" :value="audience.code" :key="audience.code">{{ audience.name }}
+            <option v-for="audience in objLang('js_audience')" :value="audience.code" :key="audience.code">{{ audience.name }}
             </option>
           </select>
         </div>
@@ -109,7 +110,7 @@
         <div class="form-control">
           <select id="form-2" @change="changeFilter($event)">
             <option value="" selected disabled>Type</option>
-            <option v-for="type in js_type" :value="type.code" :key="type.code">{{ type.name }}
+            <option v-for="type in objLang('js_type')" :value="type.code" :key="type.code">{{ type.name }}
             </option>
           </select>
 
@@ -117,7 +118,7 @@
         <div class="form-control">
           <select id="form-3" @change="changeFilter($event)">
             <option value="" selected disabled>Topic</option>
-            <option v-for="topic in js_topic" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
+            <option v-for="topic in objLang('js_topic')" :value="topic.code" :key="topic.code">{{ topic.name }}</option>
           </select>
 
         </div>
@@ -125,7 +126,7 @@
         <div class="form-control">
           <select id="form-4" @change="changeFilter($event)">
             <option value="" selected disabled>Timeline</option>
-            <option v-for="time in js_timeline" :value="time.code" :key="time.code">{{ time.name }}</option>
+            <option v-for="time in objLang('js_timeline')" :value="time.code" :key="time.code">{{ time.name }}</option>
           </select>
         </div>
       </div>
@@ -161,18 +162,18 @@
             </div>
           </div>
           <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
-            <div class="row-description-content" v-html="strategy.description_en">
+            <div class="row-description-content" v-html="strategy['description_'+langsel]">
 
             </div>
 
             <div class="row-topic-content">
               <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
-                <span class="tag-item">{{s_topic.topics_id.translations[0].topic_title}}</span>
+                <span class="tag-item">{{s_topic.topics_id.translations[langid(s_topic.topics_id)].topic_title}}</span>
               </div>
             </div>
             <div class="row-reccomendation-content">
               <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
-                {{recco.recommendation_id.title_en}}
+                {{recco.recommendation_id['title_'+langsel]}}
 
 
               </div>
@@ -217,6 +218,7 @@
       </div>
     </div>
   </div>
+</div>
   </body>
   <script>
     /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */

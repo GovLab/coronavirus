@@ -30,7 +30,7 @@ new Vue({
     return {
       indexData: [],
       filterData: [],
-      js_audience: [
+      js_audience_en: [
         { code: '', name: 'All' },
         { code: 'audience_1', name: 'Private Sector' },
         { code: 'audience_2', name: 'Academia' },
@@ -42,7 +42,7 @@ new Vue({
         { code: 'audience_8', name: 'Organized Civil Society' },
         { code: 'audience_9', name: 'Nonprofits' },
       ],
-      js_type: [
+      js_type_en: [
         { code: '', name: 'All' },
         { code: 'area_1', name: 'Research' },
         { code: 'area_2', name: 'Policy/Legislative/Regulatory' },
@@ -54,14 +54,14 @@ new Vue({
         { code: 'area_8', name: 'Vulnerable Populations' },
         { code: 'area_9', name: 'Procurement/Logistics' },
       ],
-      js_timeline: [
+      js_timeline_en: [
         { code: '', name: 'All' },
         { code: 'timeline_1', name: '1-3 Months (immediate)' },
         { code: 'timeline_2', name: '3-6 Months (medium)' },
         { code: 'timeline_3', name: '6-12 Months (long)' },
         { code: 'timeline_4', name: '1+ years (structural change)' },
       ],
-      js_topic: [
+      js_topic_en: [
         { code: '', name: 'All' },
         { code: 'topic_1', name: 'Testing Strategy' },
         { code: 'topic_2', name: 'Contact Tracing' },
@@ -154,7 +154,9 @@ new Vue({
       sortBy: 'name',
     sortDirection: 'ASC',
       selectedProjectType: null,
+      langsel: 'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
+      apiURLd9: 'https://d9.sc.thegovlab.com/',
     }
   },
 
@@ -166,32 +168,41 @@ new Vue({
     fetchStrategies() {
 
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
 
-      client.getItems(
-        'strategies',
-        {
-          fields: ['*.*','strat_rec.recommendation_id.*','strat_topic.topics_id.translations.*']
-        }
-      ).then(data => {
+      // client.getItems(
+      //   'strategies',
+      //   {
+      //     fields: ['*.*','strat_rec.recommendation_id.*','strat_topic.topics_id.translations.*']
+      //   }
+      // ).then(data => {
 
-        self.indexData = data.data;
+        // self.indexData = data.data;
    //Most recently added first
-        self.indexData = self.indexData.sort(function(a, b){
-            return (b.id > a.id) ? 1 : -1;});
+      //   self.indexData = self.indexData.sort(function(a, b){
+      //       return (b.id > a.id) ? 1 : -1;});
         
+
+      // })
+      //   .catch(error => console.error(error));
+
+      self = this;
+      axios.get(this.apiURLd9+"items/strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
+        self.indexData = data.data.data;
         self.filterData = self.indexData;
-      })
-        .catch(error => console.error(error));
+
+      }).catch(error => console.error(error));
+
     },
     searchItems() {
 
       squery = document.getElementById('search-text').value;
       let searchData = self.indexData.filter(items => (items.description_en.toLowerCase().includes(squery.toLowerCase()) || items.description_pt.toLowerCase().includes(squery.toLowerCase()) ||items.description_es.toLowerCase().includes(squery.toLowerCase())));
+      
       self.filterData = searchData;
     },
     ResetItems() {
@@ -202,10 +213,14 @@ new Vue({
       document.getElementById("form-3").selectedIndex = 0;
       document.getElementById("form-4").selectedIndex = 0;
     },
+    objLang(dd){
+      return this[dd+'_'+this.langsel];
+    },
     changeFilter(event) {
-
+      
       document.getElementById("filter-count").style.display = "block";
       var element = document.body.querySelectorAll("select");
+      console.log(element);
       this.selectedAudience = element[0].value;
       this.selectedType = element[1].value;
       this.selectedTopic = element[2].value;
@@ -217,7 +232,8 @@ new Vue({
       else {
         console.log(self.indexData);
         let filtered_by_audience = self.indexData.filter(function (e) {
-          return e.audience.some(aud_element => aud_element == self.selectedAudience);
+          console.log(e);
+          return JSON.parse(e.audience).some(aud_element => aud_element == self.selectedAudience);
         });
         self.filtered_audience = filtered_by_audience;
       }
@@ -226,7 +242,7 @@ new Vue({
         self.filtered_type = self.filtered_audience;
       else {
         let filtered_by_type = self.filtered_audience.filter(function (e) {
-          return e.area.some(reg_element => reg_element == self.selectedType);
+          return JSON.parse(e.area).some(reg_element => reg_element == self.selectedType);
         });
         self.filtered_type = filtered_by_type;
       }
@@ -235,7 +251,7 @@ new Vue({
         self.filtered_topic = self.filtered_type;
       else {
         let filtered_by_topic = self.filtered_type.filter(function (e) {
-          return e.topic.some(are_element => are_element == self.selectedTopic);
+          return JSON.parse(e.topic).some(are_element => are_element == self.selectedTopic);
         });
         self.filtered_topic = filtered_by_topic;
       }
@@ -249,8 +265,11 @@ new Vue({
         self.filtered_timeline = filtered_by_timeline;
       }
       self.filterData = self.filtered_timeline;
-    }
-
+    },
+    langid(tr){
+      const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel  })
+      return trIndex;
+    },
 
   }
 });

@@ -22,18 +22,18 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body class="homepage"  onwheel="scroll_dismiss()">
+<body class="homepage"   onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
-
+  <main id="home-page">
   <!-- Top Navigation Menu -->
   <div class="topnav">
     <div class="menu-bars">
@@ -46,11 +46,11 @@
     <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/index.html">ES</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
       <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
       <p style="color:#ffffff" >|</p>
-      <a  style="padding: 15px 5px" href="pt/index.html">PT</a>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
 
@@ -84,7 +84,7 @@
 
   </div>
 
-  <div id="home-page">
+  <div >
 
     <section class="dark-section">
 
@@ -132,19 +132,19 @@
     <section style="z-index:-10" id="topics">
       <div class="topic-row">
 
-        <div v-for="topic in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
+        <div v-if="topic.status == 'published'" v-for="topic in indexData" class="topic-column"
+          :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
           <div class="topic-wrap">
-            <h1>{{topic.translations[0].topic_title}}</h1>
-            <p>{{topic.translations[0].short_description}}</p>
+            <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
+            <p>{{topic.translations[langid(topic)].short_description}}</p>
             <!-- <p>{{topic}}</p> -->
-            <p><a :href="topic.translations[0].slug" class="button more-info">More Information</a></p>
+            <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{miStr[langsel]}}</a></p>
 
             <div class="topic_date">
               <!-- <h6>Conference on</h6> -->
               <h6>CONFERENCE ON &nbsp&nbsp</h6>
 
-              <p class="topic_month">{{topic.translations[0].date}}</p>
+              <p class="topic_month">{{topic.translations[langid(topic)].date}}</p>
             </div>
           </div>
         </div>
@@ -200,6 +200,7 @@
     </div>
   </div>
 </div>
+</main>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -224,5 +225,6 @@
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="js/coronavirus.js"></script>
+
 
 </html>

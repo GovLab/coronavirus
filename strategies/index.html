@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,11 +47,11 @@
           alt="Smarter Crowdsourcing | Zika"></a>
       <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
-        <a style="padding: 15px 5px" :href="'../es/strategies/'+ stratData[0].slug">ES</a>
-        <p style="color:#ffffff">|</p>
-        <a style="padding: 15px 5px" class="active" href="#">EN</a>
-        <p style="color:#ffffff">|</p>
-        <a style="padding: 15px 5px" :href="'../pt/strategies/'+ stratData[0].slug">PT</a>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+        <p style="color:#ffffff" >|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+        <p style="color:#ffffff" >|</p>
+        <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
       </div>
     </div>
     <div id="myLinks">
@@ -90,8 +90,7 @@
             <div class="strategy-number">
               <h4>STRATEGY</h4>
             </div>
-            <div class="strategy-description" v-html="stratData[0].description_en">
-
+            <div class="strategy-description" v-html="stratData[0]['description_'+langsel]">
             </div>
           </div>
           <div class="strat-right">
@@ -128,7 +127,7 @@
                     <p>AUDIENCE</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="audience in stratData[0].audience">
+                    <div v-for="audience in JSON.parse(stratData[0].audience)">
                       <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
                       <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
                       <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>
@@ -151,7 +150,7 @@
                     <p>TYPE</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="area in stratData[0].area">
+                    <div v-for="area in JSON.parse(stratData[0].area)">
                       <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
                       <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
                       <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
@@ -170,8 +169,8 @@
                   </div>
                   <div class="recco-tag-body audience-body">
                     <div>
-                      <a :href="'../'+stratData[0].strat_topic[0].topics_id.translations[0].slug"><span
-                          class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[0].topic_title}}</span></a>
+                      <a :href="'../'+stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].slug"><span
+                          class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].topic_title}}</span></a>
                     </div>
                   </div>
                 </div>
@@ -194,7 +193,7 @@
                   <div class="strategy-number">
                     <h4>ACTION {{action_index + 1}}</h4>
                   </div>
-                  <div class="action-text" v-html="action.actions_id.description_en">
+                  <div class="action-text" v-html="action.actions_id['description_'+langsel]">
 
                   </div>
                 </div>

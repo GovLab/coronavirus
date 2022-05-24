@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,11 +47,11 @@
           alt="Smarter Crowdsourcing | Zika"></a>
       <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
-        <a style="padding: 15px 5px" :href="'../es/recommendations/'+ ReccoData[0].slug">ES</a>
-        <p style="color:#ffffff">|</p>
-        <a style="padding: 15px 5px" class="active" href="#">EN</a>
-        <p style="color:#ffffff">|</p>
-        <a style="padding: 15px 5px" :href="'../pt/recommendations/'+ ReccoData[0].slug">PT</a>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+        <p style="color:#ffffff" >|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+        <p style="color:#ffffff" >|</p>
+        <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
       </div>
     </div>
     <div id="myLinks">
@@ -71,7 +71,7 @@
     <div onclick="dismiss_menu()">
     <div class="row top-section topic specific-recco">
 
-      <h1>{{ReccoData[0].title_en}}</h1>
+      <h1>{{ReccoData[0]['title_'+langsel]}}</h1>
       <p>This recommendation is designed for government officials to aid them as they address the COVID-19 pandemic. This recommendation is supported by a set of strategies to achieve the recommendation. Strategies in turn detail actions and global examples that guide governments of the specific steps needed for implementing the strategy.</p>
     </div>
 
@@ -90,7 +90,7 @@
             <div class="strategy-number">
               <h4>STRATEGY {{index+1}}</h4>
             </div>
-            <div class="strategy-description" v-html="strategy.strategies_id.description_en">
+            <div class="strategy-description" v-html="strategy.strategies_id['description_'+langsel]">
 
             </div>
           </div>
@@ -151,7 +151,7 @@
                     <p>TYPE</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="area in strategy.strategies_id.area">
+                    <div v-for="area in JSON.parse(strategy.strategies_id.area)">
                       <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
                       <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
                       <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
@@ -189,12 +189,13 @@
                 <h2>ACTIONS GOVERNMENTS SHOULD TAKE ({{strategy.strategies_id.actions.length}} actions)</h2><i
                   class="material-icons down"></i>
               </button>
+            
               <div v-if="showAction && index_active == index" class="panel">
                 <div class="action-item" v-for="(action,action_index) in strategy.strategies_id.actions">
                   <div class="strategy-number">
                     <h4>ACTION {{action_index + 1}}</h4>
                   </div>
-                  <div class="action-text" v-html="action.actions_id.description_en">
+                  <div class="action-text" v-html="action.actions_id['description_'+langsel]">
 
                   </div>
                 </div>

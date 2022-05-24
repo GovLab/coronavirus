@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
 
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
@@ -33,7 +34,7 @@
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
-
+  <main id="home-page">
   <!-- Top Navigation Menu -->
   <div class="topnav">
     <div class="menu-bars">
@@ -47,11 +48,11 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/recommendations.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/recommendations.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -76,7 +77,7 @@
   </div>
 
   <body>
-    <div id="home-page">
+    <div>
       <section class="dark-section">
         <br> <br>
         <div class="row">
@@ -101,10 +102,10 @@
         <div class="recco-col" v-for="recco in ReccoData">
           <div class="recco-item">
             <a class="recco-link" :href="'recommendations/'+recco.slug">
-            <div class="recco-title" v-html="recco.title_en">
+            <div class="recco-title" v-html="recco['title_'+langsel]">
               
             </div>
-            <div class="recco-description" v-html="recco.description_en">
+            <div class="recco-description" v-html="recco['description_'+langsel]">
               
             </div>
             <div class="recco-tag">
@@ -113,6 +114,7 @@
               </div>
               <div class="recco-tag-body">
                 <div v-for="tag in recco.topic">
+                 
                   <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
                 </div>
               </div>
@@ -157,6 +159,7 @@
     </div>
   </div>
   </div>
+</main>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
