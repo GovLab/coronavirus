@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +33,7 @@
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
-
+  <div id="home-page">
   <!-- Top Navigation Menu -->
   <div class="topnav">
     <div class="menu-bars">
@@ -47,11 +47,11 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/executive-memos.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/executive-memos.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -69,7 +69,7 @@
     </div>
   </div>
   <div onclick="dismiss_menu()">
-  <div id="home-page">
+  
   <div class="row top-section topic">
 
     <h1>Executive Memos</h1>
@@ -78,7 +78,7 @@
   <section style="background-color:#fafafa">
     <div class="main-buttons accent-color index-page-button">
       <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      <a :href="reportData[0].exec_memos_en.data.full_url" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+      <a :href="apiURLd9+'assets/'+reportData[0]['exec_memos_'+langsel]" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
     </div>
   </section>
 
@@ -86,10 +86,10 @@
     
     <div class="memos">
 
-      <div class="product-col-3" v-for="memo in indexData">
-        <img :src="memo.translations[0].memo_image.data.full_url">
+      <div class="product-col-3" v-for="memo in indexData" v-if="langid(memo) != -1 ">
+        <img :src="apiURLd9+'assets/'+memo.translations[langid(memo)].memo_image.filename_disk">
         <div class="main-buttons">
-          <a :href="memo.translations[0].executive_memo.data.full_url" class="button home-btn" target="_blank"><span style="color:#ffffff5e; font-size: 0.8rem">download the memo</span><br>{{memo.translations[0].topic_title}}</a>
+          <a :href="apiURLd9+'assets/'+memo.translations[langid(memo)].executive_memo.filename_disk" class="button home-btn" target="_blank"><span style="color:#ffffff5e; font-size: 0.8rem">download the memo</span><br>{{memo.translations[langid(memo)].topic_title}}</a>
       </div>
       </div>
     </div>

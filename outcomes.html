@@ -48,11 +48,11 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/outcomes.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/outcomes.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -78,7 +78,7 @@
   <section>
     <div class="main-buttons accent-color index-page-button">
       <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      <a :href="reportData[0].exec_memos_en.data.full_url" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+      <a :href="apiURLd9+'assets/'+reportData[0]['exec_memos_'+langsel]" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
     </div>
   </section>
 
@@ -121,21 +121,22 @@
             <h2>Use</h2>
           </div>
         </div>
-        <a class="product-table-contents" v-for="item in productData" :href="item.translation[0].link" target="_blank">
-          
-          <div class="table-body title">
+        {{productData}}
+        <a class="product-table-contents" v-for="item in productData" :href="item.translation[langid(item)].link" target="_blank">
+          {{item}}
+          <!-- <div class="table-body title">
             <div>
             <p v-if="item.final_product" style="margin:0"><span class="final-product final">Final product</span></p>
             <p v-if="!item.final_product" style="margin:0"><span class="final-product">Conference Materials</span></p>
-            <p>{{item.translation[0].title}}</p>
+            <p>{{item.translation[langid(item)].title}}</p>
             </div>
           </div>
           <div class="table-body">
-            <div  v-html="item.translation[0].description"></div>
+            <div  v-html="item.translation[langid(item)].description"></div>
           </div>
           <div class="table-body">
-            <div v-html="item.translation[0].use"></div>
-          </div>
+            <div v-html="item.translation[langid(item)].use"></div>
+          </div> -->
         </a>
 
       </div>

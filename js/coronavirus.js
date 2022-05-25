@@ -120,21 +120,26 @@ new Vue({
     },
     fetchReports() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
-
-      client.getItems(
-        'reports',
-        {
-          fields: ['*.*']
-        }
-      ).then(data => {
-        self.reportData = data.data;
+      axios.get(this.apiURLd9+"items/reports?fields=*").then(data => {
+        console.log("report", data)
+        self.reportData = data.data.data;
       })
         .catch(error => console.error(error));
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
+
+      // client.getItems(
+      //   'reports',
+      //   {
+      //     fields: ['*.*']
+      //   }
+      // ).then(data => {
+      //   self.reportData = data.data;
+      // })
+      //   .catch(error => console.error(error));
     },
     fetchProducts() {
       self = this;
@@ -177,23 +182,29 @@ new Vue({
     },
     fetchTeamData() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
 
-      client.getItems(
-        'team',
-        {
-          fields: ['*.*'],
-        }
-      ).then(data => {
-        console.log(data)
-        self.TeamData = data.data;
+      axios.get(this.apiURLd9+"items/team?fields=*").then(data => {
+        
+        self.TeamData = data.data.data;
 
-      })
-        .catch(error => console.error(error));
+      }).catch(error => console.error(error));
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
+
+      // client.getItems(
+      //   'team',
+      //   {
+      //     fields: ['*.*'],
+      //   }
+      // ).then(data => {
+      //   console.log(data)
+      //   self.TeamData = data.data;
+
+      // })
+      //   .catch(error => console.error(error));
     },
     fetchRecommendations() {
       self = this;
