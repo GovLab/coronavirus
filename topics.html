@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +33,7 @@
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
-
+  <div id="home-page">
   <!-- Top Navigation Menu -->
   <div class="topnav">
     <div class="menu-bars">
@@ -47,11 +47,11 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/topics.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/topics.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -72,31 +72,27 @@
 
     <h1>Topics</h1>
   </div>
-
-  <body>
-    <div id="home-page">
-
       <section style="margin-top: -50px; z-index:-10" id="topics">
         <div class="topic-row">
-  
-          <div v-for="topic in indexData" class="topic-column"
-            :style="{ backgroundImage: 'url(' + topic.image.data.full_url+ ')' }">
-            <div class="topic-wrap">
-              <h1>{{topic.translations[0].topic_title}}</h1>
-              <p>{{topic.translations[0].short_description}}</p>
-              <!-- <p>{{topic}}</p> -->
-              <p><a :href="topic.translations[0].slug" class="button more-info">More Information</a></p>
+          
+          <div v-for="topic in indexData" v-if="topic.status == 'published'" class="topic-column" :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+ ')' }">
+          
+          <div class="topic-wrap">
+              <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
+              <p>{{topic.translations[langid(topic)].short_description}}</p>
+              
+              <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">More Information</a></p>
   
               <div class="topic_date">
-                <!-- <h6>Conference on</h6> -->
+                
                 <h6>CONFERENCE ON &nbsp&nbsp</h6>
   
-                <p class="topic_month">{{topic.translations[0].date}}</p>
+                <p class="topic_month">{{topic.translations[langid(topic)].date}}</p>
               </div>
             </div>
           </div>
   
-  
+        </div>
         </div>
       </section>
 
