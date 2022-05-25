@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
 </head>
 
 <body class="homepage"  onwheel="scroll_dismiss()">
-
+  <div id="home-page">
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
 
@@ -46,11 +46,11 @@
     <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/behavioral-science.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/behavioral-science.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
     <div id="myLinks">
@@ -68,12 +68,12 @@
       </div>
     </div>
     <div onclick="dismiss_menu()">
-  <div id="home-page">
-  <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[2].image.data.full_url+ ')' }">
-    
-    <h1>{{indexData[2].translations[0].topic_title}}</h1>
-    <p>{{indexData[2].translations[0].short_description}}</p>
-  </div>
+      <div v-for="(elIndexData,index) in indexData" v-if="elIndexData.id == 6 && elIndexData.status=='published'" >
+        <div class="row top-section topic"  :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ elIndexData.image+ ')' }">
+          
+          <h1>{{elIndexData.translations[langid(elIndexData)].topic_title}}</h1>
+          <p>{{elIndexData.translations[langid(elIndexData)].short_description}}</p>
+        </div>
   <div class="row align-center">
 
 
@@ -88,7 +88,7 @@
     </section>
     <section class="light-section topic_desc">
       <h1>DESCRIPTION</h1>
-        <p>{{indexData[2].translations[0].long_description}}</p>
+      <p>{{elIndexData.translations[langid(elIndexData)].long_description}}</p>
 
     </section>
     <div class="main-buttons accent-color topic-page-button">
@@ -104,14 +104,17 @@
     </div>
     <div class="recco-page">
       <div class="recco-col" v-for="recco in ReccoData">
-        <template v-for="tag_template in recco.topic" v-if="tag_template.topics_id.translations[0].topic_title == indexData[2].translations[0].topic_title">
-        <div class="recco-item">
+        
+        <template v-for="tag_template in recco.topic" v-if="tag_template.topics_id.translations[langid(tag_template.topics_id)].topic_title == elIndexData.translations[langid(elIndexData)].topic_title">
+          <!-- {{tag_template.topics_id.translations[langid(tag_template.topics_id)].topic_title}} -->
+          <div class="recco-item">
           <a class="recco-link" :href="'recommendations/'+recco.slug">
-          <div class="recco-title" v-html="recco.title_en">
             
+          <div class="recco-title" v-html="recco['title_'+langsel]">
+           
           </div>
-          <div class="recco-description" v-html="recco.description_en">
-            
+          <div class="recco-description" v-html="recco['description_'+langsel]">
+
           </div>
           <div class="recco-tag">
             <div class="recco-tag-title">
@@ -123,9 +126,9 @@
               </div>
             </div>
           </div>
-        </a>
-        </div>
-      </template>
+         </a>
+          </div>
+        </template>
       </div>
 
     </div>
@@ -167,6 +170,7 @@
     </div>
   </div>
   </div>
+  
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */

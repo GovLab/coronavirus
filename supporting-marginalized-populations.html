@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
 </head>
 
 <body class="homepage"  onwheel="scroll_dismiss()">
-
+  <div id="home-page">
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
 
@@ -46,34 +46,34 @@
     <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/supporting-marginalized-populations.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/supporting-marginalized-populations.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
-  <div id="myLinks">
-    <div class="menu-items">
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-      <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+    <div id="myLinks">
+      <div class="menu-items">
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
+        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
+        <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
+        <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+      </div>
     </div>
-  </div>
-  <div onclick="dismiss_menu()">
-  <div id="home-page">
-  <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[3].image.data.full_url+ ')' }">
-    
-    <h1>{{indexData[3].translations[0].topic_title}}</h1>
-    <p>{{indexData[3].translations[0].short_description}}</p>
-  </div>
+    <div onclick="dismiss_menu()">
+      <div v-for="(elIndexData,index) in indexData" v-if="elIndexData.id == 7 && elIndexData.status=='published'" >
+        <div class="row top-section topic"  :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ elIndexData.image+ ')' }">
+          
+          <h1>{{elIndexData.translations[langid(elIndexData)].topic_title}}</h1>
+          <p>{{elIndexData.translations[langid(elIndexData)].short_description}}</p>
+        </div>
   <div class="row align-center">
 
 
@@ -82,21 +82,21 @@
  
     <section>
       <div class="main-buttons accent-color index-page-button">
-
-        <a href="https://docs.google.com/document/d/1AfYgNj7yR9NM_HkDV5ZKw8PiOhySaSeiIMwdOzkglio/edit?usp=sharing" target="_blank" class="button">Recommendations Memo</a>
-        <a href="https://docs.google.com/document/d/1T3Mzh9EsQrhaqJ6ZlgWF3i8p4ekAn87qp_tSMy-ka5Y/edit?usp=sharing" target="_blank" class="button">CONFERENCE TAKEAWAYS</a>
+        <a href="https://docs.google.com/document/d/1DzmSxBT6rqoewafUMNmdEHmjYREZ0bLnqr4JCIP1ZgE/edit?usp=sharing" target="_blank" class="button">Recommendations Memo</a>
+        <a href="https://docs.google.com/document/d/1vusJVfOjlWdw04VuPJ66yzhc9-slrXAXSJ_Do_YbrgE/edit?usp=sharing" target="_blank" class="button">Conference Takeaways</a>
       </div>
     </section>
     <section class="light-section topic_desc">
       <h1>DESCRIPTION</h1>
-        <p>{{indexData[3].translations[0].long_description}}</p>
+      <p>{{elIndexData.translations[langid(elIndexData)].long_description}}</p>
 
     </section>
     <div class="main-buttons accent-color topic-page-button">
-      <a href="https://docs.google.com/document/d/1C8_PpxUYFsD-mmwEvo86LiVRxwafLfFF5jR2tBgH6gc/edit?usp=sharing" target="_blank" class="button">READ THE PROBLEM DESCRIPTION</a>
-      <a href="https://docs.google.com/document/d/1HcUbF9yljpDd-hq87VTjSitX7_5W6f8IPn1M--1i7ew/edit?usp=sharing" target="_blank" class="button">READ THE REGIONAL REPORT</a>
-      <a href="https://docs.google.com/document/d/1kppv5FJx2QnXyxssFKyxHcHNRjfcy0qeePQIirum_J8/edit?usp=sharing" target="_blank" class="button">Agenda and Logistics</a>
-      <a href="https://docs.google.com/document/d/1TQfHcbIWBQCXGGFEbfQ11Zb4ypxckypzuY4Nyj7A0AE/edit?usp=sharing" target="_blank" class="button">EXPERTS AND PARTICIPANTS</a>
+ 
+      <a href="https://docs.google.com/document/d/1tWevzRVhcJjbidPHktAvXNWnZFXnCpB2O-2_2EK1apE/edit?usp=sharing" target="_blank" class="button">READ THE PROBLEM DESCRIPTION</a>
+      <a href="https://docs.google.com/document/d/1mcZx4VjYLrFdKmO9jvCKIEGpIKNtZQHYDyhVtXpZCKk/edit" target="_blank" class="button">READ THE REGIONAL REPORT</a>
+      <a href="https://docs.google.com/document/d/1I3Ef_eH3dydwLkrx9DwP7GoIdkxp8UK6Tp6A2WqrpoA/edit?usp=sharing" target="_blank" class="button">Agenda and Logistics</a>
+      <a href="https://docs.google.com/document/d/1Sqm24sXM5StmQswS4Qac3_K6KQU2fjtCVyiaJ-yKMdU/edit?usp=sharing" target="_blank" class="button">EXPERTS AND PARTICIPANTS</a>
     </div>
     <div class="divider recco">
 
@@ -104,14 +104,17 @@
     </div>
     <div class="recco-page">
       <div class="recco-col" v-for="recco in ReccoData">
-        <template v-for="tag_template in recco.topic" v-if="tag_template.topics_id.translations[0].topic_title == indexData[3].translations[0].topic_title">
-        <div class="recco-item">
+        
+        <template v-for="tag_template in recco.topic" v-if="tag_template.topics_id.translations[langid(tag_template.topics_id)].topic_title == elIndexData.translations[langid(elIndexData)].topic_title">
+          <!-- {{tag_template.topics_id.translations[langid(tag_template.topics_id)].topic_title}} -->
+          <div class="recco-item">
           <a class="recco-link" :href="'recommendations/'+recco.slug">
-          <div class="recco-title" v-html="recco.title_en">
             
+          <div class="recco-title" v-html="recco['title_'+langsel]">
+           
           </div>
-          <div class="recco-description" v-html="recco.description_en">
-            
+          <div class="recco-description" v-html="recco['description_'+langsel]">
+
           </div>
           <div class="recco-tag">
             <div class="recco-tag-title">
@@ -123,9 +126,9 @@
               </div>
             </div>
           </div>
-        </a>
-        </div>
-      </template>
+         </a>
+          </div>
+        </template>
       </div>
 
     </div>
@@ -167,6 +170,7 @@
     </div>
   </div>
   </div>
+  
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
