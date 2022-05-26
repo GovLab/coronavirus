@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DV8KTW4TBH');
-</script>
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,178 +29,199 @@
 
 </head>
 
-<body class="homepage"   onwheel="scroll_dismiss()">
+<body class="homepage" onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
   <main id="home-page">
-  <!-- Top Navigation Menu -->
-  <div class="topnav">
-    <div class="menu-bars">
-      <div class="bar-wrap">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <div class="menu-bars">
+        <div class="bar-wrap">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png"
+          alt="Smarter Crowdsourcing | Zika"></a>
+      <!-- Navigation links (hidden by default) -->
+      <div class='lang-select'>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
       </div>
     </div>
-    <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
-    <!-- Navigation links (hidden by default) -->
-    <div class='lang-select'>
-      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
-      <p style="color:#ffffff" >|</p>
-      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
-      <p style="color:#ffffff" >|</p>
-      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
-    </div>
-  </div>
 
-  <div id="myLinks">
-    <div class="menu-items">
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="#">Home</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-      <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
+    <div id="myLinks">
+      <div class="menu-items">
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="#">Home</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
+        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
       <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
       <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
-    </div>
-  </div>
-  <div onclick="dismiss_menu()">
-  <div class="row top-section home">
-    <div class="column large-12 site-logo__wrapper">
-      <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
-          alt="Smarter Crowdsourcing | Zika Logo"></a>
-    </div>
-  </div>
-  <div class="row align-center">
-    <section class="imagine-banner">
-      <h2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse know-how could talk to one another to design actionable solutions to fight Coronavirus</h2>
-      <h2>Imagine if the smartest and most innovative people could come together to build the Coronavirus strategic preparedness and response quickly and easily</h2>
-      <h2>Imagine if those creative individuals could directly speak to the institutions with the power and responsibility for delivering new policies and services</h2>
-    </section>
-
-  </div>
-
-  <div >
-
-    <section class="dark-section">
-
-      <div class="row">
-
-        <p>{{indexTextData[0].translations[0].body}}</p>
-
-      </div>
-    </section>
-
-    <div class="products">
-
-      <div class="product-col">
-        <img src="images/sc-covid-book.png">
-        <div class="main-buttons">
-          <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      </div>
-      </div>
-      <div class="product-col">
-        <img src="images/recco_covid.gif">
-        <div class="main-buttons">
-          <a href="recommendations.html" class="button home-btn" target="_blank">explore the recommendations</a>
-      </div>
-      </div>
-      <div class="product-col">
-        <img src="images/strat.gif">
-        <div class="main-buttons">
-          <a href="strategies.html" class="button home-btn" target="_blank">explore the strategies</a>
-      </div>
-      </div>
-      <div class="product-col">
-        <img src="images/exec_memo.png">
-        <div class="main-buttons">
-          <a href="executive-memos.html" class="button home-btn" target="_blank">View the executive memos</a>
-      </div>
       </div>
     </div>
-    <div class="main-buttons accent-color">
+    <div onclick="dismiss_menu()">
+      <div class="row top-section home">
+        <div class="column large-12 site-logo__wrapper">
+          <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
+              alt="Smarter Crowdsourcing | Zika Logo"></a>
+        </div>
+      </div>
+      <div class="row align-center">
+        <section class="imagine-banner">
+          <h2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse
+            know-how could talk to one another to design actionable solutions to fight Coronavirus</h2>
+          <h2>Imagine if the smartest and most innovative people could come together to build the Coronavirus strategic
+            preparedness and response quickly and easily</h2>
+          <h2>Imagine if those creative individuals could directly speak to the institutions with the power and
+            responsibility for delivering new policies and services</h2>
+        </section>
 
-      <a href="outcomes.html" target="_blank" class="button">Guide to all resources</a>
-     
-    </div>
+      </div>
 
+      <div>
 
-    <section style="z-index:-10" id="topics">
-      <div class="topic-row">
+        <section class="dark-section">
+          <div v-for="indexdata in indexTextData">
+            <div
+              v-if="indexdata.status=='published' && indexdata.title_relation.title=='About' && indexdata.language ==langsel">
+              <div class="row">
+                <p>{{indexdata.body}}</p>
+              </div>
 
-        <div v-if="topic.status == 'published'" v-for="topic in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
-          <div class="topic-wrap">
-            <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
-            <p>{{topic.translations[langid(topic)].short_description}}</p>
-            <!-- <p>{{topic}}</p> -->
-            <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{miStr[langsel]}}</a></p>
+            </div>
+          </div>
+        </section>
 
-            <div class="topic_date">
-              <!-- <h6>Conference on</h6> -->
-              <h6>CONFERENCE ON &nbsp&nbsp</h6>
+        <div class="products">
 
-              <p class="topic_month">{{topic.translations[langid(topic)].date}}</p>
+          <div class="product-col">
+            <img src="images/sc-covid-book.png">
+            <div class="main-buttons">
+              <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE
+                FINAL REPORT</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/recco_covid.gif">
+            <div class="main-buttons">
+              <a href="recommendations.html" class="button home-btn" target="_blank">explore the recommendations</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/strat.gif">
+            <div class="main-buttons">
+              <a href="strategies.html" class="button home-btn" target="_blank">explore the strategies</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/exec_memo.png">
+            <div class="main-buttons">
+              <a href="executive-memos.html" class="button home-btn" target="_blank">View the executive memos</a>
             </div>
           </div>
         </div>
+        <div class="main-buttons accent-color">
 
+          <a href="outcomes.html" target="_blank" class="button">Guide to all resources</a>
 
-      </div>
-    </section>
-
-    <div class="divider" id="about">
-
-      <h1>About The Project</h1>
-    </div>
-    <section class="dark-section more-info">
-      <div class="row align-center">
-
-        <p>{{indexTextData[3].translations[0].body}}</p>
-        <div class="main-buttons accent-color"><a href='https://docs.google.com/document/d/1WHsQLZC5nVsTpxL_YHS4vy693tHuhIBvnQFCTCoqfuI/edit?usp=sharing' target="_blank" class='button'>View the Playbook</a>
-      </div>
-
-    </section>
-
-
-  </div>
-  <footer class='footer-alt'>
-    <div class="row align-center">
-      <div class="medium-6 medium-centered columns">
-        <!-- <h4>In collaboration with</h4> -->
-        <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="column">
-          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
-      </div>
-      <div class="column">
-          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="images/govlab-logo-white.png" alt="The GovLab"></a>
         </div>
-    </div>
-  </footer>
-  <div class="copyright">
-    <div class="row">
-      <div class="column">
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img class="copyright_cc-badge"
-            alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
+
+
+        <section style="z-index:-10" id="topics">
+          <div class="topic-row">
+
+            <div v-if="topic.status == 'published'" v-for="topic in indexData" class="topic-column"
+              :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
+              <div class="topic-wrap">
+                <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
+                <p>{{topic.translations[langid(topic)].short_description}}</p>
+                <!-- <p>{{topic}}</p> -->
+                <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{miStr[langsel]}}</a></p>
+
+                <div class="topic_date">
+                  <!-- <h6>Conference on</h6> -->
+                  <h6>CONFERENCE ON &nbsp&nbsp</h6>
+
+                  <p class="topic_month">{{topic.translations[langid(topic)].date}}</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+        <div class="divider" id="about">
+
+          <h1>About The Project</h1>
+        </div>
+        <section class="dark-section more-info">
+          <div class="row align-center">
+
+            <template v-for="indexdata in indexTextData">
+              <template
+                v-if="indexdata.status=='published' && indexdata.title_relation.title=='Playbook' && indexdata.language ==langsel">
+
+                <p>{{indexdata.body}}</p>
+              </template>
+
+            </template>
+
+        </section>
+
+        <div class="main-buttons accent-color"><a
+            href='https://docs.google.com/document/d/1WHsQLZC5nVsTpxL_YHS4vy693tHuhIBvnQFCTCoqfuI/edit?usp=sharing'
+            target="_blank" class='button'>View the Playbook</a>
+        </div>
+
+        </section>
+
+
+      </div>
+      <footer class='footer-alt'>
+        <div class="row align-center">
+          <div class="medium-6 medium-centered columns">
+            <!-- <h4>In collaboration with</h4> -->
+            <!-- <h4>EN COLABORACIÓN CON</h4> -->
+            <h4>IN COLLABORATION WITH</h4>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+          </div>
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                src="images/govlab-logo-white.png" alt="The GovLab"></a>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <div class="row">
+          <div class="column">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img class="copyright_cc-badge" alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+            <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
+              International License.</a>.
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</main>
+  </main>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */

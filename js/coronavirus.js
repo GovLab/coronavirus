@@ -169,23 +169,28 @@ new Vue({
     },
     fetchIndexText() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
+      axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*").then(data => {
+        
+        self.indexTextData = data.data.data;
 
-      client.getItems(
-        'homepage',
-        {
-          fields: ['*.*']
-        }
-      ).then(data => {
-        console.log(data)
-        self.indexTextData = data.data;
+      }).catch(error => console.error(error));
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
 
-      })
-        .catch(error => console.error(error));
+      // client.getItems(
+      //   'homepage',
+      //   {
+      //     fields: ['*.*']
+      //   }
+      // ).then(data => {
+      //   console.log(data)
+      //   self.indexTextData = data.data;
+
+      // })
+      //   .catch(error => console.error(error));
     },
     fetchTeamData() {
       self = this;

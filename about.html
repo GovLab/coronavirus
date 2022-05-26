@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@
 <body class="homepage" onwheel="scroll_dismiss()">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-
+  <div id="home-page">
 
   <!-- Top Navigation Menu -->
   <div class="topnav">
@@ -47,11 +47,11 @@
         alt="Smarter Crowdsourcing | Zika"></a>
     <!-- Navigation links (hidden by default) -->
     <div class='lang-select'>
-      <a style="padding: 15px 5px" href="es/about.html">ES</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="#" class="active">EN</a>
-      <p style="color:#ffffff">|</p>
-      <a style="padding: 15px 5px" href="pt/about.html">PT</a>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+      <p style="color:#ffffff" >|</p>
+      <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+      <p style="color:#ffffff" >|</p>
+      <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
   <div id="myLinks">
@@ -74,22 +74,29 @@
     <h1>About</h1>
   </div>
 
-  <body>
-    <div id="home-page">
+
+    
       <section class="light-section topic_desc">
+        <div v-for="aboutel in indexTextData">
+          <div v-if="aboutel.status=='published' && aboutel.title_relation.title=='About' && aboutel.language ==langsel" >
         <h1><span id="underline">ABOUT THE PROJECT</span></h1>
-          <p>{{indexTextData[1].translations[0].long_desc}}</p>
-          <h1><span id="underline">ABOUT THE GOVLAB</span></h1>
+        <p>{{aboutel.body}}</p>
+                <h1><span id="underline">ABOUT THE GOVLAB</span></h1>
           <a href="http://thegovlab.org" target="_blank">www.thegovlab.org</a>
-          <p>{{indexTextData[1].translations[0].govlab_about}}</p>
+          <p>{{aboutel.govlab_about}}</p>
           <h1><span id="underline">ABOUT THE INTER-AMERICAN DEVELOPMENT BANK</span></h1>
           <a href="http://iadb.org" target="_blank">www.iadb.org</a>
-          <p>{{indexTextData[1].translations[0].idb_about}}</p>
+          <p>{{aboutel.idb_about}}</p>
+          </div>
+          
+        </div>
+       
+
       </section>
 
     </div>
 
-  </body>
+  
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
