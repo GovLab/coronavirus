@@ -36,6 +36,7 @@ new Vue({
       af_count: 0,
       indexTextData: [],
       reportData: [],
+      productData:[],
       TeamData: [],
       ReccoData: [],
       langsel:'en',
@@ -143,22 +144,28 @@ new Vue({
     },
     fetchProducts() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
+      axios.get(this.apiURLd9+"items/products?fields=*,translation.*").then(data => {
+        
+        self.productData = data.data.data;
 
-      client.getItems(
-        'products',
-        {
-          fields: ['*.*', 'translation.*']
-        }
-      ).then(data => {
-        console.log('productData',data.data)
-        self.productData = data.data;
-      })
-        .catch(error => console.error(error));
+      }).catch(error => console.error(error));
+      
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
+
+      // client.getItems(
+      //   'products',
+      //   {
+      //     fields: ['*.*', 'translation.*']
+      //   }
+      // ).then(data => {
+      //   console.log('productData',data.data)
+      //   self.productData = data.data;
+      // })
+      //   .catch(error => console.error(error));
     },
     fetchIndexText() {
       self = this;
@@ -379,6 +386,7 @@ new Vue({
       }];
     },
     langid(tr){
+      console.log(tr.translations);
       const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel  })
       console.log(trIndex);
       return trIndex;

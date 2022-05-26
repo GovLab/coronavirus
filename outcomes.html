@@ -34,7 +34,7 @@
     <div id="home-page">
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
-
+  
   <!-- Top Navigation Menu -->
   <div class="topnav">
     <div class="menu-bars">
@@ -78,7 +78,7 @@
   <section>
     <div class="main-buttons accent-color index-page-button">
       <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE FINAL REPORT</a>
-      <a :href="apiURLd9+'assets/'+reportData[0]['exec_memos_'+langsel]" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a>
+      <!-- <a :href="apiURLd9+'assets/'+reportData[0]['exec_memos_'+langsel]" class="button home-btn" target="_blank">DOWNLOAD THE Executive Memos</a> -->
     </div>
   </section>
 
@@ -108,7 +108,7 @@
       <div class="legend">
         <p>To view these resources you can either (1) download the master report <a href="files/SmarterCrowdsourcing_Report_EN.pdf">(here)</a>  which has all of the materials compiled into a single resource or (2) visit the advisory session page <a href="topics.html">(here)</a> where you can view resources grouped by the respective session topic.</p>
       </div>
-     
+      
       <div class="table-section">
         <div class="product-table-header">
           <div class="table-title">
@@ -121,24 +121,24 @@
             <h2>Use</h2>
           </div>
         </div>
-        {{productData}}
-        <a class="product-table-contents" v-for="item in productData" :href="item.translation[langid(item)].link" target="_blank">
-          {{item}}
-          <!-- <div class="table-body title">
-            <div>
+        
+        <a class="product-table-contents" v-for="item in productData" :href="item.translation[0].link" v-if="item.status == 'published'" target="_blank">
+        <!-- {{langid(item)}} -->
+        <br><br>
+        <template v-for="tr in item.translation" v-if="tr.status == 'published' && tr.language == langsel">
+          <div class="table-body title">
             <p v-if="item.final_product" style="margin:0"><span class="final-product final">Final product</span></p>
             <p v-if="!item.final_product" style="margin:0"><span class="final-product">Conference Materials</span></p>
-            <p>{{item.translation[langid(item)].title}}</p>
-            </div>
+            <p>{{tr.title}}  </p>
           </div>
           <div class="table-body">
-            <div  v-html="item.translation[langid(item)].description"></div>
+            <div  v-html="tr.description"></div>
           </div>
           <div class="table-body">
-            <div v-html="item.translation[langid(item)].use"></div>
-          </div> -->
+            <div v-html="tr.use"></div>
+          </div>
+        </template>
         </a>
-
       </div>
     </div>
 
