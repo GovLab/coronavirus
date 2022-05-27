@@ -197,7 +197,7 @@ new Vue({
     },
     fetchIndexText() {
       self = this;
-      axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*").then(data => {
+      axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*,title_relation.translations.*").then(data => {
         
         self.indexTextData = data.data.data;
 
