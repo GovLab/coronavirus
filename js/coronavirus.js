@@ -35,6 +35,7 @@ new Vue({
       sa_count: 0,
       af_count: 0,
       indexTextData: [],
+      indexTextD9Data: [],
       reportData: [],
       productData:[],
       TeamData: [],
@@ -42,10 +43,21 @@ new Vue({
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
       apiURLd9: 'https://d9.sc.thegovlab.com/',
-      miStr: { 'en':'More Information', 'es':'Más información', 'pt':'Mais Informações'}
+      miStr: { 'en':'More Information', 'es':'Más información', 'pt':'Mais Informações'},
+      target: [],
+      items: [],
+      counter: 0
     }
   },
-
+  updated: function () {
+    // a computed getter
+    this.$nextTick(function () {
+      this.target = $('.imagine-banner').hide()
+      this.items = $('.imagine-banner').children()
+      console.log('items',$('.imagine-banner'));
+  this.bannerFade();
+    })
+  },
   created: function created() {
     this.fetchIndex();
     this.fetchMapExperts();
@@ -56,8 +68,23 @@ new Vue({
     this.fetchTeamData();
     this.fetchRecommendations();
 
+
+
   },
+ 
+
   methods: {
+    bannerFade() {
+      self = this;
+      console.log(this.target);
+      this.target.fadeIn(2000).delay( 1500 ).fadeOut(2000,function() {
+        self.bannerFade();
+      }).html(this.items[this.counter++]);
+      console.log(this.counter)
+      if (this.counter == this.items.length) {
+        this.counter = 0;
+      } 
+  },
     fetchMapExperts(){
       self = this;
 
@@ -94,6 +121,7 @@ new Vue({
       })
         .catch(error => console.error(error));
     },
+  
     
     fetchIndex() {
       self = this;
@@ -172,6 +200,13 @@ new Vue({
       axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*").then(data => {
         
         self.indexTextData = data.data.data;
+
+      }).catch(error => console.error(error));
+
+      axios.get(this.apiURLd9+"items/homepage?fields=*,translations.*").then(data => {
+        
+        self.indexTextD9Data = data.data.data;
+        
 
       }).catch(error => console.error(error));
       // const client = new DirectusSDK({
@@ -391,12 +426,18 @@ new Vue({
       }];
     },
     langid(tr){
-      console.log(tr.translations);
-      const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel  })
-      console.log(trIndex);
+      const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel})
+      console.log('index',trIndex);
       return trIndex;
     },
+    langidd9(tr){
+      const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
+      console.log('index',trIndex);
+      return trIndex;
+    },
+    
   }
 });
 
 
+// DOWNLOAD THE FINAL REPORT,EXPLORE THE RECOMMENDATIONS,EXPLORE THE STRATEGIES VIEW THE EXECUTIVE MEMOS,VIEW THE EXECUTIVE MEMOS,GUIDE TO ALL RESOURCES,ABOUT THE PROJECT,VIEW THE PLAYBOOK

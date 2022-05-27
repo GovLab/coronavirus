@@ -76,24 +76,25 @@
               alt="Smarter Crowdsourcing | Zika Logo"></a>
         </div>
       </div>
-      <div class="row align-center">
-        <section class="imagine-banner">
-          <h2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse
-            know-how could talk to one another to design actionable solutions to fight Coronavirus</h2>
-          <h2>Imagine if the smartest and most innovative people could come together to build the Coronavirus strategic
-            preparedness and response quickly and easily</h2>
-          <h2>Imagine if those creative individuals could directly speak to the institutions with the power and
-            responsibility for delivering new policies and services</h2>
-        </section>
-
+      
+      <div class="row ">
+        
+          <template v-for="indexdata in indexTextD9Data">
+            <template 
+              v-if="indexdata.status=='published' && indexdata.title=='Homepage'">
+              <p  class="imagine-banner" v-html="indexdata.translations[langidd9(indexdata)].imagine_banner"></p>
+            </template>
+          </template>
       </div>
 
       <div>
 
         <section class="dark-section">
+          
           <div v-for="indexdata in indexTextData">
+
             <div
-              v-if="indexdata.status=='published' && indexdata.title_relation.title=='About' && indexdata.language ==langsel">
+              v-if="indexdata.status=='published' && indexdata.title_relation && indexdata.title_relation.title=='About' && indexdata.language ==langsel">
               <div class="row">
                 <p>{{indexdata.body}}</p>
               </div>
@@ -107,8 +108,8 @@
           <div class="product-col">
             <img src="images/sc-covid-book.png">
             <div class="main-buttons">
-              <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">DOWNLOAD THE
-                FINAL REPORT</a>
+              <a href="files/SmarterCrowdsourcing_Report_EN.pdf" class="button home-btn" target="_blank">{{["DOWNLOAD THE
+                FINAL REPORT"]}}</a>
             </div>
           </div>
           <div class="product-col">
@@ -168,15 +169,13 @@
         <section class="dark-section more-info">
           <div class="row align-center">
 
-            <template v-for="indexdata in indexTextData">
+            <!-- <template v-for="indexdata in indexTextData">
               <template
                 v-if="indexdata.status=='published' && indexdata.title_relation.title=='Playbook' && indexdata.language ==langsel">
 
                 <p>{{indexdata.body}}</p>
               </template>
-
-            </template>
-
+            </template> -->
         </section>
 
         <div class="main-buttons accent-color"><a
@@ -242,7 +241,7 @@
     x.style.display = "none";
   }
 </script>
-<script src="js/fadein.js"></script>
+<!-- <script src="js/fadein.js"></script> -->
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <script src="js/coronavirus.js"></script>
