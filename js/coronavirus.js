@@ -34,6 +34,7 @@ new Vue({
       na_count: 0,
       sa_count: 0,
       af_count: 0,
+      menuData: [],
       indexTextData: [],
       indexTextD9Data: [],
       reportData: [],
@@ -61,7 +62,7 @@ new Vue({
   created: function created() {
     this.fetchIndex();
     this.fetchMapExperts();
-  
+    this.fetchMenu();
     this.fetchProducts();
     this.fetchReports();
     this.fetchIndexText();
@@ -121,7 +122,14 @@ new Vue({
       })
         .catch(error => console.error(error));
     },
-  
+    fetchMenu() {
+      self = this;
+      axios.get(this.apiURLd9+"items/menu?fields=*,translations.*").then(data => {
+        console.log("menu", data)
+        self.menuData = data.data.data;
+      })
+        .catch(error => console.error(error));
+    },
     
     fetchIndex() {
       self = this;
