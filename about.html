@@ -33,6 +33,8 @@
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
   <div id="home-page">
+  <main v-for="indexdata in indexTextD9Data"  v-if="indexdata.status=='published' ">
+    <div  v-if="indexdata.title=='About'">
 
   <!-- Top Navigation Menu -->
   <div class="topnav">
@@ -56,53 +58,52 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-      <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Home_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[1].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[1].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a></div>
     </div>
   </div>
   <div onclick="dismiss_menu()">
-  <div class="row top-section topic team">
+  <div class="row top-section topic team" v-if="indexdata.title=='About'">
 
-    <h1>About</h1>
+    <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
   </div>
 
 
     
-      <section class="light-section topic_desc">
+      <section class="light-section topic_desc" v-if="indexdata.title=='About'">
+     
         <div v-for="aboutel in indexTextData">
-          <div v-if="aboutel.status=='published' && aboutel.title_relation.title=='About' && aboutel.language ==langsel" >
-        <h1><span id="underline">ABOUT THE PROJECT</span></h1>
+         
+          <div v-if="aboutel.status=='published' && aboutel.title_relation && aboutel.title_relation.title=='About' && aboutel.language ==langsel" >
+        <h1><span id="underline">{{indexdata.translations[langidd9(indexdata)].elements[0].ABOUT_THE_PROJECT}}</span></h1>
         <p>{{aboutel.body}}</p>
-                <h1><span id="underline">ABOUT THE GOVLAB</span></h1>
+                <h1><span id="underline">{{indexdata.translations[langidd9(indexdata)].elements[0].ABOUT_THE_GOVLAB}}</span></h1>
           <a href="http://thegovlab.org" target="_blank">www.thegovlab.org</a>
           <p>{{aboutel.govlab_about}}</p>
-          <h1><span id="underline">ABOUT THE INTER-AMERICAN DEVELOPMENT BANK</span></h1>
+          <h1><span id="underline">{{indexdata.translations[langidd9(indexdata)].elements[0].ABOUT_THE_INTERAMERICAN_DEVELOPMENT_BANK}}</span></h1>
           <a href="http://iadb.org" target="_blank">www.iadb.org</a>
-          <p>{{aboutel.idb_about}}</p>
-          </div>
+          <p>{{aboutel.idb_about}}</p> 
+           </div>
           
         </div>
        
 
       </section>
-
-    </div>
-
   
-  <footer class='footer-alt'>
+    </div>
+  </div>
+  
+  <footer class='footer-alt' v-if="indexdata.title=='Homepage'">
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
+        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
       </div>
 
     </div>
@@ -117,18 +118,20 @@
       </div>
     </div>
   </footer>
-  <div class="copyright">
+  <div class="copyright" v-if="indexdata.title=='Homepage' && indexdata.status=='published'">
+    {{indexdata.title}}
     <div class="row">
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
             src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-          International License.</a>.
+            
+        <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+          :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
       </div>
     </div>
   </div>
+</main>
   </div>
 </body>
 <script>
