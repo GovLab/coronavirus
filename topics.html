@@ -58,7 +58,7 @@
       <div id="myLinks">
         <div class="menu-items">
           <div class="menu-sub" onclick="dismiss_menu()"><a
-              :href="menuData.translations[1].menu_items[0].Home_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+              :href="menuData.translations[1].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
           </div>
           <div class="menu-sub" onclick="dismiss_menu()"><a
               :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
@@ -94,7 +94,7 @@
               <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
               <p>{{topic.translations[langid(topic)].short_description}}</p>
 
-              <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">More Information</a></p>
+              <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
 
               <div class="topic_date">
                 <h6>{{indexEl.translations[langidd9(indexEl)].elements[0].CONFERENCE_ON}} &nbsp&nbsp</h6>

@@ -58,7 +58,7 @@
 
     <div id="myLinks">
       <div class="menu-items">
-        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Home_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a></div>
         <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a></div>
         <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[1].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a></div>
         <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a></div>
@@ -147,7 +147,7 @@
                 <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
                 <p>{{topic.translations[langid(topic)].short_description}}</p>
                 <!-- <p>{{topic}}</p> -->
-                <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{miStr[langsel]}}</a></p>
+                <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
 
                 <div class="topic_date">
                   <!-- <h6>Conference on</h6> -->
