@@ -35,8 +35,9 @@
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
   <main id="home-page">
+    <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
   <!-- Top Navigation Menu -->
-  <div class="topnav">
+  <div class="topnav" >
     <div class="menu-bars">
       <div class="bar-wrap">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -57,46 +58,39 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-      <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[1].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[1].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[1].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a></div>
     </div>
   </div>
   <div onclick="dismiss_menu()">
-  <div class="row top-section topic strategies">
+    </div>
+    <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Recommendations'">
+      <div class="row top-section topic team">
 
-    <h1>Recommendations</h1>
-   <p>Recommendations for governments to strengthen government capacity for COVID testing strategies, contact tracing programs, public health communications, vulnerable population supports, monitoring systems, and mental health interventions</p>
-  </div>
+      <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
+   
+   <p v-html="indexdata.translations[langidd9(indexdata)].imagine_banner"></p>
+        </div>
 
-  <body>
     <div>
       <section class="dark-section">
         <br> <br>
-        <div class="row">
+        <div class="row" v-html="indexdata.translations[langidd9(indexdata)].playbook_about">
 
-          <p>The outcomes of this project are a set of <a class="link_pink" href="recommendations.html">18
-              recommendations</a> developed with the support of global experts. These recommendations are designed for
-            government officials to aid them as they address the COVID-19 pandemic. Each recommendation is supported by
-            <a class="link_pink"  href="strategies.html">a set of strategies</a> to achieve that recommendation. Strategies in turn detail
-            actions and global examples that guide governments of the specific steps needed for implementing the
-            strategy.</p>
-            <div class="main-buttons accent-color">
-              <a href="recommendations.html#recco" class="button">Explore all recommendations</a>
-              <a href="strategies.html" target="_blank" class="button">Explore all strategies</a>
-            </div>
+        </div>
+        <div class="main-buttons accent-color" v-for="indexEl in indexTextD9Data" v-if="indexEl.title == 'Homepage'">
+          <a href="recommendations.html#recco" class="button">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_RECOMMENDATIONS}}</a>
+          <a href="strategies.html" target="_blank" class="button">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_STRATEGIES}}</a>
         </div>
 
       </section>
       <div class="divider recco" id="recco">
-        <h1>Recommendations</h1>
+        <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
       </div>
       <div class="recco-page">
         <div class="recco-col" v-for="recco in ReccoData">
@@ -110,12 +104,11 @@
             </div>
             <div class="recco-tag">
               <div class="recco-tag-title">
-                <p>TOPIC</p>
+                <p>{{menuData.translations[langidd9(menuData)].menu_items[0].Topic.toUpperCase()}}</p>
               </div>
               <div class="recco-tag-body">
                 <div v-for="tag in recco.topic">
-                 
-                  <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
+                  <a :href="tag.topics_id.translations[langid(tag.topics_id)].slug"><span class="tag-item">{{tag.topics_id.translations[langid(tag.topics_id)].topic_title}}</span></a>
                 </div>
               </div>
             </div>
@@ -124,14 +117,14 @@
         </div>
       </div>
     </div>
-
-  </body>
+  </div>
+<div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
   <footer class='footer-alt'>
     <div class="row align-center">
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
+        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
       </div>
 
     </div>
@@ -146,19 +139,22 @@
       </div>
     </div>
   </footer>
-  <div class="copyright">
+  <div class="copyright" v-if="indexdata.title=='Homepage' && indexdata.status=='published'">
+
     <div class="row">
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
             src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-          International License.</a>.
+            
+        <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+          :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
       </div>
     </div>
   </div>
+</div>
   </div>
+</div>
 </main>
 </body>
 <script>

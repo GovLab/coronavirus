@@ -2,7 +2,7 @@
 // reload page after Forward and back
 ///////////////////////////////////////
 
-const TYPE_BACK_FORWARD = 2;
+// const TYPE_BACK_FORWARD = 2;
 
 function isReloadedPage() {
   return performance.navigation.type === TYPE_BACK_FORWARD;
@@ -23,7 +23,7 @@ Vue.use(VueMeta);
 
 new Vue({
 
-  el: '#home-page',
+  el: '#home-page-filters',
 
   data() {
 
