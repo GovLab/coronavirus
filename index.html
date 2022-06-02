@@ -141,7 +141,8 @@
         <section style="z-index:-10" id="topics">
           <div class="topic-row">
 
-            <div v-if="topic.status == 'published'" v-for="topic in indexData" class="topic-column"
+            <div v-if="topic.status == 'published'" v-for="topic in indexDataTopics" class="topic-column"
+            
               :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
               <div class="topic-wrap">
                 <h1>{{topic.translations[langid(topic)].topic_title}}</h1>

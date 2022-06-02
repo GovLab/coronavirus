@@ -87,7 +87,7 @@
       <section style="margin-top: -50px; z-index:-10" id="topics">
         <div class="topic-row">
 
-          <div v-for="topic in indexData" v-if="topic.status == 'published'" class="topic-column"
+          <div v-for="topic in indexDataTopics" v-if="topic.status == 'published'" class="topic-column"
             :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+ ')' }">
 
             <div class="topic-wrap">

@@ -257,11 +257,11 @@ new Vue({
     
     fetchIndex() {
       self = this;
-      const client = new DirectusSDK({
-        url: "https://directus.thegovlab.com/",
-        project: "smarter-crowdsourcing",
-        storage: window.localStorage
-      });
+      // const client = new DirectusSDK({
+      //   url: "https://directus.thegovlab.com/",
+      //   project: "smarter-crowdsourcing",
+      //   storage: window.localStorage
+      // });
 
       // client.getItems(
       //   'topics',
@@ -275,7 +275,7 @@ new Vue({
 
     axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*").then(data => {
         console.log("data: ",data)
-        self.indexData = data.data.data;
+        self.indexDataTopics = data.data.data;
       })
         .catch(error => console.error(error));
     },
@@ -558,11 +558,13 @@ new Vue({
       }];
     },
     langid(tr){
+      console.log(tr, ' langid');
       const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel})
-      console.log('index',trIndex);
+      
       return trIndex;
     },
     langidd9(tr){
+      console.log(' langidd9',tr);
       const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       console.log('index',trIndex);
       return trIndex;
