@@ -31,6 +31,7 @@
 
 <body class="homepage"  onwheel="scroll_dismiss()">
   <div id="home-page">
+    
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
 
@@ -53,54 +54,64 @@
       <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
     </div>
   </div>
-    <div id="myLinks">
-      <div class="menu-items">
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-        <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-        <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+  <div id="myLinks">
+    <div class="menu-items">
+      <div class="menu-sub" onclick="dismiss_menu()"><a
+          :href="menuData.translations[1].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a
+          :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a
+          :href="menuData.translations[1].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a
+          :href="menuData.translations[1].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a
+          :href="menuData.translations[1].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a
+          :href="menuData.translations[1].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a>
+      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a
+          :href="menuData.translations[1].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a>
       </div>
     </div>
+  </div>
     <div onclick="dismiss_menu()">
-      <div v-for="(elIndexData,index) in indexData" v-if="elIndexData.id == 2 && elIndexData.status=='published'" >
+    <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
+      <div v-for="(elIndexData,index) in indexDataTopics" v-if="elIndexData.id == 2 && elIndexData.status=='published'" >
         <div class="row top-section topic"  :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ elIndexData.image+ ')' }">
           
           <h1>{{elIndexData.translations[langid(elIndexData)].topic_title}}</h1>
           <p>{{elIndexData.translations[langid(elIndexData)].short_description}}</p>
         </div>
   <div class="row align-center">
-
-
   </div>
   
- 
     <section>
       <div class="main-buttons accent-color index-page-button">
-        <a href="https://docs.google.com/document/d/1DzmSxBT6rqoewafUMNmdEHmjYREZ0bLnqr4JCIP1ZgE/edit?usp=sharing" target="_blank" class="button">Recommendations Memo</a>
-        <a href="https://docs.google.com/document/d/1vusJVfOjlWdw04VuPJ66yzhc9-slrXAXSJ_Do_YbrgE/edit?usp=sharing" target="_blank" class="button">Conference Takeaways</a>
+        <a v-if="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Recommendations_Memo" :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Recommendations_Memo[0].link" target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].Recommendations_Memo[0].label}}</a>
+        <a v-if="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Conference_Takeaways" :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Conference_Takeaways[0].link" target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].Conference_Takeaways[0].label}}</a>
       </div>
     </section>
     <section class="light-section topic_desc">
-      <h1>DESCRIPTION</h1>
+      
+      <h1>{{indexdata.translations[langidd9(indexdata)].elements[0].DESCRIPTION}}</h1>
       <p>{{elIndexData.translations[langid(elIndexData)].long_description}}</p>
 
     </section>
     <div class="main-buttons accent-color topic-page-button">
- 
-      <a href="https://docs.google.com/document/d/1tWevzRVhcJjbidPHktAvXNWnZFXnCpB2O-2_2EK1apE/edit?usp=sharing" target="_blank" class="button">READ THE PROBLEM DESCRIPTION</a>
-      <a href="https://docs.google.com/document/d/1mcZx4VjYLrFdKmO9jvCKIEGpIKNtZQHYDyhVtXpZCKk/edit" target="_blank" class="button">READ THE REGIONAL REPORT</a>
-      <a href="https://docs.google.com/document/d/1I3Ef_eH3dydwLkrx9DwP7GoIdkxp8UK6Tp6A2WqrpoA/edit?usp=sharing" target="_blank" class="button">Agenda and Logistics</a>
-      <a href="https://docs.google.com/document/d/1Sqm24sXM5StmQswS4Qac3_K6KQU2fjtCVyiaJ-yKMdU/edit?usp=sharing" target="_blank" class="button">EXPERTS AND PARTICIPANTS</a>
+     
+      <a v-if="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].READ_THE_PROBLEM_DESCRIPTION" :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].READ_THE_PROBLEM_DESCRIPTION[0].link" target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].READ_THE_PROBLEM_DESCRIPTION[0].label}}</a>
+      <a :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].READ_THE_REGIONAL_REPORT[0].link" target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].READ_THE_REGIONAL_REPORT[0].label}}</a>
+      <a v-if="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Agenda_and_Logistics" :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].Agenda_and_Logistics[0].link"  target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].Agenda_and_Logistics[0].label}}</a>
+      <a :href="elIndexData.translation_el[langIdD9El(elIndexData)].topic_elements.elements[0].EXPERTS_AND_PARTICIPANTS[0].link"  target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].EXPERTS_AND_PARTICIPANTS[0].label}}</a>
     </div>
     <div class="divider recco">
 
-      <h1>RECOMMENDATIONS</h1>
+      <h1>{{indexdata.translations[langidd9(indexdata)].elements[0].RECOMMENDATION}}</h1>
     </div>
     <div class="recco-page">
       <div class="recco-col" v-for="recco in ReccoData">
@@ -118,11 +129,11 @@
           </div>
           <div class="recco-tag">
             <div class="recco-tag-title">
-              <p>TOPIC</p>
+              <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Topic}}</p>
             </div>
             <div class="recco-tag-body">
               <div v-for="tag in recco.topic">
-                <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[0].topic_title}}</span></a>
+                <a :href="tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[langid(tag.topics_id)].topic_title}}</span></a>
               </div>
             </div>
           </div>
@@ -134,7 +145,7 @@
     </div>
     <section>
       <div class="main-buttons accent-color index-page-button">
-        <a href="recommendations.html" target="_blank" class="button">READ ALL RECOMMENDATIONS</a>
+        <a href="recommendations.html" target="_blank" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].EXPLORE_THE_RECOMMENDATIONS}}</a>
       </div>
     </section>
   </div>
@@ -143,32 +154,35 @@
       <div class="medium-6 medium-centered columns">
         <!-- <h4>In collaboration with</h4> -->
         <!-- <h4>EN COLABORACIÓN CON</h4> -->
-        <h4>IN COLLABORATION WITH</h4>
+        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
       </div>
 
     </div>
     <div class="row">
       <div class="column">
-          <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-              src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+        <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+            src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
       </div>
       <div class="column">
-          <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-              src="images/govlab-logo-white.png" alt="The GovLab"></a>
-        </div>
+        <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+            src="images/govlab-logo-white.png" alt="The GovLab"></a>
+      </div>
     </div>
   </footer>
-  <div class="copyright">
+  <div class="copyright" v-if="indexdata.title=='Homepage' && indexdata.status=='published'">
+
     <div class="row">
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-          <img class="copyright_cc-badge"
-            alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-          href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
+          <img class="copyright_cc-badge" alt="Creative Commons License"
+            src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+        <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+          :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
       </div>
     </div>
   </div>
+</div>
   </div>
   
 </body>

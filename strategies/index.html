@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-DV8KTW4TBH');
-</script>
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,221 +48,214 @@
       <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
         <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
-        <p style="color:#ffffff" >|</p>
+        <p style="color:#ffffff">|</p>
         <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
-        <p style="color:#ffffff" >|</p>
-        <a  style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
       </div>
     </div>
     <div id="myLinks">
       <div class="menu-items">
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"> <a href="topics.html">Topic</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="recommendations.html">Explore Recommendations</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"> <a href="strategies.html">Explore Strategies</a></div>
-        <div class="menu-sub" onclick="dismiss_menu()"><a href="outcomes.html">See all resources</a></div>
-        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
-        <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
-        <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+        <div class="menu-sub" onclick="dismiss_menu()"><a
+            :href="menuData.translations[1].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a
+            :href="menuData.translations[1].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a
+            :href="menuData.translations[1].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a
+            :href="menuData.translations[1].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a
+            :href="menuData.translations[1].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a
+            :href="menuData.translations[1].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a
+            :href="menuData.translations[1].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a>
+        </div>
       </div>
     </div>
     <div onclick="dismiss_menu()">
-    <div class="row top-section topic specific-recco">
+      <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
+        <div class="row top-section topic specific-recco">
 
-      <h1>STRATEGY</h1>
-      <p>This strategy is a means to achieve a specific recommendation. Explore the actions you can take to implement this strategy and global examples of it in practice. </p>
-    </div>
+          <h1>{{indexdata.translations[langidd9(indexdata)].elements[0].STRATEGY}}</h1>
+          <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Strategy_detail_default}}</p>
+        </div>
 
-    <section>
-      <div class="main-buttons accent-color index-page-button">
+        <section>
+          <div class="main-buttons accent-color index-page-button">
 
-        <a  v-for="recco in stratData[0].strat_rec" :href="'../recommendations/'+recco.recommendation_id.slug" class="button">See related strategies</a>
-        <a  href="../strategies.html" class="button">See all strategies</a>
+            <a v-for="recco in stratData[0].strat_rec" :href="'../recommendations/'+recco.recommendation_id.slug"
+              class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].SEE_RELATED_STRATEGIES}}</a>
+            <a href="../strategies.html"
+              class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].SEE_ALL_STRATEGIES}}</a>
+          </div>
+        </section>
+
+        <div class="recco-specific-page">
+          <div class="strategy-item">
+            <div class="strat-row">
+              <div class="strat-left">
+                <div class="strategy-number">
+                  <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].STRATEGY}}</h4>
+                </div>
+                <div class="strategy-description" v-html="stratData[0]['description_'+langsel]">
+                </div>
+              </div>
+              <div class="strat-right">
+
+                <div class="strategy-tags">
+                  <div class="tag-first-row">
+                    <div class="timeline">
+                      <div class="recco-tag-title">
+                        <p>{{indexdata.translations[langidd9(indexdata)].elements[0].TIMEFRAME}}</p>
+                      </div>
+                      <div class="clock-icons">
+                        <img v-for="n in 4"
+                          v-if="(stratData[0].timeline=='timeline_1' && n<2) ||(stratData[0].timeline=='timeline_2' && n<3) || (stratData[0].timeline=='timeline_3' && n<4) || (stratData[0].timeline=='timeline_4' && n<5)"
+                          src="../images/clock_00.png">
+                        <img v-for="n in 4"
+                          v-if="(stratData[0].timeline=='timeline_1' && n>1) ||(stratData[0].timeline=='timeline_2' && n>2) || (stratData[0].timeline=='timeline_3' && n>3) || (stratData[0].timeline=='timeline_4' && n>4)"
+                          src="../images/clock_light.png">
+                      </div>
+                      <p>{{filterId("js_timeline_",stratData[0].timeline)}}</p>
+                    </div>
+                    <div class="audience">
+                      <div class="recco-tag-title">
+                        <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Audience}}</p>
+                      </div>
+                      <div class="recco-tag-body audience-body">
+                        <div v-for="audience in JSON.parse(stratData[0].audience)">
+                          <a><span class="tag-item audience">{{filterId("js_audience_",audience)}}</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tag-second-row">
+                    <div class="type">
+                      <div class="recco-tag-title">
+                        <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Type}}</p>
+                      </div>
+                      <div class="recco-tag-body audience-body">
+                        <div v-for="area in JSON.parse(stratData[0].area)">
+                          <a><span class="tag-item type">{{filterId("js_type_",area)}}</span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="type">
+                      <div class="recco-tag-title">
+                        <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Topic}}</p>
+                      </div>
+                      <div class="recco-tag-body audience-body">
+                        <div>
+                          <a
+                            :href="'../'+stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].slug"><span
+                              class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].topic_title}}</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="actions-accordion">
+              <div class="faq-section">
+
+                <div class="faq-item">
+
+                  <button v-on:click="toggleMessage(index,0)" class="accordion">
+                    <h2>
+                      {{indexdata.translations[langidd9(indexdata)].elements[0].ACTIONS_GOVERNMENTS_SHOULD_TAKE}} ({{stratData[0].actions.length}}
+                      {{indexdata.translations[langidd9(indexdata)].elements[0].Action.toLowerCase()}} )</h2><i
+                      class="material-icons down"></i>
+                  </button>
+                  <div v-if="showAction && index_active == index" class="panel">
+                    <div class="action-item" v-for="(action,action_index) in stratData[0].actions">
+                      <div class="strategy-number">
+                        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].Action}} {{action_index + 1}}</h4>
+                      </div>
+                      <div class="action-text" v-html="action.actions_id['description_'+langsel]">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div v-if="stratData[0].examples.length > 0" class="examples-accordion">
+              <div class="faq-section">
+
+                <div class="faq-item">
+
+                  <button @click="toggleMessage(index,1)" class="accordion">
+                    <h2>
+                      {{indexdata.translations[langidd9(indexdata)].elements[0].EXAMPLES_FROM_AROUND_THE_WORLD}} ({{stratData[0].examples.length}}
+                      {{indexdata.translations[langidd9(indexdata)].elements[0].Example.toLowerCase()}})</h2><i
+                      class="material-icons down"></i>
+                  </button>
+                  <div v-if="showExample && index_active == index" class="panel">
+                    <div class="action-item" v-for="(example,example_index) in stratData[0].examples">
+                      <div class="strategy-number">
+                        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].Example}} {{example_index + 1}}
+                        </h4>
+                      </div>
+                      <div class="action-text" v-html="example.examples_id['description_'+langsel]">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <footer class='footer-alt'>
+          <div class="row align-center">
+            <div class="medium-6 medium-centered columns">
+              <!-- <h4>In collaboration with</h4> -->
+              <!-- <h4>EN COLABORACIÓN CON</h4> -->
+              <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="column">
+              <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                  src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+            </div>
+            <div class="column">
+              <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                  src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright">
+          {{indexdata.title}}
+          <div class="row">
+            <div class="column">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img class="copyright_cc-badge" alt="Creative Commons License"
+                  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+              <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+                :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <div class="recco-specific-page">
-      <div class="strategy-item">
-        <div class="strat-row">
-          <div class="strat-left">
-            <div class="strategy-number">
-              <h4>STRATEGY</h4>
-            </div>
-            <div class="strategy-description" v-html="stratData[0]['description_'+langsel]">
-            </div>
-          </div>
-          <div class="strat-right">
-
-            <div class="strategy-tags">
-              <div class="tag-first-row">
-                <div class="timeline">
-                  <div class="recco-tag-title">
-                    <p>TIMEFRAME</p>
-                  </div>
-                  <div class="clock-icons">
-                    <img v-for="n in 4"
-                      v-if="(stratData[0].timeline=='timeline_1' && n<2) ||(stratData[0].timeline=='timeline_2' && n<3) || (stratData[0].timeline=='timeline_3' && n<4) || (stratData[0].timeline=='timeline_4' && n<5)"
-                      src="../images/clock_00.png">
-                    <img v-for="n in 4"
-                      v-if="(stratData[0].timeline=='timeline_1' && n>1) ||(stratData[0].timeline=='timeline_2' && n>2) || (stratData[0].timeline=='timeline_3' && n>3) || (stratData[0].timeline=='timeline_4' && n>4)"
-                      src="../images/clock_light.png">
-                  </div>
-                  <div v-if="stratData[0].timeline == 'timeline_1'">
-                    <p>1-3 Months (immediate)</p>
-                  </div>
-                  <div v-if="stratData[0].timeline == 'timeline_2'">
-                    <p>3-6 Months (medium)</p>
-                  </div>
-                  <div v-if="stratData[0].timeline == 'timeline_3'">
-                    <p>6-12 Months (long)</p>
-                  </div>
-                  <div v-if="stratData[0].timeline == 'timeline_4'">
-                    <p>1+ years (structural change)</p>
-                  </div>
-                </div>
-                <div class="audience">
-                  <div class="recco-tag-title">
-                    <p>AUDIENCE</p>
-                  </div>
-                  <div class="recco-tag-body audience-body">
-                    <div v-for="audience in JSON.parse(stratData[0].audience)">
-                      <a v-if="audience == 'audience_1' "><span class="tag-item audience">Private Sector</span></a>
-                      <a v-if="audience == 'audience_2' "><span class="tag-item audience">Academia</span></a>
-                      <a v-if="audience == 'audience_3' "><span class="tag-item audience">Civil Society</span></a>
-                      <a v-if="audience == 'audience_4' "><span class="tag-item audience">Vulnerable
-                          Populations</span></a>
-                      <a v-if="audience == 'audience_5' "><span class="tag-item audience">Healthcare
-                          Providers</span></a>
-                      <a v-if="audience == 'audience_6' "><span class="tag-item audience">Essential Workers</span></a>
-                      <a v-if="audience == 'audience_7' "><span class="tag-item audience">Government Workers</span></a>
-                      <a v-if="audience == 'audience_8' "><span class="tag-item audience">Organized Civil
-                          Society</span></a>
-                      <a v-if="audience == 'audience_9' "><span class="tag-item audience">Nonprofits</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tag-second-row">
-                <div class="type">
-                  <div class="recco-tag-title">
-                    <p>TYPE</p>
-                  </div>
-                  <div class="recco-tag-body audience-body">
-                    <div v-for="area in JSON.parse(stratData[0].area)">
-                      <a v-if="area == 'area_1' "><span class="tag-item type">Research</span></a>
-                      <a v-if="area == 'area_2' "><span class="tag-item type">Policy/Legislative/Regulatory</span></a>
-                      <a v-if="area == 'area_3' "><span class="tag-item type">Data</span></a>
-                      <a v-if="area == 'area_4' "><span class="tag-item type">Technology/Innovation</span></a>
-                      <a v-if="area == 'area_5' "><span class="tag-item type">Communications</span></a>
-                      <a v-if="area == 'area_6' "><span class="tag-item type">Partnerships</span></a>
-                      <a v-if="area == 'area_7' "><span class="tag-item type">Capacity Building</span></a>
-                      <a v-if="area == 'area_8' "><span class="tag-item type">Vulnerable Populations</span></a>
-                      <a v-if="area == 'area_9' "><span class="tag-item type">Procurement/Logistics</span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="type">
-                  <div class="recco-tag-title">
-                    <p>TOPIC</p>
-                  </div>
-                  <div class="recco-tag-body audience-body">
-                    <div>
-                      <a :href="'../'+stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].slug"><span
-                          class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].topic_title}}</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="actions-accordion">
-          <div class="faq-section">
-
-            <div class="faq-item">
-
-              <button v-on:click="toggleMessage(index,0)" class="accordion">
-                <h2>ACTIONS GOVERNMENTS SHOULD TAKE ({{stratData[0].actions.length}} actions)</h2><i
-                  class="material-icons down"></i>
-              </button>
-              <div v-if="showAction && index_active == index" class="panel">
-                <div class="action-item" v-for="(action,action_index) in stratData[0].actions">
-                  <div class="strategy-number">
-                    <h4>ACTION {{action_index + 1}}</h4>
-                  </div>
-                  <div class="action-text" v-html="action.actions_id['description_'+langsel]">
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <div v-if="stratData[0].examples.length > 0" class="examples-accordion">
-          <div class="faq-section">
-
-            <div class="faq-item">
-
-              <button @click="toggleMessage(index,1)" class="accordion">
-                <h2>EXAMPLES FROM AROUND THE WORLD ({{stratData[0].examples.length}} example)</h2><i
-                  class="material-icons down"></i>
-              </button>
-              <div v-if="showExample && index_active == index" class="panel">
-                <div class="action-item" v-for="(example,example_index) in stratData[0].examples">
-                  <div class="strategy-number">
-                    <h4>EXAMPLE {{example_index + 1}}</h4>
-                  </div>
-                  <div class="action-text" v-html="example.examples_id.description_en">
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
     </div>
   </div>
-</div>
-</body>
-<footer class='footer-alt'>
-  <div class="row align-center">
-    <div class="medium-6 medium-centered columns">
-      <!-- <h4>In collaboration with</h4> -->
-      <!-- <h4>EN COLABORACIÓN CON</h4> -->
-      <h4>IN COLLABORATION WITH</h4>
-    </div>
-
-  </div>
-  <div class="row">
-    <div class="column">
-      <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
-          src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
-    </div>
-    <div class="column">
-      <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
-          src="../images/govlab-logo-white.png" alt="The GovLab"></a>
-    </div>
-  </div>
-</footer>
-<div class="copyright">
-  <div class="row">
-    <div class="column">
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-        <img class="copyright_cc-badge" alt="Creative Commons License"
-          src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-      <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
-        href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-        International License.</a>.
-    </div>
-  </div>
-</div>
 </body>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */

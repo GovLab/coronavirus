@@ -37,6 +37,7 @@ new Vue({
       menuData: [],
       indexTextData: [],
       indexTextD9Data: [],
+      indexDataTopics:[],
       reportData: [],
       productData:[],
       TeamData: [],
@@ -273,8 +274,8 @@ new Vue({
       //   self.indexData = data.data;
       // })
 
-    axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*").then(data => {
-        console.log("data: ",data)
+    axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*,translation_el.*,translation_el.topic_elements.*").then(data => {
+        
         self.indexDataTopics = data.data.data;
       })
         .catch(error => console.error(error));
@@ -558,15 +559,17 @@ new Vue({
       }];
     },
     langid(tr){
-      console.log(tr, ' langid');
       const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel})
       
       return trIndex;
     },
     langidd9(tr){
-      console.log(' langidd9',tr);
       const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       console.log('index',trIndex);
+      return trIndex;
+    },
+    langIdD9El(tr){
+      const trIndex = tr.translation_el.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       return trIndex;
     },
     fetchStrategies() {
