@@ -160,12 +160,17 @@ new Vue({
       ],
     }
   },
-
+  watch: {
+    langsel: function () {
+      this.$cookies.set('lang',this.langsel);
+    },
+  },
   created: function created() {
     this.memberslug=window.location.href.split('/');
     this.memberslug = this.memberslug[this.memberslug.length - 1];    
     // this.memberslug = "Promote-and-use-open-source-and-simple-tools-for-d";
-    
+    this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
+
     console.log(this.memberslug);
 
     this.fetchStrategies();

@@ -160,11 +160,15 @@ new Vue({
       ],
     }
   },
-
+  watch: {
+    langsel: function () {
+      this.$cookies.set('lang',this.langsel);
+    },
+  },
   created: function created() {
     this.memberslug=window.location.href.split('/');
     this.memberslug = this.memberslug[this.memberslug.length - 1];
-    
+    this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
     // this.memberslug = 'interjurisdictional-coordination'; // test
     this.fetchRecommendations();
     this.fetchElements();

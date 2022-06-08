@@ -21,6 +21,7 @@ main();
 
 
 Vue.use(VueMeta);
+// Vue.use(VueCookies);
 
 new Vue({
 
@@ -174,6 +175,11 @@ new Vue({
       ],
     }
   },
+  watch: {
+    langsel: function () {
+      this.$cookies.set('lang',this.langsel);
+    },
+  },
   updated: function () {
     // a computed getter
     this.$nextTick(function () {
@@ -184,6 +190,8 @@ new Vue({
     })
   },
   created: function created() {
+    // console.log('cookies', this.$cookies);
+    this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
     this.fetchIndex();
     this.fetchMapExperts();
     this.fetchMenu();
