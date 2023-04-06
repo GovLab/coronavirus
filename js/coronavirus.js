@@ -50,6 +50,8 @@ new Vue({
       target: [],
       items: [],
       counter: 0,
+      meta_title:'',
+      meta_content:'',
 
       // Filter page 
       filterData: [],
@@ -175,6 +177,15 @@ new Vue({
       ],
     }
   },
+  metaInfo () {
+    return {
+      title: "Smarter Crowdsourcing in the Age of Coronavirus",
+      meta: [
+        {title: "Smarter Crowdsourcing in the Age of Coronavirus", property:'og:title'},
+  {  name: 'description', content: this.meta_content, property:'og:description'}
+]
+}
+},
   watch: {
     langsel: function () {
       this.$cookies.set('lang',this.langsel);
@@ -340,13 +351,19 @@ new Vue({
       self = this;
       axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*,title_relation.translations.*").then(data => {
         
+        
         self.indexTextData = data.data.data;
+        self.meta_content= self.indexTextData.filter(a=>{ if(a.title_relation && a.title_relation.title == 'About' && a.language == "en") return a})[0].body
+    
 
+        
+        // self.meta_title = data.data.data.title
       }).catch(error => console.error(error));
 
       axios.get(this.apiURLd9+"items/homepage?fields=*,translations.*").then(data => {
         
         self.indexTextD9Data = data.data.data;
+      
         
 
       }).catch(error => console.error(error));
