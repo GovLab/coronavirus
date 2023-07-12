@@ -156,7 +156,7 @@ new Vue({
       selectedProjectType: null,
       langsel: 'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://d9.sc.thegovlab.com/',
+      apiURLd9: 'https://content.smartercrowdsourcing.org/',
     }
   },
 

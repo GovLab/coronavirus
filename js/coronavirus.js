@@ -45,7 +45,7 @@ new Vue({
       ReccoData: [],
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://d9.sc.thegovlab.com/',
+      apiURLd9: 'https://content.smartercrowdsourcing.org/',
       miStr: { 'en':'More Information', 'es':'Más información', 'pt':'Mais Informações'},
       target: [],
       items: [],

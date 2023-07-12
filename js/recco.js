@@ -37,7 +37,7 @@ new Vue({
       index_active:0,
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://d9.sc.thegovlab.com/',
+      apiURLd9: 'https://content.smartercrowdsourcing.org/',
       js_audience_en: [
         { code: '', name: 'All' },
         { code: 'audience_1', name: 'Private Sector' },

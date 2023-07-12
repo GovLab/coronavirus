@@ -36,7 +36,7 @@ new Vue({
       showAction: false,
       index_active:0,
       langsel:'en',
-      apiURLd9: 'https://d9.sc.thegovlab.com/',
+      apiURLd9: 'https://content.smartercrowdsourcing.org/',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
       js_audience_en: [
         { code: '', name: 'All' },
