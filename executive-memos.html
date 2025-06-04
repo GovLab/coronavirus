@@ -98,8 +98,9 @@
 
     
     <div class="memos">
-
+{{indexDataTopics}}
       <div class="product-col-3" v-for="memo in indexDataTopics" v-if="langid(memo) != -1 ">
+        {{indexDataTopics}}
         <img :src="apiURLd9+'assets/'+memo.translations[langid(memo)].memo_image.filename_disk">
         <div class="main-buttons">
           <a :href="apiURLd9+'assets/'+memo.translations[langid(memo)].executive_memo.filename_disk" class="button home-btn" target="_blank"><span style="color:#ffffff5e; font-size: 0.8rem">download the memo</span><br>{{memo.translations[langid(memo)].topic_title}}</a>

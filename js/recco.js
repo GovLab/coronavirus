@@ -37,7 +37,7 @@ new Vue({
       index_active:0,
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://content.smartercrowdsourcing.org/',
+      apiURLd9: 'https://directus.theburnescenter.org/',
       js_audience_en: [
         { code: '', name: 'All' },
         { code: 'audience_1', name: 'Private Sector' },
@@ -178,7 +178,7 @@ new Vue({
 
     fetchRecommendations() {
       self = this;
-      axios.get(this.apiURLd9+"items/recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
         
         self.ReccoData = data.data.data;
 
@@ -206,7 +206,7 @@ new Vue({
 // .catch(error => console.error(error));
     },
     fetchElements() {
-      axios.get(this.apiURLd9+"items/homepage?fields=*,translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_homepage?fields=*,translations.*").then(data => {
         
         self.indexTextD9Data = data.data.data;
         
@@ -215,7 +215,7 @@ new Vue({
     },
     fetchMenu() {
       self = this;
-      axios.get(this.apiURLd9+"items/menu?fields=*,translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_menu?fields=*,translations.*").then(data => {
         console.log("menu", data)
         self.menuData = data.data.data;
       })

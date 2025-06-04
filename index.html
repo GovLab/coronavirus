@@ -144,17 +144,19 @@
             <div v-if="topic.status == 'published'" v-for="topic in indexDataTopics" class="topic-column"
             
               :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
+              <!-- {{topic.translations}} -->
+              {{[langidd9(indexEl)]}}
               <div class="topic-wrap">
-                <h1>{{topic.translations[langid(topic)].topic_title}}</h1>
-                <p>{{topic.translations[langid(topic)].short_description}}</p>
+                <h1>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.topic_title}}</h1>
+                <p>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.short_description}}</p>
                 <!-- <p>{{topic}}</p> -->
-                <p><a :href="topic.translations[langid(topic)].slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
+                <p><a :href="topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
 
                 <div class="topic_date">
                   <!-- <h6>Conference on</h6> -->
                   <h6>{{indexEl.translations[langidd9(indexEl)].elements[0].CONFERENCE_ON}} &nbsp&nbsp</h6>
 
-                  <p class="topic_month">{{topic.translations[langid(topic)].date}}</p>
+                  <p class="topic_month">{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.date}}</p> 
                 </div>
               </div>
             </div>

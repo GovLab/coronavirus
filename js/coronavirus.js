@@ -45,7 +45,7 @@ new Vue({
       ReccoData: [],
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://content.smartercrowdsourcing.org/',
+      apiURLd9: 'https://directus.theburnescenter.org/',
       miStr: { 'en':'More Information', 'es':'Más información', 'pt':'Mais Informações'},
       target: [],
       items: [],
@@ -268,7 +268,7 @@ new Vue({
     },
     fetchMenu() {
       self = this;
-      axios.get(this.apiURLd9+"items/menu?fields=*,translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_menu?fields=*,translations.*").then(data => {
         console.log("menu", data)
         self.menuData = data.data.data;
       })
@@ -293,15 +293,16 @@ new Vue({
       //   self.indexData = data.data;
       // })
 
-    axios.get(this.apiURLd9+"items/topics?fields=*,translations.*,translations.memo_image.*,translations.executive_memo.*,translation_el.*,translation_el.topic_elements.*").then(data => {
+    axios.get(this.apiURLd9+"items/smc_coronavirus_topics?fields=*.*,translations.*,translations.smc_coronavirus_topics_translations_id.*,translations.smc_coronavirus_topics_translations_id.memo_image.*,translations.smc_coronavirus_topics_translations_id.executive_memo.*,translation_el.*,translation_el.topic_elements.*").then(data => {
         
         self.indexDataTopics = data.data.data;
+        console.log('indexDataTopics',self.indexDataTopics)
       })
         .catch(error => console.error(error));
     },
     fetchReports() {
       self = this;
-      axios.get(this.apiURLd9+"items/reports?fields=*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_reports?fields=*").then(data => {
         console.log("report", data)
         self.reportData = data.data.data;
       })
@@ -324,7 +325,7 @@ new Vue({
     },
     fetchProducts() {
       self = this;
-      axios.get(this.apiURLd9+"items/products?fields=*,translation.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_products?fields=*,translation.*").then(data => {
         
         self.productData = data.data.data;
 
@@ -349,7 +350,7 @@ new Vue({
     },
     fetchIndexText() {
       self = this;
-      axios.get(this.apiURLd9+"items/homepage_translations?fields=*,title_relation.*,title_relation.translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_homepage_translations?fields=*,title_relation.*,title_relation.translations.*").then(data => {
         
         
         self.indexTextData = data.data.data;
@@ -360,7 +361,7 @@ new Vue({
         // self.meta_title = data.data.data.title
       }).catch(error => console.error(error));
 
-      axios.get(this.apiURLd9+"items/homepage?fields=*,translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_homepage?fields=*,translations.*").then(data => {
         
         self.indexTextD9Data = data.data.data;
       
@@ -388,7 +389,7 @@ new Vue({
     fetchTeamData() {
       self = this;
 
-      axios.get(this.apiURLd9+"items/team?fields=*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_team?fields=*").then(data => {
         
         self.TeamData = data.data.data;
 
@@ -418,7 +419,7 @@ new Vue({
       //   project: "smarter-crowdsourcing",
       //   storage: window.localStorage
       // });
-      axios.get(this.apiURLd9+"items/recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*").then(data => {
         console.log(data.data)
         
         self.ReccoData = data.data.data;
@@ -585,12 +586,17 @@ new Vue({
     },
     langid(tr){
       const trIndex = tr.translations.findIndex(a=>{  return a.status == 'published' && a.language == this.langsel})
-      
+      console.log('trIndex',trIndex);
       return trIndex;
     },
     langidd9(tr){
       const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       console.log('index',trIndex);
+      return trIndex;
+    },
+    langidTopics(tr){
+      const trIndex = tr.findIndex(a=>{  return a.smc_coronavirus_topics_translations_id.language==this.langsel})
+      console.log('indextiopic',tr);
       return trIndex;
     },
     langIdD9El(tr){
@@ -623,7 +629,7 @@ new Vue({
       //   .catch(error => console.error(error));
 
       self = this;
-      axios.get(this.apiURLd9+"items/strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
         self.indexData = data.data.data;
         self.filterData = self.indexData;
 

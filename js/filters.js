@@ -156,7 +156,7 @@ new Vue({
       selectedProjectType: null,
       langsel: 'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
-      apiURLd9: 'https://content.smartercrowdsourcing.org/',
+      apiURLd9: 'https://directus.theburnescenter.org/',
     }
   },
 
@@ -191,7 +191,7 @@ new Vue({
       //   .catch(error => console.error(error));
 
       self = this;
-      axios.get(this.apiURLd9+"items/strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
         self.indexData = data.data.data;
         self.filterData = self.indexData;
 
