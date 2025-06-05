@@ -589,6 +589,11 @@ new Vue({
       console.log('trIndex',trIndex);
       return trIndex;
     },
+    langidMemo(tr){
+      const trIndex = tr.findIndex(a=>{  return a.smc_coronavirus_topics_translations_id.status == 'published' && a.smc_coronavirus_topics_translations_id.language == this.langsel})
+      console.log('trIndex',trIndex);
+      return trIndex;
+    },
     langidd9(tr){
       const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       console.log('index',trIndex);
