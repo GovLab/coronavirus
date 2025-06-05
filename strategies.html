@@ -187,8 +187,10 @@
 
                     <div class="row-topic-content">
                       <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
+                        <!-- {{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[0].smc_coronavirus_topics_translations_id.topic_title}} -->
+                        <!-- {{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[langidStrategies(s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}} -->
                         <span
-                          class="tag-item">{{s_topic.topics_id.translations[langid(s_topic.topics_id)].topic_title}}</span>
+                          class="tag-item">{{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[langidStrategies(s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}}</span>
                       </div>
                     </div>
                     <div class="row-reccomendation-content">

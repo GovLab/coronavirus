@@ -599,6 +599,13 @@ new Vue({
       console.log('indextiopic',tr);
       return trIndex;
     },
+    langidStrategies(tr){
+      const trIndex = tr.findIndex(a=>{  return a.smc_coronavirus_topics_translations_id.language==this.langsel})
+      console.log('indextiopicstrat2',tr);
+      return trIndex;
+    },
+    
+
     langIdD9El(tr){
       const trIndex = tr.translation_el.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
       return trIndex;
@@ -629,7 +636,7 @@ new Vue({
       //   .catch(error => console.error(error));
 
       self = this;
-      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.smc_coronavirus_topics_id.translations.smc_coronavirus_topics_translations_id.*").then(data => {
         self.indexData = data.data.data;
         self.filterData = self.indexData;
 
