@@ -110,7 +110,9 @@
             <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
           </div>
           <div class="recco-page">
+            
             <div class="recco-col" v-for="recco in ReccoData">
+              
               <div class="recco-item">
                 <a class="recco-link" :href="'recommendations/'+recco.slug">
                   <div class="recco-title" v-html="recco['title_'+langsel]">
@@ -124,9 +126,15 @@
                       <p>{{menuData.translations[langidd9(menuData)].menu_items[0].Topic.toUpperCase()}}</p>
                     </div>
                     <div class="recco-tag-body">
-                      <div v-for="tag in recco.topic">
-                        <a :href="tag.topics_id.translations[langid(tag.topics_id)].slug"><span
-                            class="tag-item">{{tag.topics_id.translations[langid(tag.topics_id)].topic_title}}</span></a>
+                      
+                      <div v-for="tag in recco.topics">
+                        
+                 
+                        <a :href="tag.smc_coronavirus_topics_id.translations[langidTopics(tag.smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.slug">
+                          
+                          <span
+                            class="tag-item">{{tag.smc_coronavirus_topics_id.translations[langidTopics(tag.smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}}</span>
+                          </a> 
                       </div>
                     </div>
                   </div>

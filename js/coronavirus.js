@@ -419,7 +419,7 @@ new Vue({
       //   project: "smarter-crowdsourcing",
       //   storage: window.localStorage
       // });
-      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*").then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.smc_coronavirus_strategies_id.*,topics.smc_coronavirus_topics_id.translations.smc_coronavirus_topics_translations_id.*,strategies.smc_coronavirus_strategies_id.actions.smc_coronavirus_actions_id.*,strategies.smc_coronavirus_strategies_id.examples.smc_coronavirus_examples_id.*").then(data => {
         console.log(data.data)
         
         self.ReccoData = data.data.data;

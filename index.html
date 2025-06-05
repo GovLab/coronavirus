@@ -144,8 +144,8 @@
             <div v-if="topic.status == 'published'" v-for="topic in indexDataTopics" class="topic-column"
             
               :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
-              <!-- {{topic.translations}} -->
-              {{[langidd9(indexEl)]}}
+              
+              
               <div class="topic-wrap">
                 <h1>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.topic_title}}</h1>
                 <p>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.short_description}}</p>
