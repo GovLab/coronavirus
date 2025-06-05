@@ -107,10 +107,14 @@
                 <div class="strategy-description" v-html="stratData[0]['description_'+langsel]">
                 </div>
               </div>
-              <div class="strat-right">
+
+
+<div class="strat-right">
 
                 <div class="strategy-tags">
+                       
                   <div class="tag-first-row">
+
                     <div class="timeline">
                       <div class="recco-tag-title">
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].TIMEFRAME}}</p>
@@ -125,43 +129,56 @@
                       </div>
                       <p>{{filterId("js_timeline_",stratData[0].timeline)}}</p>
                     </div>
-                    <div class="audience">
+
+                <div class="audience">
                       <div class="recco-tag-title">
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Audience}}</p>
                       </div>
                       <div class="recco-tag-body audience-body">
-                        <div v-for="audience in JSON.parse(stratData[0].audience)">
+                        <div v-for="audience in stratData[0].audience">
+
                           <a><span class="tag-item audience">{{filterId("js_audience_",audience)}}</span></a>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> 
+
+
+ 
                   <div class="tag-second-row">
                     <div class="type">
                       <div class="recco-tag-title">
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Type}}</p>
                       </div>
                       <div class="recco-tag-body audience-body">
-                        <div v-for="area in JSON.parse(stratData[0].area)">
+                        <div v-for="area in stratData[0].area">
                           <a><span class="tag-item type">{{filterId("js_type_",area)}}</span></a>
                         </div>
                       </div>
                     </div>
+                        
                     <div class="type">
                       <div class="recco-tag-title">
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Topic}}</p>
-                      </div>
+                      </div>  
                       <div class="recco-tag-body audience-body">
                         <div>
+                          TODO: investigate 
                           <a
-                            :href="'../'+stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].slug"><span
-                              class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[langid(stratData[0].strat_topic[0].topics_id)].topic_title}}</span></a>
+                            :href="'../'+stratData[0].strat_topic[0].topics_id.translations[langidTopics(stratData[0].strat_topic[0].topics_id.translations)].smc_coronavirus_topics_translations_id.slug"><span
+                              class="tag-item">{{stratData[0].strat_topic[0].topics_id.translations[langidTopics(stratData[0].strat_topic[0].topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}}</span></a>
                         </div>
+                        
                       </div>
+                     
                     </div>
+
                   </div>
+
                 </div>
-              </div>
+              </div> 
+
+              <!-- TODO: end -->
             </div>
 
             <div class="actions-accordion">
@@ -189,19 +206,19 @@
 
               </div>
             </div>
-            <div v-if="stratData[0].examples.length > 0" class="examples-accordion">
+            <div v-if="stratData[0].smc_coronavirus_examples.length > 0" class="examples-accordion">
               <div class="faq-section">
 
                 <div class="faq-item">
 
                   <button @click="toggleMessage(index,1)" class="accordion">
                     <h2>
-                      {{indexdata.translations[langidd9(indexdata)].elements[0].EXAMPLES_FROM_AROUND_THE_WORLD}} ({{stratData[0].examples.length}}
+                      {{indexdata.translations[langidd9(indexdata)].elements[0].EXAMPLES_FROM_AROUND_THE_WORLD}} ({{stratData[0].smc_coronavirus_examples.length}}
                       {{indexdata.translations[langidd9(indexdata)].elements[0].Example.toLowerCase()}})</h2><i
                       class="material-icons down"></i>
                   </button>
                   <div v-if="showExample && index_active == index" class="panel">
-                    <div class="action-item" v-for="(example,example_index) in stratData[0].examples">
+                    <div class="action-item" v-for="(example,example_index) in stratData[0].smc_coronavirus_examples">
                       <div class="strategy-number">
                         <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].Example}} {{example_index + 1}}
                         </h4>

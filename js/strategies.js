@@ -182,7 +182,7 @@ new Vue({
     fetchStrategies() {
 
       self = this;
-      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.*,actions.actions_id.*,examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.smc_coronavirus_topics_translations_id.*,actions.actions_id.*,smc_coronavirus_examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
         console.log(data.data)
         
         self.stratData = data.data.data;
@@ -236,6 +236,11 @@ new Vue({
     },
     langidd9(tr){
       const trIndex = tr.translations.findIndex(a=>{  return a.languages_code.split('-')[0]==this.langsel})
+      return trIndex;
+    },
+    langidTopics(tr){
+      const trIndex = tr.findIndex(a=>{  return a.smc_coronavirus_topics_translations_id.language==this.langsel})
+      console.log('indextiopic',tr);
       return trIndex;
     },
     langid(tr){
