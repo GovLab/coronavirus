@@ -683,7 +683,7 @@ new Vue({
         console.log(self.indexData);
         let filtered_by_audience = self.indexData.filter(function (e) {
           console.log(e);
-          return JSON.parse(e.audience).some(aud_element => aud_element == self.selectedAudience);
+          return e.audience.some(aud_element => aud_element == self.selectedAudience);
         });
         self.filtered_audience = filtered_by_audience;
       }
@@ -692,7 +692,7 @@ new Vue({
         self.filtered_type = self.filtered_audience;
       else {
         let filtered_by_type = self.filtered_audience.filter(function (e) {
-          return JSON.parse(e.area).some(reg_element => reg_element == self.selectedType);
+          return e.area.some(reg_element => reg_element == self.selectedType);
         });
         self.filtered_type = filtered_by_type;
       }
@@ -701,7 +701,7 @@ new Vue({
         self.filtered_topic = self.filtered_type;
       else {
         let filtered_by_topic = self.filtered_type.filter(function (e) {
-          return JSON.parse(e.topic).some(are_element => are_element == self.selectedTopic);
+          return e.topic.some(are_element => are_element == self.selectedTopic);
         });
         self.filtered_topic = filtered_by_topic;
       }
