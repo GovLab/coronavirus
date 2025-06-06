@@ -364,7 +364,7 @@ new Vue({
       axios.get(this.apiURLd9+"items/smc_coronavirus_homepage?fields=*,translations.*").then(data => {
         
         self.indexTextD9Data = data.data.data;
-      
+        console.log('indexTextD9Data',self.indexTextD9Data)
         
 
       }).catch(error => console.error(error));
