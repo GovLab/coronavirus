@@ -687,7 +687,7 @@ new Vue({
         });
         self.filtered_audience = filtered_by_audience;
       }
-      //Region Filter
+      //Region Filter 
       if (this.selectedType == '')
         self.filtered_type = self.filtered_audience;
       else {
