@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Incentivize-adoption-of-standardized-process-and-o"
 type: "GovLab policy strategy"
 title: "Incentivize adoption of standardized process and outcome measures within jurisdictions (vertical…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Incentivize-adoption-of-standardized-process-and-o"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/incentivize-adoption-of-standardized-process-and-o"
 summary: "Incentivize adoption of standardized process and outcome measures within jurisdictions (vertical standardization) and across jurisdictions (horizontal standardization) through technical assistance and cost reimbursements or cost sharing. Governments should use legislative,regulatory,and budgetary means to incentivize and/or mandate the adoption of standardized metrics across jurisdictions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

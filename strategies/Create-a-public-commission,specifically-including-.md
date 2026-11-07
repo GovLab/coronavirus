@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-public-commission,specifically-including-"
 type: "GovLab policy strategy"
 title: "Create a public commission,specifically including intended beneficiaries of the services,tasked with holding…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-public-commission,specifically-including-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-public-commission,specifically-including-"
 summary: "Create a public commission,specifically including intended beneficiaries of the services,tasked with holding public-private partnership contracts accountable for delivering services/results through a cost effective,timely,and transparent process."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

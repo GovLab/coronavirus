@@ -21,7 +21,7 @@ Establish and coordinate a committee of stakeholders whose businesses,non-profit
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Establish-and-coordinate-a-committee-of-stakeholde
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/establish-and-coordinate-a-committee-of-stakeholde
 
 ### Actions governments should take (strategy 1)
 
@@ -43,7 +43,7 @@ Develop partnerships and engage in strategic contracts with companies who have c
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Vulnerable Populations
 - Type: Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-partnerships-and-engage-in-strategic-contr
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-partnerships-and-engage-in-strategic-contr
 
 ### Actions governments should take (strategy 2)
 
@@ -64,7 +64,7 @@ Create a public commission,specifically including intended beneficiaries of the 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-public-commission,specifically-including-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-public-commission,specifically-including-
 
 ### Actions governments should take (strategy 3)
 
@@ -84,7 +84,7 @@ Partner with private sector firms to help them meet their human resource needs b
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Vulnerable Populations
 - Type: Partnerships, Capacity Building, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-private-sector-firms-to-help-them-mee
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-private-sector-firms-to-help-them-mee
 
 ### Actions governments should take (strategy 4)
 

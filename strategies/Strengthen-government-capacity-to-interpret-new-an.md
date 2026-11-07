@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Strengthen-government-capacity-to-interpret-new-an"
 type: "GovLab policy strategy"
 title: "Strengthen government capacity to interpret new and existing data,focusing on vulnerable populations and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Strengthen-government-capacity-to-interpret-new-an"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/strengthen-government-capacity-to-interpret-new-an"
 summary: "Strengthen government capacity to interpret new and existing data,focusing on vulnerable populations and publish data and analysis publicly."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

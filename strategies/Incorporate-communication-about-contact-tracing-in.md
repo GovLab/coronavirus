@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Incorporate-communication-about-contact-tracing-in"
 type: "GovLab policy strategy"
 title: "Incorporate communication about contact tracing into the testing program."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-communication-about-contact-tracing-in"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-communication-about-contact-tracing-in"
 summary: "Incorporate communication about contact tracing into the testing program. Testing centers should inform those who are tested that they will be contacted by someone from the contact tracing program if they test positive. The testing site should provide the name of the contact tracing program and the phone number from which people will receive a call."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

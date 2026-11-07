@@ -21,7 +21,7 @@ Collect epidemiological surveillance data with a symptom tracker or triage tool 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society
 - Type: Data, Technology/Innovation, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collect-epidemiological-surveillance-data-with-a-s
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collect-epidemiological-surveillance-data-with-a-s
 
 ### Actions governments should take (strategy 1)
 
@@ -47,7 +47,7 @@ Invest in and promote the use of technological and digital innovations that can 
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Academia
 - Type: Data, Technology/Innovation, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Invest-in-and-promote-the-use-of-technological-and
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/invest-in-and-promote-the-use-of-technological-and
 
 ### Actions governments should take (strategy 2)
 
@@ -69,7 +69,7 @@ Partner with institutions with high levels of social engagement,trust,and access
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Data, Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-institutions-with-high-levels-of-soci
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-institutions-with-high-levels-of-soci
 
 ### Actions governments should take (strategy 3)
 

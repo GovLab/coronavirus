@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Collaborate-with-private-and-public-sector-actors-"
 type: "GovLab policy strategy"
 title: "Collaborate with private and public-sector actors that have large membership across jurisdictions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collaborate-with-private-and-public-sector-actors-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collaborate-with-private-and-public-sector-actors-"
 summary: "Collaborate with private and public-sector actors that have large membership across jurisdictions. Governments should actively seek partnerships with businesses and organizations (e.g. unions) that have large numbers of employees or members based in various regions/states within the country. These businesses and organizations may be able to support interjurisdictional coordination."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

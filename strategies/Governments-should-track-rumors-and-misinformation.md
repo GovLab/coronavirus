@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-track-rumors-and-misinformation"
 type: "GovLab policy strategy"
 title: "Governments should track rumors and misinformation campaigns to ensure that communities are not acting on…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-track-rumors-and-misinformation"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-track-rumors-and-misinformation"
 summary: "Governments should track rumors and misinformation campaigns to ensure that communities are not acting on incorrect public health guidance."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

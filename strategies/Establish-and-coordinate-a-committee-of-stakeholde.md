@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Establish-and-coordinate-a-committee-of-stakeholde"
 type: "GovLab policy strategy"
 title: "Establish and coordinate a committee of stakeholders whose businesses,non-profits,and foundations directly…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Establish-and-coordinate-a-committee-of-stakeholde"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/establish-and-coordinate-a-committee-of-stakeholde"
 summary: "Establish and coordinate a committee of stakeholders whose businesses,non-profits,and foundations directly serve or impact vulnerable populations to identify and address the needs of vulnerable populations."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

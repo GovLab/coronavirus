@@ -21,7 +21,7 @@ Collaborate with private and public-sector actors that have large membership acr
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collaborate-with-private-and-public-sector-actors-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collaborate-with-private-and-public-sector-actors-
 
 ### Actions governments should take (strategy 1)
 
@@ -40,7 +40,7 @@ Use executive orders or other regulatory or legislative authorities to incentivi
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-executive-orders-or-other-regulatory-or-legisl
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-executive-orders-or-other-regulatory-or-legisl
 
 ### Actions governments should take (strategy 2)
 
@@ -59,7 +59,7 @@ Use legislative or regulatory mechanisms or executive orders to enable data shar
 - Timeframe: 1-3 Months (immediate)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut
 
 ### Actions governments should take (strategy 3)
 
@@ -78,7 +78,7 @@ Use legislative or regulatory mechanisms or executive orders to enable agencies 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut
 
 ### Actions governments should take (strategy 4)
 
@@ -95,7 +95,7 @@ Move towards a centralized communicable and reportable disease database and cont
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers
 - Type: Research, Data, Technology/Innovation, Communications, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Move-towards-a-centralized-communicable-and-report
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/move-towards-a-centralized-communicable-and-report
 
 ### Actions governments should take (strategy 5)
 
@@ -115,7 +115,7 @@ Offer informal peer learning opportunities. Governments or representative associ
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Offer-informal-peer-learning-opportunities.-Govern
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/offer-informal-peer-learning-opportunities.-govern
 
 ### Actions governments should take (strategy 6)
 
@@ -134,7 +134,7 @@ Offer formal peer learning opportunities. governments or representative associat
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Research, Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Offer-formal-peer-learning-opportunities.-governme
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/offer-formal-peer-learning-opportunities.-governme
 
 ### Actions governments should take (strategy 7)
 
@@ -150,7 +150,7 @@ Create regional partnerships and coordinating bodies. Governments or representat
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-regional-partnerships-and-coordinating-bodi
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-regional-partnerships-and-coordinating-bodi
 
 ### Actions governments should take (strategy 8)
 

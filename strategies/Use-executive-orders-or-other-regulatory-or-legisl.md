@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-executive-orders-or-other-regulatory-or-legisl"
 type: "GovLab policy strategy"
 title: "Use executive orders or other regulatory or legislative authorities to incentivize centralized platforms for…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-executive-orders-or-other-regulatory-or-legisl"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-executive-orders-or-other-regulatory-or-legisl"
 summary: "Use executive orders or other regulatory or legislative authorities to incentivize centralized platforms for contact tracing. Governments,ideally at the federal level,should mandate a single platform for contact tracing. If it is not possible at the federal level,governors of states/regions should mandate the use of a single platform within their jurisdiction."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

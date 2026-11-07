@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-develop-strategies-for-testing-"
 type: "GovLab policy strategy"
 title: "Governments should develop strategies for testing different messages and delivery methods to understand what…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-develop-strategies-for-testing-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-develop-strategies-for-testing-"
 summary: "Governments should develop strategies for testing different messages and delivery methods to understand what is the best combination to deliver specific messages to specific groups."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

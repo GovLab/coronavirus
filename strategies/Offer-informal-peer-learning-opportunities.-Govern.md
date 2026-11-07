@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Offer-informal-peer-learning-opportunities.-Govern"
 type: "GovLab policy strategy"
 title: "Offer informal peer learning opportunities."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Offer-informal-peer-learning-opportunities.-Govern"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/offer-informal-peer-learning-opportunities.-govern"
 summary: "Offer informal peer learning opportunities. Governments or representative associations should coordinate informal forums or opportunities for individuals designing,implementing,and managing contact tracing programs to share ideas,challenges and best practices. These opportunities should be extended to include researchers,epidemiologists,or non-governmental actors with contact tracking experience."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

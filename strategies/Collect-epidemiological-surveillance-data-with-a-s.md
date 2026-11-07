@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Collect-epidemiological-surveillance-data-with-a-s"
 type: "GovLab policy strategy"
 title: "Collect epidemiological surveillance data with a symptom tracker or triage tool that leverages crowdsourcing…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collect-epidemiological-surveillance-data-with-a-s"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collect-epidemiological-surveillance-data-with-a-s"
 summary: "Collect epidemiological surveillance data with a symptom tracker or triage tool that leverages crowdsourcing and participatory surveillance."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

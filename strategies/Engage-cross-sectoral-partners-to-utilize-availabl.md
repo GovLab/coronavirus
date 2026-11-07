@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Engage-cross-sectoral-partners-to-utilize-availabl"
 type: "GovLab policy strategy"
 title: "Engage cross-sectoral partners to utilize available mental health resources and increase the supply of…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Engage-cross-sectoral-partners-to-utilize-availabl"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/engage-cross-sectoral-partners-to-utilize-availabl"
 summary: "Engage cross-sectoral partners to utilize available mental health resources and increase the supply of providers"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

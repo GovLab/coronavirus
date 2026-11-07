@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-and-publish-data-dashboards-that-are-update"
 type: "GovLab policy strategy"
 title: "Create and publish data dashboards that are updated regularly and show progress on metrics."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-and-publish-data-dashboards-that-are-update"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-and-publish-data-dashboards-that-are-update"
 summary: "Create and publish data dashboards that are updated regularly and show progress on metrics. Governments should develop a dashboard aligned with both the contact tracing platform and surveillance/reportable disease databases."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

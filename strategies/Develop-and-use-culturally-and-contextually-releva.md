@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-and-use-culturally-and-contextually-releva"
 type: "GovLab policy strategy"
 title: "Develop and use culturally and contextually relevant communication materials for testing resources."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-use-culturally-and-contextually-releva"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-use-culturally-and-contextually-releva"
 summary: "Develop and use culturally and contextually relevant communication materials for testing resources. Governments and public health officials should make all communication materials targeted at high-risk or vulnerable populations accessible and culturally-relevant."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Detect,support-and-amplify-existing-community-led-"
 type: "GovLab policy strategy"
 title: "Detect,support and amplify existing community-led initiatives and solutions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Detect,support-and-amplify-existing-community-led-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/detect,support-and-amplify-existing-community-led-"
 summary: "Detect,support and amplify existing community-led initiatives and solutions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

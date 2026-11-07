@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-local-community-organizations-to-recr"
 type: "GovLab policy strategy"
 title: "Partner with local community organizations to recruit and hire contact tracers with community-based…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-local-community-organizations-to-recr"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-local-community-organizations-to-recr"
 summary: "Partner with local community organizations to recruit and hire contact tracers with community-based knowledge and experience. Governments should partner with local community organizations to identify contact tracers with the trust and knowledge of the local community. Selecting the right messenger is an important step to building trust,allowing for the cases and contacts to reveal details about who they have been in contact with and when."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

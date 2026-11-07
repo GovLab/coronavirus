@@ -20,7 +20,7 @@ Governments should keep messaging consistent and explain changes when they are m
 
 - Timeframe: 1-3 Months (immediate)
 - Type: Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-keep-messaging-consistent-and-e
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-keep-messaging-consistent-and-e
 
 ### Actions governments should take (strategy 1)
 
@@ -41,7 +41,7 @@ Governments and policy makers should make sure the messages they are promoting a
 
 - Timeframe: 1-3 Months (immediate)
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-and-policy-makers-should-make
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-and-policy-makers-should-make
 
 ### Actions governments should take (strategy 2)
 
@@ -61,7 +61,7 @@ Governments should track rumors and misinformation campaigns to ensure that comm
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-track-rumors-and-misinformation
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-track-rumors-and-misinformation
 
 ### Actions governments should take (strategy 3)
 

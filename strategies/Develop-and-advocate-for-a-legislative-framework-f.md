@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-and-advocate-for-a-legislative-framework-f"
 type: "GovLab policy strategy"
 title: "Develop and advocate for a legislative framework for public health monitoring and surveillance health data."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-advocate-for-a-legislative-framework-f"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-advocate-for-a-legislative-framework-f"
 summary: "Develop and advocate for a legislative framework for public health monitoring and surveillance health data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

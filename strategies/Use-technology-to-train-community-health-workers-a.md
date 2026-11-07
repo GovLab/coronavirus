@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-technology-to-train-community-health-workers-a"
 type: "GovLab policy strategy"
 title: "Use technology to train community health workers and other healthcare providers who may have no experience…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-train-community-health-workers-a"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-train-community-health-workers-a"
 summary: "Use technology to train community health workers and other healthcare providers who may have no experience in mental healthcare and mental first aid"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -21,7 +21,7 @@ Review data collection processes and ensure all data systems adequately collect 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Review-data-collection-processes-and-ensure-all-da
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/review-data-collection-processes-and-ensure-all-da
 
 ### Actions governments should take (strategy 1)
 
@@ -43,7 +43,7 @@ Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-NG
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-ng
 
 ### Actions governments should take (strategy 2)
 
@@ -65,7 +65,7 @@ Collect disaggregated data at strategic locations and service delivery touchpoin
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Civil Society, Vulnerable Populations, Healthcare Providers, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Data, Technology/Innovation, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collect-disaggregated-data-at-strategic-locations-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collect-disaggregated-data-at-strategic-locations-
 
 ### Actions governments should take (strategy 3)
 
@@ -85,7 +85,7 @@ Strengthen government capacity to interpret new and existing data,focusing on vu
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Vulnerable Populations, Government Workers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Strengthen-government-capacity-to-interpret-new-an
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/strengthen-government-capacity-to-interpret-new-an
 
 ### Actions governments should take (strategy 4)
 

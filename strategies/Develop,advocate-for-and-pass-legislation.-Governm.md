@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop,advocate-for-and-pass-legislation.-Governm"
 type: "GovLab policy strategy"
 title: "Develop,advocate for and pass legislation."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop,advocate-for-and-pass-legislation.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop,advocate-for-and-pass-legislation.-governm"
 summary: "Develop,advocate for and pass legislation. Governments should mandate adoption of standards providing for a standard national health identifier for each individual,employer,health plan,and health care provider for use in the healthcare system."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

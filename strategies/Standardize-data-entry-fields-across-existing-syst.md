@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Standardize-data-entry-fields-across-existing-syst"
 type: "GovLab policy strategy"
 title: "Standardize data entry fields across existing systems."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Standardize-data-entry-fields-across-existing-syst"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/standardize-data-entry-fields-across-existing-syst"
 summary: "Standardize data entry fields across existing systems. Governments should work with partners to standardize data elements across health IT systems so that data is easily shareable between systems."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

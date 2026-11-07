@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Define-high-risk-populations-who-will-receive-prio"
 type: "GovLab policy strategy"
 title: "Define high-risk populations who will receive prioritized testing."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Define-high-risk-populations-who-will-receive-prio"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/define-high-risk-populations-who-will-receive-prio"
 summary: "Define high-risk populations who will receive prioritized testing. Governments should develop a working definition of which populations are high risk. Groups can be added to this list,but the list should identify populations that are at higher risk of contracting and having complications from COVID-19 due to physical health,behavioral health,or economic/social factors."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

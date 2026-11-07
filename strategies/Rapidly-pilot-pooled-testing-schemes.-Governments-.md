@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-"
 type: "GovLab policy strategy"
 title: "Rapidly pilot pooled testing schemes."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-pilot-pooled-testing-schemes.-governments-"
 summary: "Rapidly pilot pooled testing schemes. Governments should act quickly ( different contexts and populations ."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

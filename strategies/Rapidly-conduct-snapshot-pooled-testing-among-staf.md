@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf"
 type: "GovLab policy strategy"
 title: "Rapidly conduct snapshot pooled testing among staff and residents in health and long-term care…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-conduct-snapshot-pooled-testing-among-staf"
 summary: "Rapidly conduct snapshot pooled testing among staff and residents in health and long-term care facilities,prisons,and other congregate housing facilities. Governments should conduct snapshot pooled testing to provide a baseline that will help establish subsequent testing strategies within these settings,including the frequency of testing."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

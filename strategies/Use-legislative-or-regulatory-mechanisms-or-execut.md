@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-legislative-or-regulatory-mechanisms-or-execut"
 type: "GovLab policy strategy"
 title: "Use legislative or regulatory mechanisms or executive orders to enable data sharing across jurisdictions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut"
 summary: "Use legislative or regulatory mechanisms or executive orders to enable data sharing across jurisdictions. Governments should reduce the regulatory burdens that hinder or inhibit data sharing between jurisdictions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

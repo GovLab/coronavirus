@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Crowdsource-solutions-and-expertise-from-the-publi"
 type: "GovLab policy strategy"
 title: "Crowdsource solutions and expertise from the public and affected populations through prizes,competitions,or…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Crowdsource-solutions-and-expertise-from-the-publi"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/crowdsource-solutions-and-expertise-from-the-publi"
 summary: "Crowdsource solutions and expertise from the public and affected populations through prizes,competitions,or online innovation sessions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

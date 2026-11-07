@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-capitalize-on-local-knowledge-a"
 type: "GovLab policy strategy"
 title: "Governments should capitalize on local knowledge and talent through hackathons and other contests that bring…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-capitalize-on-local-knowledge-a"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-capitalize-on-local-knowledge-a"
 summary: "Governments should capitalize on local knowledge and talent through hackathons and other contests that bring together problem solvers from civil society to create innovative solutions to specific challenges."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

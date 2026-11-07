@@ -21,7 +21,7 @@ Conduct a community health assessment that identifies community assets. Public h
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Research, Data, Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-community-health-assessment-that-identif
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-community-health-assessment-that-identif
 
 ### Actions governments should take (strategy 1)
 
@@ -35,7 +35,7 @@ Partner with local community organizations to recruit and hire contact tracers w
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-local-community-organizations-to-recr
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-local-community-organizations-to-recr
 
 ### Actions governments should take (strategy 2)
 
@@ -57,7 +57,7 @@ Conduct a public health messaging campaign explaining contact tracing. Governmen
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Essential Workers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-public-health-messaging-campaign-explain
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-public-health-messaging-campaign-explain
 
 ### Actions governments should take (strategy 3)
 
@@ -79,7 +79,7 @@ Incorporate communication about contact tracing into the testing program. Testin
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-communication-about-contact-tracing-in
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-communication-about-contact-tracing-in
 
 ### Actions governments should take (strategy 4)
 
@@ -94,7 +94,7 @@ Incorporate information about the local community when training people for the c
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-information-about-the-local-community-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-information-about-the-local-community-
 
 ### Actions governments should take (strategy 5)
 

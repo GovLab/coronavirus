@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Ensure-adequate-testing-resources-are-available-an"
 type: "GovLab policy strategy"
 title: "Ensure adequate testing resources are available and accessible to high-risk communities."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Ensure-adequate-testing-resources-are-available-an"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/ensure-adequate-testing-resources-are-available-an"
 summary: "Ensure adequate testing resources are available and accessible to high-risk communities. Governments should establish testing sites in communities with large numbers of high-risk individuals."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-enlist-influencers-like-athlete"
 type: "GovLab policy strategy"
 title: "Governments should enlist influencers like athletes,celebrities,or trusted politicians to deliver key…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-enlist-influencers-like-athlete"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-enlist-influencers-like-athlete"
 summary: "Governments should enlist influencers like athletes,celebrities,or trusted politicians to deliver key messages to the broader public. Who is an influencer in a given community can be determined using sentiment analysis techniques that analyze who follows whom on Twitter."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Reduce-barriers-to-testing-by-conducting-mobile-te"
 type: "GovLab policy strategy"
 title: "Reduce barriers to testing by conducting mobile testing units."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/reduce-barriers-to-testing-by-conducting-mobile-te"
 summary: "Reduce barriers to testing by conducting mobile testing units. To address transportation limitations,non-traditional work schedules,and lack of access that may keep some communities from getting tested,governments should strategically implement mobile testing units that travel to vulnerable communities."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

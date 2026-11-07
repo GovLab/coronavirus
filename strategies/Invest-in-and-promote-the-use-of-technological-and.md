@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Invest-in-and-promote-the-use-of-technological-and"
 type: "GovLab policy strategy"
 title: "Invest in and promote the use of technological and digital innovations that can help collect accurate and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Invest-in-and-promote-the-use-of-technological-and"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/invest-in-and-promote-the-use-of-technological-and"
 summary: "Invest in and promote the use of technological and digital innovations that can help collect accurate and timely data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-COVID-19-“war-room”,emergency-operati"
 type: "GovLab policy strategy"
 title: "Create a COVID-19 “war room”,emergency operation center,or nerve center that centralizes data and decision…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-COVID-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-covid-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati"
 summary: "Create a COVID-19 “war room”,emergency operation center,or nerve center that centralizes data and decision making."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

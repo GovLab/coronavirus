@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-community-and-cultural-leaders.-Gover"
 type: "GovLab policy strategy"
 title: "Partner with community and cultural leaders."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-community-and-cultural-leaders.-Gover"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-community-and-cultural-leaders.-gover"
 summary: "Partner with community and cultural leaders. Governments should conduct specific outreach and form partnerships with community and cultural leaders to 1) understand needs and concerns of specific communities and 2) amplify public health messaging encouraging surveillance,diagnostic,and screening testing."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

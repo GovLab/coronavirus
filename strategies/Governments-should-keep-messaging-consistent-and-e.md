@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-keep-messaging-consistent-and-e"
 type: "GovLab policy strategy"
 title: "Governments should keep messaging consistent and explain changes when they are made."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-keep-messaging-consistent-and-e"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-keep-messaging-consistent-and-e"
 summary: "Governments should keep messaging consistent and explain changes when they are made."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Make-raw-data-available-to-researchers,public-heal"
 type: "GovLab policy strategy"
 title: "Make raw data available to researchers,public health professionals and epidemiologists."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Make-raw-data-available-to-researchers,public-heal"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/make-raw-data-available-to-researchers,public-heal"
 summary: "Make raw data available to researchers,public health professionals and epidemiologists. Governments should make disaggregated and,where appropriate,raw data available for modeling and epidemiological analysis. Sharing key process and outcome data with demographic and geographic identifiers allows researchers and public health officials to better predict and respond to the spread of the virus and emerging outbreaks."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

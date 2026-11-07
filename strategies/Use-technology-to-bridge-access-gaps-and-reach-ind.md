@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-technology-to-bridge-access-gaps-and-reach-ind"
 type: "GovLab policy strategy"
 title: "Use technology to bridge access gaps and reach individuals who cannot access treatment due to…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-bridge-access-gaps-and-reach-ind"
 summary: "Use technology to bridge access gaps and reach individuals who cannot access treatment due to cost,location,language,or other barriers."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Improve-mental-health-data-collection-and-use-thro"
 type: "GovLab policy strategy"
 title: "Improve mental health data collection and use through technologies"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/improve-mental-health-data-collection-and-use-thro"
 summary: "Improve mental health data collection and use through technologies"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Move-towards-a-centralized-communicable-and-report"
 type: "GovLab policy strategy"
 title: "Move towards a centralized communicable and reportable disease database and contact tracing capability."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Move-towards-a-centralized-communicable-and-report"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/move-towards-a-centralized-communicable-and-report"
 summary: "Move towards a centralized communicable and reportable disease database and contact tracing capability. Governments should begin to invest in a federally centralized communicable and reportable disease database that will include contact tracing capabilities."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

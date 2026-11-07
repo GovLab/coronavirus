@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-understand-the-preferences-of-t"
 type: "GovLab policy strategy"
 title: "Governments should understand the preferences of their constituencies and use tools that populations are…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-understand-the-preferences-of-t"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-understand-the-preferences-of-t"
 summary: "Governments should understand the preferences of their constituencies and use tools that populations are most comfortable with. For example,live streams on social media platforms like facebook- which people use regularly and have fewer barriers to access-- tend to be more popular then webinars or conversations on platforms like Zoom or WebEx."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

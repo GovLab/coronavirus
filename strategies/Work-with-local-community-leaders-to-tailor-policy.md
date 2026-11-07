@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Work-with-local-community-leaders-to-tailor-policy"
 type: "GovLab policy strategy"
 title: "Work with local community leaders to tailor policy decisions to the needs of the community."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Work-with-local-community-leaders-to-tailor-policy"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/work-with-local-community-leaders-to-tailor-policy"
 summary: "Work with local community leaders to tailor policy decisions to the needs of the community."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

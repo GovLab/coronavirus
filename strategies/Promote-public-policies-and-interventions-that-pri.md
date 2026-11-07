@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Promote-public-policies-and-interventions-that-pri"
 type: "GovLab policy strategy"
 title: "Promote public policies and interventions that prioritize mental health services for healthcare workers and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Promote-public-policies-and-interventions-that-pri"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/promote-public-policies-and-interventions-that-pri"
 summary: "Promote public policies and interventions that prioritize mental health services for healthcare workers and frontline personnel"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

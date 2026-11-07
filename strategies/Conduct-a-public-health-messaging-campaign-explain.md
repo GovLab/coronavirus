@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Conduct-a-public-health-messaging-campaign-explain"
 type: "GovLab policy strategy"
 title: "Conduct a public health messaging campaign explaining contact tracing."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-public-health-messaging-campaign-explain"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-public-health-messaging-campaign-explain"
 summary: "Conduct a public health messaging campaign explaining contact tracing. Governments should perform outreach to the public with messages about contact tracing before and while they implement telephone and in-person interviews and contact tracing. This will help the public understand why they are being contacted and what the goal of these efforts are."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
