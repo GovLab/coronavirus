@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Make-testing-free-for-low-income-or-high-risk-popu"
 type: "GovLab policy strategy"
 title: "Make testing free for low income or high-risk populations."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Make-testing-free-for-low-income-or-high-risk-popu"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/make-testing-free-for-low-income-or-high-risk-popu"
 summary: "Make testing free for low income or high-risk populations. Governments should reduce barriers to testing by making testing free for specific populations,ideally for screening or surveillance purposes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

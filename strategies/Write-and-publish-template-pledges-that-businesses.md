@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Write-and-publish-template-pledges-that-businesses"
 type: "GovLab policy strategy"
 title: "Write and publish template pledges that businesses can adapt for their own needs."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Write-and-publish-template-pledges-that-businesses"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/write-and-publish-template-pledges-that-businesses"
 summary: "Write and publish template pledges that businesses can adapt for their own needs. Include evidence based safety measures and encourage businesses to bring these pledges to discussion with their employees."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

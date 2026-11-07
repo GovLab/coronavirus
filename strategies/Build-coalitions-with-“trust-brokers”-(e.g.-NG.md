@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Build-coalitions-with-“trust-brokers”-(e.g.-NG"
 type: "GovLab policy strategy"
 title: "Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations,and community leaders) and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-NG"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-ng"
 summary: "Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations,and community leaders) and affected populations to co-design data collection,analysis and use processes"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

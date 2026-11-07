@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-institutions-with-high-levels-of-soci"
 type: "GovLab policy strategy"
 title: "Partner with institutions with high levels of social engagement,trust,and access to populations to collect…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-institutions-with-high-levels-of-soci"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-institutions-with-high-levels-of-soci"
 summary: "Partner with institutions with high levels of social engagement,trust,and access to populations to collect information and implement public health monitoring and surveillance systems."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

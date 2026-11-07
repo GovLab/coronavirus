@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Conduct-feasibility-studies.-Governments-should-ap"
 type: "GovLab policy strategy"
 title: "Conduct feasibility studies."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-feasibility-studies.-Governments-should-ap"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/conduct-feasibility-studies.-governments-should-ap"
 summary: "Conduct feasibility studies. Governments should appoint a group of government and external experts to conduct a feasibility study of jurisdictional and private/public context and document legislative opportunities or barriers to moving forward with a UHI/NPI system."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

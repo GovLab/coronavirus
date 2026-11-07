@@ -21,7 +21,7 @@ Define high-risk populations who will receive prioritized testing. Governments s
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Research, Policy/Legislative/Regulatory, Data, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Define-high-risk-populations-who-will-receive-prio
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/define-high-risk-populations-who-will-receive-prio
 
 ### Actions governments should take (strategy 1)
 
@@ -41,7 +41,7 @@ Partner with community and cultural leaders. Governments should conduct specific
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-community-and-cultural-leaders.-Gover
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-community-and-cultural-leaders.-gover
 
 ### Actions governments should take (strategy 2)
 
@@ -56,7 +56,7 @@ Make testing free for low income or high-risk populations. Governments should re
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Make-testing-free-for-low-income-or-high-risk-popu
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/make-testing-free-for-low-income-or-high-risk-popu
 
 ### Actions governments should take (strategy 3)
 
@@ -70,7 +70,7 @@ Develop and use culturally and contextually relevant communication materials for
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-use-culturally-and-contextually-releva
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-use-culturally-and-contextually-releva
 
 ### Actions governments should take (strategy 4)
 
@@ -85,7 +85,7 @@ Rapidly conduct snapshot pooled testing among staff and residents in health and 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Vulnerable Populations, Healthcare Providers, Organized Civil Society
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-conduct-snapshot-pooled-testing-among-staf
 
 ### Actions governments should take (strategy 5)
 
@@ -104,7 +104,7 @@ Ensure adequate testing resources are available and accessible to high-risk comm
 - Timeframe: 1-3 Months (immediate)
 - Audience: Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Ensure-adequate-testing-resources-are-available-an
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/ensure-adequate-testing-resources-are-available-an
 
 ### Actions governments should take (strategy 6)
 
@@ -123,7 +123,7 @@ Reduce barriers to testing by conducting mobile testing units. To address transp
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/reduce-barriers-to-testing-by-conducting-mobile-te
 
 ### Actions governments should take (strategy 7)
 

@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with,fund,and-support-women-and-their-fami"
 type: "GovLab policy strategy"
 title: "Partner with,fund,and support women and their families,women-owned businesses,and grassroots organizations…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with,fund,and-support-women-and-their-fami"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with,fund,and-support-women-and-their-fami"
 summary: "Partner with,fund,and support women and their families,women-owned businesses,and grassroots organizations specifically serving women."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

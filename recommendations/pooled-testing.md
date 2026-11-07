@@ -21,7 +21,7 @@ Partner with academic institutions,researchers and private sector laboratories. 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Research, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-academic-institutions,researchers-and
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-academic-institutions,researchers-and
 
 ### Actions governments should take (strategy 1)
 
@@ -40,7 +40,7 @@ Waive regulatory barriers. Governments should consider ways to adjust regulation
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Waive-regulatory-barriers.-Governments-should-cons
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/waive-regulatory-barriers.-governments-should-cons
 
 ### Actions governments should take (strategy 2)
 
@@ -59,7 +59,7 @@ Rapidly pilot pooled testing schemes. Governments should act quickly (<1 month) 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-pilot-pooled-testing-schemes.-governments-
 
 ### Actions governments should take (strategy 3)
 
@@ -78,7 +78,7 @@ Iterate learning and share best practices. Governments should contract with or p
 - Timeframe: 6-12 Months (long)
 - Audience: Government Workers
 - Type: Research, Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Iterate-learning-and-share-best-practices.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/iterate-learning-and-share-best-practices.-governm
 
 ### Actions governments should take (strategy 4)
 

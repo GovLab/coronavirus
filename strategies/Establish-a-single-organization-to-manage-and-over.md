@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Establish-a-single-organization-to-manage-and-over"
 type: "GovLab policy strategy"
 title: "Establish a single organization to manage and oversee the UHI/NPI system."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Establish-a-single-organization-to-manage-and-over"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/establish-a-single-organization-to-manage-and-over"
 summary: "Establish a single organization to manage and oversee the UHI/NPI system. Governments should establish a single organization with the responsibility to oversee and advise on ways to improve patient matching and incorporate new technologies and approaches as they emerge. This organization would identify and encourage adoption of certain standards—such as on biometrics or use of smartphones—by health care organizations and technology developers."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

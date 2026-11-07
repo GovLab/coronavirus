@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/National-and-state-governments-should-work-with-lo"
 type: "GovLab policy strategy"
 title: "National and state governments should work with local governments,universities,companies and community…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/National-and-state-governments-should-work-with-lo"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/national-and-state-governments-should-work-with-lo"
 summary: "National and state governments should work with local governments,universities,companies and community activists to focus on making differences at the local and community level. Where possible,messaging should be targeted to specific populations and groups to ensure it is relevant and resonates with those individuals."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

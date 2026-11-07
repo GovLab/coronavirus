@@ -21,7 +21,7 @@ Create a legal framework to regulate and fund mental health priorities
 - Timeframe: 1+ years (structural change)
 - Audience: Vulnerable Populations
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-legal-framework-to-regulate-and-fund-ment
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-legal-framework-to-regulate-and-fund-ment
 
 ### Actions governments should take (strategy 1)
 
@@ -46,7 +46,7 @@ Create a national mental health plan to guide the implementation of the resultin
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Research, Policy/Legislative/Regulatory, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-national-mental-health-plan-to-guide-the-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-national-mental-health-plan-to-guide-the-
 
 ### Actions governments should take (strategy 2)
 
@@ -68,7 +68,7 @@ Promote public policies and interventions that prioritize mental health services
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Promote-public-policies-and-interventions-that-pri
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/promote-public-policies-and-interventions-that-pri
 
 ### Actions governments should take (strategy 3)
 

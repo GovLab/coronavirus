@@ -21,7 +21,7 @@ Develop standard definitions,structures,and variables for key public health moni
 - Timeframe: 3-6 Months (medium)
 - Audience: Academia
 - Type: Research, Policy/Legislative/Regulatory, Data, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-standard-definitions,structures,and-variab
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-standard-definitions,structures,and-variab
 
 ### Actions governments should take (strategy 1)
 
@@ -44,7 +44,7 @@ Promote and use open source and simple tools for data sharing between and among 
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Promote-and-use-open-source-and-simple-tools-for-d
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/promote-and-use-open-source-and-simple-tools-for-d
 
 ### Actions governments should take (strategy 2)
 
@@ -70,7 +70,7 @@ Develop and advocate for a legislative framework for public health monitoring an
 - Timeframe: 6-12 Months (long)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-advocate-for-a-legislative-framework-f
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-advocate-for-a-legislative-framework-f
 
 ### Actions governments should take (strategy 3)
 

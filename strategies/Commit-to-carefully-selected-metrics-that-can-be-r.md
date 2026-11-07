@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Commit-to-carefully-selected-metrics-that-can-be-r"
 type: "GovLab policy strategy"
 title: "Commit to carefully selected metrics that can be reported on consistently and regularly (do not select too…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Commit-to-carefully-selected-metrics-that-can-be-r"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/commit-to-carefully-selected-metrics-that-can-be-r"
 summary: "Commit to carefully selected metrics that can be reported on consistently and regularly (do not select too many metrics). Governments should be cautious to select a small number of useful and informative metrics that can be reported on consistently,precisely,and accurately. Committing to too many metrics may lead to the inability to accurately and precisely track the data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

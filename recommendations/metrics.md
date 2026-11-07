@@ -21,7 +21,7 @@ Make raw data available to researchers,public health professionals and epidemiol
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Vulnerable Populations, Nonprofits
 - Type: Research, Data, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Make-raw-data-available-to-researchers,public-heal
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/make-raw-data-available-to-researchers,public-heal
 
 ### Actions governments should take (strategy 1)
 
@@ -39,7 +39,7 @@ Incentivize adoption of standardized process and outcome measures within jurisdi
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Healthcare Providers, Government Workers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incentivize-adoption-of-standardized-process-and-o
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incentivize-adoption-of-standardized-process-and-o
 
 ### Actions governments should take (strategy 2)
 
@@ -58,7 +58,7 @@ Create and publish data dashboards that are updated regularly and show progress 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Nonprofits
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-and-publish-data-dashboards-that-are-update
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-and-publish-data-dashboards-that-are-update
 
 ### Actions governments should take (strategy 3)
 
@@ -77,7 +77,7 @@ Commit to carefully selected metrics that can be reported on consistently and re
 - Timeframe: 3-6 Months (medium)
 - Audience: Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Commit-to-carefully-selected-metrics-that-can-be-r
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/commit-to-carefully-selected-metrics-that-can-be-r
 
 ### Actions governments should take (strategy 4)
 

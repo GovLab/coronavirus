@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Iterate-learning-and-share-best-practices.-Governm"
 type: "GovLab policy strategy"
 title: "Iterate learning and share best practices."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Iterate-learning-and-share-best-practices.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/iterate-learning-and-share-best-practices.-governm"
 summary: "Iterate learning and share best practices. Governments should contract with or perform their own evaluation of pooled testing schemes,improve on existing processes,and share best practices across jurisdictions and sectors."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

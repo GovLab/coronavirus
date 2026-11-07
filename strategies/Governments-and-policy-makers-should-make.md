@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-and-policy-makers-should-make"
 type: "GovLab policy strategy"
 title: "Governments and policy makers should make sure the messages they are promoting are scientifically accurate…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-and-policy-makers-should-make"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-and-policy-makers-should-make"
 summary: "Governments and policy makers should make sure the messages they are promoting are scientifically accurate and informed by evidence and base all messaging on credible levels of evidence and review levels of evidence. The public is more likely to trust messages coming from credible sources"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

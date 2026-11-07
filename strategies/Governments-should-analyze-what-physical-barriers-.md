@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-analyze-what-physical-barriers-"
 type: "GovLab policy strategy"
 title: "Governments should analyze what physical barriers make it more difficult or increase the perceived effort of…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-analyze-what-physical-barriers-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-analyze-what-physical-barriers-"
 summary: "Governments should analyze what physical barriers make it more difficult or increase the perceived effort of following preferred behaviors,and minimize or remove these barriers. The fewer steps and the less thought a preferred behavior requires,the more likely people are to follow it."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

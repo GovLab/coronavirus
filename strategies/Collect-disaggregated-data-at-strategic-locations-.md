@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Collect-disaggregated-data-at-strategic-locations-"
 type: "GovLab policy strategy"
 title: "Collect disaggregated data at strategic locations and service delivery touchpoints."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collect-disaggregated-data-at-strategic-locations-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collect-disaggregated-data-at-strategic-locations-"
 summary: "Collect disaggregated data at strategic locations and service delivery touchpoints."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

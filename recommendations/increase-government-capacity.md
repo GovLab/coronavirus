@@ -21,7 +21,7 @@ Increase government capacity to use public health monitoring and surveillance da
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Increase-government-capacity-to-use-public-health-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/increase-government-capacity-to-use-public-health-
 
 ### Actions governments should take (strategy 1)
 
@@ -46,7 +46,7 @@ Develop,use,and refine multiple predictive models to help with pandemic planning
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Government Workers
 - Type: Research, Data, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop,use,and-refine-multiple-predictive-models-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop,use,and-refine-multiple-predictive-models-
 
 ### Actions governments should take (strategy 2)
 
@@ -70,7 +70,7 @@ Create a COVID-19 “war room”,emergency operation center,or nerve center that
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Communications, Capacity Building, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-COVID-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-covid-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati
 
 ### Actions governments should take (strategy 3)
 

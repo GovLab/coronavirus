@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-standard-definitions,structures,and-variab"
 type: "GovLab policy strategy"
 title: "Develop standard definitions,structures,and variables for key public health monitoring and surveillance…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-standard-definitions,structures,and-variab"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-standard-definitions,structures,and-variab"
 summary: "Develop standard definitions,structures,and variables for key public health monitoring and surveillance health data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

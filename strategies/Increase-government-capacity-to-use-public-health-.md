@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Increase-government-capacity-to-use-public-health-"
 type: "GovLab policy strategy"
 title: "Increase government capacity to use public health monitoring and surveillance data by training government…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Increase-government-capacity-to-use-public-health-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/increase-government-capacity-to-use-public-health-"
 summary: "Increase government capacity to use public health monitoring and surveillance data by training government workers in data science and partnering with data scientists."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -21,7 +21,7 @@ Work with local community leaders to tailor policy decisions to the needs of the
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Work-with-local-community-leaders-to-tailor-policy
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/work-with-local-community-leaders-to-tailor-policy
 
 ### Actions governments should take (strategy 1)
 
@@ -42,7 +42,7 @@ Partner with,fund,and support women and their families,women-owned businesses,an
 - Timeframe: 3-6 Months (medium)
 - Audience: Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with,fund,and-support-women-and-their-fami
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with,fund,and-support-women-and-their-fami
 
 ### Actions governments should take (strategy 2)
 
@@ -62,7 +62,7 @@ Detect,support and amplify existing community-led initiatives and solutions.
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Communications, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Detect,support-and-amplify-existing-community-led-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/detect,support-and-amplify-existing-community-led-
 
 ### Actions governments should take (strategy 3)
 
@@ -83,7 +83,7 @@ Crowdsource solutions and expertise from the public and affected populations thr
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Crowdsource-solutions-and-expertise-from-the-publi
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/crowdsource-solutions-and-expertise-from-the-publi
 
 ### Actions governments should take (strategy 4)
 

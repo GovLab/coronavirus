@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-national-mental-health-plan-to-guide-the-"
 type: "GovLab policy strategy"
 title: "Create a national mental health plan to guide the implementation of the resulting legislation and regulations"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-national-mental-health-plan-to-guide-the-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-national-mental-health-plan-to-guide-the-"
 summary: "Create a national mental health plan to guide the implementation of the resulting legislation and regulations"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

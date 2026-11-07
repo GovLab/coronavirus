@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-legal-framework-to-regulate-and-fund-ment"
 type: "GovLab policy strategy"
 title: "Create a legal framework to regulate and fund mental health priorities"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-legal-framework-to-regulate-and-fund-ment"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-legal-framework-to-regulate-and-fund-ment"
 summary: "Create a legal framework to regulate and fund mental health priorities"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

@@ -21,7 +21,7 @@ Use technology to bridge access gaps and reach individuals who cannot access tre
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-bridge-access-gaps-and-reach-ind
 
 ### Actions governments should take (strategy 1)
 
@@ -51,7 +51,7 @@ Improve mental health data collection and use through technologies
 - Timeframe: 3-6 Months (medium)
 - Audience: Healthcare Providers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/improve-mental-health-data-collection-and-use-thro
 
 ### Actions governments should take (strategy 2)
 

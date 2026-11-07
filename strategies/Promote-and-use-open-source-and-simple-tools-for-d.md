@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Promote-and-use-open-source-and-simple-tools-for-d"
 type: "GovLab policy strategy"
 title: "Promote and use open source and simple tools for data sharing between and among stakeholders."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Promote-and-use-open-source-and-simple-tools-for-d"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/promote-and-use-open-source-and-simple-tools-for-d"
 summary: "Promote and use open source and simple tools for data sharing between and among stakeholders."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

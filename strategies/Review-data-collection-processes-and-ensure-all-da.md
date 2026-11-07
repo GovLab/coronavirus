@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Review-data-collection-processes-and-ensure-all-da"
 type: "GovLab policy strategy"
 title: "Review data collection processes and ensure all data systems adequately collect disaggregated data…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Review-data-collection-processes-and-ensure-all-da"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/review-data-collection-processes-and-ensure-all-da"
 summary: "Review data collection processes and ensure all data systems adequately collect disaggregated data differentiating vulnerable populations."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

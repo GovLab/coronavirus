@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop,use,and-refine-multiple-predictive-models-"
 type: "GovLab policy strategy"
 title: "Develop,use,and refine multiple predictive models to help with pandemic planning,preparedness,and response."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop,use,and-refine-multiple-predictive-models-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop,use,and-refine-multiple-predictive-models-"
 summary: "Develop,use,and refine multiple predictive models to help with pandemic planning,preparedness,and response."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

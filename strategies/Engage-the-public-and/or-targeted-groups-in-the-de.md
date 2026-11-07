@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Engage-the-public-and/or-targeted-groups-in-the-de"
 type: "GovLab policy strategy"
 title: "Engage the public and/or targeted groups in the design and development of public health messaging strategies."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Engage-the-public-and/or-targeted-groups-in-the-de"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/engage-the-public-and/or-targeted-groups-in-the-de"
 summary: "Engage the public and/or targeted groups in the design and development of public health messaging strategies. Ensure a transparent process of content development to increase trust with the public."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

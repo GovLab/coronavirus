@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Implement-a-UHI/NPI-system.-Governments-should-rol"
 type: "GovLab policy strategy"
 title: "Implement a UHI/NPI system."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/implement-a-uhi/npi-system.-governments-should-rol"
 summary: "Implement a UHI/NPI system. Governments should roll out a comprehensive and single UHI/NPI system that integrates,delivers,and manages health information technology systems across all health care institutions,including the ability for individuals to access and control their own health records."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

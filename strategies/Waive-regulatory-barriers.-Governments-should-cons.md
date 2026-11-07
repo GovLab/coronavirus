@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Waive-regulatory-barriers.-Governments-should-cons"
 type: "GovLab policy strategy"
 title: "Waive regulatory barriers."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Waive-regulatory-barriers.-Governments-should-cons"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/waive-regulatory-barriers.-governments-should-cons"
 summary: "Waive regulatory barriers. Governments should consider ways to adjust regulations that restrict innovation pertaining to pooled testing schemes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

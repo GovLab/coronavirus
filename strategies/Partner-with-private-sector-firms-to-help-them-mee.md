@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-private-sector-firms-to-help-them-mee"
 type: "GovLab policy strategy"
 title: "Partner with private sector firms to help them meet their human resource needs by developing and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-private-sector-firms-to-help-them-mee"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-private-sector-firms-to-help-them-mee"
 summary: "Partner with private sector firms to help them meet their human resource needs by developing and implementing retraining and reskillIng programs that help vulnerable groups adapt to the new- normal post- COVID- 19."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

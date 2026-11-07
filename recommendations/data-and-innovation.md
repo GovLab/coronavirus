@@ -21,7 +21,7 @@ Governments should develop strategies for testing different messages and deliver
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Civil Society
 - Type: Research, Data, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-develop-strategies-for-testing-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-develop-strategies-for-testing-
 
 ### Actions governments should take (strategy 1)
 
@@ -42,7 +42,7 @@ Governments should understand the preferences of their constituencies and use to
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society
 - Type: Research, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-understand-the-preferences-of-t
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-understand-the-preferences-of-t
 
 ### Actions governments should take (strategy 2)
 
@@ -63,7 +63,7 @@ Governments should capitalize on local knowledge and talent through hackathons a
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-capitalize-on-local-knowledge-a
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-capitalize-on-local-knowledge-a
 
 ### Actions governments should take (strategy 3)
 
@@ -84,7 +84,7 @@ Governments should analyze what physical barriers make it more difficult or incr
 - Timeframe: 3-6 Months (medium)
 - Audience: Academia, Civil Society, Healthcare Providers, Government Workers
 - Type: Research, Data, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-analyze-what-physical-barriers-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-analyze-what-physical-barriers-
 
 ### Actions governments should take (strategy 4)
 

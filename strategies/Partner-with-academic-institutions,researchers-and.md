@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-academic-institutions,researchers-and"
 type: "GovLab policy strategy"
 title: "Partner with academic institutions,researchers and private sector laboratories."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-academic-institutions,researchers-and"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-academic-institutions,researchers-and"
 summary: "Partner with academic institutions,researchers and private sector laboratories. Governments should engage the academy,research firms,and private sector laboratories to develop algorithms,testing strategies,and innovative ways to design pooled testing schemes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

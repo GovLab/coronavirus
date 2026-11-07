@@ -553,7 +553,7 @@ Testing Strategy
 
 Pooled Testing
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-academic-institutions,researchers-and)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-academic-institutions,researchers-and)[
 
 Waive regulatory barriers. Governments should consider ways to adjust regulations that restrict innovation pertaining to pooled testing schemes.
 
@@ -561,9 +561,9 @@ Testing Strategy
 
 Pooled Testing
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Waive-regulatory-barriers.-Governments-should-cons)
+](https://coronavirus.smartercrowdsourcing.org/strategies/waive-regulatory-barriers.-governments-should-cons)
 
-[Rapidly pilot pooled testing schemes. Governments should act quickly (<1 month) to pilot various pooled testing schemes such as Dorfman,Splitting,Sterret,and Matrix testing to gauge scalability and utility amongst](https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-) [different contexts and populations](https://www.eurekalert.org/pub_releases/2020-04/su-vst042820.php).
+[Rapidly pilot pooled testing schemes. Governments should act quickly (<1 month) to pilot various pooled testing schemes such as Dorfman,Splitting,Sterret,and Matrix testing to gauge scalability and utility amongst](https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-pilot-pooled-testing-schemes.-governments-) [different contexts and populations](https://www.eurekalert.org/pub_releases/2020-04/su-vst042820.php).
 
 Testing Strategy
 
@@ -577,7 +577,7 @@ Testing Strategy
 
 Pooled Testing
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Iterate-learning-and-share-best-practices.-Governm)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/iterate-learning-and-share-best-practices.-governm)[
 
 Conduct feasibility studies. Governments should appoint a group of government and external experts to conduct a feasibility study of jurisdictional and private/public context and document legislative opportunities or barriers to moving forward with a UHI/NPI system.
 
@@ -585,7 +585,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-feasibility-studies.-Governments-should-ap)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/conduct-feasibility-studies.-governments-should-ap)[
 
 Standardize data entry fields across existing systems. Governments should work with partners to standardize data elements across health IT systems so that data is easily shareable between systems.
 
@@ -593,7 +593,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Standardize-data-entry-fields-across-existing-syst)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/standardize-data-entry-fields-across-existing-syst)[
 
 Develop,advocate for and pass legislation. Governments should mandate adoption of standards providing for a standard national health identifier for each individual,employer,health plan,and health care provider for use in the healthcare system.
 
@@ -601,7 +601,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop,advocate-for-and-pass-legislation.-Governm)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop,advocate-for-and-pass-legislation.-governm)[
 
 Adjust existing data collection processes. Governments should advance the use of regularly collected demographic data elements for patient matching and identification such as phone numbers,mailing addresses,or email addresses. This will ensure that public health authorities have up-to-date contact information when receiving reports from laboratories,hospitals,and other testing sites.
 
@@ -609,7 +609,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Adjust-existing-data-collection-processes.-Governm)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/adjust-existing-data-collection-processes.-governm)[
 
 Establish a single organization to manage and oversee the UHI/NPI system. Governments should establish a single organization with the responsibility to oversee and advise on ways to improve patient matching and incorporate new technologies and approaches as they emerge. This organization would identify and encourage adoption of certain standards—such as on biometrics or use of smartphones—by health care organizations and technology developers.
 
@@ -617,7 +617,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Establish-a-single-organization-to-manage-and-over)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/establish-a-single-organization-to-manage-and-over)[
 
 Implement a UHI/NPI system. Governments should roll out a comprehensive and single UHI/NPI system that integrates,delivers,and manages health information technology systems across all health care institutions,including the ability for individuals to access and control their own health records.
 
@@ -625,7 +625,7 @@ Testing Strategy
 
 National Patient Identifiers
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/implement-a-uhi/npi-system.-governments-should-rol)[
 
 Define high-risk populations who will receive prioritized testing. Governments should develop a working definition of which populations are high risk. Groups can be added to this list,but the list should identify populations that are at higher risk of contracting and having complications from COVID-19 due to physical health,behavioral health,or economic/social factors.
 
@@ -633,7 +633,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Define-high-risk-populations-who-will-receive-prio)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/define-high-risk-populations-who-will-receive-prio)[
 
 Partner with community and cultural leaders. Governments should conduct specific outreach and form partnerships with community and cultural leaders to 1) understand needs and concerns of specific communities and 2) amplify public health messaging encouraging surveillance,diagnostic,and screening testing.
 
@@ -641,7 +641,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-community-and-cultural-leaders.-Gover)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-community-and-cultural-leaders.-gover)[
 
 Make testing free for low income or high-risk populations. Governments should reduce barriers to testing by making testing free for specific populations,ideally for screening or surveillance purposes.
 
@@ -649,7 +649,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Make-testing-free-for-low-income-or-high-risk-popu)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/make-testing-free-for-low-income-or-high-risk-popu)[
 
 Develop and use culturally and contextually relevant communication materials for testing resources. Governments and public health officials should make all communication materials targeted at high-risk or vulnerable populations accessible and culturally-relevant.
 
@@ -657,7 +657,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-use-culturally-and-contextually-releva)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-use-culturally-and-contextually-releva)[
 
 Rapidly conduct snapshot pooled testing among staff and residents in health and long-term care facilities,prisons,and other congregate housing facilities. Governments should conduct snapshot pooled testing to provide a baseline that will help establish subsequent testing strategies within these settings,including the frequency of testing.
 
@@ -665,7 +665,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-conduct-snapshot-pooled-testing-among-staf)[
 
 Ensure adequate testing resources are available and accessible to high-risk communities. Governments should establish testing sites in communities with large numbers of high-risk individuals.
 
@@ -673,7 +673,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Ensure-adequate-testing-resources-are-available-an)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/ensure-adequate-testing-resources-are-available-an)[
 
 Reduce barriers to testing by conducting mobile testing units. To address transportation limitations,non-traditional work schedules,and lack of access that may keep some communities from getting tested,governments should strategically implement mobile testing units that travel to vulnerable communities.
 
@@ -681,7 +681,7 @@ Testing Strategy
 
 High-risk populations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/reduce-barriers-to-testing-by-conducting-mobile-te)[
 
 Make raw data available to researchers,public health professionals and epidemiologists. Governments should make disaggregated and,where appropriate,raw data available for modeling and epidemiological analysis. Sharing key process and outcome data with demographic and geographic identifiers allows researchers and public health officials to better predict and respond to the spread of the virus and emerging outbreaks.
 
@@ -689,7 +689,7 @@ Contact Tracing
 
 Metrics
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Make-raw-data-available-to-researchers,public-heal)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/make-raw-data-available-to-researchers,public-heal)[
 
 Incentivize adoption of standardized process and outcome measures within jurisdictions (vertical standardization) and across jurisdictions (horizontal standardization) through technical assistance and cost reimbursements or cost sharing. Governments should use legislative,regulatory,and budgetary means to incentivize and/or mandate the adoption of standardized metrics across jurisdictions.
 
@@ -697,7 +697,7 @@ Contact Tracing
 
 Metrics
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Incentivize-adoption-of-standardized-process-and-o)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/incentivize-adoption-of-standardized-process-and-o)[
 
 Create and publish data dashboards that are updated regularly and show progress on metrics. Governments should develop a dashboard aligned with both the contact tracing platform and surveillance/reportable disease databases.
 
@@ -705,7 +705,7 @@ Contact Tracing
 
 Metrics
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-and-publish-data-dashboards-that-are-update)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-and-publish-data-dashboards-that-are-update)[
 
 Commit to carefully selected metrics that can be reported on consistently and regularly (do not select too many metrics). Governments should be cautious to select a small number of useful and informative metrics that can be reported on consistently,precisely,and accurately. Committing to too many metrics may lead to the inability to accurately and precisely track the data.
 
@@ -713,7 +713,7 @@ Contact Tracing
 
 Metrics
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Commit-to-carefully-selected-metrics-that-can-be-r)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/commit-to-carefully-selected-metrics-that-can-be-r)[
 
 Collaborate with private and public-sector actors that have large membership across jurisdictions. Governments should actively seek partnerships with businesses and organizations (e.g. unions) that have large numbers of employees or members based in various regions/states within the country. These businesses and organizations may be able to support interjurisdictional coordination.
 
@@ -721,7 +721,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Collaborate-with-private-and-public-sector-actors-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/collaborate-with-private-and-public-sector-actors-)[
 
 Use executive orders or other regulatory or legislative authorities to incentivize centralized platforms for contact tracing. Governments,ideally at the federal level,should mandate a single platform for contact tracing. If it is not possible at the federal level,governors of states/regions should mandate the use of a single platform within their jurisdiction.
 
@@ -729,7 +729,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Use-executive-orders-or-other-regulatory-or-legisl)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/use-executive-orders-or-other-regulatory-or-legisl)[
 
 Use legislative or regulatory mechanisms or executive orders to enable data sharing across jurisdictions. Governments should reduce the regulatory burdens that hinder or inhibit data sharing between jurisdictions.
 
@@ -737,7 +737,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut)[
 
 Use legislative or regulatory mechanisms or executive orders to enable agencies to share existing databases. Governments should capitalize on existing databases or registers maintained by specific government agencies (such as social security,post service,or census data) to bolster contact tracing efforts.
 
@@ -745,7 +745,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut)[
 
 Move towards a centralized communicable and reportable disease database and contact tracing capability. Governments should begin to invest in a federally centralized communicable and reportable disease database that will include contact tracing capabilities.
 
@@ -753,7 +753,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Move-towards-a-centralized-communicable-and-report)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/move-towards-a-centralized-communicable-and-report)[
 
 Offer informal peer learning opportunities. Governments or representative associations should coordinate informal forums or opportunities for individuals designing,implementing,and managing contact tracing programs to share ideas,challenges and best practices. These opportunities should be extended to include researchers,epidemiologists,or non-governmental actors with contact tracking experience.
 
@@ -761,7 +761,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Offer-informal-peer-learning-opportunities.-Govern)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/offer-informal-peer-learning-opportunities.-govern)[
 
 Offer formal peer learning opportunities. governments or representative associations should coordinate formal and structured forums or opportunities for those designing,implementing,and managing contact tracing programs to share ideas,challenges and best practices.
 
@@ -769,7 +769,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Offer-formal-peer-learning-opportunities.-governme)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/offer-formal-peer-learning-opportunities.-governme)[
 
 Create regional partnerships and coordinating bodies. Governments or representative associations should establish formal and informal groups and coordinating bodies based on regional or geographic similarities,such as transportation corridors or shared geographic borders.
 
@@ -777,7 +777,7 @@ Contact Tracing
 
 Interjurisdictional Coordination
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-regional-partnerships-and-coordinating-bodi)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-regional-partnerships-and-coordinating-bodi)[
 
 Conduct a community health assessment that identifies community assets. Public health agencies responsible for conducting contact tracing should conduct an assessment of community organizations and assets that can be mobilized to support the contact tracing effort.
 
@@ -785,7 +785,7 @@ Contact Tracing
 
 Localization
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-community-health-assessment-that-identif)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-community-health-assessment-that-identif)[
 
 Partner with local community organizations to recruit and hire contact tracers with community-based knowledge and experience. Governments should partner with local community organizations to identify contact tracers with the trust and knowledge of the local community. Selecting the right messenger is an important step to building trust,allowing for the cases and contacts to reveal details about who they have been in contact with and when.
 
@@ -793,7 +793,7 @@ Contact Tracing
 
 Localization
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-local-community-organizations-to-recr)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-local-community-organizations-to-recr)[
 
 Conduct a public health messaging campaign explaining contact tracing. Governments should perform outreach to the public with messages about contact tracing before and while they implement telephone and in-person interviews and contact tracing. This will help the public understand why they are being contacted and what the goal of these efforts are.
 
@@ -801,7 +801,7 @@ Contact Tracing
 
 Localization
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-public-health-messaging-campaign-explain)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-public-health-messaging-campaign-explain)[
 
 Incorporate communication about contact tracing into the testing program. Testing centers should inform those who are tested that they will be contacted by someone from the contact tracing program if they test positive. The testing site should provide the name of the contact tracing program and the phone number from which people will receive a call.
 
@@ -809,7 +809,7 @@ Contact Tracing
 
 Localization
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-communication-about-contact-tracing-in)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-communication-about-contact-tracing-in)[
 
 Incorporate information about the local community when training people for the contact tracing program. Governments and those designing contact tracing training programs should include specific modules that focus on the local community context,cultural practices,language considerations,and other specific considerations. The training program should also include information about how to conduct contact tracing,the workforce needs information about the local public health system,how it is organized and how it interacts with other agencies.
 
@@ -817,7 +817,7 @@ Contact Tracing
 
 Localization
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-information-about-the-local-community-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-information-about-the-local-community-)[
 
 Review data collection processes and ensure all data systems adequately collect disaggregated data differentiating vulnerable populations.
 
@@ -825,7 +825,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Improve Data Management
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Review-data-collection-processes-and-ensure-all-da)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/review-data-collection-processes-and-ensure-all-da)[
 
 Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations,and community leaders) and affected populations to co-design data collection,analysis and use processes
 
@@ -833,7 +833,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Improve Data Management
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-NG)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-ng)[
 
 Collect disaggregated data at strategic locations and service delivery touchpoints.
 
@@ -841,7 +841,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Improve Data Management
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Collect-disaggregated-data-at-strategic-locations-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/collect-disaggregated-data-at-strategic-locations-)[
 
 Strengthen government capacity to interpret new and existing data,focusing on vulnerable populations and publish data and analysis publicly.
 
@@ -849,7 +849,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Improve Data Management
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Strengthen-government-capacity-to-interpret-new-an)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/strengthen-government-capacity-to-interpret-new-an)[
 
 Establish and coordinate a committee of stakeholders whose businesses,non-profits,and foundations directly serve or impact vulnerable populations to identify and address the needs of vulnerable populations.
 
@@ -857,7 +857,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Establish Public-Private Partnerships
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Establish-and-coordinate-a-committee-of-stakeholde)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/establish-and-coordinate-a-committee-of-stakeholde)[
 
 Develop partnerships and engage in strategic contracts with companies who have comparative advantages or corners on specific markets like housing,transportation,diagnostic testing,and/or technology services.
 
@@ -865,7 +865,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Establish Public-Private Partnerships
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop-partnerships-and-engage-in-strategic-contr)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop-partnerships-and-engage-in-strategic-contr)[
 
 Create a public commission,specifically including intended beneficiaries of the services,tasked with holding public-private partnership contracts accountable for delivering services/results through a cost effective,timely,and transparent process.
 
@@ -873,7 +873,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Establish Public-Private Partnerships
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-public-commission,specifically-including-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-a-public-commission,specifically-including-)[
 
 Partner with private sector firms to help them meet their human resource needs by developing and implementing retraining and reskillIng programs that help vulnerable groups adapt to the new- normal post- COVID- 19.
 
@@ -881,7 +881,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Establish Public-Private Partnerships
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-private-sector-firms-to-help-them-mee)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-private-sector-firms-to-help-them-mee)[
 
 Work with local community leaders to tailor policy decisions to the needs of the community.
 
@@ -889,7 +889,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Engage the Public and Civil Society Organizations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Work-with-local-community-leaders-to-tailor-policy)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/work-with-local-community-leaders-to-tailor-policy)[
 
 Partner with,fund,and support women and their families,women-owned businesses,and grassroots organizations specifically serving women.
 
@@ -897,7 +897,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Engage the Public and Civil Society Organizations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with,fund,and-support-women-and-their-fami)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with,fund,and-support-women-and-their-fami)[
 
 Detect,support and amplify existing community-led initiatives and solutions.
 
@@ -905,7 +905,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Engage the Public and Civil Society Organizations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Detect,support-and-amplify-existing-community-led-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/detect,support-and-amplify-existing-community-led-)[
 
 Crowdsource solutions and expertise from the public and affected populations through prizes,competitions,or online innovation sessions.
 
@@ -913,7 +913,7 @@ Supporting Marginalized and Vulnerable Populations
 
 Engage the Public and Civil Society Organizations
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Crowdsource-solutions-and-expertise-from-the-publi)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/crowdsource-solutions-and-expertise-from-the-publi)[
 
 Collect epidemiological surveillance data with a symptom tracker or triage tool that leverages crowdsourcing and participatory surveillance.
 
@@ -921,7 +921,7 @@ Epidemiological monitoring and surveillance
 
 Enhance Data Collection
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Collect-epidemiological-surveillance-data-with-a-s)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/collect-epidemiological-surveillance-data-with-a-s)[
 
 Invest in and promote the use of technological and digital innovations that can help collect accurate and timely data.
 
@@ -929,7 +929,7 @@ Epidemiological monitoring and surveillance
 
 Enhance Data Collection
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Invest-in-and-promote-the-use-of-technological-and)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/invest-in-and-promote-the-use-of-technological-and)[
 
 Partner with institutions with high levels of social engagement,trust,and access to populations to collect information and implement public health monitoring and surveillance systems.
 
@@ -937,7 +937,7 @@ Epidemiological monitoring and surveillance
 
 Enhance Data Collection
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-institutions-with-high-levels-of-soci)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-institutions-with-high-levels-of-soci)[
 
 Develop standard definitions,structures,and variables for key public health monitoring and surveillance health data.
 
@@ -945,7 +945,7 @@ Epidemiological monitoring and surveillance
 
 Improve Information Infrastructure
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop-standard-definitions,structures,and-variab)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop-standard-definitions,structures,and-variab)[
 
 Promote and use open source and simple tools for data sharing between and among stakeholders.
 
@@ -953,7 +953,7 @@ Epidemiological monitoring and surveillance
 
 Improve Information Infrastructure
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Promote-and-use-open-source-and-simple-tools-for-d)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/promote-and-use-open-source-and-simple-tools-for-d)[
 
 Develop and advocate for a legislative framework for public health monitoring and surveillance health data.
 
@@ -961,7 +961,7 @@ Epidemiological monitoring and surveillance
 
 Improve Information Infrastructure
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-advocate-for-a-legislative-framework-f)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-advocate-for-a-legislative-framework-f)[
 
 Increase government capacity to use public health monitoring and surveillance data by training government workers in data science and partnering with data scientists.
 
@@ -969,7 +969,7 @@ Epidemiological monitoring and surveillance
 
 Increase Government Capacity
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Increase-government-capacity-to-use-public-health-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/increase-government-capacity-to-use-public-health-)[
 
 Develop,use,and refine multiple predictive models to help with pandemic planning,preparedness,and response.
 
@@ -977,7 +977,7 @@ Epidemiological monitoring and surveillance
 
 Increase Government Capacity
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Develop,use,and-refine-multiple-predictive-models-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/develop,use,and-refine-multiple-predictive-models-)[
 
 Create a COVID-19 “war room”,emergency operation center,or nerve center that centralizes data and decision making.
 
@@ -985,7 +985,7 @@ Epidemiological monitoring and surveillance
 
 Increase Government Capacity
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-COVID-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-a-covid-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati)[
 
 Create a legal framework to regulate and fund mental health priorities
 
@@ -993,7 +993,7 @@ Mental health and emotional wellbeing
 
 Government capacity and regulatory environment
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-legal-framework-to-regulate-and-fund-ment)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-a-legal-framework-to-regulate-and-fund-ment)[
 
 Create a national mental health plan to guide the implementation of the resulting legislation and regulations
 
@@ -1001,7 +1001,7 @@ Mental health and emotional wellbeing
 
 Government capacity and regulatory environment
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-national-mental-health-plan-to-guide-the-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/create-a-national-mental-health-plan-to-guide-the-)[
 
 Promote public policies and interventions that prioritize mental health services for healthcare workers and frontline personnel
 
@@ -1009,7 +1009,7 @@ Mental health and emotional wellbeing
 
 Government capacity and regulatory environment
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Promote-public-policies-and-interventions-that-pri)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/promote-public-policies-and-interventions-that-pri)[
 
 Use technology to bridge access gaps and reach individuals who cannot access treatment due to cost,location,language,or other barriers.
 
@@ -1017,7 +1017,7 @@ Mental health and emotional wellbeing
 
 Data and Technology
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-bridge-access-gaps-and-reach-ind)[
 
 Improve mental health data collection and use through technologies
 
@@ -1025,7 +1025,7 @@ Mental health and emotional wellbeing
 
 Data and Technology
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/improve-mental-health-data-collection-and-use-thro)[
 
 Use technology to train community health workers and other healthcare providers who may have no experience in mental healthcare and mental first aid
 
@@ -1033,7 +1033,7 @@ Mental health and emotional wellbeing
 
 Increase provider capacity
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-train-community-health-workers-a)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-train-community-health-workers-a)[
 
 Engage cross-sectoral partners to utilize available mental health resources and increase the supply of providers
 
@@ -1041,7 +1041,7 @@ Mental health and emotional wellbeing
 
 Increase provider capacity
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Engage-cross-sectoral-partners-to-utilize-availabl)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/engage-cross-sectoral-partners-to-utilize-availabl)[
 
 Governments should keep messaging consistent and explain changes when they are made.
 
@@ -1049,7 +1049,7 @@ Behavioral Science and COVID
 
 Evidence and misinformation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-keep-messaging-consistent-and-e)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-keep-messaging-consistent-and-e)[
 
 Governments and policy makers should make sure the messages they are promoting are scientifically accurate and informed by evidence and base all messaging on credible levels of evidence and review levels of evidence. The public is more likely to trust messages coming from credible sources
 
@@ -1057,7 +1057,7 @@ Behavioral Science and COVID
 
 Evidence and misinformation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-and-policy-makers-should-make)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-and-policy-makers-should-make)[
 
 Governments should track rumors and misinformation campaigns to ensure that communities are not acting on incorrect public health guidance.
 
@@ -1065,7 +1065,7 @@ Behavioral Science and COVID
 
 Evidence and misinformation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-track-rumors-and-misinformation)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-track-rumors-and-misinformation)[
 
 National and state governments should work with local governments,universities,companies and community activists to focus on making differences at the local and community level. Where possible,messaging should be targeted to specific populations and groups to ensure it is relevant and resonates with those individuals.
 
@@ -1073,7 +1073,7 @@ Behavioral Science and COVID
 
 Community and stakeholder engagement
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/National-and-state-governments-should-work-with-lo)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/national-and-state-governments-should-work-with-lo)[
 
 Engage the public and/or targeted groups in the design and development of public health messaging strategies. Ensure a transparent process of content development to increase trust with the public.
 
@@ -1081,7 +1081,7 @@ Behavioral Science and COVID
 
 Community and stakeholder engagement
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Engage-the-public-and/or-targeted-groups-in-the-de)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/engage-the-public-and/or-targeted-groups-in-the-de)[
 
 Write and publish template pledges that businesses can adapt for their own needs. Include evidence based safety measures and encourage businesses to bring these pledges to discussion with their employees.
 
@@ -1089,7 +1089,7 @@ Behavioral Science and COVID
 
 Community and stakeholder engagement
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Write-and-publish-template-pledges-that-businesses)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/write-and-publish-template-pledges-that-businesses)[
 
 Governments should enlist influencers like athletes,celebrities,or trusted politicians to deliver key messages to the broader public. Who is an influencer in a given community can be determined using sentiment analysis techniques that analyze who follows whom on Twitter.
 
@@ -1097,7 +1097,7 @@ Behavioral Science and COVID
 
 Community and stakeholder engagement
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-enlist-influencers-like-athlete)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-enlist-influencers-like-athlete)[
 
 Governments should develop strategies for testing different messages and delivery methods to understand what is the best combination to deliver specific messages to specific groups.
 
@@ -1105,7 +1105,7 @@ Behavioral Science and COVID
 
 Data and innovation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-develop-strategies-for-testing-)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-develop-strategies-for-testing-)[
 
 Governments should understand the preferences of their constituencies and use tools that populations are most comfortable with. For example,live streams on social media platforms like facebook- which people use regularly and have fewer barriers to access-- tend to be more popular then webinars or conversations on platforms like Zoom or WebEx.
 
@@ -1113,7 +1113,7 @@ Behavioral Science and COVID
 
 Data and innovation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-understand-the-preferences-of-t)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-understand-the-preferences-of-t)[
 
 Governments should capitalize on local knowledge and talent through hackathons and other contests that bring together problem solvers from civil society to create innovative solutions to specific challenges.
 
@@ -1121,7 +1121,7 @@ Behavioral Science and COVID
 
 Data and innovation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-capitalize-on-local-knowledge-a)[
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-capitalize-on-local-knowledge-a)[
 
 Governments should analyze what physical barriers make it more difficult or increase the perceived effort of following preferred behaviors,and minimize or remove these barriers. The fewer steps and the less thought a preferred behavior requires,the more likely people are to follow it.
 
@@ -1129,7 +1129,7 @@ Behavioral Science and COVID
 
 Data and innovation
 
-](https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-analyze-what-physical-barriers-)
+](https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-analyze-what-physical-barriers-)
 
 
 ---
@@ -1632,7 +1632,7 @@ Partner with academic institutions,researchers and private sector laboratories. 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Research, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-academic-institutions,researchers-and
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-academic-institutions,researchers-and
 
 ### Actions governments should take (strategy 1)
 
@@ -1651,7 +1651,7 @@ Waive regulatory barriers. Governments should consider ways to adjust regulation
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Waive-regulatory-barriers.-Governments-should-cons
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/waive-regulatory-barriers.-governments-should-cons
 
 ### Actions governments should take (strategy 2)
 
@@ -1670,7 +1670,7 @@ Rapidly pilot pooled testing schemes. Governments should act quickly (<1 month) 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-pilot-pooled-testing-schemes.-governments-
 
 ### Actions governments should take (strategy 3)
 
@@ -1689,7 +1689,7 @@ Iterate learning and share best practices. Governments should contract with or p
 - Timeframe: 6-12 Months (long)
 - Audience: Government Workers
 - Type: Research, Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Iterate-learning-and-share-best-practices.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/iterate-learning-and-share-best-practices.-governm
 
 ### Actions governments should take (strategy 4)
 
@@ -1725,7 +1725,7 @@ Conduct feasibility studies. Governments should appoint a group of government an
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-feasibility-studies.-Governments-should-ap
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-feasibility-studies.-governments-should-ap
 
 ### Actions governments should take (strategy 1)
 
@@ -1740,7 +1740,7 @@ Standardize data entry fields across existing systems. Governments should work w
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Healthcare Providers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Standardize-data-entry-fields-across-existing-syst
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/standardize-data-entry-fields-across-existing-syst
 
 ### Actions governments should take (strategy 2)
 
@@ -1759,7 +1759,7 @@ Develop,advocate for and pass legislation. Governments should mandate adoption o
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop,advocate-for-and-pass-legislation.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop,advocate-for-and-pass-legislation.-governm
 
 ### Actions governments should take (strategy 3)
 
@@ -1778,7 +1778,7 @@ Adjust existing data collection processes. Governments should advance the use of
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Adjust-existing-data-collection-processes.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/adjust-existing-data-collection-processes.-governm
 
 ### Actions governments should take (strategy 4)
 
@@ -1797,7 +1797,7 @@ Establish a single organization to manage and oversee the UHI/NPI system. Govern
 - Timeframe: 1+ years (structural change)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Establish-a-single-organization-to-manage-and-over
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/establish-a-single-organization-to-manage-and-over
 
 ### Actions governments should take (strategy 5)
 
@@ -1812,7 +1812,7 @@ Implement a UHI/NPI system. Governments should roll out a comprehensive and sing
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Government Workers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/implement-a-uhi/npi-system.-governments-should-rol
 
 ### Actions governments should take (strategy 6)
 
@@ -1846,7 +1846,7 @@ Define high-risk populations who will receive prioritized testing. Governments s
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Research, Policy/Legislative/Regulatory, Data, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Define-high-risk-populations-who-will-receive-prio
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/define-high-risk-populations-who-will-receive-prio
 
 ### Actions governments should take (strategy 1)
 
@@ -1866,7 +1866,7 @@ Partner with community and cultural leaders. Governments should conduct specific
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-community-and-cultural-leaders.-Gover
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-community-and-cultural-leaders.-gover
 
 ### Actions governments should take (strategy 2)
 
@@ -1881,7 +1881,7 @@ Make testing free for low income or high-risk populations. Governments should re
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Make-testing-free-for-low-income-or-high-risk-popu
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/make-testing-free-for-low-income-or-high-risk-popu
 
 ### Actions governments should take (strategy 3)
 
@@ -1895,7 +1895,7 @@ Develop and use culturally and contextually relevant communication materials for
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-use-culturally-and-contextually-releva
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-use-culturally-and-contextually-releva
 
 ### Actions governments should take (strategy 4)
 
@@ -1910,7 +1910,7 @@ Rapidly conduct snapshot pooled testing among staff and residents in health and 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Vulnerable Populations, Healthcare Providers, Organized Civil Society
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-conduct-snapshot-pooled-testing-among-staf
 
 ### Actions governments should take (strategy 5)
 
@@ -1929,7 +1929,7 @@ Ensure adequate testing resources are available and accessible to high-risk comm
 - Timeframe: 1-3 Months (immediate)
 - Audience: Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Ensure-adequate-testing-resources-are-available-an
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/ensure-adequate-testing-resources-are-available-an
 
 ### Actions governments should take (strategy 6)
 
@@ -1948,7 +1948,7 @@ Reduce barriers to testing by conducting mobile testing units. To address transp
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/reduce-barriers-to-testing-by-conducting-mobile-te
 
 ### Actions governments should take (strategy 7)
 
@@ -1984,7 +1984,7 @@ Make raw data available to researchers,public health professionals and epidemiol
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Vulnerable Populations, Nonprofits
 - Type: Research, Data, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Make-raw-data-available-to-researchers,public-heal
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/make-raw-data-available-to-researchers,public-heal
 
 ### Actions governments should take (strategy 1)
 
@@ -2002,7 +2002,7 @@ Incentivize adoption of standardized process and outcome measures within jurisdi
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Healthcare Providers, Government Workers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incentivize-adoption-of-standardized-process-and-o
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incentivize-adoption-of-standardized-process-and-o
 
 ### Actions governments should take (strategy 2)
 
@@ -2021,7 +2021,7 @@ Create and publish data dashboards that are updated regularly and show progress 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Nonprofits
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-and-publish-data-dashboards-that-are-update
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-and-publish-data-dashboards-that-are-update
 
 ### Actions governments should take (strategy 3)
 
@@ -2040,7 +2040,7 @@ Commit to carefully selected metrics that can be reported on consistently and re
 - Timeframe: 3-6 Months (medium)
 - Audience: Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Commit-to-carefully-selected-metrics-that-can-be-r
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/commit-to-carefully-selected-metrics-that-can-be-r
 
 ### Actions governments should take (strategy 4)
 
@@ -2074,7 +2074,7 @@ Collaborate with private and public-sector actors that have large membership acr
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collaborate-with-private-and-public-sector-actors-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collaborate-with-private-and-public-sector-actors-
 
 ### Actions governments should take (strategy 1)
 
@@ -2093,7 +2093,7 @@ Use executive orders or other regulatory or legislative authorities to incentivi
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-executive-orders-or-other-regulatory-or-legisl
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-executive-orders-or-other-regulatory-or-legisl
 
 ### Actions governments should take (strategy 2)
 
@@ -2112,7 +2112,7 @@ Use legislative or regulatory mechanisms or executive orders to enable data shar
 - Timeframe: 1-3 Months (immediate)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut
 
 ### Actions governments should take (strategy 3)
 
@@ -2131,7 +2131,7 @@ Use legislative or regulatory mechanisms or executive orders to enable agencies 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut
 
 ### Actions governments should take (strategy 4)
 
@@ -2148,7 +2148,7 @@ Move towards a centralized communicable and reportable disease database and cont
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers
 - Type: Research, Data, Technology/Innovation, Communications, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Move-towards-a-centralized-communicable-and-report
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/move-towards-a-centralized-communicable-and-report
 
 ### Actions governments should take (strategy 5)
 
@@ -2168,7 +2168,7 @@ Offer informal peer learning opportunities. Governments or representative associ
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Offer-informal-peer-learning-opportunities.-Govern
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/offer-informal-peer-learning-opportunities.-govern
 
 ### Actions governments should take (strategy 6)
 
@@ -2187,7 +2187,7 @@ Offer formal peer learning opportunities. governments or representative associat
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Research, Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Offer-formal-peer-learning-opportunities.-governme
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/offer-formal-peer-learning-opportunities.-governme
 
 ### Actions governments should take (strategy 7)
 
@@ -2203,7 +2203,7 @@ Create regional partnerships and coordinating bodies. Governments or representat
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-regional-partnerships-and-coordinating-bodi
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-regional-partnerships-and-coordinating-bodi
 
 ### Actions governments should take (strategy 8)
 
@@ -2239,7 +2239,7 @@ Conduct a community health assessment that identifies community assets. Public h
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Research, Data, Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-community-health-assessment-that-identif
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-community-health-assessment-that-identif
 
 ### Actions governments should take (strategy 1)
 
@@ -2253,7 +2253,7 @@ Partner with local community organizations to recruit and hire contact tracers w
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-local-community-organizations-to-recr
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-local-community-organizations-to-recr
 
 ### Actions governments should take (strategy 2)
 
@@ -2275,7 +2275,7 @@ Conduct a public health messaging campaign explaining contact tracing. Governmen
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Essential Workers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-public-health-messaging-campaign-explain
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-public-health-messaging-campaign-explain
 
 ### Actions governments should take (strategy 3)
 
@@ -2297,7 +2297,7 @@ Incorporate communication about contact tracing into the testing program. Testin
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-communication-about-contact-tracing-in
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-communication-about-contact-tracing-in
 
 ### Actions governments should take (strategy 4)
 
@@ -2312,7 +2312,7 @@ Incorporate information about the local community when training people for the c
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-information-about-the-local-community-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-information-about-the-local-community-
 
 ### Actions governments should take (strategy 5)
 
@@ -2345,7 +2345,7 @@ Review data collection processes and ensure all data systems adequately collect 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Review-data-collection-processes-and-ensure-all-da
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/review-data-collection-processes-and-ensure-all-da
 
 ### Actions governments should take (strategy 1)
 
@@ -2367,7 +2367,7 @@ Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-NG
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-ng
 
 ### Actions governments should take (strategy 2)
 
@@ -2389,7 +2389,7 @@ Collect disaggregated data at strategic locations and service delivery touchpoin
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Civil Society, Vulnerable Populations, Healthcare Providers, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Data, Technology/Innovation, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collect-disaggregated-data-at-strategic-locations-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collect-disaggregated-data-at-strategic-locations-
 
 ### Actions governments should take (strategy 3)
 
@@ -2409,7 +2409,7 @@ Strengthen government capacity to interpret new and existing data,focusing on vu
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Vulnerable Populations, Government Workers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Strengthen-government-capacity-to-interpret-new-an
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/strengthen-government-capacity-to-interpret-new-an
 
 ### Actions governments should take (strategy 4)
 
@@ -2447,7 +2447,7 @@ Establish and coordinate a committee of stakeholders whose businesses,non-profit
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Establish-and-coordinate-a-committee-of-stakeholde
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/establish-and-coordinate-a-committee-of-stakeholde
 
 ### Actions governments should take (strategy 1)
 
@@ -2469,7 +2469,7 @@ Develop partnerships and engage in strategic contracts with companies who have c
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Vulnerable Populations
 - Type: Partnerships, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-partnerships-and-engage-in-strategic-contr
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-partnerships-and-engage-in-strategic-contr
 
 ### Actions governments should take (strategy 2)
 
@@ -2490,7 +2490,7 @@ Create a public commission,specifically including intended beneficiaries of the 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-public-commission,specifically-including-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-public-commission,specifically-including-
 
 ### Actions governments should take (strategy 3)
 
@@ -2510,7 +2510,7 @@ Partner with private sector firms to help them meet their human resource needs b
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Vulnerable Populations
 - Type: Partnerships, Capacity Building, Vulnerable Populations, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-private-sector-firms-to-help-them-mee
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-private-sector-firms-to-help-them-mee
 
 ### Actions governments should take (strategy 4)
 
@@ -2549,7 +2549,7 @@ Work with local community leaders to tailor policy decisions to the needs of the
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society
 - Type: Policy/Legislative/Regulatory, Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Work-with-local-community-leaders-to-tailor-policy
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/work-with-local-community-leaders-to-tailor-policy
 
 ### Actions governments should take (strategy 1)
 
@@ -2570,7 +2570,7 @@ Partner with,fund,and support women and their families,women-owned businesses,an
 - Timeframe: 3-6 Months (medium)
 - Audience: Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with,fund,and-support-women-and-their-fami
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with,fund,and-support-women-and-their-fami
 
 ### Actions governments should take (strategy 2)
 
@@ -2590,7 +2590,7 @@ Detect,support and amplify existing community-led initiatives and solutions.
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Organized Civil Society, Nonprofits
 - Type: Communications, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Detect,support-and-amplify-existing-community-led-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/detect,support-and-amplify-existing-community-led-
 
 ### Actions governments should take (strategy 3)
 
@@ -2611,7 +2611,7 @@ Crowdsource solutions and expertise from the public and affected populations thr
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications, Capacity Building, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Crowdsource-solutions-and-expertise-from-the-publi
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/crowdsource-solutions-and-expertise-from-the-publi
 
 ### Actions governments should take (strategy 4)
 
@@ -2650,7 +2650,7 @@ Collect epidemiological surveillance data with a symptom tracker or triage tool 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society
 - Type: Data, Technology/Innovation, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Collect-epidemiological-surveillance-data-with-a-s
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/collect-epidemiological-surveillance-data-with-a-s
 
 ### Actions governments should take (strategy 1)
 
@@ -2676,7 +2676,7 @@ Invest in and promote the use of technological and digital innovations that can 
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Academia
 - Type: Data, Technology/Innovation, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Invest-in-and-promote-the-use-of-technological-and
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/invest-in-and-promote-the-use-of-technological-and
 
 ### Actions governments should take (strategy 2)
 
@@ -2698,7 +2698,7 @@ Partner with institutions with high levels of social engagement,trust,and access
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Data, Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-institutions-with-high-levels-of-soci
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-institutions-with-high-levels-of-soci
 
 ### Actions governments should take (strategy 3)
 
@@ -2736,7 +2736,7 @@ Develop standard definitions,structures,and variables for key public health moni
 - Timeframe: 3-6 Months (medium)
 - Audience: Academia
 - Type: Research, Policy/Legislative/Regulatory, Data, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-standard-definitions,structures,and-variab
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-standard-definitions,structures,and-variab
 
 ### Actions governments should take (strategy 1)
 
@@ -2759,7 +2759,7 @@ Promote and use open source and simple tools for data sharing between and among 
 - Timeframe: 3-6 Months (medium)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Promote-and-use-open-source-and-simple-tools-for-d
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/promote-and-use-open-source-and-simple-tools-for-d
 
 ### Actions governments should take (strategy 2)
 
@@ -2785,7 +2785,7 @@ Develop and advocate for a legislative framework for public health monitoring an
 - Timeframe: 6-12 Months (long)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-advocate-for-a-legislative-framework-f
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-advocate-for-a-legislative-framework-f
 
 ### Actions governments should take (strategy 3)
 
@@ -2827,7 +2827,7 @@ Increase government capacity to use public health monitoring and surveillance da
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Increase-government-capacity-to-use-public-health-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/increase-government-capacity-to-use-public-health-
 
 ### Actions governments should take (strategy 1)
 
@@ -2852,7 +2852,7 @@ Develop,use,and refine multiple predictive models to help with pandemic planning
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Government Workers
 - Type: Research, Data, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop,use,and-refine-multiple-predictive-models-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop,use,and-refine-multiple-predictive-models-
 
 ### Actions governments should take (strategy 2)
 
@@ -2876,7 +2876,7 @@ Create a COVID-19 “war room”,emergency operation center,or nerve center that
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Technology/Innovation, Communications, Capacity Building, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-COVID-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-covid-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati
 
 ### Actions governments should take (strategy 3)
 
@@ -2917,7 +2917,7 @@ Create a legal framework to regulate and fund mental health priorities
 - Timeframe: 1+ years (structural change)
 - Audience: Vulnerable Populations
 - Type: Partnerships, Vulnerable Populations
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-legal-framework-to-regulate-and-fund-ment
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-legal-framework-to-regulate-and-fund-ment
 
 ### Actions governments should take (strategy 1)
 
@@ -2942,7 +2942,7 @@ Create a national mental health plan to guide the implementation of the resultin
 - Timeframe: 3-6 Months (medium)
 - Audience: Government Workers
 - Type: Research, Policy/Legislative/Regulatory, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-national-mental-health-plan-to-guide-the-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/create-a-national-mental-health-plan-to-guide-the-
 
 ### Actions governments should take (strategy 2)
 
@@ -2964,7 +2964,7 @@ Promote public policies and interventions that prioritize mental health services
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Promote-public-policies-and-interventions-that-pri
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/promote-public-policies-and-interventions-that-pri
 
 ### Actions governments should take (strategy 3)
 
@@ -3003,7 +3003,7 @@ Use technology to bridge access gaps and reach individuals who cannot access tre
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Vulnerable Populations, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications, Procurement/Logistics
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-bridge-access-gaps-and-reach-ind
 
 ### Actions governments should take (strategy 1)
 
@@ -3033,7 +3033,7 @@ Improve mental health data collection and use through technologies
 - Timeframe: 3-6 Months (medium)
 - Audience: Healthcare Providers
 - Type: Data, Technology/Innovation, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/improve-mental-health-data-collection-and-use-thro
 
 ### Actions governments should take (strategy 2)
 
@@ -3073,7 +3073,7 @@ Use technology to train community health workers and other healthcare providers 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-train-community-health-workers-a
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-train-community-health-workers-a
 
 ### Actions governments should take (strategy 1)
 
@@ -3094,7 +3094,7 @@ Engage cross-sectoral partners to utilize available mental health resources and 
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Engage-cross-sectoral-partners-to-utilize-availabl
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/engage-cross-sectoral-partners-to-utilize-availabl
 
 ### Actions governments should take (strategy 2)
 
@@ -3135,7 +3135,7 @@ Governments should keep messaging consistent and explain changes when they are m
 
 - Timeframe: 1-3 Months (immediate)
 - Type: Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-keep-messaging-consistent-and-e
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-keep-messaging-consistent-and-e
 
 ### Actions governments should take (strategy 1)
 
@@ -3156,7 +3156,7 @@ Governments and policy makers should make sure the messages they are promoting a
 
 - Timeframe: 1-3 Months (immediate)
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-and-policy-makers-should-make
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-and-policy-makers-should-make
 
 ### Actions governments should take (strategy 2)
 
@@ -3176,7 +3176,7 @@ Governments should track rumors and misinformation campaigns to ensure that comm
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia
 - Type: Data, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-track-rumors-and-misinformation
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-track-rumors-and-misinformation
 
 ### Actions governments should take (strategy 3)
 
@@ -3219,7 +3219,7 @@ National and state governments should work with local governments,universities,c
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Research, Policy/Legislative/Regulatory, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/National-and-state-governments-should-work-with-lo
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/national-and-state-governments-should-work-with-lo
 
 ### Actions governments should take (strategy 1)
 
@@ -3240,7 +3240,7 @@ Engage the public and/or targeted groups in the design and development of public
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Engage-the-public-and/or-targeted-groups-in-the-de
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/engage-the-public-and/or-targeted-groups-in-the-de
 
 ### Actions governments should take (strategy 2)
 
@@ -3262,7 +3262,7 @@ Write and publish template pledges that businesses can adapt for their own needs
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Write-and-publish-template-pledges-that-businesses
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/write-and-publish-template-pledges-that-businesses
 
 ### Actions governments should take (strategy 3)
 
@@ -3281,7 +3281,7 @@ Governments should enlist influencers like athletes,celebrities,or trusted polit
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society
 - Type: Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-enlist-influencers-like-athlete
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-enlist-influencers-like-athlete
 
 ### Actions governments should take (strategy 4)
 
@@ -3318,7 +3318,7 @@ Governments should develop strategies for testing different messages and deliver
 - Timeframe: 1-3 Months (immediate)
 - Audience: Academia, Civil Society
 - Type: Research, Data, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-develop-strategies-for-testing-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-develop-strategies-for-testing-
 
 ### Actions governments should take (strategy 1)
 
@@ -3339,7 +3339,7 @@ Governments should understand the preferences of their constituencies and use to
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society
 - Type: Research, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-understand-the-preferences-of-t
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-understand-the-preferences-of-t
 
 ### Actions governments should take (strategy 2)
 
@@ -3360,7 +3360,7 @@ Governments should capitalize on local knowledge and talent through hackathons a
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Communications
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-capitalize-on-local-knowledge-a
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-capitalize-on-local-knowledge-a
 
 ### Actions governments should take (strategy 3)
 
@@ -3381,7 +3381,7 @@ Governments should analyze what physical barriers make it more difficult or incr
 - Timeframe: 3-6 Months (medium)
 - Audience: Academia, Civil Society, Healthcare Providers, Government Workers
 - Type: Research, Data, Technology/Innovation
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-analyze-what-physical-barriers-
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-analyze-what-physical-barriers-
 
 ### Actions governments should take (strategy 4)
 
@@ -3400,7 +3400,7 @@ Governments should analyze what physical barriers make it more difficult or incr
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-academic-institutions,researchers-and"
 type: "GovLab policy strategy"
 title: "Partner with academic institutions,researchers and private sector laboratories."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-academic-institutions,researchers-and"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-academic-institutions,researchers-and"
 summary: "Partner with academic institutions,researchers and private sector laboratories. Governments should engage the academy,research firms,and private sector laboratories to develop algorithms,testing strategies,and innovative ways to design pooled testing schemes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3431,7 +3431,7 @@ Partner with academic institutions,researchers and private sector laboratories. 
 id: "coronavirus-smarter-crowdsourcing:strategies/Waive-regulatory-barriers.-Governments-should-cons"
 type: "GovLab policy strategy"
 title: "Waive regulatory barriers."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Waive-regulatory-barriers.-Governments-should-cons"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/waive-regulatory-barriers.-governments-should-cons"
 summary: "Waive regulatory barriers. Governments should consider ways to adjust regulations that restrict innovation pertaining to pooled testing schemes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3462,7 +3462,7 @@ Waive regulatory barriers. Governments should consider ways to adjust regulation
 id: "coronavirus-smarter-crowdsourcing:strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-"
 type: "GovLab policy strategy"
 title: "Rapidly pilot pooled testing schemes."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-pilot-pooled-testing-schemes.-governments-"
 summary: "Rapidly pilot pooled testing schemes. Governments should act quickly ( different contexts and populations ."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3493,7 +3493,7 @@ Rapidly pilot pooled testing schemes. Governments should act quickly (<1 month) 
 id: "coronavirus-smarter-crowdsourcing:strategies/Iterate-learning-and-share-best-practices.-Governm"
 type: "GovLab policy strategy"
 title: "Iterate learning and share best practices."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Iterate-learning-and-share-best-practices.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/iterate-learning-and-share-best-practices.-governm"
 summary: "Iterate learning and share best practices. Governments should contract with or perform their own evaluation of pooled testing schemes,improve on existing processes,and share best practices across jurisdictions and sectors."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3524,7 +3524,7 @@ Iterate learning and share best practices. Governments should contract with or p
 id: "coronavirus-smarter-crowdsourcing:strategies/Conduct-feasibility-studies.-Governments-should-ap"
 type: "GovLab policy strategy"
 title: "Conduct feasibility studies."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-feasibility-studies.-Governments-should-ap"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/conduct-feasibility-studies.-governments-should-ap"
 summary: "Conduct feasibility studies. Governments should appoint a group of government and external experts to conduct a feasibility study of jurisdictional and private/public context and document legislative opportunities or barriers to moving forward with a UHI/NPI system."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3551,7 +3551,7 @@ Conduct feasibility studies. Governments should appoint a group of government an
 id: "coronavirus-smarter-crowdsourcing:strategies/Standardize-data-entry-fields-across-existing-syst"
 type: "GovLab policy strategy"
 title: "Standardize data entry fields across existing systems."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Standardize-data-entry-fields-across-existing-syst"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/standardize-data-entry-fields-across-existing-syst"
 summary: "Standardize data entry fields across existing systems. Governments should work with partners to standardize data elements across health IT systems so that data is easily shareable between systems."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3582,7 +3582,7 @@ Standardize data entry fields across existing systems. Governments should work w
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop,advocate-for-and-pass-legislation.-Governm"
 type: "GovLab policy strategy"
 title: "Develop,advocate for and pass legislation."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop,advocate-for-and-pass-legislation.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop,advocate-for-and-pass-legislation.-governm"
 summary: "Develop,advocate for and pass legislation. Governments should mandate adoption of standards providing for a standard national health identifier for each individual,employer,health plan,and health care provider for use in the healthcare system."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3613,7 +3613,7 @@ Develop,advocate for and pass legislation. Governments should mandate adoption o
 id: "coronavirus-smarter-crowdsourcing:strategies/Adjust-existing-data-collection-processes.-Governm"
 type: "GovLab policy strategy"
 title: "Adjust existing data collection processes."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Adjust-existing-data-collection-processes.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/adjust-existing-data-collection-processes.-governm"
 summary: "Adjust existing data collection processes. Governments should advance the use of regularly collected demographic data elements for patient matching and identification such as phone numbers,mailing addresses,or email addresses. This will ensure that public health authorities have up-to-date contact information when receiving reports from laboratories,hospitals,and other testing sites."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3644,7 +3644,7 @@ Adjust existing data collection processes. Governments should advance the use of
 id: "coronavirus-smarter-crowdsourcing:strategies/Establish-a-single-organization-to-manage-and-over"
 type: "GovLab policy strategy"
 title: "Establish a single organization to manage and oversee the UHI/NPI system."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Establish-a-single-organization-to-manage-and-over"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/establish-a-single-organization-to-manage-and-over"
 summary: "Establish a single organization to manage and oversee the UHI/NPI system. Governments should establish a single organization with the responsibility to oversee and advise on ways to improve patient matching and incorporate new technologies and approaches as they emerge. This organization would identify and encourage adoption of certain standards—such as on biometrics or use of smartphones—by health care organizations and technology developers."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3671,7 +3671,7 @@ Establish a single organization to manage and oversee the UHI/NPI system. Govern
 id: "coronavirus-smarter-crowdsourcing:strategies/Implement-a-UHI/NPI-system.-Governments-should-rol"
 type: "GovLab policy strategy"
 title: "Implement a UHI/NPI system."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/implement-a-uhi/npi-system.-governments-should-rol"
 summary: "Implement a UHI/NPI system. Governments should roll out a comprehensive and single UHI/NPI system that integrates,delivers,and manages health information technology systems across all health care institutions,including the ability for individuals to access and control their own health records."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3700,7 +3700,7 @@ Implement a UHI/NPI system. Governments should roll out a comprehensive and sing
 id: "coronavirus-smarter-crowdsourcing:strategies/Define-high-risk-populations-who-will-receive-prio"
 type: "GovLab policy strategy"
 title: "Define high-risk populations who will receive prioritized testing."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Define-high-risk-populations-who-will-receive-prio"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/define-high-risk-populations-who-will-receive-prio"
 summary: "Define high-risk populations who will receive prioritized testing. Governments should develop a working definition of which populations are high risk. Groups can be added to this list,but the list should identify populations that are at higher risk of contracting and having complications from COVID-19 due to physical health,behavioral health,or economic/social factors."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3732,7 +3732,7 @@ Define high-risk populations who will receive prioritized testing. Governments s
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-community-and-cultural-leaders.-Gover"
 type: "GovLab policy strategy"
 title: "Partner with community and cultural leaders."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-community-and-cultural-leaders.-Gover"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-community-and-cultural-leaders.-gover"
 summary: "Partner with community and cultural leaders. Governments should conduct specific outreach and form partnerships with community and cultural leaders to 1) understand needs and concerns of specific communities and 2) amplify public health messaging encouraging surveillance,diagnostic,and screening testing."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3759,7 +3759,7 @@ Partner with community and cultural leaders. Governments should conduct specific
 id: "coronavirus-smarter-crowdsourcing:strategies/Make-testing-free-for-low-income-or-high-risk-popu"
 type: "GovLab policy strategy"
 title: "Make testing free for low income or high-risk populations."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Make-testing-free-for-low-income-or-high-risk-popu"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/make-testing-free-for-low-income-or-high-risk-popu"
 summary: "Make testing free for low income or high-risk populations. Governments should reduce barriers to testing by making testing free for specific populations,ideally for screening or surveillance purposes."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3785,7 +3785,7 @@ Make testing free for low income or high-risk populations. Governments should re
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-and-use-culturally-and-contextually-releva"
 type: "GovLab policy strategy"
 title: "Develop and use culturally and contextually relevant communication materials for testing resources."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-use-culturally-and-contextually-releva"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-use-culturally-and-contextually-releva"
 summary: "Develop and use culturally and contextually relevant communication materials for testing resources. Governments and public health officials should make all communication materials targeted at high-risk or vulnerable populations accessible and culturally-relevant."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3812,7 +3812,7 @@ Develop and use culturally and contextually relevant communication materials for
 id: "coronavirus-smarter-crowdsourcing:strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf"
 type: "GovLab policy strategy"
 title: "Rapidly conduct snapshot pooled testing among staff and residents in health and long-term care…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/rapidly-conduct-snapshot-pooled-testing-among-staf"
 summary: "Rapidly conduct snapshot pooled testing among staff and residents in health and long-term care facilities,prisons,and other congregate housing facilities. Governments should conduct snapshot pooled testing to provide a baseline that will help establish subsequent testing strategies within these settings,including the frequency of testing."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3843,7 +3843,7 @@ Rapidly conduct snapshot pooled testing among staff and residents in health and 
 id: "coronavirus-smarter-crowdsourcing:strategies/Ensure-adequate-testing-resources-are-available-an"
 type: "GovLab policy strategy"
 title: "Ensure adequate testing resources are available and accessible to high-risk communities."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Ensure-adequate-testing-resources-are-available-an"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/ensure-adequate-testing-resources-are-available-an"
 summary: "Ensure adequate testing resources are available and accessible to high-risk communities. Governments should establish testing sites in communities with large numbers of high-risk individuals."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3874,7 +3874,7 @@ Ensure adequate testing resources are available and accessible to high-risk comm
 id: "coronavirus-smarter-crowdsourcing:strategies/Reduce-barriers-to-testing-by-conducting-mobile-te"
 type: "GovLab policy strategy"
 title: "Reduce barriers to testing by conducting mobile testing units."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/reduce-barriers-to-testing-by-conducting-mobile-te"
 summary: "Reduce barriers to testing by conducting mobile testing units. To address transportation limitations,non-traditional work schedules,and lack of access that may keep some communities from getting tested,governments should strategically implement mobile testing units that travel to vulnerable communities."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3905,7 +3905,7 @@ Reduce barriers to testing by conducting mobile testing units. To address transp
 id: "coronavirus-smarter-crowdsourcing:strategies/Make-raw-data-available-to-researchers,public-heal"
 type: "GovLab policy strategy"
 title: "Make raw data available to researchers,public health professionals and epidemiologists."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Make-raw-data-available-to-researchers,public-heal"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/make-raw-data-available-to-researchers,public-heal"
 summary: "Make raw data available to researchers,public health professionals and epidemiologists. Governments should make disaggregated and,where appropriate,raw data available for modeling and epidemiological analysis. Sharing key process and outcome data with demographic and geographic identifiers allows researchers and public health officials to better predict and respond to the spread of the virus and emerging outbreaks."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3935,7 +3935,7 @@ Make raw data available to researchers,public health professionals and epidemiol
 id: "coronavirus-smarter-crowdsourcing:strategies/Incentivize-adoption-of-standardized-process-and-o"
 type: "GovLab policy strategy"
 title: "Incentivize adoption of standardized process and outcome measures within jurisdictions (vertical…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Incentivize-adoption-of-standardized-process-and-o"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/incentivize-adoption-of-standardized-process-and-o"
 summary: "Incentivize adoption of standardized process and outcome measures within jurisdictions (vertical standardization) and across jurisdictions (horizontal standardization) through technical assistance and cost reimbursements or cost sharing. Governments should use legislative,regulatory,and budgetary means to incentivize and/or mandate the adoption of standardized metrics across jurisdictions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3966,7 +3966,7 @@ Incentivize adoption of standardized process and outcome measures within jurisdi
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-and-publish-data-dashboards-that-are-update"
 type: "GovLab policy strategy"
 title: "Create and publish data dashboards that are updated regularly and show progress on metrics."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-and-publish-data-dashboards-that-are-update"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-and-publish-data-dashboards-that-are-update"
 summary: "Create and publish data dashboards that are updated regularly and show progress on metrics. Governments should develop a dashboard aligned with both the contact tracing platform and surveillance/reportable disease databases."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -3997,7 +3997,7 @@ Create and publish data dashboards that are updated regularly and show progress 
 id: "coronavirus-smarter-crowdsourcing:strategies/Commit-to-carefully-selected-metrics-that-can-be-r"
 type: "GovLab policy strategy"
 title: "Commit to carefully selected metrics that can be reported on consistently and regularly (do not select too…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Commit-to-carefully-selected-metrics-that-can-be-r"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/commit-to-carefully-selected-metrics-that-can-be-r"
 summary: "Commit to carefully selected metrics that can be reported on consistently and regularly (do not select too many metrics). Governments should be cautious to select a small number of useful and informative metrics that can be reported on consistently,precisely,and accurately. Committing to too many metrics may lead to the inability to accurately and precisely track the data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4026,7 +4026,7 @@ Commit to carefully selected metrics that can be reported on consistently and re
 id: "coronavirus-smarter-crowdsourcing:strategies/Collaborate-with-private-and-public-sector-actors-"
 type: "GovLab policy strategy"
 title: "Collaborate with private and public-sector actors that have large membership across jurisdictions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collaborate-with-private-and-public-sector-actors-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collaborate-with-private-and-public-sector-actors-"
 summary: "Collaborate with private and public-sector actors that have large membership across jurisdictions. Governments should actively seek partnerships with businesses and organizations (e.g. unions) that have large numbers of employees or members based in various regions/states within the country. These businesses and organizations may be able to support interjurisdictional coordination."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4057,7 +4057,7 @@ Collaborate with private and public-sector actors that have large membership acr
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-executive-orders-or-other-regulatory-or-legisl"
 type: "GovLab policy strategy"
 title: "Use executive orders or other regulatory or legislative authorities to incentivize centralized platforms for…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-executive-orders-or-other-regulatory-or-legisl"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-executive-orders-or-other-regulatory-or-legisl"
 summary: "Use executive orders or other regulatory or legislative authorities to incentivize centralized platforms for contact tracing. Governments,ideally at the federal level,should mandate a single platform for contact tracing. If it is not possible at the federal level,governors of states/regions should mandate the use of a single platform within their jurisdiction."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4088,7 +4088,7 @@ Use executive orders or other regulatory or legislative authorities to incentivi
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-legislative-or-regulatory-mechanisms-or-execut"
 type: "GovLab policy strategy"
 title: "Use legislative or regulatory mechanisms or executive orders to enable data sharing across jurisdictions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-legislative-or-regulatory-mechanisms-or-execut"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-legislative-or-regulatory-mechanisms-or-execut"
 summary: "Use legislative or regulatory mechanisms or executive orders to enable data sharing across jurisdictions. Governments should reduce the regulatory burdens that hinder or inhibit data sharing between jurisdictions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4119,7 +4119,7 @@ Use legislative or regulatory mechanisms or executive orders to enable data shar
 id: "coronavirus-smarter-crowdsourcing:strategies/Move-towards-a-centralized-communicable-and-report"
 type: "GovLab policy strategy"
 title: "Move towards a centralized communicable and reportable disease database and contact tracing capability."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Move-towards-a-centralized-communicable-and-report"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/move-towards-a-centralized-communicable-and-report"
 summary: "Move towards a centralized communicable and reportable disease database and contact tracing capability. Governments should begin to invest in a federally centralized communicable and reportable disease database that will include contact tracing capabilities."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4151,7 +4151,7 @@ Move towards a centralized communicable and reportable disease database and cont
 id: "coronavirus-smarter-crowdsourcing:strategies/Offer-informal-peer-learning-opportunities.-Govern"
 type: "GovLab policy strategy"
 title: "Offer informal peer learning opportunities."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Offer-informal-peer-learning-opportunities.-Govern"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/offer-informal-peer-learning-opportunities.-govern"
 summary: "Offer informal peer learning opportunities. Governments or representative associations should coordinate informal forums or opportunities for individuals designing,implementing,and managing contact tracing programs to share ideas,challenges and best practices. These opportunities should be extended to include researchers,epidemiologists,or non-governmental actors with contact tracking experience."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4182,7 +4182,7 @@ Offer informal peer learning opportunities. Governments or representative associ
 id: "coronavirus-smarter-crowdsourcing:strategies/Offer-formal-peer-learning-opportunities.-governme"
 type: "GovLab policy strategy"
 title: "Offer formal peer learning opportunities. governments or representative associations should coordinate…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Offer-formal-peer-learning-opportunities.-governme"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/offer-formal-peer-learning-opportunities.-governme"
 summary: "Offer formal peer learning opportunities. governments or representative associations should coordinate formal and structured forums or opportunities for those designing,implementing,and managing contact tracing programs to share ideas,challenges and best practices."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4210,7 +4210,7 @@ Offer formal peer learning opportunities. governments or representative associat
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-regional-partnerships-and-coordinating-bodi"
 type: "GovLab policy strategy"
 title: "Create regional partnerships and coordinating bodies."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-regional-partnerships-and-coordinating-bodi"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-regional-partnerships-and-coordinating-bodi"
 summary: "Create regional partnerships and coordinating bodies. Governments or representative associations should establish formal and informal groups and coordinating bodies based on regional or geographic similarities,such as transportation corridors or shared geographic borders."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4241,7 +4241,7 @@ Create regional partnerships and coordinating bodies. Governments or representat
 id: "coronavirus-smarter-crowdsourcing:strategies/Conduct-a-community-health-assessment-that-identif"
 type: "GovLab policy strategy"
 title: "Conduct a community health assessment that identifies community assets."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-community-health-assessment-that-identif"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-community-health-assessment-that-identif"
 summary: "Conduct a community health assessment that identifies community assets. Public health agencies responsible for conducting contact tracing should conduct an assessment of community organizations and assets that can be mobilized to support the contact tracing effort."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4267,7 +4267,7 @@ Conduct a community health assessment that identifies community assets. Public h
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-local-community-organizations-to-recr"
 type: "GovLab policy strategy"
 title: "Partner with local community organizations to recruit and hire contact tracers with community-based…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-local-community-organizations-to-recr"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-local-community-organizations-to-recr"
 summary: "Partner with local community organizations to recruit and hire contact tracers with community-based knowledge and experience. Governments should partner with local community organizations to identify contact tracers with the trust and knowledge of the local community. Selecting the right messenger is an important step to building trust,allowing for the cases and contacts to reveal details about who they have been in contact with and when."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4301,7 +4301,7 @@ Partner with local community organizations to recruit and hire contact tracers w
 id: "coronavirus-smarter-crowdsourcing:strategies/Conduct-a-public-health-messaging-campaign-explain"
 type: "GovLab policy strategy"
 title: "Conduct a public health messaging campaign explaining contact tracing."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-a-public-health-messaging-campaign-explain"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/conduct-a-public-health-messaging-campaign-explain"
 summary: "Conduct a public health messaging campaign explaining contact tracing. Governments should perform outreach to the public with messages about contact tracing before and while they implement telephone and in-person interviews and contact tracing. This will help the public understand why they are being contacted and what the goal of these efforts are."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4335,7 +4335,7 @@ Conduct a public health messaging campaign explaining contact tracing. Governmen
 id: "coronavirus-smarter-crowdsourcing:strategies/Incorporate-communication-about-contact-tracing-in"
 type: "GovLab policy strategy"
 title: "Incorporate communication about contact tracing into the testing program."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-communication-about-contact-tracing-in"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-communication-about-contact-tracing-in"
 summary: "Incorporate communication about contact tracing into the testing program. Testing centers should inform those who are tested that they will be contacted by someone from the contact tracing program if they test positive. The testing site should provide the name of the contact tracing program and the phone number from which people will receive a call."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4362,7 +4362,7 @@ Incorporate communication about contact tracing into the testing program. Testin
 id: "coronavirus-smarter-crowdsourcing:strategies/Incorporate-information-about-the-local-community-"
 type: "GovLab policy strategy"
 title: "Incorporate information about the local community when training people for the contact tracing program."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Incorporate-information-about-the-local-community-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/incorporate-information-about-the-local-community-"
 summary: "Incorporate information about the local community when training people for the contact tracing program. Governments and those designing contact tracing training programs should include specific modules that focus on the local community context,cultural practices,language considerations,and other specific considerations. The training program should also include information about how to conduct contact tracing,the workforce needs information about the local public health system,how it is organized and how it interacts with other agencies."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4390,7 +4390,7 @@ Incorporate information about the local community when training people for the c
 id: "coronavirus-smarter-crowdsourcing:strategies/Review-data-collection-processes-and-ensure-all-da"
 type: "GovLab policy strategy"
 title: "Review data collection processes and ensure all data systems adequately collect disaggregated data…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Review-data-collection-processes-and-ensure-all-da"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/review-data-collection-processes-and-ensure-all-da"
 summary: "Review data collection processes and ensure all data systems adequately collect disaggregated data differentiating vulnerable populations."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4424,7 +4424,7 @@ Review data collection processes and ensure all data systems adequately collect 
 id: "coronavirus-smarter-crowdsourcing:strategies/Build-coalitions-with-“trust-brokers”-(e.g.-NG"
 type: "GovLab policy strategy"
 title: "Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations,and community leaders) and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-NG"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/build-coalitions-with-%E2%80%9Ctrust-brokers%E2%80%9D-(e.g.-ng"
 summary: "Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations,and community leaders) and affected populations to co-design data collection,analysis and use processes"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4458,7 +4458,7 @@ Build coalitions with “trust brokers” (e.g. NGOs,Civil Society Organizations
 id: "coronavirus-smarter-crowdsourcing:strategies/Collect-disaggregated-data-at-strategic-locations-"
 type: "GovLab policy strategy"
 title: "Collect disaggregated data at strategic locations and service delivery touchpoints."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collect-disaggregated-data-at-strategic-locations-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collect-disaggregated-data-at-strategic-locations-"
 summary: "Collect disaggregated data at strategic locations and service delivery touchpoints."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4490,7 +4490,7 @@ Collect disaggregated data at strategic locations and service delivery touchpoin
 id: "coronavirus-smarter-crowdsourcing:strategies/Strengthen-government-capacity-to-interpret-new-an"
 type: "GovLab policy strategy"
 title: "Strengthen government capacity to interpret new and existing data,focusing on vulnerable populations and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Strengthen-government-capacity-to-interpret-new-an"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/strengthen-government-capacity-to-interpret-new-an"
 summary: "Strengthen government capacity to interpret new and existing data,focusing on vulnerable populations and publish data and analysis publicly."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4523,7 +4523,7 @@ Strengthen government capacity to interpret new and existing data,focusing on vu
 id: "coronavirus-smarter-crowdsourcing:strategies/Establish-and-coordinate-a-committee-of-stakeholde"
 type: "GovLab policy strategy"
 title: "Establish and coordinate a committee of stakeholders whose businesses,non-profits,and foundations directly…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Establish-and-coordinate-a-committee-of-stakeholde"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/establish-and-coordinate-a-committee-of-stakeholde"
 summary: "Establish and coordinate a committee of stakeholders whose businesses,non-profits,and foundations directly serve or impact vulnerable populations to identify and address the needs of vulnerable populations."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4557,7 +4557,7 @@ Establish and coordinate a committee of stakeholders whose businesses,non-profit
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-partnerships-and-engage-in-strategic-contr"
 type: "GovLab policy strategy"
 title: "Develop partnerships and engage in strategic contracts with companies who have comparative advantages or…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-partnerships-and-engage-in-strategic-contr"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-partnerships-and-engage-in-strategic-contr"
 summary: "Develop partnerships and engage in strategic contracts with companies who have comparative advantages or corners on specific markets like housing,transportation,diagnostic testing,and/or technology services."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4590,7 +4590,7 @@ Develop partnerships and engage in strategic contracts with companies who have c
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-public-commission,specifically-including-"
 type: "GovLab policy strategy"
 title: "Create a public commission,specifically including intended beneficiaries of the services,tasked with holding…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-public-commission,specifically-including-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-public-commission,specifically-including-"
 summary: "Create a public commission,specifically including intended beneficiaries of the services,tasked with holding public-private partnership contracts accountable for delivering services/results through a cost effective,timely,and transparent process."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4622,7 +4622,7 @@ Create a public commission,specifically including intended beneficiaries of the 
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-private-sector-firms-to-help-them-mee"
 type: "GovLab policy strategy"
 title: "Partner with private sector firms to help them meet their human resource needs by developing and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-private-sector-firms-to-help-them-mee"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-private-sector-firms-to-help-them-mee"
 summary: "Partner with private sector firms to help them meet their human resource needs by developing and implementing retraining and reskillIng programs that help vulnerable groups adapt to the new- normal post- COVID- 19."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4656,7 +4656,7 @@ Partner with private sector firms to help them meet their human resource needs b
 id: "coronavirus-smarter-crowdsourcing:strategies/Work-with-local-community-leaders-to-tailor-policy"
 type: "GovLab policy strategy"
 title: "Work with local community leaders to tailor policy decisions to the needs of the community."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Work-with-local-community-leaders-to-tailor-policy"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/work-with-local-community-leaders-to-tailor-policy"
 summary: "Work with local community leaders to tailor policy decisions to the needs of the community."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4689,7 +4689,7 @@ Work with local community leaders to tailor policy decisions to the needs of the
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with,fund,and-support-women-and-their-fami"
 type: "GovLab policy strategy"
 title: "Partner with,fund,and support women and their families,women-owned businesses,and grassroots organizations…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with,fund,and-support-women-and-their-fami"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with,fund,and-support-women-and-their-fami"
 summary: "Partner with,fund,and support women and their families,women-owned businesses,and grassroots organizations specifically serving women."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4721,7 +4721,7 @@ Partner with,fund,and support women and their families,women-owned businesses,an
 id: "coronavirus-smarter-crowdsourcing:strategies/Detect,support-and-amplify-existing-community-led-"
 type: "GovLab policy strategy"
 title: "Detect,support and amplify existing community-led initiatives and solutions."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Detect,support-and-amplify-existing-community-led-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/detect,support-and-amplify-existing-community-led-"
 summary: "Detect,support and amplify existing community-led initiatives and solutions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4754,7 +4754,7 @@ Detect,support and amplify existing community-led initiatives and solutions.
 id: "coronavirus-smarter-crowdsourcing:strategies/Crowdsource-solutions-and-expertise-from-the-publi"
 type: "GovLab policy strategy"
 title: "Crowdsource solutions and expertise from the public and affected populations through prizes,competitions,or…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Crowdsource-solutions-and-expertise-from-the-publi"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/crowdsource-solutions-and-expertise-from-the-publi"
 summary: "Crowdsource solutions and expertise from the public and affected populations through prizes,competitions,or online innovation sessions."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4788,7 +4788,7 @@ Crowdsource solutions and expertise from the public and affected populations thr
 id: "coronavirus-smarter-crowdsourcing:strategies/Collect-epidemiological-surveillance-data-with-a-s"
 type: "GovLab policy strategy"
 title: "Collect epidemiological surveillance data with a symptom tracker or triage tool that leverages crowdsourcing…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Collect-epidemiological-surveillance-data-with-a-s"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/collect-epidemiological-surveillance-data-with-a-s"
 summary: "Collect epidemiological surveillance data with a symptom tracker or triage tool that leverages crowdsourcing and participatory surveillance."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4826,7 +4826,7 @@ Collect epidemiological surveillance data with a symptom tracker or triage tool 
 id: "coronavirus-smarter-crowdsourcing:strategies/Invest-in-and-promote-the-use-of-technological-and"
 type: "GovLab policy strategy"
 title: "Invest in and promote the use of technological and digital innovations that can help collect accurate and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Invest-in-and-promote-the-use-of-technological-and"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/invest-in-and-promote-the-use-of-technological-and"
 summary: "Invest in and promote the use of technological and digital innovations that can help collect accurate and timely data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4860,7 +4860,7 @@ Invest in and promote the use of technological and digital innovations that can 
 id: "coronavirus-smarter-crowdsourcing:strategies/Partner-with-institutions-with-high-levels-of-soci"
 type: "GovLab policy strategy"
 title: "Partner with institutions with high levels of social engagement,trust,and access to populations to collect…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Partner-with-institutions-with-high-levels-of-soci"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/partner-with-institutions-with-high-levels-of-soci"
 summary: "Partner with institutions with high levels of social engagement,trust,and access to populations to collect information and implement public health monitoring and surveillance systems."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4893,7 +4893,7 @@ Partner with institutions with high levels of social engagement,trust,and access
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-standard-definitions,structures,and-variab"
 type: "GovLab policy strategy"
 title: "Develop standard definitions,structures,and variables for key public health monitoring and surveillance…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-standard-definitions,structures,and-variab"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-standard-definitions,structures,and-variab"
 summary: "Develop standard definitions,structures,and variables for key public health monitoring and surveillance health data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4928,7 +4928,7 @@ Develop standard definitions,structures,and variables for key public health moni
 id: "coronavirus-smarter-crowdsourcing:strategies/Promote-and-use-open-source-and-simple-tools-for-d"
 type: "GovLab policy strategy"
 title: "Promote and use open source and simple tools for data sharing between and among stakeholders."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Promote-and-use-open-source-and-simple-tools-for-d"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/promote-and-use-open-source-and-simple-tools-for-d"
 summary: "Promote and use open source and simple tools for data sharing between and among stakeholders."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -4966,7 +4966,7 @@ Promote and use open source and simple tools for data sharing between and among 
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-and-advocate-for-a-legislative-framework-f"
 type: "GovLab policy strategy"
 title: "Develop and advocate for a legislative framework for public health monitoring and surveillance health data."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-and-advocate-for-a-legislative-framework-f"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-and-advocate-for-a-legislative-framework-f"
 summary: "Develop and advocate for a legislative framework for public health monitoring and surveillance health data."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5003,7 +5003,7 @@ Develop and advocate for a legislative framework for public health monitoring an
 id: "coronavirus-smarter-crowdsourcing:strategies/Increase-government-capacity-to-use-public-health-"
 type: "GovLab policy strategy"
 title: "Increase government capacity to use public health monitoring and surveillance data by training government…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Increase-government-capacity-to-use-public-health-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/increase-government-capacity-to-use-public-health-"
 summary: "Increase government capacity to use public health monitoring and surveillance data by training government workers in data science and partnering with data scientists."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5040,7 +5040,7 @@ Increase government capacity to use public health monitoring and surveillance da
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop,use,and-refine-multiple-predictive-models-"
 type: "GovLab policy strategy"
 title: "Develop,use,and refine multiple predictive models to help with pandemic planning,preparedness,and response."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop,use,and-refine-multiple-predictive-models-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop,use,and-refine-multiple-predictive-models-"
 summary: "Develop,use,and refine multiple predictive models to help with pandemic planning,preparedness,and response."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5076,7 +5076,7 @@ Develop,use,and refine multiple predictive models to help with pandemic planning
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-COVID-19-“war-room”,emergency-operati"
 type: "GovLab policy strategy"
 title: "Create a COVID-19 “war room”,emergency operation center,or nerve center that centralizes data and decision…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-COVID-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-covid-19-%E2%80%9Cwar-room%E2%80%9D,emergency-operati"
 summary: "Create a COVID-19 “war room”,emergency operation center,or nerve center that centralizes data and decision making."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5112,7 +5112,7 @@ Create a COVID-19 “war room”,emergency operation center,or nerve center that
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-legal-framework-to-regulate-and-fund-ment"
 type: "GovLab policy strategy"
 title: "Create a legal framework to regulate and fund mental health priorities"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-legal-framework-to-regulate-and-fund-ment"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-legal-framework-to-regulate-and-fund-ment"
 summary: "Create a legal framework to regulate and fund mental health priorities"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5149,7 +5149,7 @@ Create a legal framework to regulate and fund mental health priorities
 id: "coronavirus-smarter-crowdsourcing:strategies/Create-a-national-mental-health-plan-to-guide-the-"
 type: "GovLab policy strategy"
 title: "Create a national mental health plan to guide the implementation of the resulting legislation and regulations"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Create-a-national-mental-health-plan-to-guide-the-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/create-a-national-mental-health-plan-to-guide-the-"
 summary: "Create a national mental health plan to guide the implementation of the resulting legislation and regulations"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5183,7 +5183,7 @@ Create a national mental health plan to guide the implementation of the resultin
 id: "coronavirus-smarter-crowdsourcing:strategies/Promote-public-policies-and-interventions-that-pri"
 type: "GovLab policy strategy"
 title: "Promote public policies and interventions that prioritize mental health services for healthcare workers and…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Promote-public-policies-and-interventions-that-pri"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/promote-public-policies-and-interventions-that-pri"
 summary: "Promote public policies and interventions that prioritize mental health services for healthcare workers and frontline personnel"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5217,7 +5217,7 @@ Promote public policies and interventions that prioritize mental health services
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-technology-to-bridge-access-gaps-and-reach-ind"
 type: "GovLab policy strategy"
 title: "Use technology to bridge access gaps and reach individuals who cannot access treatment due to…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-bridge-access-gaps-and-reach-ind"
 summary: "Use technology to bridge access gaps and reach individuals who cannot access treatment due to cost,location,language,or other barriers."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5259,7 +5259,7 @@ Use technology to bridge access gaps and reach individuals who cannot access tre
 id: "coronavirus-smarter-crowdsourcing:strategies/Improve-mental-health-data-collection-and-use-thro"
 type: "GovLab policy strategy"
 title: "Improve mental health data collection and use through technologies"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/improve-mental-health-data-collection-and-use-thro"
 summary: "Improve mental health data collection and use through technologies"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5294,7 +5294,7 @@ Improve mental health data collection and use through technologies
 id: "coronavirus-smarter-crowdsourcing:strategies/Use-technology-to-train-community-health-workers-a"
 type: "GovLab policy strategy"
 title: "Use technology to train community health workers and other healthcare providers who may have no experience…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-train-community-health-workers-a"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-train-community-health-workers-a"
 summary: "Use technology to train community health workers and other healthcare providers who may have no experience in mental healthcare and mental first aid"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5327,7 +5327,7 @@ Use technology to train community health workers and other healthcare providers 
 id: "coronavirus-smarter-crowdsourcing:strategies/Engage-cross-sectoral-partners-to-utilize-availabl"
 type: "GovLab policy strategy"
 title: "Engage cross-sectoral partners to utilize available mental health resources and increase the supply of…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Engage-cross-sectoral-partners-to-utilize-availabl"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/engage-cross-sectoral-partners-to-utilize-availabl"
 summary: "Engage cross-sectoral partners to utilize available mental health resources and increase the supply of providers"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5364,7 +5364,7 @@ Engage cross-sectoral partners to utilize available mental health resources and 
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-keep-messaging-consistent-and-e"
 type: "GovLab policy strategy"
 title: "Governments should keep messaging consistent and explain changes when they are made."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-keep-messaging-consistent-and-e"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-keep-messaging-consistent-and-e"
 summary: "Governments should keep messaging consistent and explain changes when they are made."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5397,7 +5397,7 @@ Governments should keep messaging consistent and explain changes when they are m
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-and-policy-makers-should-make"
 type: "GovLab policy strategy"
 title: "Governments and policy makers should make sure the messages they are promoting are scientifically accurate…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-and-policy-makers-should-make"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-and-policy-makers-should-make"
 summary: "Governments and policy makers should make sure the messages they are promoting are scientifically accurate and informed by evidence and base all messaging on credible levels of evidence and review levels of evidence. The public is more likely to trust messages coming from credible sources"
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5428,7 +5428,7 @@ Governments and policy makers should make sure the messages they are promoting a
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-track-rumors-and-misinformation"
 type: "GovLab policy strategy"
 title: "Governments should track rumors and misinformation campaigns to ensure that communities are not acting on…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-track-rumors-and-misinformation"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-track-rumors-and-misinformation"
 summary: "Governments should track rumors and misinformation campaigns to ensure that communities are not acting on incorrect public health guidance."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5466,7 +5466,7 @@ Governments should track rumors and misinformation campaigns to ensure that comm
 id: "coronavirus-smarter-crowdsourcing:strategies/National-and-state-governments-should-work-with-lo"
 type: "GovLab policy strategy"
 title: "National and state governments should work with local governments,universities,companies and community…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/National-and-state-governments-should-work-with-lo"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/national-and-state-governments-should-work-with-lo"
 summary: "National and state governments should work with local governments,universities,companies and community activists to focus on making differences at the local and community level. Where possible,messaging should be targeted to specific populations and groups to ensure it is relevant and resonates with those individuals."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5499,7 +5499,7 @@ National and state governments should work with local governments,universities,c
 id: "coronavirus-smarter-crowdsourcing:strategies/Engage-the-public-and/or-targeted-groups-in-the-de"
 type: "GovLab policy strategy"
 title: "Engage the public and/or targeted groups in the design and development of public health messaging strategies."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Engage-the-public-and/or-targeted-groups-in-the-de"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/engage-the-public-and/or-targeted-groups-in-the-de"
 summary: "Engage the public and/or targeted groups in the design and development of public health messaging strategies. Ensure a transparent process of content development to increase trust with the public."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5533,7 +5533,7 @@ Engage the public and/or targeted groups in the design and development of public
 id: "coronavirus-smarter-crowdsourcing:strategies/Write-and-publish-template-pledges-that-businesses"
 type: "GovLab policy strategy"
 title: "Write and publish template pledges that businesses can adapt for their own needs."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Write-and-publish-template-pledges-that-businesses"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/write-and-publish-template-pledges-that-businesses"
 summary: "Write and publish template pledges that businesses can adapt for their own needs. Include evidence based safety measures and encourage businesses to bring these pledges to discussion with their employees."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5564,7 +5564,7 @@ Write and publish template pledges that businesses can adapt for their own needs
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-enlist-influencers-like-athlete"
 type: "GovLab policy strategy"
 title: "Governments should enlist influencers like athletes,celebrities,or trusted politicians to deliver key…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-enlist-influencers-like-athlete"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-enlist-influencers-like-athlete"
 summary: "Governments should enlist influencers like athletes,celebrities,or trusted politicians to deliver key messages to the broader public. Who is an influencer in a given community can be determined using sentiment analysis techniques that analyze who follows whom on Twitter."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5596,7 +5596,7 @@ Governments should enlist influencers like athletes,celebrities,or trusted polit
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-develop-strategies-for-testing-"
 type: "GovLab policy strategy"
 title: "Governments should develop strategies for testing different messages and delivery methods to understand what…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-develop-strategies-for-testing-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-develop-strategies-for-testing-"
 summary: "Governments should develop strategies for testing different messages and delivery methods to understand what is the best combination to deliver specific messages to specific groups."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5629,7 +5629,7 @@ Governments should develop strategies for testing different messages and deliver
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-understand-the-preferences-of-t"
 type: "GovLab policy strategy"
 title: "Governments should understand the preferences of their constituencies and use tools that populations are…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-understand-the-preferences-of-t"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-understand-the-preferences-of-t"
 summary: "Governments should understand the preferences of their constituencies and use tools that populations are most comfortable with. For example,live streams on social media platforms like facebook- which people use regularly and have fewer barriers to access-- tend to be more popular then webinars or conversations on platforms like Zoom or WebEx."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5662,7 +5662,7 @@ Governments should understand the preferences of their constituencies and use to
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-capitalize-on-local-knowledge-a"
 type: "GovLab policy strategy"
 title: "Governments should capitalize on local knowledge and talent through hackathons and other contests that bring…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-capitalize-on-local-knowledge-a"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-capitalize-on-local-knowledge-a"
 summary: "Governments should capitalize on local knowledge and talent through hackathons and other contests that bring together problem solvers from civil society to create innovative solutions to specific challenges."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -5695,7 +5695,7 @@ Governments should capitalize on local knowledge and talent through hackathons a
 id: "coronavirus-smarter-crowdsourcing:strategies/Governments-should-analyze-what-physical-barriers-"
 type: "GovLab policy strategy"
 title: "Governments should analyze what physical barriers make it more difficult or increase the perceived effort of…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-analyze-what-physical-barriers-"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-analyze-what-physical-barriers-"
 summary: "Governments should analyze what physical barriers make it more difficult or increase the perceived effort of following preferred behaviors,and minimize or remove these barriers. The fewer steps and the less thought a preferred behavior requires,the more likely people are to follow it."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

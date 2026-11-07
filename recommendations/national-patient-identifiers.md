@@ -21,7 +21,7 @@ Conduct feasibility studies. Governments should appoint a group of government an
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Government Workers
 - Type: Technology/Innovation, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Conduct-feasibility-studies.-Governments-should-ap
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/conduct-feasibility-studies.-governments-should-ap
 
 ### Actions governments should take (strategy 1)
 
@@ -36,7 +36,7 @@ Standardize data entry fields across existing systems. Governments should work w
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Healthcare Providers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Standardize-data-entry-fields-across-existing-syst
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/standardize-data-entry-fields-across-existing-syst
 
 ### Actions governments should take (strategy 2)
 
@@ -55,7 +55,7 @@ Develop,advocate for and pass legislation. Governments should mandate adoption o
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Develop,advocate-for-and-pass-legislation.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/develop,advocate-for-and-pass-legislation.-governm
 
 ### Actions governments should take (strategy 3)
 
@@ -74,7 +74,7 @@ Adjust existing data collection processes. Governments should advance the use of
 - Timeframe: 6-12 Months (long)
 - Audience: Private Sector, Academia, Healthcare Providers, Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Adjust-existing-data-collection-processes.-Governm
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/adjust-existing-data-collection-processes.-governm
 
 ### Actions governments should take (strategy 4)
 
@@ -93,7 +93,7 @@ Establish a single organization to manage and oversee the UHI/NPI system. Govern
 - Timeframe: 1+ years (structural change)
 - Audience: Government Workers
 - Type: Policy/Legislative/Regulatory, Data, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Establish-a-single-organization-to-manage-and-over
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/establish-a-single-organization-to-manage-and-over
 
 ### Actions governments should take (strategy 5)
 
@@ -108,7 +108,7 @@ Implement a UHI/NPI system. Governments should roll out a comprehensive and sing
 - Timeframe: 1+ years (structural change)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Government Workers, Nonprofits
 - Type: Policy/Legislative/Regulatory, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/implement-a-uhi/npi-system.-governments-should-rol
 
 ### Actions governments should take (strategy 6)
 

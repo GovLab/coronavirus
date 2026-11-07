@@ -21,7 +21,7 @@ Use technology to train community health workers and other healthcare providers 
 - Timeframe: 1-3 Months (immediate)
 - Audience: Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-train-community-health-workers-a
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/use-technology-to-train-community-health-workers-a
 
 ### Actions governments should take (strategy 1)
 
@@ -42,7 +42,7 @@ Engage cross-sectoral partners to utilize available mental health resources and 
 - Timeframe: 3-6 Months (medium)
 - Audience: Civil Society, Vulnerable Populations, Healthcare Providers, Government Workers, Organized Civil Society, Nonprofits
 - Type: Technology/Innovation, Partnerships, Capacity Building
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Engage-cross-sectoral-partners-to-utilize-availabl
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/engage-cross-sectoral-partners-to-utilize-availabl
 
 ### Actions governments should take (strategy 2)
 

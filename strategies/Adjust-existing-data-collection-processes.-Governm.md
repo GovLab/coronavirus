@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Adjust-existing-data-collection-processes.-Governm"
 type: "GovLab policy strategy"
 title: "Adjust existing data collection processes."
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Adjust-existing-data-collection-processes.-Governm"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/adjust-existing-data-collection-processes.-governm"
 summary: "Adjust existing data collection processes. Governments should advance the use of regularly collected demographic data elements for patient matching and identification such as phone numbers,mailing addresses,or email addresses. This will ensure that public health authorities have up-to-date contact information when receiving reports from laboratories,hospitals,and other testing sites."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

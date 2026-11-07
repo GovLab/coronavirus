@@ -2,7 +2,7 @@
 id: "coronavirus-smarter-crowdsourcing:strategies/Develop-partnerships-and-engage-in-strategic-contr"
 type: "GovLab policy strategy"
 title: "Develop partnerships and engage in strategic contracts with companies who have comparative advantages or…"
-url: "https://coronavirus.smartercrowdsourcing.org/strategies/Develop-partnerships-and-engage-in-strategic-contr"
+url: "https://coronavirus.smartercrowdsourcing.org/strategies/develop-partnerships-and-engage-in-strategic-contr"
 summary: "Develop partnerships and engage in strategic contracts with companies who have comparative advantages or corners on specific markets like housing,transportation,diagnostic testing,and/or technology services."
 source: "The GovLab (coronavirus.smartercrowdsourcing.org)"
 licence: "Creative Commons Attribution-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-sa/4.0/)"

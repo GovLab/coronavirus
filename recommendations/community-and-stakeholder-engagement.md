@@ -21,7 +21,7 @@ National and state governments should work with local governments,universities,c
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Healthcare Providers, Organized Civil Society, Nonprofits
 - Type: Research, Policy/Legislative/Regulatory, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/National-and-state-governments-should-work-with-lo
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/national-and-state-governments-should-work-with-lo
 
 ### Actions governments should take (strategy 1)
 
@@ -42,7 +42,7 @@ Engage the public and/or targeted groups in the design and development of public
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society, Nonprofits
 - Type: Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Engage-the-public-and/or-targeted-groups-in-the-de
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/engage-the-public-and/or-targeted-groups-in-the-de
 
 ### Actions governments should take (strategy 2)
 
@@ -64,7 +64,7 @@ Write and publish template pledges that businesses can adapt for their own needs
 - Timeframe: 1-3 Months (immediate)
 - Audience: Private Sector, Academia, Civil Society, Essential Workers, Organized Civil Society, Nonprofits
 - Type: Policy/Legislative/Regulatory, Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Write-and-publish-template-pledges-that-businesses
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/write-and-publish-template-pledges-that-businesses
 
 ### Actions governments should take (strategy 3)
 
@@ -83,7 +83,7 @@ Governments should enlist influencers like athletes,celebrities,or trusted polit
 - Timeframe: 1-3 Months (immediate)
 - Audience: Civil Society, Organized Civil Society
 - Type: Communications, Partnerships
-- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/Governments-should-enlist-influencers-like-athlete
+- Strategy page: https://coronavirus.smartercrowdsourcing.org/strategies/governments-should-enlist-influencers-like-athlete
 
 ### Actions governments should take (strategy 4)
 
