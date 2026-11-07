@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smarter Crowdsourcing: Coronavirus</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="homepage" onwheel="scroll_dismiss()">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  
+    <div id="home-page" >
+
+      <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <div class="menu-bars">
+            <div class="bar-wrap">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div>
+          <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png"
+              alt="Smarter Crowdsourcing | Zika"></a>
+          <!-- Navigation links (hidden by default) -->
+          <div class='lang-select'>
+            <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+            <p style="color:#ffffff">|</p>
+            <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+            <p style="color:#ffffff">|</p>
+            <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
+          </div>
+        </div>
+        <div id="myLinks">
+          <div class="menu-items">
+            <div class="menu-sub" onclick="dismiss_menu()"><a
+                :href="menuData.translations[0].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"><a
+                :href="menuData.translations[0].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"> <a
+                :href="menuData.translations[0].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"><a
+                :href="menuData.translations[0].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"><a
+                :href="menuData.translations[0].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"> <a
+                :href="menuData.translations[0].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a>
+            </div>
+            <div class="menu-sub" onclick="dismiss_menu()"><a
+                :href="menuData.translations[0].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div onclick="dismiss_menu()">
+
+          <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Strategies'">
+
+            <div class="row top-section topic strategies">
+
+              <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
+
+              <p v-html="indexdata.translations[langidd9(indexdata)].imagine_banner"></p>
+            </div>
+
+
+            <div>
+              <section class="dark-section">
+                <br> <br>
+                <div class="row" v-html="indexdata.translations[langidd9(indexdata)].playbook_about">
+
+                </div>
+                   <div class="main-buttons accent-color" v-for="indexEl in indexTextD9Data"
+                  v-if="indexEl.title == 'Homepage'">
+                  <a href="recommendations.html" target="_blank"
+                    class="button">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_RECOMMENDATIONS}}</a>
+                  <a href="#strat" 
+                    class="button">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_STRATEGIES}}</a>
+                </div>
+       
+
+              </section>
+              <div class="divider recco" id="strat">
+                <h1 v-html="indexdata.translations[langidd9(indexdata)].title"></h1>
+              </div>
+              <div v-for="indexdataH in indexTextD9Data" v-if="indexdataH.title == 'Homepage'">
+              <div class="filters">
+                <div class="form-control">
+                  <select id="form-1" @change="changeFilter($event)">
+                    <option class="material-icons" value="" selected disabled>{{indexdataH.translations[langidd9(indexdataH)].elements[0].Audience}}</option>
+                    <option v-for="audience in objLang('js_audience')" :value="audience.code" :key="audience.code">{{audience.name}}
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-control">
+                  <select id="form-2" @change=" changeFilter($event)">
+                    <option value="" selected disabled>{{indexdataH.translations[langidd9(indexdataH)].elements[0].Type}}</option>
+                    <option v-for="type in objLang('js_type')" :value="type.code" :key="type.code">{{ type.name }}</option>
+                  </select>
+
+                </div>
+                <div class="form-control">
+                  <select id="form-3" @change="changeFilter($event)">
+                    <option value="" selected disabled>{{indexdataH.translations[langidd9(indexdataH)].elements[0].Topic}}</option>
+                    <option v-for="topic in objLang('js_topic')" :value="topic.code" :key="topic.code">{{ topic.name }}
+                    </option>
+                  </select>
+
+                </div>
+                
+                <div class="form-control">
+                  <select id="form-4" @change="changeFilter($event)">
+                    <option value="" selected disabled>{{indexdataH.translations[langidd9(indexdataH)].elements[0].Timeline}}</option>
+                    <option v-for="time in objLang('js_timeline')" :value="time.code" :key="time.code">{{ time.name }}
+                    </option>
+                  </select>
+                </div>
+              </div>
+
+
+              <div class="search">
+                <input name="search-bar" type="text" id="search-text" :placeholder="indexdataH.translations[langidd9(indexdataH)].elements[0].Filter_by_text" />
+                <input name="buttonExecute" @click="searchItems()" type="button" :value="indexdataH.translations[langidd9(indexdataH)].elements[0].Search" />
+                <input name="buttonExecute" @click="ResetItems()" type="button" :value="indexdataH.translations[langidd9(indexdataH)].elements[0].Reset" />
+              </div>
+              <div class="counters">
+                <div class="count-entries">
+                  <p><span>{{indexdataH.translations[langidd9(indexdataH)].elements[0].TOTAL_NUMBER_OF_STRATEGIES_IN_THE_REPOSITORY}}: <b>{{indexData.length}}</b></span></p>
+                </div>
+                <div id="filter-count" class="count-entries">
+                  <p><span>{{indexdataH.translations[langidd9(indexdataH)].elements[0].FILTERED_STRATEGIES}}: <b>{{filterData.length}}</b></span></p>
+                </div>
+              </div>
+              <div class="project-list">
+                <div class="no-project" v-if="!filterData.length">
+                  {{indexdataH.translations[langidd9(indexdataH)].elements[0].Sorry_no_projects_found_for_the_filter_criteria_you_selected}}
+                </div>
+                <div class="table">
+                  <div class="table-header">
+                    <div class="row-description-content header-row">
+                      <h2> {{indexdataH.translations[langidd9(indexdataH)].elements[0].STRATEGY}}</h2>
+                    </div>
+
+                    <div class="row-topic-content">
+                      <h2>{{indexdataH.translations[langidd9(indexdataH)].elements[0].Topic}}</h2>
+                    </div>
+                    <div class="row-reccomendation-content">
+                      <h2>{{indexdataH.translations[langidd9(indexdataH)].elements[0].RECOMMENDATION}}</h2>
+                    </div>
+                  </div>
+                  <a v-for="strategy in filterData" class="table-row" :href="'strategies/'+strategy.slug">
+                    <div class="row-description-content" v-html="strategy['description_'+langsel]">
+
+                    </div>
+
+                    <div class="row-topic-content">
+                      <div class="strat_topic_item" v-for="s_topic in strategy.strat_topic">
+                        <!-- {{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[0].smc_coronavirus_topics_translations_id.topic_title}} -->
+                        <!-- {{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[langidStrategies(s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}} -->
+                        <span
+                          class="tag-item">{{s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations[langidStrategies(s_topic.topics_id.translations[0].smc_coronavirus_topics_id.translations)].smc_coronavirus_topics_translations_id.topic_title}}</span>
+                      </div>
+                    </div>
+                    <div class="row-reccomendation-content">
+                      <div class="strat_rec_item" v-for="recco in strategy.strat_rec">
+                        {{recco.recommendation_id['title_'+langsel]}}
+
+
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
+          <footer class='footer-alt'>
+            <div class="row align-center">
+              <div class="medium-6 medium-centered columns">
+                <!-- <h4>In collaboration with</h4> -->
+                <!-- <h4>EN COLABORACIÓN CON</h4> -->
+                <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="column">
+                <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                    src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+              </div>
+              <div class="column">
+                <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                    src="images/govlab-logo-white.png" alt="The GovLab"></a>
+              </div>
+            </div>
+          </footer>
+          <div class="copyright" v-if="indexdata.title=='Homepage' && indexdata.status=='published'">
+
+            <div class="row">
+              <div class="column">
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <img class="copyright_cc-badge" alt="Creative Commons License"
+                    src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+                <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+                  :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function scroll_dismiss() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      }
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+  }
+</script>
+<script src="js/fadein.js"></script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-meta/dist/vue-meta.min.js"></script>
+<script src="https://unpkg.com/vue-cookies@1.8.1/vue-cookies.js"></script>
+<script src="js/coronavirus.js"></script>
+<!-- <script src="js/filters.js"></script> -->
+
+
+
+
+</html>

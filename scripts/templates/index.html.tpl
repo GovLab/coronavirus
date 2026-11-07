@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smarter Crowdsourcing: Coronavirus</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="homepage" onwheel="scroll_dismiss()">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+  <main id="home-page">
+    <div v-for="indexEl in indexTextD9Data" v-if="indexEl.title == 'Homepage'">
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <div class="menu-bars">
+        <div class="bar-wrap">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png"
+          alt="Smarter Crowdsourcing | Zika"></a>
+      <!-- Navigation links (hidden by default) -->
+      <div class='lang-select'>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
+      </div>
+    </div>
+
+    
+    <div id="myLinks">
+      <div class="menu-items">
+        
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[0].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[0].menu_items[0].About_link">{{menuData.translations[langidd9(menuData)].menu_items[0].About_link}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[0].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[0].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[0].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a :href="menuData.translations[0].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a></div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="menuData.translations[0].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a></div>
+        <!-- <div class="menu-sub"><a href="/recommendations.html">Recommendations</a></div>
+      <div class="menu-sub"><a href="/map.html">Explore the Map</a></div>
+      <div class="menu-sub"><a href="https://medium.com/smarter-crowdsourcing">Blog</a></div> -->
+      </div>
+    </div>
+    <div onclick="dismiss_menu()">
+      <div class="row top-section home">
+        <div class="column large-12 site-logo__wrapper">
+          <a href="/index.html"><img class="site-logo" src="images/coronavirus-logo.png"
+              alt="Smarter Crowdsourcing | Zika Logo"></a>
+        </div>
+      </div>
+      
+      <div class="row ">
+        
+          <template v-for="indexdata in indexTextD9Data">
+            <template 
+              v-if="indexdata.status=='published' && indexdata.title=='Homepage'">
+              <p  class="imagine-banner" v-html="indexdata.translations[langidd9(indexdata)].imagine_banner"></p>
+            </template>
+          </template>
+      </div>
+
+      <div>
+
+        <section class="dark-section">
+          
+          <div v-for="indexdata in indexTextData">
+
+            <div
+              v-if="indexdata.status=='published' && indexdata.title_relation && indexdata.title_relation.title=='About' && indexdata.language ==langsel">
+              <div class="row">
+                <p>{{indexdata.body}}</p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <div class="products">
+
+          <div class="product-col">
+            <img src="images/sc-covid-book.png">
+            <div class="main-buttons">
+              <a :href="langsel=='en'?'files/SmarterCrowdsourcing_Report_'+langsel.toUpperCase()+'.pdf':'../files/SC_covid_report_'+langsel.toUpperCase()+'.pdf'" class="button home-btn" target="_blank">{{indexEl.translations[langidd9(indexEl)].elements[0].DOWNLOAD_THE_FINAL_REPORT}}</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/recco_covid.gif">
+            <div class="main-buttons">
+              <a href="recommendations.html" class="button home-btn" target="_blank">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_RECOMMENDATIONS}}</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/strat.gif">
+            <div class="main-buttons">
+              <a href="strategies.html" class="button home-btn" target="_blank">{{indexEl.translations[langidd9(indexEl)].elements[0].EXPLORE_THE_STRATEGIES}}</a>
+            </div>
+          </div>
+          <div class="product-col">
+            <img src="images/exec_memo.png">
+            <div class="main-buttons">
+              <a href="executive-memos.html" class="button home-btn" target="_blank">{{indexEl.translations[langidd9(indexEl)].elements[0].VIEW_THE_EXECUTIVE_MEMOS}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-buttons accent-color">
+
+          <a href="outcomes.html" target="_blank" class="button">{{indexEl.translations[langidd9(indexEl)].elements[0].GUIDE_TO_ALL_RESOURCES}}</a>
+
+        </div>
+
+
+        <section style="z-index:-10" id="topics">
+          <div class="topic-row">
+
+            <div v-if="topic.status == 'published'" v-for="topic in indexDataTopics" class="topic-column"
+            
+              :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+')' }">
+              
+              
+              <div class="topic-wrap">
+                <h1>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.topic_title}}</h1>
+                <p>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.short_description}}</p>
+                <!-- <p>{{topic}}</p> -->
+                <p><a :href="topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
+
+                <div class="topic_date">
+                  <!-- <h6>Conference on</h6> -->
+                  <h6>{{indexEl.translations[langidd9(indexEl)].elements[0].CONFERENCE_ON}} &nbsp&nbsp</h6>
+
+                  <p class="topic_month">{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.date}}</p> 
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+
+        <div class="divider" id="about">
+
+          <h1>{{indexEl.translations[langidd9(indexEl)].elements[0].ABOUT_THE_PROJECT}}</h1>
+        </div>
+        <template v-for="indexdata in indexTextD9Data" v-if="indexdata.status=='published' && indexdata.title=='Playbook'">
+        <section class="dark-section more-info">
+          
+                <div class="row align-center" v-html="indexdata.translations[langidd9(indexdata)].playbook_about"></div>
+            
+        </section>
+
+        <div class="main-buttons accent-color"><a
+            :href='indexdata.translations[langidd9(indexdata)].playbook_link'
+            target="_blank" class='button'>{{indexEl.translations[langidd9(indexEl)].elements[0].VIEW_THE_PLAYBOOK}}</a>
+        </div>
+      </template>
+
+        </section>
+
+
+      </div>
+      <footer class='footer-alt'>
+        <div class="row align-center">
+          <div class="medium-6 medium-centered columns">
+            <!-- <h4>In collaboration with</h4> -->
+            <!-- <h4>EN COLABORACIÓN CON</h4> -->
+            <h4>{{indexEl.translations[langidd9(indexEl)].elements[0].IN_COLLABORATION_WITH}}</h4>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+          </div>
+          <div class="column">
+            <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                src="images/govlab-logo-white.png" alt="The GovLab"></a>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <div class="row">
+          <div class="column">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              <img class="copyright_cc-badge" alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+                
+            <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+              :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+  </main>
+</body>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+  }
+</script>
+<!-- <script src="js/fadein.js"></script> -->
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-meta/dist/vue-meta.min.js"></script>
+<script src="https://unpkg.com/vue-cookies@1.8.1/vue-cookies.js"></script>
+<script src="js/coronavirus.js"></script>
+
+
+</html>

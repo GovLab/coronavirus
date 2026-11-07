@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DV8KTW4TBH');
+</script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- head tags written by scripts/prerender.mjs -->
+  <title>Data and Technology | Smarter Crowdsourcing: Coronavirus</title>
+  <meta name="description" content="Use digital technologies and data to and expand access to mental health services and improve service delivery.">
+  <link rel="canonical" href="https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology">
+  <link rel="alternate" type="text/markdown" href="https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology.md">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Smarter Crowdsourcing: Coronavirus">
+  <meta property="og:title" content="Data and Technology | Smarter Crowdsourcing: Coronavirus">
+  <meta property="og:description" content="Use digital technologies and data to and expand access to mental health services and improve service delivery.">
+  <meta property="og:url" content="https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@thegovlab">
+  <meta name="twitter:title" content="Data and Technology | Smarter Crowdsourcing: Coronavirus">
+  <meta name="twitter:description" content="Use digital technologies and data to and expand access to mental health services and improve service delivery.">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://coronavirus.smartercrowdsourcing.org/#website",
+      "name": "Smarter Crowdsourcing: Coronavirus",
+      "alternateName": "Smarter Crowdsourcing in the Age of Coronavirus",
+      "url": "https://coronavirus.smartercrowdsourcing.org/",
+      "publisher": {
+        "@id": "https://thegovlab.org/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://thegovlab.org/#organization",
+      "name": "The GovLab",
+      "url": "https://thegovlab.org"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.iadb.org/#organization",
+      "name": "Inter-American Development Bank",
+      "url": "https://www.iadb.org"
+    },
+    {
+      "@type": "Report",
+      "@id": "https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology#report",
+      "name": "Data and Technology",
+      "description": "Use digital technologies and data to and expand access to mental health services and improve service delivery.",
+      "url": "https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology",
+      "mainEntityOfPage": "https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology",
+      "inLanguage": "en",
+      "author": [
+        {
+          "@id": "https://thegovlab.org/#organization"
+        }
+      ],
+      "publisher": {
+        "@id": "https://thegovlab.org/#organization"
+      },
+      "sourceOrganization": {
+        "@id": "https://www.iadb.org/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://coronavirus.smartercrowdsourcing.org/#website"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Government response to the COVID-19 pandemic"
+      },
+      "hasPart": [
+        {
+          "@type": "CreativeWork",
+          "name": "Use technology to bridge access gaps and reach individuals who cannot access treatment due to…",
+          "url": "https://coronavirus.smartercrowdsourcing.org/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Improve mental health data collection and use through technologies",
+          "url": "https://coronavirus.smartercrowdsourcing.org/strategies/Improve-mental-health-data-collection-and-use-thro"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Smarter Crowdsourcing: Coronavirus",
+          "item": "https://coronavirus.smartercrowdsourcing.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Recommendations",
+          "item": "https://coronavirus.smartercrowdsourcing.org/recommendations"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Data and Technology",
+          "item": "https://coronavirus.smartercrowdsourcing.org/recommendations/data-and-technology"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="homepage" onwheel="scroll_dismiss()">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+  <!-- #home-page below is pre-rendered by scripts/prerender.mjs; the page JS re-renders it from the template and data that follow -->
+<div id="home-page"><div class="topnav"><div class="menu-bars"><div class="bar-wrap"><a href="javascript:void(0);" onclick="myFunction()" class="icon"><i class="fa fa-bars"></i></a></div></div> <a href="../index.html" class="top_logo"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a> <div class="lang-select"><a style="padding: 15px 5px" href="#" class="">ES</a> <p style="color:#ffffff">|</p> <a style="padding: 15px 5px" href="#" class="active">EN</a> <p style="color:#ffffff">|</p> <a style="padding: 15px 5px" href="#" class="">PT</a></div></div> <div id="myLinks"><div class="menu-items"><div onclick="dismiss_menu()" class="menu-sub"><a href="..//">Home</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../about.html">About</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../topics.html">Topic</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../team.html">Team</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../recommendations.html">Explore Recommendations</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../strategies.html">Explore Strategies</a></div> <div onclick="dismiss_menu()" class="menu-sub"><a href="../outcomes.html">SEE ALL RESOURCES</a></div></div></div> <div onclick="dismiss_menu()"><!----><!----><!----><!----><div><div class="row top-section topic specific-recco"><h1>Data and Technology</h1> <p><div>Use digital technologies and data to and expand access to mental health services and improve service delivery.</div></p></div> <section><div class="main-buttons accent-color index-page-button"><a href="../recommendations.html" class="button">Back to Recommendations</a></div></section> <div class="recco-specific-page"><div class="strategy-item"><div class="strat-row"><div class="strat-left"><div class="strategy-number"><h4>STRATEGY 1</h4></div> <div class="strategy-description"><div>Use technology to bridge access gaps and reach individuals who cannot access treatment due to cost,location,language,or other barriers.</div></div></div> <div class="strat-right"><div class="strategy-tags"><div class="tag-first-row"><div class="timeline"><div class="recco-tag-title"><p>Timeframe</p></div> <div class="clock-icons"><img src="../images/clock_00.png"><!----><!----><!----> <!----><img src="../images/clock_light.png"><img src="../images/clock_light.png"><img src="../images/clock_light.png"></div> <p>1-3 Months (immediate)</p></div> <div class="audience"><div class="recco-tag-title"><p>Audience</p></div> <div class="recco-tag-body audience-body"><div><a><span class="tag-item audience">Private Sector</span></a></div><div><a><span class="tag-item audience">Academia</span></a></div><div><a><span class="tag-item audience">Civil Society</span></a></div><div><a><span class="tag-item audience">Vulnerable Populations</span></a></div><div><a><span class="tag-item audience">Healthcare Providers</span></a></div><div><a><span class="tag-item audience">Organized Civil Society</span></a></div><div><a><span class="tag-item audience">Nonprofits</span></a></div></div></div></div> <div class="tag-second-row"><div class="type"><div class="recco-tag-title"><p>Type</p></div> <div class="recco-tag-body audience-body"><div><a><span class="tag-item type">Technology/Innovation</span></a></div><div><a><span class="tag-item type">Communications</span></a></div><div><a><span class="tag-item type">Procurement/Logistics</span></a></div></div></div> <div class="type"><div class="recco-tag-title"><p>Topic</p></div> <div class="recco-tag-body audience-body"></div></div></div></div></div></div> <div class="actions-accordion"><div class="faq-section"><div class="faq-item"><button class="accordion"><h2>ACTIONS GOVERNMENTS SHOULD TAKE (14 action)</h2><i class="material-icons down"></i></button> <!----></div></div></div> <div class="examples-accordion"><div class="faq-section"><div class="faq-item"><button class="accordion"><h2>EXAMPLES FROM AROUND THE WORLD (1 EXAMPLE)</h2><i class="material-icons down"></i></button> <!----></div></div></div></div><div class="strategy-item"><div class="strat-row"><div class="strat-left"><div class="strategy-number"><h4>STRATEGY 2</h4></div> <div class="strategy-description"><div>Improve mental health data collection and use through technologies</div></div></div> <div class="strat-right"><div class="strategy-tags"><div class="tag-first-row"><div class="timeline"><div class="recco-tag-title"><p>Timeframe</p></div> <div class="clock-icons"><img src="../images/clock_00.png"><img src="../images/clock_00.png"><!----><!----> <!----><!----><img src="../images/clock_light.png"><img src="../images/clock_light.png"></div> <p>3-6 Months (medium)</p></div> <div class="audience"><div class="recco-tag-title"><p>Audience</p></div> <div class="recco-tag-body audience-body"><div><a><span class="tag-item audience">Healthcare Providers</span></a></div></div></div></div> <div class="tag-second-row"><div class="type"><div class="recco-tag-title"><p>Type</p></div> <div class="recco-tag-body audience-body"><div><a><span class="tag-item type">Data</span></a></div><div><a><span class="tag-item type">Technology/Innovation</span></a></div><div><a><span class="tag-item type">Capacity Building</span></a></div></div></div> <div class="type"><div class="recco-tag-title"><p>Topic</p></div> <div class="recco-tag-body audience-body"></div></div></div></div></div></div> <div class="actions-accordion"><div class="faq-section"><div class="faq-item"><button class="accordion"><h2>ACTIONS GOVERNMENTS SHOULD TAKE (7 action)</h2><i class="material-icons down"></i></button> <!----></div></div></div> <div class="examples-accordion"><div class="faq-section"><div class="faq-item"><button class="accordion"><h2>EXAMPLES FROM AROUND THE WORLD (1 EXAMPLE)</h2><i class="material-icons down"></i></button> <!----></div></div></div></div></div></div><!----><!----><!----><!----></div> <!----><!----><!----><!----><div><footer class="footer-alt"><div class="row align-center"><div class="medium-6 medium-centered columns"><h4>IN COLLABORATION WITH</h4></div></div> <div class="row"><div class="column"><a href="http://www.iadb.org/" target="_blank" class="footer_partner-logo"><img src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a></div> <div class="column"><a href="http://www.thegovlab.org" target="_blank" class="footer_partner-logo"><img src="../images/govlab-logo-white.png" alt="The GovLab"></a></div></div></footer> <div class="copyright">
+    Homepage
+    <div class="row"><div class="column"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" class="copyright_cc-badge"></a> <p>&nbsp;This work is licensed under a</p>&nbsp;<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.
+      </div></div></div></div><!----><!----><!----><!----></div>
+<script type="text/x-template" id="home-page-tpl"><div id="home-page">
+    
+    <div class="topnav">
+      <div class="menu-bars">
+        <div class="bar-wrap">
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      <a class="top_logo" href="../index.html"><img src="../images/coronavirus-full-h-white.png" alt="Smarter Crowdsourcing | Zika"></a>
+      
+      <div class="lang-select">
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+        <p style="color:#ffffff">|</p>
+        <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
+      </div>
+    </div>
+    <div id="myLinks">
+      <div class="menu-items">
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="'../'+menuData.translations[0].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="'../'+menuData.translations[0].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a :href="'../'+menuData.translations[0].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="'../'+menuData.translations[0].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="'../'+menuData.translations[0].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"> <a :href="'../'+menuData.translations[0].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a>
+        </div>
+        <div class="menu-sub" onclick="dismiss_menu()"><a :href="'../'+menuData.translations[0].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a>
+        </div>
+      </div>
+    </div>
+    <div onclick="dismiss_menu()">
+      <div v-for="indexdata in indexTextD9Data" v-if="indexdata.title == 'Homepage'">
+    <div class="row top-section topic specific-recco">
+
+      <h1>{{ReccoData[0]['title_'+langsel]}}</h1>
+      <p v-html="ReccoData[0]['description_'+langsel]"></p>
+    </div>
+
+    <section>
+      <div class="main-buttons accent-color index-page-button">
+
+        <a href="../recommendations.html" class="button">{{indexdata.translations[langidd9(indexdata)].elements[0].Back_to_Recommendations}}</a>
+
+      </div>
+    </section>
+
+    <div class="recco-specific-page">
+      <div class="strategy-item" v-for="(strategy,index) in ReccoData[0].strategies">
+        <div class="strat-row">
+          <div class="strat-left">
+            <div class="strategy-number">
+              <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].STRATEGY}} {{index+1}}</h4>
+            </div>
+            <div class="strategy-description" v-html="strategy.strategies_id['description_'+langsel]">
+
+            </div>
+          </div>
+          <div class="strat-right">
+
+            <div class="strategy-tags">
+              <div class="tag-first-row">
+                <div class="timeline">
+                  <div class="recco-tag-title">
+                    <p>{{indexdata.translations[langidd9(indexdata)].elements[0].TIMEFRAME}}</p>
+                  </div>
+                  <div class="clock-icons">
+                    <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' &amp;&amp; n&lt;2) ||(strategy.strategies_id.timeline=='timeline_2' &amp;&amp; n&lt;3) || (strategy.strategies_id.timeline=='timeline_3' &amp;&amp; n&lt;4) || (strategy.strategies_id.timeline=='timeline_4' &amp;&amp; n&lt;5)" src="../images/clock_00.png">
+                    <img v-for="n in 4" v-if="(strategy.strategies_id.timeline=='timeline_1' &amp;&amp; n&gt;1) ||(strategy.strategies_id.timeline=='timeline_2' &amp;&amp; n&gt;2) || (strategy.strategies_id.timeline=='timeline_3' &amp;&amp; n&gt;3) || (strategy.strategies_id.timeline=='timeline_4' &amp;&amp; n&gt;4)" src="../images/clock_light.png">
+                  </div>
+                  <p>{{filterId("js_timeline_",strategy.strategies_id.timeline)}}</p>
+                </div>
+                <div class="audience">
+                  <div class="recco-tag-title">
+                    <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Audience}}</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="audience in strategy.strategies_id.audience" v-if="filterId('js_audience_',audience)">
+                      <a><span class="tag-item audience">{{filterId("js_audience_",audience)}}</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tag-second-row">
+                <div class="type">
+                  <div class="recco-tag-title">
+                    <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Type}}</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="area in strategy.strategies_id.area" v-if="filterId('js_type_',area)">
+                      <a><span class="tag-item type">{{filterId("js_type_",area)}}</span></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="type">
+                  <div class="recco-tag-title">
+                    <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Topic}}</p>
+                  </div>
+                  <div class="recco-tag-body audience-body">
+                    <div v-for="tag in ReccoData[0].topic">
+                      
+                      <a :href="'../'+tag.topics_id.translations[0].slug"><span class="tag-item">{{tag.topics_id.translations[langid(tag.topics_id)].topic_title}}</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="actions-accordion">
+          <div class="faq-section">
+
+            <div class="faq-item">
+
+              <button v-on:click="toggleMessage(index,0)" class="accordion">
+                <h2>{{indexdata.translations[langidd9(indexdata)].elements[0].ACTIONS_GOVERNMENTS_SHOULD_TAKE}} ({{strategy.strategies_id.actions.length}} {{indexdata.translations[langidd9(indexdata)].elements[0].Action.toLowerCase()}})</h2><i class="material-icons down"></i>
+              </button>
+            
+              <div v-if="showAction &amp;&amp; index_active == index" class="panel">
+                <div class="action-item" v-for="(action,action_index) in strategy.strategies_id.actions">
+                  <div class="strategy-number">
+                    <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].Action}} {{action_index + 1}}</h4>
+                  </div>
+                  <div class="action-text" v-html="action.actions_id['description_'+langsel]">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div v-if="strategy.strategies_id.examples.length &gt; 0" class="examples-accordion">
+          <div class="faq-section">
+
+            <div class="faq-item">
+
+              <button @click="toggleMessage(index,1)" class="accordion">
+                <h2>{{indexdata.translations[langidd9(indexdata)].elements[0].EXAMPLES_FROM_AROUND_THE_WORLD}} ({{strategy.strategies_id.examples.length}} {{indexdata.translations[langidd9(indexdata)].elements[0].Example}})</h2><i class="material-icons down"></i>
+              </button>
+              <div v-if="showExample &amp;&amp; index_active == index" class="panel">
+                <div class="action-item" v-for="(example,example_index) in strategy.strategies_id.examples">
+                  <div class="strategy-number">
+                    <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].Example}} {{example_index + 1}}</h4>
+                  </div>
+                  <div class="action-text" v-html="example.examples_id['description_'+langsel]">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div v-for="indexdata in indexTextD9Data" v-if="indexdata.status=='published' &amp;&amp; indexdata.title=='Homepage' ">
+  <footer class="footer-alt">
+    <div class="row align-center">
+      <div class="medium-6 medium-centered columns">
+        
+        
+        <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="column">
+        <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img src="../images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+      </div>
+      <div class="column">
+        <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img src="../images/govlab-logo-white.png" alt="The GovLab"></a>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+    {{indexdata.title}}
+    <div class="row">
+      <div class="column">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img class="copyright_cc-badge" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>
+
+        <p>&nbsp;{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp;<a rel="license" :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
+      </div>
+    </div>
+  </div>
+</div>
+</div></script>
+<script type="application/json" id="prerender-data">{"data":{"ReccoData":[{"status":"published","title_en":"Data and Technology","slug":"data-and-technology","description_es":"\u003cdiv>Utilizar tecnologías y datos digitales para ampliar el acceso a los servicios de salud mental y mejorar la prestación de servicios.\u003c/div>","description_en":"\u003cdiv>Use digital technologies and data to and expand access to mental health services and improve service delivery.\u003c/div>","title_es":"Datos y Tecnología","id":14,"description_pt":"\u003cdiv>Usar tecnologias digitais e dados para expandir o acesso a serviços de saúde mental e melhorar a prestação de serviços.\u003c/div>","title_pt":"Dados e Tecnologia","strategies":[{"strategies_id":{"timeline":"timeline_1","area":["area_4","area_5","area_9"],"description_pt":"\u003cdiv>Usar tecnologia para preencher lacunas de acesso e alcançar indivíduos que não podem acessar o tratamento devido ao custo,localização,idioma ou outras barreiras\u003c/div>","status":"published","slug":"Use-technology-to-bridge-access-gaps-and-reach-ind","strategy_id":59,"description_es":"\u003cdiv>Utilizar la tecnología para cerrar las brechas de acceso y llegar a las personas que no pueden acceder al tratamiento debido al costo,la ubicación,el idioma u otras barreras\u003c/div>","area_copy":null,"topic":["topic_6"],"description_en":"\u003cdiv>Use technology to bridge access gaps and reach individuals who cannot access treatment due to cost,location,language,or other barriers.\u003c/div>","id":59,"audience":["audience_1","audience_2","audience_3","audience_4","audience_5","audience_8","audience_9"],"smc_coronavirus_examples":[59],"strat_rec":[59],"strat_topic":[59],"actions":[{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Use technology to augment existing processes and procedures, rather than creating digital first replacements from scratch.\u003c/div>","description_es":"\u003cdiv>Utilizar la tecnología para aumentar los procesos y procedimientos existentes, en lugar de crear reemplazos digitales desde cero.\u003c/div>","id":263,"description_pt":"\u003cdiv>Usar a tecnologia para melhorar os processos e procedimentos existentes, em vez de criar substitutos digitais do zero.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Analyze what processes and tools already exist and how they can be adapted and strengthened with technology. Use the existing technology, equipment and tools specifically in the LAC context, and reinforce them with technology.\u003c/div>","description_es":"\u003cdiv>Analizar qué procesos y herramientas ya existen y cómo se pueden adaptar y fortalecer con tecnología. Utilizar la tecnología, los equipos y las herramientas existentes específicamente en el contexto de ALC y reforzarlos con tecnología.\u003c/div>","id":264,"description_pt":"\u003cdiv>Analisar quais processos e ferramentas já existem e como eles podem ser adaptados e fortalecidos com a tecnologia. Use processos, equipamentos e ferramentas existentes especificamente no contexto da ALC e reforce-os com novas tecnologias.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Adapt existing telemedicine or other medical care practices for mental health, with an approach that mental health disorders --- especially the more common ones -- can be for a large part approached as most other medical conditions and have evidence based treatments that work for a large part of patients.\u003c/div>","description_es":"\u003cdiv>Adaptar la telemedicina existente u otras prácticas de atención médica para la salud mental, con un enfoque en el que los trastornos de salud mental, especialmente los más comunes, pueden abordarse en gran medida como la mayoría de las otras afecciones médicas y tener tratamientos basados ​​en evidencia que funcionan para una gran parte de los pacientes.\u003c/div>","id":265,"description_pt":"\u003cdiv>Adaptar a telemedicina existente em ou outras práticas de cuidados médicos para a saúde mental, com uma abordagem de que os transtornos de saúde mental - especialmente os mais comuns - podem ser em grande parte abordados como a maioria das outras condições médicas e têm tratamentos baseados em evidências que funcionam para um grande parte dos pacientes.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Ensure that investments in technology to provide better mental health services focus on the care providers offer, not only on the tech they use to do so. Focusing on particular platforms or software may result in suboptimal tech that doesn’t fit the use case. Focus on the goals providers want to achieve, and then identify the technologies that can best achieve them.\u003c/div>","description_es":"\u003cdiv>Asegúrese de que las inversiones en tecnología para brindar mejores servicios de salud mental se centren en la oferta de los proveedores de atención, no solo en la tecnología que utilizan para hacerlo. Enfocarse en plataformas o software particulares puede resultar en una tecnología subóptima. Enfóquese en los objetivos que los proveedores desean alcanzar y luego identifique las tecnologías que mejor puede ayudarlos a alcanzar los objetivos.\u003c/div>","id":266,"description_pt":"\u003cdiv>Garantir que os investimentos em tecnologia para fornecer melhores serviços de saúde mental se concentrem na oferta dos prestadores de cuidados, não apenas na tecnologia que usam para fazer isso. Concentrar-se em plataformas ou softwares específicos pode resultar em tecnologia subótima que não se ajusta ao caso de uso. Concentre-se nas metas que os fornecedores desejam alcançar e, em seguida, identifique as tecnologias que podem melhor alcançá-las.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Ensure that investments in new technologies to support mental health services are accompanied with underlying investments in the service provision itself, including governance, training, operations, funding, and workforce development. Technologies are useless unless people know how to use them both as providers and users.\u003c/div>","description_es":"\u003cdiv>Asegúrese de que las inversiones en nuevas tecnologías para respaldar los servicios de salud mental estén acompañadas de inversiones subyacentes en la prestación del servicio en sí, incluyendo la gobernanza, la capacitación, las operaciones, la financiación y el desarrollo de la fuerza laboral. Las tecnologías son inútiles a menos que las personas sepan cómo utilizarlas como los proveedores y usuarios.\u003c/div>","id":267,"description_pt":"\u003cdiv>Garantir que os investimentos em novas tecnologias para apoiar os serviços de saúde mental sejam acompanhados por investimentos subjacentes na própria prestação de serviços, incluindo governança, treinamento, operações, financiamento e desenvolvimento da força de trabalho. As tecnologias são inúteis se pessoas como provedores e usuários não souberem usá-las.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Create and staff a mental health telephone hotline. Ensure that the telephone hotline is offered in various languages and is staffed by providers trained on cultural competencies and contexts of the targeted populations.\u003c/div>","description_es":"\u003cdiv>Crear y dotar de personal a una línea telefónica directa de salud mental. Asegúrese de que la línea telefónica directa se ofrezca en varios idiomas y cuente con proveedores capacitados en las competencias culturales y los contextos de las poblaciones objetivo.\u003c/div>","id":268,"description_pt":"\u003cdiv>Criar e fornecer uma linha direta para saúde mental. Certifique-se de que a linha direta por telefone seja oferecida em vários idiomas e seja administrada por provedores treinados em competências culturais e contextos das populações-alvo.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Promote the widespread use of video sessions and telemedicine to allow providers to work with patients remotely.\u003c/div>","description_es":"\u003cdiv>Promover el uso generalizado de sesiones de video y telemedicina para permitir que los proveedores trabajen con pacientes de forma remota.\u003c/div>","id":269,"description_pt":"\u003cdiv>Promover o uso generalizado de sessões de vídeo e telemedicina para permitir que os provedores trabalhem com os pacientes remotamente.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Consider waivers that would enable the use of video conferencing or video chat technologies for mental health care services.\u003c/div>","description_es":"\u003cdiv>Considere exenciones que permitirían el uso de tecnologías de videoconferencia o chat para servicios de atención de salud mental.\u003c/div>","id":270,"description_pt":"\u003cdiv>Considerar isenções que permitam o uso de tecnologias de videoconferência ou chat de vídeo para serviços de saúde mental.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Create cost sharing arrangements for proprietary technologies or endorse open source technologies, apps, or platforms that providers can use with existing or new patients without having to themselves invest heavily in new capital costs.\u003c/div>","description_es":"\u003cdiv>Cree acuerdos de costos compartidos para tecnologías patentadas o respalde tecnologías, aplicaciones o plataformas de código abierto que los proveedores puedan usar con pacientes nuevos o existentes sin tener que invertir mucho en nuevos costos de capital.\u003c/div>","id":271,"description_pt":"\u003cdiv>Criar acordos de compartilhamento de custos para tecnologias proprietárias ou endossar tecnologias, aplicativos ou plataformas de código aberto que provedores possam usar com pacientes novos ou existentes sem ter que investir pesadamente em novos custos de capital.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Partner with 3rd party vendors (like digital mental health apps such as \u003ca href=\"https://www.headspace.com/?utm_source=google&utm_medium=cpc&utm_campaign=1919439341&utm_content=68065219102&utm_term=409649586657&headspace&gclid=CjwKCAiA7939BRBMEiwA-hX5J_ELhZInSt8LaAdKqFk9K7-IusjH0KOmhmhq_1ianGvvMWfCSk970BoC3t0QAvD_BwE\" target=\"_blank\" rel=\"noopener\">headspace\u003c/a> and \u003ca href=\"https://www.calm.com/\" target=\"_blank\" rel=\"noopener\">calm\u003c/a>) to distribute reduced cost or free apps and digitied services that patients and individuals can use asynchronously and independently.\u003c/div>","description_es":"\u003cdiv>Asóciese con proveedores externos (como aplicaciones digitales de salud mental como \u003ca href=\"https://www.headspace.com/?utm_source=google&utm_medium=cpc&utm_campaign=1919439341&utm_content=68065219102&utm_term=409649586657&headspace&gclid=CjwKCAiA7939BRBMEiwA-hX5J_ELhZInSt8LaAdKqFk9K7-IusjH0KOmhmhq_1ianGvvMWfCSk970BoC3t0QAvD_BwE\" target=\"_blank\" rel=\"noopener\">headspace\u003c/a> y \u003ca href=\"https://www.calm.com/\" target=\"_blank\" rel=\"noopener\">calm\u003c/a>) para distribuir aplicaciones y servicios digitales gratuitos o de costo reducido que los pacientes y las personas pueden usar de forma asincrónica e independiente.\u003c/div>","id":272,"description_pt":"\u003cdiv>Fazer parcerias com fornecedores terceirizados (como aplicativos digitais de saúde mental, como \u003ca href=\"https://www.headspace.com/?utm_source=google&utm_medium=cpc&utm_campaign=1919439341&utm_content=68065219102&utm_term=409649586657&headspace&gclid=CjwKCAiA7939BRBMEiwA-hX5J_ELhZInSt8LaAdKqFk9K7-IusjH0KOmhmhq_1ianGvvMWfCSk970BoC3t0QAvD_BwE\" target=\"_blank\" rel=\"noopener\">headspace\u003c/a> e \u003ca href=\"https://www.calm.com/\" target=\"_blank\" rel=\"noopener\">calm\u003c/a>) para distribuir aplicativos a custo reduzido ou gratuitos e serviços digitalizados que pacientes e indivíduos podem usar de forma assíncrona e independente.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Create specific interventions for rural populations by providing facilitative technologies like phone lines, broadband connections, smartphones and telehealth services. Couple technology provision with training on how to use those technologies.\u003c/div>","description_es":"\u003cdiv>Crear intervenciones específicas para las poblaciones rurales proporcionando tecnologías facilitadoras como líneas telefónicas, conexiones de banda ancha, teléfonos inteligentes y servicios de telesalud. Combine la provisión de tecnología con la capacitación sobre cómo usar esas tecnologías.\u003c/div>","id":273,"description_pt":"\u003cdiv>Criar intervenções específicas para populações rurais, fornecendo tecnologias facilitadoras como linhas telefônicas, conexões de banda larga, smartphones e serviços de telessaúde. Combine o fornecimento de tecnologia com o treinamento sobre como usar essas tecnologias.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Monitor for inequities in engagement with new technologies across groups with limited access to smartphones or the internet.\u003c/div>","description_es":"\u003cdiv>Monitorear las inequidades en el uso de nuevas tecnologías en grupos con acceso limitado a teléfonos inteligentes o Internet.\u003c/div>","id":274,"description_pt":"\u003cdiv>Monitorar as desigualdades no envolvimento com novas tecnologias em grupos com acesso limitado a smartphones ou à internet.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Invest in and promote the use of technologies like smart paper, phone apps, SMS surveys, that can be used by minimally trained/skilled workers to collect data and report it into open source or centralized platforms.\u003c/a>\u003c/div>","description_es":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Promover e invertir en el uso de tecnologías como el papel inteligente, aplicaciones telefónicas, encuestas por SMS, que pueden ser utilizadas por trabajadores mínimamente capacitados/ capacitados para recopilar datos en las plataformas de código abierto o centralizadas.\u003c/a>\u003c/div>","id":275,"description_pt":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Investir e promover o uso de tecnologias como papel inteligente, aplicativos de telefone, pesquisas de SMS, que podem ser usados ​​por trabalhadores minimamente treinados/qualificados para coletar dados e relatá-los em código aberto ou plataformas centralizadas.\u003c/a>\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":59,"description_en":"\u003cdiv>Invest in technologies that help reduce wait times and scheduling issues.\u003c/div>","description_es":"\u003cdiv>Invertir en tecnologías que ayuden a reducir los tiempos de espera y los problemas de programación.\u003c/div>","id":276,"description_pt":"\u003cdiv>Investir em tecnologias que ajudem a reduzir os tempos de espera e problemas de agendamento.\u003c/div>"}}],"examples":[{"examples_id":{"id":115,"description_es":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://www.aiforgood.co.uk/\">AI for Good\u003c/a> , una empresa que utiliza tecnología ética y soluciones impulsadas por IA para abordar problemas sociales, lanzó \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> en 2018. \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> es un chatbot que ayuda a los usuarios a comprender sus relaciones, qué es saludable y qué no. También proporciona recursos a los que los usuarios pueden acceder para obtener más asistencia. Casi 20.000 usuarios únicos han interactuado con este chatbot.\u003c/div>","description_pt":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://www.aiforgood.co.uk/\">AI for Good\u003c/a> - uma empresa que usa tecnologia ética e soluções IA para resolver problemas sociais - lançou o \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> em 2018. \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> é um chatbot que ajuda os usuários a entender seus relacionamentos, o que é saudável e o que não é. Ele também fornece recursos que os usuários podem acessar para obter mais suporte. Quase 20.000 usuários únicos interagiram com este chatbot.\u003c/div>","description_en":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://www.aiforgood.co.uk/\">AI for Good\u003c/a> - a company that uses ethical technology and AI-powered solutions to address social issues - released \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> in 2018. \u003ca target=\"_blank\" href=\"https://www.hirainbow.org/\">rAInbow\u003c/a> is a chatbot that helps users understand their relationships, what is healthy and what is not. It also provides resources that users can access to get more support. Nearly 20,000 unique users have interacted with this chatbot.\u003c/div>","strategy_id":59,"status":"published"}}]}},{"strategies_id":{"timeline":"timeline_2","area":["area_3","area_4","area_7"],"description_pt":"\u003cdiv>Melhorar coleta de dados de saúde mental e uso por meio de tecnologia\u003c/div>","status":"published","slug":"Improve-mental-health-data-collection-and-use-thro","strategy_id":60,"description_es":"\u003cdiv>Mejorar la recopilación y el uso de datos de salud mental a través de tecnologías\u003c/div>","area_copy":null,"topic":["topic_6"],"description_en":"\u003cdiv>Improve mental health data collection and use through technologies\u003c/div>","id":60,"audience":["audience_5"],"smc_coronavirus_examples":[60],"strat_rec":[60],"strat_topic":[60],"actions":[{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Invest in and promote the use of technologies like smart paper, phone apps, SMS surveys, that can be used by minimally trained/skilled workers to collect data and report it into open source or centralized platforms.\u003c/a>\u003c/div>","description_es":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Promover e invertir en el uso de tecnologías como el papel inteligente, aplicaciones telefónicas, encuestas por SMS, que los trabajadores mínimamente capacitados/capacitados pueden utilizar para recopilar datos en plataformas de código abierto o centralizadas.\u003c/a>\u003c/div>","id":277,"description_pt":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Investir e promover o uso de tecnologias como papel inteligente, aplicativos de telefone, pesquisas de SMS, que podem ser usados ​​por trabalhadores minimamente treinados/qualificados para coletar dados e relatar em plataformas de código aberto ou centralizadas.\u003c/a>\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>Digitize mental health screenings by transitioning paper process to digital formats on tablets or smartphones\u003c/div>","description_es":"\u003cdiv>Digitalizar los exámenes de salud mental mediante la transición a formatos digitales en tabletas o teléfonos inteligentes.\u003c/div>","id":278,"description_pt":"\u003cdiv>Digitalizar exames de saúde mental ao fazer a transição do processo em papel para formatos digitais em tablets ou smartphones.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>Develop an app for managing and tracking patients exercise, habits, and use of prescribed medications.\u003c/div>","description_es":"\u003cdiv>Desarrolle una aplicación para administrar y rastrear el ejercicio, los hábitos y el uso de medicamentos recetados a los pacientes.\u003c/div>","id":279,"description_pt":"\u003cdiv>Desenvolver um aplicativo para gerenciar e monitorar exercícios, hábitos e uso de medicamentos prescritos pelos pacientes.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Consider how different digital platforms like websites, smartphone apps, SMS, telephone hotlines or smart paper forms can be used to support data collection for mental health or behavioral health conditions.\u003c/a>\u003c/div>","description_es":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Considere cómo diferentes plataformas digitales como sitios web, aplicaciones de teléfonos inteligentes, SMS, líneas telefónicas directas o formularios en papel inteligente se pueden utilizar para respaldar la recopilación de datos para afecciones de salud mental o conductual.\u003c/a>\u003c/div>","id":280,"description_pt":"\u003cdiv>\u003ca href=\"https://shifo.org/en/solution/\" target=\"_blank\" rel=\"noopener\">Considerar como diferentes plataformas digitais, como sites, aplicativos de smartphone, SMS, linhas diretas de telefone ou formulários de papel inteligente podem ser usados ​​para apoiar a coleta de dados para condições de saúde mental ou comportamentais.\u003c/a>\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>Consider ways to allow patients to report symptoms or conditions at regular intervals (e.g. every day, week, etc.), by setting alerts or reminders.\u003c/div>","description_es":"\u003cdiv>Considere formas de permitir que los pacientes auto-reporten síntomas o afecciones a intervalos regulares (por ejemplo, todos los días, semanas, etc.), estableciendo alertas o recordatorios.\u003c/div>","id":281,"description_pt":"\u003cdiv>Considerar maneiras de permitir que pacientes relatem sintomas ou condições em intervalos regulares (por exemplo, todos os dias, semanas, etc.), definindo alertas ou lembretes.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>Consider ways to crowdsource data collection through the internet or smartphones, for example, by creating a means where individuals can flag associates that may be suffering from depression, suicidal ideation or who may be victims of domestic abuse.\u003c/div>","description_es":"\u003cdiv>Considere formas de recopilar datos de forma colectiva a través del Internet o teléfonos inteligentes, por ejemplo, creando un medio en el que las personas puedan señalar a los asociados que pueden estar sufriendo de depresión, ideación suicida o que son víctimas de abuso doméstico.\u003c/div>","id":282,"description_pt":"\u003cdiv>Considerar maneiras de coletar de dados por colaboração coletiva pela internet ou smartphones, por exemplo, criando um meio onde indivíduos podem sinalizar associados que podem estar sofrendo de depressão, ideação suicida ou que podem ser vítimas de violência doméstica.\u003c/div>"}},{"actions_id":{"status":"published","strategy_id":60,"description_en":"\u003cdiv>Ensure that platforms that collect patient data offers concrete guidance, resources, and advice for what an individual should do given her/his reported symptoms (e.g. if you are thinking of hurting yourself call “XXX-XXXX”)\u003c/div>","description_es":"\u003cdiv>Asegúrese de que las plataformas que recopilan los datos de los pacientes ofrezcan orientación, recursos y consejos concretos sobre lo que debe hacer una persona en base a los síntomas que presenta(por ejemplo, si está pensando en hacerse daño, llame a “XXX-XXXX”).\u003c/div>","id":283,"description_pt":"\u003cdiv>Assegurar que as plataformas que coletem dados ofereçam orientações concretas, recursos e conselhos para o que um indivíduo deve fazer dado seus sintomas relatados (por exemplo, se você está pensando em se machucar ligue para “XXXX-XXXX”)\u003c/div>"}}],"examples":[{"examples_id":{"id":116,"description_es":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://bmjopen.bmj.com/content/3/7/e003353.long\">Una aplicación para teléfonos inteligentes llamada MONARCA, permite la recopilación de datos sobre el trastorno bipolar al permitir que los pacientes se auto controlen los síntomas del trastorno bipolar y se conecten a través de un circuito de retroalimentación interactivo con los médicos.\u003c/a>\u003c/div>","description_pt":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://bmjopen.bmj.com/content/3/7/e003353.long\">Um aplicativo para smartphone chamado MONARCA permite a coleta de dados sobre o transtorno bipolar, permitindo que os pacientes monitorem os sintomas do transtorno bipolar e se conectem por meio de um ciclo de feedback interativo com os médicos.\u003c/a>\u003c/div>","description_en":"\u003cdiv>\u003ca target=\"_blank\" href=\"https://bmjopen.bmj.com/content/3/7/e003353.long\">A smartphone application called MONARCA, allows the collection of data on bipolar disorder by allowing patients to self-monitor symptoms of bipolar disorder and to connect through an interactive feedback loop with clinicians.\u003c/a>\u003c/div>","strategy_id":60,"status":"published"}}]}}],"topics":[14]}],"menuData":{"id":1,"translations":[{"menu_id":1,"languages_code":"en-US","menu_items":[{"Home":"Home","About":"About","Topic":"Topic","Explore_Recommendations":"Explore Recommendations","Explore_Strategies":"Explore Strategies","See_all_resources":"See all resources","Team":"Team","Home_link":"/","About_link":"about","Topic_link":"topics","Team_link":"team","Explore_Recommendations_link":"recommendations","Explore_Strategies_link":"strategies","See_All_Resources_link":"outcomes","See_All_Resources":"SEE ALL RESOURCES","CC":"This work is licensed under a","CC2":"Creative Commons Attribution-ShareAlike 4.0 International License.","CC_link":["https://creativecommons.org/licenses/by-sa/4.0/"]}],"id":5},{"menu_id":1,"languages_code":"es-ES","menu_items":[{"Home":"Inicio sobre","About":"nosotros","Topic":"Temas","Team":"Equipo","Explore_Recommendations":"explorar las recomendaciones","Explore_Strategies":"explorar las estrategias","See_all_resources":"ver todos los recursos","See_All_Resources":"VER TODOS OS RECURSOS","CC":"Este trabajo está autorizado por la","CC2":"Licencia Internacional Creative Commons Attribution-ShareAlike 4.0","CC_link":["https://creativecommons.org/licenses/by-sa/4.0/"]}],"id":6},{"menu_id":1,"languages_code":"pt-BR","menu_items":[{"Home":"Início","About":"Sobre","Topic":"TÓPICO","Team":"Equipe","Explore_Recommendations":"EXPLORE AS RECOMENDAÇÕES","Explore_Strategies":"EXPLORE AS ESTRATÉGIAS","See_all_resources":"VER TODOS OS RECURSOS","See_All_Resources":"VER TODOS OS RECURSOS","CC":"Este trabajo está autorizado por la","CC2":"Licencia Internacional Creative Commons Attribution-ShareAlike 4.0 .","CC_link":["https://creativecommons.org/licenses/by-sa/4.0/"]}],"id":7}]},"indexTextD9Data":[{"title":"Summary","status":"published","id":8,"translations":[]},{"title":"About","status":"published","id":9,"translations":[{"elements":[{"ABOUT_THE_PROJECT":"ABOUT THE PROJECT","ABOUT_THE_INTERAMERICAN_DEVELOPMENT_BANK":"ABOUT THE INTER-AMERICAN DEVELOPMENT BANK","ABOUT_THE_GOVLAB":"ABOUT THE GOVLAB"}],"playbook_link":null,"title":"About","languages_code":"en-US","homepage_id":9,"playbook_about":null,"id":10,"imagine_banner":null},{"elements":[{"ABOUT_THE_PROJECT":"ACERCA DEL PROYECTO","ABOUT_THE_INTERAMERICAN_DEVELOPMENT_BANK":"ACERCA DEL BANCO INTER-AMERICANO DE DESAROLLO","ABOUT_THE_GOVLAB":"ACERCA DEL GOVLAB"}],"playbook_link":null,"title":"ACERCA DE","languages_code":"es-ES","homepage_id":9,"playbook_about":null,"id":11,"imagine_banner":null},{"elements":[{"ABOUT_THE_PROJECT":"SOBRE O PROJETO","ABOUT_THE_INTERAMERICAN_DEVELOPMENT_BANK":"SOBRE O BANCO INTERAMERICANO DE DESENVOLVIMENTO","ABOUT_THE_GOVLAB":"SOBRE O GOVLAB"}],"playbook_link":null,"title":"SOBRE","languages_code":"pt-BR","homepage_id":9,"playbook_about":null,"id":12,"imagine_banner":null}]},{"title":"Invite","status":"published","id":10,"translations":[]},{"title":"Playbook","status":"published","id":11,"translations":[{"elements":null,"playbook_link":"https://docs.google.com/document/d/1HA8dVas8VHWnijgEBl6NA2A768B8miOgBQCamKs5tVk/edit?usp=sharing","title":null,"languages_code":"es-ES","homepage_id":11,"playbook_about":"\u003cp>Para obtener m&aacute;s informaci&oacute;n sobre Colaboraci&oacute;n Abierta m&aacute;s Inteligente o Smarter Crowdsourcing en la Era del Coronavirus, lea nuestro manual, una gu&iacute;a detallada para el desarrollo del proyecto. Proporciona respuestas a preguntas frecuentes sobre c&oacute;mo participar en esta iniciativa.\u003c/p>","id":7,"imagine_banner":"\u003cp>s\u003c/p>"},{"elements":null,"playbook_link":"https://docs.google.com/document/d/1WHsQLZC5nVsTpxL_YHS4vy693tHuhIBvnQFCTCoqfuI/edit#heading=h.qgmunizwlw4","title":null,"languages_code":"en-US","homepage_id":11,"playbook_about":"\u003cp>For more background about Smarter Crowdsourcing in the Age of Coronavirus read our Playbook, a step-by-step guide for the development of the project. It provides answers to frequently asked questions about how to participate in this initiative.\u003c/p>","id":8,"imagine_banner":null},{"elements":null,"playbook_link":"https://docs.google.com/document/d/1mNj4Z2jYk3h74mdNGUJQWEDkFvrP7-mW7YszAytb4zc/edit#heading=h.gjdgxs","title":null,"languages_code":"pt-BR","homepage_id":11,"playbook_about":"\u003cp>Para mais informa&ccedil;&otilde;es sobre Colabora&ccedil;&atilde;o Coletiva Mais Inteligente na era do Coronav&iacute;rus, leia nossa cartilha: um guia passo a passo para o desenvolvimento do projeto. Ele oferece resposta a perguntas frequentes sobre a participa&ccedil;&atilde;o nesta iniciativa.\u003c/p>","id":9,"imagine_banner":null}]},{"title":"Homepage","status":"published","id":13,"translations":[{"elements":[{"DOWNLOAD_THE_FINAL_REPORT":"DOWNLOAD THE FINAL REPORT","EXPLORE_THE_RECOMMENDATIONS":"EXPLORE THE RECOMMENDATIONS","EXPLORE_THE_STRATEGIES":"EXPLORE THE STRATEGIES","VIEW_THE_EXECUTIVE_MEMOS":"VIEW THE EXECUTIVE MEMOS","GUIDE_TO_ALL_RESOURCES":"GUIDE TO ALL RESOURCES","ABOUT_THE_PROJECT":"ABOUT THE PROJECT","VIEW_THE_PLAYBOOK":"VIEW THE PLAYBOOK","IN_COLLABORATION_WITH":"IN COLLABORATION WITH","conference_on":"CONFERENCE ON","CONFERENCE_ON":"CONFERENCE ON","MORE_INFORMATION":"More Information","Topic":"Topic","Type":"Type","Audience":"Audience","Filter_by_text":"Filter by Text","All":"All","Search":"Search","Reset":"Reset","TOTAL_NUMBER_OF_STRATEGIES_IN_THE_REPOSITORY":"TOTAL NUMBER OF STRATEGIES IN THE REPOSITORY","FILTERED_STRATEGIES":"FILTERED STRATEGIES","Timeline":"Timeline","Sorry_no_projects_found_for_the_filter_criteria_you_selected":"Sorry no projects found for the filter criteria you selected!","STRATEGY":"STRATEGY","RECOMMENDATION":"RECOMMENDATION","DOWNLOAD_THE_EXECUTIVE_MEMOS":"DOWNLOAD THE EXECUTIVE MEMOS","ABOUT_THE_PRODUCTS":"ABOUT THE PRODUCTS","TITLE":"TITLE","DESCRIPTION":"DESCRIPTION","USE":"USE","Recommendations_Memo":[{"label":"RECOMMENDATIONS MEMO","link":null,"default":[]}],"Conference_Takeaways":[{"label":"CONFERENCE TAKEAWAYS"}],"READ_THE_PROBLEM_DESCRIPTION":[{"label":"READ THE PROBLEM DESCRIPTION"}],"READ_THE_REGIONAL_REPORT":[{"label":"READ THE REGIONAL REPORT"}],"Agenda_and_Logistics":[{"label":"AGENDA AND LOGISTICS"}],"EXPERTS_AND_PARTICIPANTS":[{"label":"EXPERTS AND PARTICIPANTS"}],"Back_to_Recommendations":"Back to Recommendations","ACTIONS_GOVERNMENTS_SHOULD_TAKE":"ACTIONS GOVERNMENTS SHOULD TAKE","Actions":"ACTION","Action":"ACTION","SEE_ALL_STRATEGIES":"SEE ALL STRATEGIES","Strategy_detail_default":"This strategy is a means to achieve a specific recommendation. Explore the actions you can take to implement this strategy and global examples of it in practice.","SEE_RELATED_STRATEGIES":"SEE RELATED STRATEGIES","TIMEFRAME":"Timeframe","EXAMPLES_FROM_AROUND_THE_WORLD":"EXAMPLES FROM AROUND THE WORLD","Example":"EXAMPLE"}],"playbook_link":null,"title":null,"languages_code":"en-US","homepage_id":13,"playbook_about":null,"id":4,"imagine_banner":"\u003ch2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse know-how could talk to one another to design actionable solutions to fight Coronavirus\u003c/h2>\n\u003ch2>Imagine if the smartest and most innovative people could come together to build the Coronavirus strategic preparedness and response quickly and easily\u003c/h2>\n\u003ch2>Imagine if epidemiologists, computer scientists, urban planners, policymakers and those with diverse know-how could talk to one another to design actionable solutions to fight Coronavirus\u003c/h2>"},{"elements":[{"DOWNLOAD_THE_FINAL_REPORT":"DESCARGAR EL INFORME FINAL","EXPLORE_THE_RECOMMENDATIONS":"EXPLORAR LAS RECOMENDACIONES","EXPLORE_THE_STRATEGIES":"EXPLORAR LAS ESTRATEGIAS","VIEW_THE_EXECUTIVE_MEMOS":"VER LOS MEMOS EJECUTIVOS","GUIDE_TO_ALL_RESOURCES":"GUÍA DE TODOS LOS RECURSOS","ABOUT_THE_PROJECT":"ACERCA DE","VIEW_THE_PLAYBOOK":"VER LA GUÍA DEL PROYECTO","IN_COLLABORATION_WITH":"EN COLABORACIÓN CON","conference_on":"ESTA CONFERENCIA SE REALIZA EL","CONFERENCE_ON":"ESTA CONFERENCIA SE REALIZA EL","MORE_INFORMATION":"Más información","Audience":"Audiência","Type":"Tipo","Topic":"Tópico","Timeline":"Prazo","TOTAL_NUMBER_OF_STRATEGIES_IN_THE_REPOSITORY":"NÚMERO TOTAL DE ESTRATÉGIAS NO REPOSITÓRIO:","FILTERED_STRATEGIES":"ESTRATÉGIAS FILTRADAS","Sorry_no_projects_found_for_the_filter_criteria_you_selected":"Sorry no projects found for the filter criteria you selected!","Filter_by_text":"Pesquisar por texto","Search":"PESQUISAR","Reset":"LIMPAR","RECOMMENDATION":"RECOMENDACIÓN","STRATEGY":"ESTRATEGIA","DOWNLOAD_THE_EXECUTIVE_MEMOS":"DESCARGAR LOS MEMOS EJECUTIVOS","Recommendations_Memo":[{"label":"MEMORÁNDUM DE RECOMENDACIONES","link":null}],"Conference_Takeaways":[{"label":"LECCIONES DE LA SESIÓN"}],"READ_THE_PROBLEM_DESCRIPTION":[{"label":"DESCARGUE LA DESCRIPCIÓN DEL PROBLEMA"}],"READ_THE_REGIONAL_REPORT":[{"label":"LEA EL INFORME REGIONAL"}],"Agenda_and_Logistics":[{"label":"AGENDA Y LOGÍSTICA"}],"EXPERTS_AND_PARTICIPANTS":[{"label":"EXPERTOS Y PARTICIPANTES"}],"DESCRIPTION":"DESCRIPCIÓN","TIMEFRAME":"TIEMPO","Back_to_Recommendations":"VOLVER A RECOMENDACIONES","ACTIONS_GOVERNMENTS_SHOULD_TAKE":"MEDIDAS QUE DEBEN TOMAR LOS GOBIERNOS","Action":"ACCIÓN","Strategy_detail_default":"Esta estrategia es un medio para lograr una recomendación específica. Explore las acciones que puede tomar para implementar esta estrategia y conozca ejemplos globales de la estrategia en práctica.","SEE_RELATED_STRATEGIES":"VER ESTRATEGIAS RELACIONADAS","SEE_ALL_STRATEGIES":"VER TODAS LAS ESTRATEGIAS","EXAMPLES_FROM_AROUND_THE_WORLD":"EJEMPLOS DE TODO EL MUNDO","Example":"EJEMPLO"}],"playbook_link":null,"title":null,"languages_code":"es-ES","homepage_id":13,"playbook_about":null,"id":5,"imagine_banner":"\u003ch2>Imag&iacute;nate si los epidemi&oacute;logos, los especialistas en computaci&oacute;n, los planificadores urbanos, los encargados de la formulaci&oacute;n de pol&iacute;ticas p&uacute;blicas y las personas con conocimientos diversos pudieran comunicarse entre s&iacute; para dise&ntilde;ar soluciones viables para combatir el coronavirus.\u003c/h2>\n\u003ch2>Imag&iacute;nate si las personas m&aacute;s inteligentes e innovadoras podr&iacute;an unirse para crear una respuesta de preparaci&oacute;n estrat&eacute;gica para hacerle frente al Coronavirus de una manera r&aacute;pida y f&aacute;cil.\u003c/h2>\n\u003ch2>Imag&iacute;nate si las personas creativas pudieran comunicarse directamente con las instituciones que tienen el poder y la responsabilidad de ofrecer servicios y pol&iacute;ticas p&uacute;blicas nuevas.\u003c/h2>"},{"elements":[{"DOWNLOAD_THE_FINAL_REPORT":"BAIXAR O RELATÓRIO FINAL","EXPLORE_THE_RECOMMENDATIONS":"EXPLORE AS RECOMENDAÇÕES","EXPLORE_THE_STRATEGIES":"EXPLORE AS ESTRATÉGIAS","VIEW_THE_EXECUTIVE_MEMOS":"VER OS MEMORANDOS EXECUTIVOS","GUIDE_TO_ALL_RESOURCES":"GUIA PARA TODOS OS RECURSOS","ABOUT_THE_PROJECT":"SOBRE O PROJETO","VIEW_THE_PLAYBOOK":"CONFIRA A CARTILHA","IN_COLLABORATION_WITH":"EM COLABORAÇÃO COM","conference_on":"ESTA CONFERÊNCIA É REALIZADA EM","CONFERENCE_ON":"ESTA CONFERÊNCIA É REALIZADA EM","MORE_INFORMATION":"Mais Informações","Audience":"Audiencia","Type":"Tipo","Topic":"Tema","Timeline":"Línea de tiempo","Filter_by_text":"Filtrado por texto","Search":"Buscar","Reset":"Reiniciar","TOTAL_NUMBER_OF_STRATEGIES_IN_THE_REPOSITORY":"TOTAL NÚMERO DE ESTRATEGIAS EN EL REPOSITORIO","FILTERED_STRATEGIES":"ESTRATEGIAS FILTRADAS","Sorry_no_projects_found_for_the_filter_criteria_you_selected":"Sorry no projects found for the filter criteria you selected!","STRATEGY":"ESTRATÉGIA","RECOMMENDATION":"RECOMENDAÇÕES","DOWNLOAD_THE_EXECUTIVE_MEMOS":"BAIXAR OS MEMORANDOS EXECUTIVOS","Recommendations_Memo":[{"label":"MEMORANDO DE RECOMENDAÇÕES","link":null}],"Conference_Takeaways":[{"label":"LIÇÕES DA SESSÃO"}],"READ_THE_PROBLEM_DESCRIPTION":[{"label":"LEIA A DESCRIÇÃO DO PROBLEMA"}],"READ_THE_REGIONAL_REPORT":[{"label":"LEIA O RELATÓRIO REGIONAL"}],"Agenda_and_Logistics":[{"label":"AGENDA E LOGÍSTICA"}],"EXPERTS_AND_PARTICIPANTS":[{"label":"ESPECIALISTAS E PARTICIPANTES"}],"DESCRIPTION":"DESCRIÇÃO","Back_to_Recommendations":"VOLTAR ÀS RECOMENDAÇÕES","ACTIONS_GOVERNMENTS_SHOULD_TAKE":"AÇÕES QUE OS GOVERNOS DEVEM TOMAR","Action":"AÇÃO","Strategy_detail_default":"Esta estratégia é um meio para alcançar uma recomendação específica. Explore as ações que você pode tomar para implementar essa estratégia e exemplos globais dela na prática.","SEE_RELATED_STRATEGIES":"VEJA ESTRATÉGIAS RELACIONADAS","SEE_ALL_STRATEGIES":"VEJA TODAS AS ESTRATÉGIAS","TIMEFRAME":"Prazo","EXAMPLES_FROM_AROUND_THE_WORLD":"EXEMPLOS DE TODO O MUNDO","Example":"EXEMPLO"}],"playbook_link":null,"title":null,"languages_code":"pt-BR","homepage_id":13,"playbook_about":null,"id":6,"imagine_banner":"\u003ch2>Imagine se epidemiologistas, cientistas de computa&ccedil;&atilde;o, urbanistas, legisladores e aqueles com know-how diverso pudessem conversar uns com os outros para projetar solu&ccedil;&otilde;es acion&aacute;veis para combater o Coronav&iacute;rus.\u003c/h2>\n\u003ch2>Imagine se as pessoas mais inteligentes e inovadoras pudessem se juntar para r&aacute;pida e facilmente construir a prepara&ccedil;&atilde;o estrat&eacute;gica de preparo e resposta ao Coronav&iacute;rus\u003c/h2>\n\u003ch2>Imagine se esses indiv&iacute;duos criativos pudessem falar diretamente com as institui&ccedil;&otilde;es com o poder e responsabilidade de entregar novas pol&iacute;ticas e servi&ccedil;os\u003c/h2>"}]},{"title":"Recommendations","status":"published","id":14,"translations":[{"elements":null,"playbook_link":null,"title":"Recommendations","languages_code":"en-US","homepage_id":14,"playbook_about":"\u003cp>The outcomes of this project are a set of&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/recommendations.html\">18 recommendations\u003c/a>&nbsp;developed with the support of global experts. These recommendations are designed for government officials to aid them as they address the COVID-19 pandemic. Each recommendation is supported by&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/strategies.html\">a set of strategies\u003c/a>&nbsp;to achieve that recommendation. Strategies in turn detail actions and global examples that guide governments of the specific steps needed for implementing the strategy.\u003c/p>","id":13,"imagine_banner":"\u003cp>Recommendations for governments to strengthen government capacity for COVID testing strategies, contact tracing programs, public health communications, vulnerable population supports, monitoring systems, and mental health interventions\u003c/p>"},{"elements":null,"playbook_link":null,"title":"RECOMENDAÇÕES","languages_code":"pt-BR","homepage_id":14,"playbook_about":"\u003cp>O resultado desse projeto &eacute; um conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/recommendations.html\">18 recomenda&ccedil;&otilde;es\u003c/a>&nbsp;desenvolvidas com o apoio de especialistas globais. Essas recomenda&ccedil;&otilde;es s&atilde;o projetadas para auxiliar autoridades governamentais no combate &agrave; pandemia da COVID-19. Cada recomenda&ccedil;&atilde;o &eacute; apoiada por um&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/strategies.html\">conjunto de estrat&eacute;gias\u003c/a>&nbsp;para atingir essa recomenda&ccedil;&atilde;o. Estrat&eacute;gias, por sua vez, detalham a&ccedil;&otilde;es e exemplos globais que guiam governos sobre os passos espec&iacute;ficos necess&aacute;rios para a implementa&ccedil;&atilde;o da estrat&eacute;gia.\u003c/p>","id":14,"imagine_banner":"\u003cp>Recomenca&ccedil;&otilde;es para governos fortalecerem sua capacidade governamental para estrat&eacute;gias de testagem, programas de rastreamento de contatos, comunica&ccedil;&otilde;es de sa&uacute;de p&uacute;blica, apoio a popula&ccedil;&otilde;es vulner&aacute;veis, sistemas de monitoramento e interven&ccedil;&otilde;es de sa&uacute;de mental, durante a pandemia.\u003c/p>"},{"elements":null,"playbook_link":null,"title":"RECOMENDACIONES","languages_code":"es-ES","homepage_id":14,"playbook_about":"\u003cp>Los resultados de este proyecto son un conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/recommendations.html\">18 recomendaciones\u003c/a>&nbsp;desarrolladas con el apoyo de expertos globales. Estas recomendaciones est&aacute;n dise&ntilde;adas para ayudar a los funcionarios gubernamentales a abordar la pandemia de COVID-19. Cada recomendaci&oacute;n est&aacute; respaldada por un conjunto de estrategias para lograr ejecutar la recomendaci&oacute;n.&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/strategies.html\">Las estrategias\u003c/a>, a su vez, detallan acciones y ejemplos globales que gu&iacute;an a los gobiernos y detallan los pasos espec&iacute;ficos a seguir para implementar la estrategia.\u003c/p>","id":15,"imagine_banner":"\u003cp>Recomendaciones para que los gobiernos fortalezcan la capacidad gubernamental para las estrategias de realizaci&oacute;n de pruebas de COVID-19, los programas de rastreo de contactos, las comunicaciones de salud p&uacute;blica, las estrategias de apoyo a poblaciones vulnerables,los sistemas de monitoreo, e intervenciones de salud mental\u003c/p>"}]},{"title":"Strategies","status":"published","id":15,"translations":[{"elements":null,"playbook_link":null,"title":"Strategies","languages_code":"en-US","homepage_id":15,"playbook_about":"\u003cp>The outcomes of this project are a set of&nbsp;\u003ca class=\"link_pink\" href=\"http://localhost:8000/recommendations.html\">18 recommendations\u003c/a>&nbsp;developed with the support of global experts. These recommendations are designed for government officials to aid them as they address the COVID-19 pandemic. Each recommendation is supported by&nbsp;\u003ca class=\"link_pink\" href=\"http://localhost:8000/strategies.html\">a set of strategies\u003c/a>to achieve that recommendation. Strategies in turn detail actions and global examples that guide governments of the specific steps needed for implementing the strategy. Each strategy is a means to achieve a specific recommendation. You can explore individual strategies by searching by keywords, audience, type of strategy, and timeline.\u003c/p>","id":16,"imagine_banner":"\u003cp>Strategies for implementing recommendations proposed by experts through Smarter Crowdsourcing conferences\u003c/p>"},{"elements":null,"playbook_link":null,"title":"ESTRATEGIAS","languages_code":"es-ES","homepage_id":15,"playbook_about":"\u003cp>Los resultados de este proyecto son un conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/recommendations.html\">18 recomendaciones\u003c/a>&nbsp;desarrolladas con el apoyo de expertos globales. Estas recomendaciones est&aacute;n dise&ntilde;adas para que los funcionarios gubernamentales los ayuden a abordar la pandemia de COVID-19. Cada recomendaci&oacute;n est&aacute; respaldada por un conjunto de estrategias para lograr ejecutar la recomendaci&oacute;n.&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/strategies.html\">Las estrategias\u003c/a>, a su vez, detallan acciones y ejemplos globales que gu&iacute;an a los gobiernos y detallan los pasos espec&iacute;ficos necesarios para implementar la estrategia. Cada estrategia es un medio para lograr una recomendaci&oacute;n espec&iacute;fica. Puede explorar estrategias individuales mediante la b&uacute;squeda de palabras clave, audiencia, tipo de estrategia y cronograma.\u003c/p>\n\u003cdiv class=\"main-buttons accent-color\">&nbsp;\u003c/div>","id":17,"imagine_banner":"\u003cp>Estrategias para implementar las recomendaciones propuestas por expertos durante las conferencias de Smarter Crowdsourcing\u003c/p>"},{"elements":null,"playbook_link":null,"title":"ESTRATÉGIAS","languages_code":"pt-BR","homepage_id":15,"playbook_about":"\u003cp>O resultado desse projeto &eacute; um conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/recommendations.html\">18 recomenda&ccedil;&otilde;es\u003c/a>&nbsp;desenvolvidas com o apoio de especialistas globais. Essas recomenda&ccedil;&otilde;es s&atilde;o projetadas para auxiliar autoridades governamentais no combate &agrave; pandemia da COVID-19. Cada recomenda&ccedil;&atilde;o &eacute; apoiada por um&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/strategies.html\">conjunto de estrat&eacute;gias\u003c/a>&nbsp;para atingir essa recomenda&ccedil;&atilde;o. Estrat&eacute;gias, por sua vez, detalham a&ccedil;&otilde;es e exemplos globais que guiam governos sobre os passos espec&iacute;ficos necess&aacute;rios para a implementa&ccedil;&atilde;o da estrat&eacute;gia. Cada estrat&eacute;gia &eacute; um meio de atingir uma recomenda&ccedil;&atilde;o espec&iacute;fica. Voc&ecirc; pode explorar estrat&eacute;gias individuais pesquisando por palavra-chave, audi&ecirc;ncia, tipo de estrat&eacute;gia e tempo de implementa&ccedil;&atilde;o.\u003c/p>\n\u003cdiv class=\"main-buttons accent-color\">&nbsp;\u003c/div>","id":18,"imagine_banner":"\u003cp>Estrat&eacute;gias para implementa&ccedil;&atilde;o de recomenda&ccedil;&otilde;es propostas por especialistas nas confer&ecirc;ncias de colabora&ccedil;&atilde;o coletiva mais inteligente\u003c/p>"}]},{"title":"Outcomes","status":"published","id":16,"translations":[{"elements":[{"ABOUT_THE_PRODUCTS":"About the products","TITLE":"TITLE","DESCRIPTION":"Description","USE":"Use"}],"playbook_link":null,"title":"Outcomes","languages_code":"en-US","homepage_id":16,"playbook_about":"\u003cp>To view these resources you can either (1) download the master report&nbsp;\u003ca href=\"http://localhost:8000/files/SmarterCrowdsourcing_Report_EN.pdf\">(here)\u003c/a>&nbsp;which has all of the materials compiled into a single resource or (2) visit the advisory session page&nbsp;\u003ca href=\"http://localhost:8000/topics.html\">(here)\u003c/a>&nbsp;where you can view resources grouped by the respective session topic.\u003c/p>","id":19,"imagine_banner":"\u003cp>The outcomes of this project are a set of&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/recommendations.html\">18 recommendations\u003c/a>&nbsp;developed with the support of global experts. These recommendations are designed for government officials to aid them as they address the COVID-19 pandemic. Each recommendation is supported by&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/strategies.html\">a set of strategies\u003c/a>&nbsp;to achieve that recommendation. Strategies in turn detail actions and global examples that guide governments of the specific steps needed for implementing the strategy.\u003c/p>"},{"elements":[{"DOWNLOAD_THE_FINAL_REPORT":"BAIXAR O RELATÓRIO FINAL","DOWNLOAD_THE_EXECUTIVE_MEMOS":"BAIXAR OS MEMORANDOS EXECUTIVOS","ABOUT_THE_PRODUCTS":"TÍTULO","TITLE":"TÍTULO","DESCRIPTION":"DESCRIÇÃO","USE":"USO"}],"playbook_link":null,"title":"RESULTADOS","languages_code":"pt-BR","homepage_id":16,"playbook_about":null,"id":20,"imagine_banner":"\u003cp>O resultado desse projeto &eacute; um conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/recommendations.html\">18 recomenda&ccedil;&otilde;es\u003c/a>&nbsp;desenvolvidas com o apoio de especialistas globais. Essas recomenda&ccedil;&otilde;es s&atilde;o projetadas para auxiliar autoridades governamentais no combate &agrave; pandemia da COVID-19. Cada recomenda&ccedil;&atilde;o &eacute; apoiada por um&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/pt/strategies.html\">conjunto de estrat&eacute;gias\u003c/a>&nbsp;para atingir essa recomenda&ccedil;&atilde;o. Estrat&eacute;gias, por sua vez, detalham a&ccedil;&otilde;es e exemplos globais que guiam governos sobre os passos espec&iacute;ficos necess&aacute;rios para a implementa&ccedil;&atilde;o da estrat&eacute;gia.\u003c/p>"},{"elements":[{"DOWNLOAD_THE_FINAL_REPORT":"DESCARGAR EL INFORME FINAL","DOWNLOAD_THE_EXECUTIVE_MEMOS":"DESCARGAR LOS MEMOS EJECUTIVOS","ABOUT_THE_PRODUCTS":"ACERCA DE LOS PRODUCTOS","TITLE":"TÍTULO","DESCRIPTION":"DESCRIPCIÓN","USE":"USO"}],"playbook_link":null,"title":"RESULTADOS","languages_code":"es-ES","homepage_id":16,"playbook_about":null,"id":21,"imagine_banner":"\u003cp>Los resultados de este proyecto son un conjunto de&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/recommendations.html\">18 recomendaciones\u003c/a>&nbsp;desarrolladas con el apoyo de expertos globales. Estas recomendaciones est&aacute;n dise&ntilde;adas para ayudar a los funcionarios gubernamentales a abordar la pandemia de COVID-19. Cada recomendaci&oacute;n est&aacute; respaldada por un conjunto de estrategias para lograr ejecutar la recomendaci&oacute;n.&nbsp;\u003ca class=\"link_pink\" href=\"https://coronavirus.smartercrowdsourcing.org/es/strategies.html\">Las estrategias\u003c/a>, a su vez, detallan acciones y ejemplos globales que gu&iacute;an a los gobiernos y detallan los pasos espec&iacute;ficos a seguir para implementar la estrategia.\u003c/p>"}]},{"title":"Executive Memos","status":"published","id":17,"translations":[{"elements":null,"playbook_link":null,"title":"Executive Memos","languages_code":"en-US","homepage_id":17,"playbook_about":null,"id":43,"imagine_banner":null},{"elements":null,"playbook_link":null,"title":"MEMORANDOS EXECUTIVOS","languages_code":"pt-BR","homepage_id":17,"playbook_about":null,"id":44,"imagine_banner":null},{"elements":null,"playbook_link":null,"title":"MEMOS EJECUTIVOS","languages_code":"es-ES","homepage_id":17,"playbook_about":null,"id":45,"imagine_banner":null}]}]}}</script>
+</body>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function scroll_dismiss() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      }
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+  }
+</script>
+<script src="js/fadein.js"></script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-meta/dist/vue-meta.min.js"></script>
+<script src="https://unpkg.com/vue-cookies@1.8.1/vue-cookies.js"></script>
+<script src="../js/recco.js"></script>
+
+</html>
