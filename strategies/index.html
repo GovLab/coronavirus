@@ -135,7 +135,7 @@
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Audience}}</p>
                       </div>
                       <div class="recco-tag-body audience-body">
-                        <div v-for="audience in stratData[0].audience">
+                        <div v-for="audience in stratData[0].audience" v-if="filterId('js_audience_',audience)">
 
                           <a><span class="tag-item audience">{{filterId("js_audience_",audience)}}</span></a>
                         </div>
@@ -151,7 +151,7 @@
                         <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Type}}</p>
                       </div>
                       <div class="recco-tag-body audience-body">
-                        <div v-for="area in stratData[0].area">
+                        <div v-for="area in stratData[0].area" v-if="filterId('js_type_',area)">
                           <a><span class="tag-item type">{{filterId("js_type_",area)}}</span></a>
                         </div>
                       </div>

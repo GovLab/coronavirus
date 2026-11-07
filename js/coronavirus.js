@@ -20,29 +20,48 @@ main();
 ////////////////////////////////////////////////////////////
 
 
+////////////////////////////////////////////////////////////
+///// PRE-RENDERED PAGES (see scripts/prerender.mjs)
+////////////////////////////////////////////////////////////
+// A pre-rendered page carries its Vue template and the CMS data inline:
+// render from those instead of calling the API.
+var PRERENDER = (function () {
+  var tpl = document.getElementById('home-page-tpl');
+  var json = document.getElementById('prerender-data');
+  if (!tpl || !json) return null;
+  try {
+    return { template: '#home-page-tpl', data: JSON.parse(json.textContent).data };
+  } catch (e) {
+    return null;
+  }
+})();
+
 Vue.use(VueMeta);
 // Vue.use(VueCookies);
 
 new Vue({
 
   el: '#home-page',
+  template: PRERENDER ? PRERENDER.template : undefined,
 
   data() {
+    // A pre-rendered page carries only the data its template uses.
+    var seed = PRERENDER ? PRERENDER.data : {};
 
     return {
-      indexData: [],
+      indexData: seed.indexData || [],
       expertData: [],
       na_count: 0,
       sa_count: 0,
       af_count: 0,
-      menuData: [],
-      indexTextData: [],
-      indexTextD9Data: [],
-      indexDataTopics:[],
-      reportData: [],
-      productData:[],
-      TeamData: [],
-      ReccoData: [],
+      menuData: seed.menuData || [],
+      indexTextData: seed.indexTextData || [],
+      indexTextD9Data: seed.indexTextD9Data || [],
+      indexDataTopics: seed.indexDataTopics || [],
+      reportData: seed.reportData || [],
+      productData: seed.productData || [],
+      TeamData: seed.TeamData || [],
+      ReccoData: seed.ReccoData || [],
       langsel:'en',
       apiURL: 'https://directus.thegovlab.com/smarter-crowdsourcing',
       apiURLd9: 'https://directus.theburnescenter.org/',
@@ -51,10 +70,10 @@ new Vue({
       items: [],
       counter: 0,
       meta_title:'',
-      meta_content:'',
+      meta_content: seed.meta_content || '',
 
       // Filter page 
-      filterData: [],
+      filterData: seed.indexData || [],
       js_audience_en: [
         { code: '', name: 'All' },
         { code: 'audience_1', name: 'Private Sector' },
@@ -193,16 +212,20 @@ new Vue({
   },
   updated: function () {
     // a computed getter
-    this.$nextTick(function () {
-      this.target = $('.imagine-banner').hide()
-      this.items = $('.imagine-banner').children()
-      console.log('items',$('.imagine-banner'));
-  this.bannerFade();
-    })
+    this.startBanner();
+  },
+  mounted: function () {
+    // A pre-rendered page has its data from the start, so "updated" (which
+    // starts the home-page banner) does not run: start the banner here.
+    if (PRERENDER) this.startBanner();
   },
   created: function created() {
     // console.log('cookies', this.$cookies);
     this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
+    if (PRERENDER) {
+      self = this;
+      return;
+    }
     this.fetchIndex();
     this.fetchMapExperts();
     this.fetchMenu();
@@ -219,6 +242,14 @@ new Vue({
  
 
   methods: {
+    startBanner() {
+      this.$nextTick(function () {
+        this.target = $('.imagine-banner').hide()
+        this.items = $('.imagine-banner').children()
+        console.log('items',$('.imagine-banner'));
+        this.bannerFade();
+      })
+    },
     bannerFade() {
       self = this;
       console.log(this.target);

@@ -129,7 +129,7 @@
                     <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Audience}}</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="audience in JSON.parse(strategy.strategies_id.audience)">
+                    <div v-for="audience in strategy.strategies_id.audience" v-if="filterId('js_audience_',audience)">
                       <a><span class="tag-item audience">{{filterId("js_audience_",audience)}}</span></a>
                     </div>
                   </div>
@@ -141,7 +141,7 @@
                     <p>{{indexdata.translations[langidd9(indexdata)].elements[0].Type}}</p>
                   </div>
                   <div class="recco-tag-body audience-body">
-                    <div v-for="area in JSON.parse(strategy.strategies_id.area)">
+                    <div v-for="area in strategy.strategies_id.area" v-if="filterId('js_type_',area)">
                       <a><span class="tag-item type">{{filterId("js_type_",area)}}</span></a>
                     </div>
                   </div>

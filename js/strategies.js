@@ -20,18 +20,35 @@ main();
 ////////////////////////////////////////////////////////////
 
 
+////////////////////////////////////////////////////////////
+///// PRE-RENDERED PAGES (see scripts/prerender.mjs)
+////////////////////////////////////////////////////////////
+// A pre-rendered page carries its Vue template and the CMS data inline:
+// render from those instead of calling the API.
+var PRERENDER = (function () {
+  var tpl = document.getElementById('home-page-tpl');
+  var json = document.getElementById('prerender-data');
+  if (!tpl || !json) return null;
+  try {
+    return { template: '#home-page-tpl', data: JSON.parse(json.textContent).data };
+  } catch (e) {
+    return null;
+  }
+})();
+
 Vue.use(VueMeta);
 
 new Vue({
     
   el: '#home-page',
+  template: PRERENDER ? PRERENDER.template : undefined,
     
   data () {
   
     return {
-      indexTextD9Data: [],
-      menuData: [],
-      stratData: [],
+      indexTextD9Data: PRERENDER ? PRERENDER.data.indexTextD9Data : [],
+      menuData: PRERENDER ? PRERENDER.data.menuData : [],
+      stratData: PRERENDER ? PRERENDER.data.stratData : [],
       showExample: false,
       showAction: false,
       index_active:0,
@@ -166,13 +183,19 @@ new Vue({
     },
   },
   created: function created() {
-    this.memberslug=window.location.href.split('/');
-    this.memberslug = this.memberslug[this.memberslug.length - 1];    
+    // Slug = the path after /strategies/ (some slugs contain "/"), without
+    // query, hash, trailing slash or ".html".
+    var match = window.location.pathname.match(/\/strategies\/(.+)$/);
+    this.memberslug = decodeURIComponent((match ? match[1] : '').replace(/\/$/, '').replace(/\.html$/, ''));
     // this.memberslug = "Promote-and-use-open-source-and-simple-tools-for-d";
     this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
 
     console.log(this.memberslug);
 
+    if (PRERENDER) {
+      self = this;
+      return;
+    }
     this.fetchStrategies();
     this.fetchElements();
     this.fetchMenu();
@@ -182,7 +205,7 @@ new Vue({
     fetchStrategies() {
 
       self = this;
-      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.smc_coronavirus_topics_translations_id.*,actions.actions_id.*,smc_coronavirus_examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_strategies?fields=*,strat_rec.recommendation_id.*,strat_topic.topics_id.translations.smc_coronavirus_topics_translations_id.*,actions.actions_id.*,smc_coronavirus_examples.examples_id.*&filter[slug]="+encodeURIComponent(self.memberslug)).then(data => {
         console.log(data.data)
         
         self.stratData = data.data.data;
@@ -251,7 +274,8 @@ new Vue({
       console.log(tr,el);
       
       const trIndex = this[(tr+this.langsel)].findIndex(a=>{  return a.code==el})
-      return this[(tr+this.langsel)][trIndex].name;
+      // Unknown codes (the CMS has '""' for some audiences) have no label.
+      return trIndex >= 0 ? this[(tr+this.langsel)][trIndex].name : '';
     }
 }
 });

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV8KTW4TBH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DV8KTW4TBH');
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smarter Crowdsourcing: Coronavirus</title>
+
+  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.27.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
+  <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="homepage" onwheel="scroll_dismiss()">
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+  <div id="home-page">
+    <div v-for="indexEl in indexTextD9Data" v-if="indexEl.title == 'Homepage'">
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <div class="menu-bars">
+          <div class="bar-wrap">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+        <a class="top_logo" href="index.html"><img src="images/coronavirus-full-h-white.png"
+            alt="Smarter Crowdsourcing | Zika"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div class='lang-select'>
+          <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'es'}" @click="langsel='es'">ES</a>
+          <p style="color:#ffffff">|</p>
+          <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'en'}" @click="langsel='en'">EN</a>
+          <p style="color:#ffffff">|</p>
+          <a style="padding: 15px 5px" href="#" :class="{'active': langsel == 'pt'}" @click="langsel='pt'">PT</a>
+        </div>
+      </div>
+      <div id="myLinks">
+        <div class="menu-items">
+          <div class="menu-sub" onclick="dismiss_menu()">
+            <a
+              :href="menuData.translations[0].menu_items[0].Home_link">{{menuData.translations[langidd9(menuData)].menu_items[0].Home}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a
+              :href="menuData.translations[0].menu_items[0].About_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].About}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"> <a
+              :href="menuData.translations[0].menu_items[0].Topic_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a
+              :href="menuData.translations[0].menu_items[0].Team_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Team}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a
+              :href="menuData.translations[0].menu_items[0].Explore_Recommendations_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Recommendations}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"> <a
+              :href="menuData.translations[0].menu_items[0].Explore_Strategies_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].Explore_Strategies}}</a>
+          </div>
+          <div class="menu-sub" onclick="dismiss_menu()"><a
+              :href="menuData.translations[0].menu_items[0].See_All_Resources_link+'.html'">{{menuData.translations[langidd9(menuData)].menu_items[0].See_All_Resources}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="row top-section topic team">
+
+        <h1>{{menuData.translations[langidd9(menuData)].menu_items[0].Topic}}</h1>
+      </div>
+      <section style="margin-top: -50px; z-index:-10" id="topics">
+        <div class="topic-row">
+
+          <div v-for="topic in indexDataTopics" v-if="topic.status == 'published'" class="topic-column"
+            :style="{ backgroundImage: 'url('+apiURLd9+'assets/'+ topic.image+ ')' }">
+
+            <div class="topic-wrap">
+            <h1>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.topic_title}}</h1>
+              
+              <p>{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.short_description}}</p>
+
+              <p><a :href="topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.slug" class="button more-info">{{indexEl.translations[langidd9(indexEl)].elements[0].MORE_INFORMATION}}</a></p>
+
+              <div class="topic_date">
+                <h6>{{indexEl.translations[langidd9(indexEl)].elements[0].CONFERENCE_ON}} &nbsp&nbsp</h6>
+
+                <p class="topic_month">{{topic.translations[langidTopics(topic.translations)].smc_coronavirus_topics_translations_id.date}}</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <div v-for="indexdata in indexTextD9Data" v-if="indexdata.status=='published' && indexdata.title=='Homepage' ">
+        <footer class='footer-alt'>
+          <div class="row align-center">
+            <div class="medium-6 medium-centered columns">
+              <!-- <h4>In collaboration with</h4> -->
+              <!-- <h4>EN COLABORACIÓN CON</h4> -->
+              <h4>{{indexdata.translations[langidd9(indexdata)].elements[0].IN_COLLABORATION_WITH}}</h4>
+            </div>
+
+          </div>
+          <div class="row">
+            <div class="column">
+              <a class="footer_partner-logo" href="http://www.iadb.org/" target="_blank"><img
+                  src="images/partners/idb-white.gif" alt="Inter-American Development Bank"></a>
+            </div>
+            <div class="column">
+              <a class="footer_partner-logo" href="http://www.thegovlab.org" target="_blank"><img
+                  src="images/govlab-logo-white.png" alt="The GovLab"></a>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright">
+          {{indexdata.title}}
+          <div class="row">
+            <div class="column">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img class="copyright_cc-badge" alt="Creative Commons License"
+                  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+              <p>&nbsp{{menuData.translations[langidd9(menuData)].menu_items[0].CC}}</p>&nbsp<a rel="license"
+                :href="menuData.translations[langidd9(menuData)].menu_items[0].CC_link[0]">{{menuData.translations[langidd9(menuData)].menu_items[0].CC2}}</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function scroll_dismiss() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      }
+    }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
+  }
+</script>
+<script src="js/fadein.js"></script>
+<script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-meta/dist/vue-meta.min.js"></script>
+<script src="https://unpkg.com/vue-cookies@1.8.1/vue-cookies.js"></script>
+<script src="js/coronavirus.js"></script>
+
+</html>

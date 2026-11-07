@@ -20,18 +20,35 @@ main();
 ////////////////////////////////////////////////////////////
 
 
+////////////////////////////////////////////////////////////
+///// PRE-RENDERED PAGES (see scripts/prerender.mjs)
+////////////////////////////////////////////////////////////
+// A pre-rendered page carries its Vue template and the CMS data inline:
+// render from those instead of calling the API.
+var PRERENDER = (function () {
+  var tpl = document.getElementById('home-page-tpl');
+  var json = document.getElementById('prerender-data');
+  if (!tpl || !json) return null;
+  try {
+    return { template: '#home-page-tpl', data: JSON.parse(json.textContent).data };
+  } catch (e) {
+    return null;
+  }
+})();
+
 Vue.use(VueMeta);
 
 new Vue({
     
   el: '#home-page',
+  template: PRERENDER ? PRERENDER.template : undefined,
     
   data () {
   
     return {
-      indexTextD9Data: [],
-      menuData: [],
-      ReccoData: [],
+      indexTextD9Data: PRERENDER ? PRERENDER.data.indexTextD9Data : [],
+      menuData: PRERENDER ? PRERENDER.data.menuData : [],
+      ReccoData: PRERENDER ? PRERENDER.data.ReccoData : [],
       showExample: false,
       showAction: false,
       index_active:0,
@@ -166,10 +183,15 @@ new Vue({
     },
   },
   created: function created() {
-    this.memberslug=window.location.href.split('/');
-    this.memberslug = this.memberslug[this.memberslug.length - 1];
+    // Slug = last path segment, without query, hash, trailing slash or ".html".
+    var parts = window.location.pathname.split('/').filter(Boolean);
+    this.memberslug = decodeURIComponent((parts.pop() || '').replace(/\.html$/, ''));
     this.$cookies.get('lang')!= null ? this.langsel = this.$cookies.get('lang') : this.$cookies.set('lang',this.langsel);
     // this.memberslug = 'interjurisdictional-coordination'; // test
+    if (PRERENDER) {
+      self = this;
+      return;
+    }
     this.fetchRecommendations();
     this.fetchElements();
     this.fetchMenu();
@@ -178,7 +200,7 @@ new Vue({
 
     fetchRecommendations() {
       self = this;
-      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*&filter[slug]="+self.memberslug).then(data => {
+      axios.get(this.apiURLd9+"items/smc_coronavirus_recommendation?fields=*,strategies.strategies_id.*,topic.topics_id.translations.*,strategies.strategies_id.actions.actions_id.*,strategies.strategies_id.examples.examples_id.*&deep[strategies][_alias][strategies_id]=smc_coronavirus_strategies_id&deep[strategies][strategies_id][_alias][examples]=smc_coronavirus_examples&filter[slug]="+encodeURIComponent(self.memberslug)).then(data => {
         
         self.ReccoData = data.data.data;
 
@@ -247,7 +269,8 @@ new Vue({
       console.log(tr,el);
       
       const trIndex = this[(tr+this.langsel)].findIndex(a=>{  return a.code==el})
-      return this[(tr+this.langsel)][trIndex].name;
+      // Unknown codes (the CMS has '""' for some audiences) have no label.
+      return trIndex >= 0 ? this[(tr+this.langsel)][trIndex].name : '';
     }
 }
 });

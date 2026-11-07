@@ -1,0 +1,734 @@
+{
+  "note": "Written by scripts/prerender.mjs. inPlace pages are rendered from scripts/templates/<file>.tpl.",
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "index.md",
+      "markupNotCompared": "the banner animates"
+    },
+    {
+      "path": "/about",
+      "file": "about.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "about.md"
+    },
+    {
+      "path": "/topics",
+      "file": "topics.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "topics.md"
+    },
+    {
+      "path": "/team",
+      "file": "team.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "team.md"
+    },
+    {
+      "path": "/recommendations",
+      "file": "recommendations.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "recommendations.md"
+    },
+    {
+      "path": "/strategies",
+      "file": "strategies.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "strategies.md"
+    },
+    {
+      "path": "/executive-memos",
+      "file": "executive-memos.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "executive-memos.md"
+    },
+    {
+      "path": "/outcomes",
+      "file": "outcomes.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "outcomes.md"
+    },
+    {
+      "path": "/testing-strategy",
+      "file": "testing-strategy.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "testing-strategy.md"
+    },
+    {
+      "path": "/contact-tracing",
+      "file": "contact-tracing.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "contact-tracing.md"
+    },
+    {
+      "path": "/behavioral-science",
+      "file": "behavioral-science.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "behavioral-science.md"
+    },
+    {
+      "path": "/supporting-marginalized-populations",
+      "file": "supporting-marginalized-populations.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "supporting-marginalized-populations.md"
+    },
+    {
+      "path": "/monitoring",
+      "file": "monitoring.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "monitoring.md"
+    },
+    {
+      "path": "/mental-health",
+      "file": "mental-health.html",
+      "inPlace": true,
+      "prerendered": true,
+      "markdown": "mental-health.md"
+    },
+    {
+      "path": "/recommendations/pooled-testing",
+      "file": "recommendations/pooled-testing.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/pooled-testing.md"
+    },
+    {
+      "path": "/recommendations/national-patient-identifiers",
+      "file": "recommendations/national-patient-identifiers.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/national-patient-identifiers.md"
+    },
+    {
+      "path": "/recommendations/high-risk-populations",
+      "file": "recommendations/high-risk-populations.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/high-risk-populations.md"
+    },
+    {
+      "path": "/recommendations/metrics",
+      "file": "recommendations/metrics.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/metrics.md"
+    },
+    {
+      "path": "/recommendations/interjurisdictional-coordination",
+      "file": "recommendations/interjurisdictional-coordination.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/interjurisdictional-coordination.md"
+    },
+    {
+      "path": "/recommendations/localization",
+      "file": "recommendations/localization.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/localization.md"
+    },
+    {
+      "path": "/recommendations/improve-data-management",
+      "file": "recommendations/improve-data-management.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/improve-data-management.md"
+    },
+    {
+      "path": "/recommendations/establish-public-private-partnerships",
+      "file": "recommendations/establish-public-private-partnerships.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/establish-public-private-partnerships.md"
+    },
+    {
+      "path": "/recommendations/engage-the-public-and-civil-society-organizations",
+      "file": "recommendations/engage-the-public-and-civil-society-organizations.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/engage-the-public-and-civil-society-organizations.md"
+    },
+    {
+      "path": "/recommendations/enhance-data-collection",
+      "file": "recommendations/enhance-data-collection.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/enhance-data-collection.md"
+    },
+    {
+      "path": "/recommendations/improve-information-infrastructure",
+      "file": "recommendations/improve-information-infrastructure.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/improve-information-infrastructure.md"
+    },
+    {
+      "path": "/recommendations/increase-government-capacity",
+      "file": "recommendations/increase-government-capacity.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/increase-government-capacity.md"
+    },
+    {
+      "path": "/recommendations/government-capacity-and-regulatory-environment",
+      "file": "recommendations/government-capacity-and-regulatory-environment.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/government-capacity-and-regulatory-environment.md"
+    },
+    {
+      "path": "/recommendations/data-and-technology",
+      "file": "recommendations/data-and-technology.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/data-and-technology.md"
+    },
+    {
+      "path": "/recommendations/increase-provider-capacity",
+      "file": "recommendations/increase-provider-capacity.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/increase-provider-capacity.md"
+    },
+    {
+      "path": "/recommendations/evidence-and-misinformation",
+      "file": "recommendations/evidence-and-misinformation.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/evidence-and-misinformation.md"
+    },
+    {
+      "path": "/recommendations/community-and-stakeholder-engagement",
+      "file": "recommendations/community-and-stakeholder-engagement.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/community-and-stakeholder-engagement.md"
+    },
+    {
+      "path": "/recommendations/data-and-innovation",
+      "file": "recommendations/data-and-innovation.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "recommendations/data-and-innovation.md"
+    },
+    {
+      "path": "/strategies/Partner-with-academic-institutions,researchers-and",
+      "file": "strategies/Partner-with-academic-institutions,researchers-and.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with-academic-institutions,researchers-and.md"
+    },
+    {
+      "path": "/strategies/Waive-regulatory-barriers.-Governments-should-cons",
+      "file": "strategies/Waive-regulatory-barriers.-Governments-should-cons.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Waive-regulatory-barriers.-Governments-should-cons.md"
+    },
+    {
+      "path": "/strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-",
+      "file": "strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Rapidly-pilot-pooled-testing-schemes.-Governments-.md"
+    },
+    {
+      "path": "/strategies/Iterate-learning-and-share-best-practices.-Governm",
+      "file": "strategies/Iterate-learning-and-share-best-practices.-Governm.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Iterate-learning-and-share-best-practices.-Governm.md"
+    },
+    {
+      "path": "/strategies/Conduct-feasibility-studies.-Governments-should-ap",
+      "file": "strategies/Conduct-feasibility-studies.-Governments-should-ap.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Conduct-feasibility-studies.-Governments-should-ap.md"
+    },
+    {
+      "path": "/strategies/Standardize-data-entry-fields-across-existing-syst",
+      "file": "strategies/Standardize-data-entry-fields-across-existing-syst.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Standardize-data-entry-fields-across-existing-syst.md"
+    },
+    {
+      "path": "/strategies/Develop,advocate-for-and-pass-legislation.-Governm",
+      "file": "strategies/Develop,advocate-for-and-pass-legislation.-Governm.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop,advocate-for-and-pass-legislation.-Governm.md"
+    },
+    {
+      "path": "/strategies/Adjust-existing-data-collection-processes.-Governm",
+      "file": "strategies/Adjust-existing-data-collection-processes.-Governm.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Adjust-existing-data-collection-processes.-Governm.md"
+    },
+    {
+      "path": "/strategies/Establish-a-single-organization-to-manage-and-over",
+      "file": "strategies/Establish-a-single-organization-to-manage-and-over.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Establish-a-single-organization-to-manage-and-over.md"
+    },
+    {
+      "path": "/strategies/Implement-a-UHI/NPI-system.-Governments-should-rol",
+      "file": "strategies/Implement-a-UHI/NPI-system.-Governments-should-rol.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Implement-a-UHI/NPI-system.-Governments-should-rol.md"
+    },
+    {
+      "path": "/strategies/Define-high-risk-populations-who-will-receive-prio",
+      "file": "strategies/Define-high-risk-populations-who-will-receive-prio.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Define-high-risk-populations-who-will-receive-prio.md"
+    },
+    {
+      "path": "/strategies/Partner-with-community-and-cultural-leaders.-Gover",
+      "file": "strategies/Partner-with-community-and-cultural-leaders.-Gover.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with-community-and-cultural-leaders.-Gover.md"
+    },
+    {
+      "path": "/strategies/Make-testing-free-for-low-income-or-high-risk-popu",
+      "file": "strategies/Make-testing-free-for-low-income-or-high-risk-popu.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Make-testing-free-for-low-income-or-high-risk-popu.md"
+    },
+    {
+      "path": "/strategies/Develop-and-use-culturally-and-contextually-releva",
+      "file": "strategies/Develop-and-use-culturally-and-contextually-releva.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop-and-use-culturally-and-contextually-releva.md"
+    },
+    {
+      "path": "/strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf",
+      "file": "strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Rapidly-conduct-snapshot-pooled-testing-among-staf.md"
+    },
+    {
+      "path": "/strategies/Ensure-adequate-testing-resources-are-available-an",
+      "file": "strategies/Ensure-adequate-testing-resources-are-available-an.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Ensure-adequate-testing-resources-are-available-an.md"
+    },
+    {
+      "path": "/strategies/Reduce-barriers-to-testing-by-conducting-mobile-te",
+      "file": "strategies/Reduce-barriers-to-testing-by-conducting-mobile-te.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Reduce-barriers-to-testing-by-conducting-mobile-te.md"
+    },
+    {
+      "path": "/strategies/Make-raw-data-available-to-researchers,public-heal",
+      "file": "strategies/Make-raw-data-available-to-researchers,public-heal.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Make-raw-data-available-to-researchers,public-heal.md"
+    },
+    {
+      "path": "/strategies/Incentivize-adoption-of-standardized-process-and-o",
+      "file": "strategies/Incentivize-adoption-of-standardized-process-and-o.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Incentivize-adoption-of-standardized-process-and-o.md"
+    },
+    {
+      "path": "/strategies/Create-and-publish-data-dashboards-that-are-update",
+      "file": "strategies/Create-and-publish-data-dashboards-that-are-update.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-and-publish-data-dashboards-that-are-update.md"
+    },
+    {
+      "path": "/strategies/Commit-to-carefully-selected-metrics-that-can-be-r",
+      "file": "strategies/Commit-to-carefully-selected-metrics-that-can-be-r.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Commit-to-carefully-selected-metrics-that-can-be-r.md"
+    },
+    {
+      "path": "/strategies/Collaborate-with-private-and-public-sector-actors-",
+      "file": "strategies/Collaborate-with-private-and-public-sector-actors-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Collaborate-with-private-and-public-sector-actors-.md"
+    },
+    {
+      "path": "/strategies/Use-executive-orders-or-other-regulatory-or-legisl",
+      "file": "strategies/Use-executive-orders-or-other-regulatory-or-legisl.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Use-executive-orders-or-other-regulatory-or-legisl.md"
+    },
+    {
+      "path": "/strategies/Use-legislative-or-regulatory-mechanisms-or-execut",
+      "file": "strategies/Use-legislative-or-regulatory-mechanisms-or-execut.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Use-legislative-or-regulatory-mechanisms-or-execut.md"
+    },
+    {
+      "path": "/strategies/Move-towards-a-centralized-communicable-and-report",
+      "file": "strategies/Move-towards-a-centralized-communicable-and-report.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Move-towards-a-centralized-communicable-and-report.md"
+    },
+    {
+      "path": "/strategies/Offer-informal-peer-learning-opportunities.-Govern",
+      "file": "strategies/Offer-informal-peer-learning-opportunities.-Govern.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Offer-informal-peer-learning-opportunities.-Govern.md"
+    },
+    {
+      "path": "/strategies/Offer-formal-peer-learning-opportunities.-governme",
+      "file": "strategies/Offer-formal-peer-learning-opportunities.-governme.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Offer-formal-peer-learning-opportunities.-governme.md"
+    },
+    {
+      "path": "/strategies/Create-regional-partnerships-and-coordinating-bodi",
+      "file": "strategies/Create-regional-partnerships-and-coordinating-bodi.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-regional-partnerships-and-coordinating-bodi.md"
+    },
+    {
+      "path": "/strategies/Conduct-a-community-health-assessment-that-identif",
+      "file": "strategies/Conduct-a-community-health-assessment-that-identif.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Conduct-a-community-health-assessment-that-identif.md"
+    },
+    {
+      "path": "/strategies/Partner-with-local-community-organizations-to-recr",
+      "file": "strategies/Partner-with-local-community-organizations-to-recr.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with-local-community-organizations-to-recr.md"
+    },
+    {
+      "path": "/strategies/Conduct-a-public-health-messaging-campaign-explain",
+      "file": "strategies/Conduct-a-public-health-messaging-campaign-explain.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Conduct-a-public-health-messaging-campaign-explain.md"
+    },
+    {
+      "path": "/strategies/Incorporate-communication-about-contact-tracing-in",
+      "file": "strategies/Incorporate-communication-about-contact-tracing-in.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Incorporate-communication-about-contact-tracing-in.md"
+    },
+    {
+      "path": "/strategies/Incorporate-information-about-the-local-community-",
+      "file": "strategies/Incorporate-information-about-the-local-community-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Incorporate-information-about-the-local-community-.md"
+    },
+    {
+      "path": "/strategies/Review-data-collection-processes-and-ensure-all-da",
+      "file": "strategies/Review-data-collection-processes-and-ensure-all-da.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Review-data-collection-processes-and-ensure-all-da.md"
+    },
+    {
+      "path": "/strategies/Build-coalitions-with-“trust-brokers”-(e.g.-NG",
+      "file": "strategies/Build-coalitions-with-“trust-brokers”-(e.g.-NG.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Build-coalitions-with-“trust-brokers”-(e.g.-NG.md"
+    },
+    {
+      "path": "/strategies/Collect-disaggregated-data-at-strategic-locations-",
+      "file": "strategies/Collect-disaggregated-data-at-strategic-locations-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Collect-disaggregated-data-at-strategic-locations-.md"
+    },
+    {
+      "path": "/strategies/Strengthen-government-capacity-to-interpret-new-an",
+      "file": "strategies/Strengthen-government-capacity-to-interpret-new-an.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Strengthen-government-capacity-to-interpret-new-an.md"
+    },
+    {
+      "path": "/strategies/Establish-and-coordinate-a-committee-of-stakeholde",
+      "file": "strategies/Establish-and-coordinate-a-committee-of-stakeholde.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Establish-and-coordinate-a-committee-of-stakeholde.md"
+    },
+    {
+      "path": "/strategies/Develop-partnerships-and-engage-in-strategic-contr",
+      "file": "strategies/Develop-partnerships-and-engage-in-strategic-contr.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop-partnerships-and-engage-in-strategic-contr.md"
+    },
+    {
+      "path": "/strategies/Create-a-public-commission,specifically-including-",
+      "file": "strategies/Create-a-public-commission,specifically-including-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-a-public-commission,specifically-including-.md"
+    },
+    {
+      "path": "/strategies/Partner-with-private-sector-firms-to-help-them-mee",
+      "file": "strategies/Partner-with-private-sector-firms-to-help-them-mee.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with-private-sector-firms-to-help-them-mee.md"
+    },
+    {
+      "path": "/strategies/Work-with-local-community-leaders-to-tailor-policy",
+      "file": "strategies/Work-with-local-community-leaders-to-tailor-policy.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Work-with-local-community-leaders-to-tailor-policy.md"
+    },
+    {
+      "path": "/strategies/Partner-with,fund,and-support-women-and-their-fami",
+      "file": "strategies/Partner-with,fund,and-support-women-and-their-fami.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with,fund,and-support-women-and-their-fami.md"
+    },
+    {
+      "path": "/strategies/Detect,support-and-amplify-existing-community-led-",
+      "file": "strategies/Detect,support-and-amplify-existing-community-led-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Detect,support-and-amplify-existing-community-led-.md"
+    },
+    {
+      "path": "/strategies/Crowdsource-solutions-and-expertise-from-the-publi",
+      "file": "strategies/Crowdsource-solutions-and-expertise-from-the-publi.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Crowdsource-solutions-and-expertise-from-the-publi.md"
+    },
+    {
+      "path": "/strategies/Collect-epidemiological-surveillance-data-with-a-s",
+      "file": "strategies/Collect-epidemiological-surveillance-data-with-a-s.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Collect-epidemiological-surveillance-data-with-a-s.md"
+    },
+    {
+      "path": "/strategies/Invest-in-and-promote-the-use-of-technological-and",
+      "file": "strategies/Invest-in-and-promote-the-use-of-technological-and.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Invest-in-and-promote-the-use-of-technological-and.md"
+    },
+    {
+      "path": "/strategies/Partner-with-institutions-with-high-levels-of-soci",
+      "file": "strategies/Partner-with-institutions-with-high-levels-of-soci.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Partner-with-institutions-with-high-levels-of-soci.md"
+    },
+    {
+      "path": "/strategies/Develop-standard-definitions,structures,and-variab",
+      "file": "strategies/Develop-standard-definitions,structures,and-variab.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop-standard-definitions,structures,and-variab.md"
+    },
+    {
+      "path": "/strategies/Promote-and-use-open-source-and-simple-tools-for-d",
+      "file": "strategies/Promote-and-use-open-source-and-simple-tools-for-d.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Promote-and-use-open-source-and-simple-tools-for-d.md"
+    },
+    {
+      "path": "/strategies/Develop-and-advocate-for-a-legislative-framework-f",
+      "file": "strategies/Develop-and-advocate-for-a-legislative-framework-f.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop-and-advocate-for-a-legislative-framework-f.md"
+    },
+    {
+      "path": "/strategies/Increase-government-capacity-to-use-public-health-",
+      "file": "strategies/Increase-government-capacity-to-use-public-health-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Increase-government-capacity-to-use-public-health-.md"
+    },
+    {
+      "path": "/strategies/Develop,use,and-refine-multiple-predictive-models-",
+      "file": "strategies/Develop,use,and-refine-multiple-predictive-models-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Develop,use,and-refine-multiple-predictive-models-.md"
+    },
+    {
+      "path": "/strategies/Create-a-COVID-19-“war-room”,emergency-operati",
+      "file": "strategies/Create-a-COVID-19-“war-room”,emergency-operati.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-a-COVID-19-“war-room”,emergency-operati.md"
+    },
+    {
+      "path": "/strategies/Create-a-legal-framework-to-regulate-and-fund-ment",
+      "file": "strategies/Create-a-legal-framework-to-regulate-and-fund-ment.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-a-legal-framework-to-regulate-and-fund-ment.md"
+    },
+    {
+      "path": "/strategies/Create-a-national-mental-health-plan-to-guide-the-",
+      "file": "strategies/Create-a-national-mental-health-plan-to-guide-the-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Create-a-national-mental-health-plan-to-guide-the-.md"
+    },
+    {
+      "path": "/strategies/Promote-public-policies-and-interventions-that-pri",
+      "file": "strategies/Promote-public-policies-and-interventions-that-pri.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Promote-public-policies-and-interventions-that-pri.md"
+    },
+    {
+      "path": "/strategies/Use-technology-to-bridge-access-gaps-and-reach-ind",
+      "file": "strategies/Use-technology-to-bridge-access-gaps-and-reach-ind.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Use-technology-to-bridge-access-gaps-and-reach-ind.md"
+    },
+    {
+      "path": "/strategies/Improve-mental-health-data-collection-and-use-thro",
+      "file": "strategies/Improve-mental-health-data-collection-and-use-thro.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Improve-mental-health-data-collection-and-use-thro.md"
+    },
+    {
+      "path": "/strategies/Use-technology-to-train-community-health-workers-a",
+      "file": "strategies/Use-technology-to-train-community-health-workers-a.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Use-technology-to-train-community-health-workers-a.md"
+    },
+    {
+      "path": "/strategies/Engage-cross-sectoral-partners-to-utilize-availabl",
+      "file": "strategies/Engage-cross-sectoral-partners-to-utilize-availabl.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Engage-cross-sectoral-partners-to-utilize-availabl.md"
+    },
+    {
+      "path": "/strategies/Governments-should-keep-messaging-consistent-and-e",
+      "file": "strategies/Governments-should-keep-messaging-consistent-and-e.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-keep-messaging-consistent-and-e.md"
+    },
+    {
+      "path": "/strategies/Governments-and-policy-makers-should-make",
+      "file": "strategies/Governments-and-policy-makers-should-make.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-and-policy-makers-should-make.md"
+    },
+    {
+      "path": "/strategies/Governments-should-track-rumors-and-misinformation",
+      "file": "strategies/Governments-should-track-rumors-and-misinformation.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-track-rumors-and-misinformation.md"
+    },
+    {
+      "path": "/strategies/National-and-state-governments-should-work-with-lo",
+      "file": "strategies/National-and-state-governments-should-work-with-lo.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/National-and-state-governments-should-work-with-lo.md"
+    },
+    {
+      "path": "/strategies/Engage-the-public-and/or-targeted-groups-in-the-de",
+      "file": "strategies/Engage-the-public-and/or-targeted-groups-in-the-de.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Engage-the-public-and/or-targeted-groups-in-the-de.md"
+    },
+    {
+      "path": "/strategies/Write-and-publish-template-pledges-that-businesses",
+      "file": "strategies/Write-and-publish-template-pledges-that-businesses.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Write-and-publish-template-pledges-that-businesses.md"
+    },
+    {
+      "path": "/strategies/Governments-should-enlist-influencers-like-athlete",
+      "file": "strategies/Governments-should-enlist-influencers-like-athlete.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-enlist-influencers-like-athlete.md"
+    },
+    {
+      "path": "/strategies/Governments-should-develop-strategies-for-testing-",
+      "file": "strategies/Governments-should-develop-strategies-for-testing-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-develop-strategies-for-testing-.md"
+    },
+    {
+      "path": "/strategies/Governments-should-understand-the-preferences-of-t",
+      "file": "strategies/Governments-should-understand-the-preferences-of-t.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-understand-the-preferences-of-t.md"
+    },
+    {
+      "path": "/strategies/Governments-should-capitalize-on-local-knowledge-a",
+      "file": "strategies/Governments-should-capitalize-on-local-knowledge-a.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-capitalize-on-local-knowledge-a.md"
+    },
+    {
+      "path": "/strategies/Governments-should-analyze-what-physical-barriers-",
+      "file": "strategies/Governments-should-analyze-what-physical-barriers-.html",
+      "inPlace": false,
+      "prerendered": true,
+      "markdown": "strategies/Governments-should-analyze-what-physical-barriers-.md"
+    }
+  ]
+}
